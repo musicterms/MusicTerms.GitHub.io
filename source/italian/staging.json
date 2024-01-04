@@ -1,0 +1,27 @@
+{
+    "Maestro": {
+        "italian": "Maestro",
+        "translation": "master, teacher",
+        "definition": "Conductor, music director, music teacher; also composer and other eminent musicians and singers"
+    },
+    "Maestro collaboratore": {
+        "italian": "Maestro collaboratore",
+        "translation": "collaborating master",
+        "definition": "Assistant conductor"
+    },
+    "Maestro sostituto": {
+        "italian": "Maestro sostituto",
+        "translation": "substitute/deputy master",
+        "definition": "Assistant conductor"
+    },
+    "Maestro suggeritore": {
+        "italian": "Maestro suggeritore",
+        "translation": "master suggester/prompter",
+        "definition": "Prompter"
+    },
+    "Stagione": {
+        "italian": "Stagione",
+        "translation": "season",
+        "definition": "A variety of formal organisation of players and crew in the staging of operas"
+    }
+}

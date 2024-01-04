@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Paste a table element here -->
+    <!-- https://en.wikipedia.org/wiki/List_of_Italian_musical_terms_used_in_English -->
+    <script>
+        var table = document.getElementsByTagName('table')[0];
+        var rows = document.getElementsByTagName('tr');
+        var jsonData = {};
+
+        for (var i = 1; i < rows.length; i++) {
+            var cells = rows[i].getElementsByTagName('td');
+            var term = cells[0].innerText;
+            var translation = cells[1].innerText;
+            var definition = cells[2].innerText;
+
+            jsonData[term] = {
+                'italian': term,
+                'translation': translation,
+                'definition': definition
+            };
+        }
+
+        console.log(jsonData);
+    </script>
+</body>
+
+</html>

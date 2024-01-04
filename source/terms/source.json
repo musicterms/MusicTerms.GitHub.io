@@ -1,0 +1,1660 @@
+{
+    "0-9": {
+        "1′": {
+            "name": "1′",
+            "lang": "Italian",
+            "definition": "&#39;sifflet&#39; or one foot organ stop"
+        },
+        "I": {
+            "name": "I",
+            "lang": "Italian",
+            "definition": "usually for orchestral string instruments, used to indicate that the player should play the passage on the highest-pitched, thinnest string"
+        },
+        "1 + 3⁄5 ′": {
+            "name": "1 + 3⁄5 ′",
+            "lang": "Italian",
+            "definition": "Tierce organ stop"
+        },
+        "2 ′": {
+            "name": "2 ′",
+            "lang": "Italian",
+            "definition": "two feet – pipe organ indication; see Organ stop § Pitch and length"
+        },
+        "2 + 2⁄3 ′": {
+            "name": "2 + 2⁄3 ′",
+            "lang": "Italian",
+            "definition": "pipe organ stop for the twelfth interval"
+        },
+        "II": {
+            "name": "II",
+            "lang": "Italian",
+            "definition": "usually for orchestral string instruments, used to indicate that the player should play the passage on the second highest string"
+        },
+        "II cymbal stop on pipe organ": {
+            "name": "II cymbal stop on pipe organ",
+            "lang": "Italian",
+            "definition": "a stop that produces a sound resembling cymbals"
+        },
+        "III": {
+            "name": "III",
+            "lang": "Italian",
+            "definition": "usually for orchestral string instruments, used to indicate that the player should play the passage on the third-highest string"
+        },
+        "4 ′": {
+            "name": "4 ′",
+            "lang": "Italian",
+            "definition": "four feet – pipe organ rank that speaks one octave higher than 8 ′"
+        },
+        "IV": {
+            "name": "IV",
+            "lang": "Italian",
+            "definition": "usually for orchestral string instruments, used to indicate that the player should play the passage on the lowest-pitched, thickest string, i.e. the fourth-highest string"
+        },
+        "IV–VI": {
+            "name": "IV–VI",
+            "lang": "Italian",
+            "definition": "mixture stop on pipe organ"
+        },
+        "8 ′": {
+            "name": "8 ′",
+            "lang": "Italian",
+            "definition": "eight-foot pipe – pipe organ indication"
+        },
+        "16 ′": {
+            "name": "16 ′",
+            "lang": "Italian",
+            "definition": "sixteen-foot pipe – pipe organ indication calling for one octave below 8 ′"
+        },
+        "32 ′": {
+            "name": "32 ′",
+            "lang": "Italian",
+            "definition": "thirty-two-foot pipe – pipe organ indication calling for two octaves below 8 ′ also called sub-bass"
+        },
+        "64 ′": {
+            "name": "64 ′",
+            "lang": "Italian",
+            "definition": "sixty-four-foot pipe – pipe organ indication (only a few organs have this deep a pitch)"
+        }
+    },
+    "A": {
+        "a or à (Fr.)": {
+            "name": "a or à (Fr.)",
+            "lang": "French",
+            "definition": "at, to, by, for, in"
+        },
+        "à la (Fr.)": {
+            "name": "à la (Fr.)",
+            "lang": "French",
+            "definition": "in the style of..."
+        },
+        "a battuta": {
+            "name": "a battuta",
+            "lang": "Italian",
+            "definition": "Return to normal tempo after a deviation. Not recommended in string parts, due to possible confusion with battuto (qv.); use a tempo, which means the same thing"
+        },
+        "a bene placito": {
+            "name": "a bene placito",
+            "lang": "Italian",
+            "definition": "Up to the performer"
+        },
+        "a cappella": {
+            "name": "a cappella",
+            "lang": "Italian",
+            "definition": "lit. &#39;in a chapel&#39;; vocal parts only, without instrumental accompaniment"
+        },
+        "a capriccio": {
+            "name": "a capriccio",
+            "lang": "Italian",
+            "definition": "A free and capricious approach to tempo"
+        },
+        "a due (a 2)": {
+            "name": "a due (a 2)",
+            "lang": "Italian",
+            "definition": "intended as a duet; for two voices or instruments; together; two instruments are to play in unison after a solo passage for one of the instruments"
+        },
+        "a niente": {
+            "name": "a niente",
+            "lang": "Italian",
+            "definition": "To nothing; indicating a diminuendo which fades completely away"
+        },
+        "a piacere": {
+            "name": "a piacere",
+            "lang": "Italian",
+            "definition": "At pleasure (i.e. the performer need not follow the rhythm strictly, for example in a cadenza)"
+        },
+        "a prima vista": {
+            "name": "a prima vista",
+            "lang": "Italian",
+            "definition": "lit. &#39;at first sight&#39;. Sight-reading (i.e. played or sung from written notation but without prior review of the written material; refer to the figure)"
+        },
+        "a tempo": {
+            "name": "a tempo",
+            "lang": "Italian",
+            "definition": "In time (i.e. the performer should return to the stable tempo, such as after an accelerando or ritardando ); also may be found in combination with other terms such as a tempo giusto (in strict time) or a tempo di menuetto (at the speed of a minuet)"
+        },
+        "abafando (Port.)": {
+            "name": "abafando (Port.)",
+            "lang": "Italian",
+            "definition": "Muffling, dampening (i.e. on a drum, muted with a cloth)"
+        },
+        "accelerando (accel.)": {
+            "name": "accelerando (accel.)",
+            "lang": "Italian",
+            "definition": "Accelerating; gradually increasing the tempo"
+        },
+        "accent": {
+            "name": "accent",
+            "lang": "Italian",
+            "definition": "Emphasis on a note"
+        },
+        "accesso": {
+            "name": "accesso",
+            "lang": "Italian",
+            "definition": "Ignited, on fire"
+        },
+        "acciaccatura": {
+            "name": "acciaccatura",
+            "lang": "Italian",
+            "definition": "Crushing (i.e. a very fast grace note that is &#39;crushed&#39; against the note that follows and takes up no value in the measure)"
+        },
+        "accidental": {
+            "name": "accidental",
+            "lang": "Italian",
+            "definition": "A note that is not part of the scale indicated by the key signature"
+        },
+        "accompagnato": {
+            "name": "accompagnato",
+            "lang": "Italian",
+            "definition": "Accompanied (i.e. with the accompaniment following the soloist, who may speed up or slow down at will)"
+        },
+        "acoustic": {
+            "name": "acoustic",
+            "lang": "Italian",
+            "definition": "Relating to music produced by instruments, as opposed to electric or electronic means"
+        },
+        "ad libitum (ad lib.)": {
+            "name": "ad libitum (ad lib.)",
+            "lang": "Italian",
+            "definition": "At liberty (i.e. the speed and manner of execution are left to the performer. It can also mean improvisation .)"
+        },
+        "adagietto": {
+            "name": "adagietto",
+            "lang": "Italian",
+            "definition": "Slightly faster than adagio"
+        },
+        "adagio": {
+            "name": "adagio",
+            "lang": "Italian",
+            "definition": "Slow and stately (literally, &#39;at ease&#39;) (66–76 bpm)"
+        },
+        "adagissimo": {
+            "name": "adagissimo",
+            "lang": "Italian",
+            "definition": "Very, very slow (20 bpm and below)"
+        },
+        "affannato, affannoso": {
+            "name": "affannato, affannoso",
+            "lang": "Italian",
+            "definition": "Anguished"
+        },
+        "affettuoso, affettuosamente,\nor con affetto": {
+            "name": "affettuoso, affettuosamente, or con affetto",
+            "lang": "Italian",
+            "definition": "With affect (that is, with emotion); see also con amore"
+        },
+        "affrettando": {
+            "name": "affrettando",
+            "lang": "Italian",
+            "definition": "Hurrying, pressing onwards"
+        },
+        "agitato": {
+            "name": "agitato",
+            "lang": "Italian",
+            "definition": "Agitated"
+        },
+        "al, alla": {
+            "name": "al, alla",
+            "lang": "Italian",
+            "definition": "To the, in the manner of ( al before masculine nouns, alla before feminine)"
+        },
+        "al fine": {
+            "name": "al fine",
+            "lang": "Italian",
+            "definition": "To the end (i.e. an instruction to repeat the previous section of music, often using a dal segno or da capo, until reaching the final barline or the word &#39;fine&#39;)"
+        },
+        "al niente": {
+            "name": "al niente",
+            "lang": "Italian",
+            "definition": "To nothing; fading to silence"
+        },
+        "al segno": {
+            "name": "al segno",
+            "lang": "Italian",
+            "definition": "To the sign (i.e. return to a place in the music designated by the sign )"
+        },
+        "allegretto": {
+            "name": "allegretto",
+            "lang": "Italian",
+            "definition": "A little lively, moderately fast"
+        },
+        "allegro": {
+            "name": "allegro",
+            "lang": "Italian",
+            "definition": "Cheerful or brisk; but commonly interpreted as lively, fast"
+        },
+        "allentando": {
+            "name": "allentando",
+            "lang": "Italian",
+            "definition": "Slowing down; decelerating; opposite of accelerando (same as ritardando or rallentando)"
+        },
+        "alt (Eng.)": {
+            "name": "alt (Eng.)",
+            "lang": "Italian",
+            "definition": "High; often refers to a particular range of voice, higher than a tenor but lower than a soprano"
+        },
+        "altissimo": {
+            "name": "altissimo",
+            "lang": "Italian",
+            "definition": "Very high; see also in altissimo"
+        },
+        "alto": {
+            "name": "alto",
+            "lang": "Italian",
+            "definition": "High; often refers to a particular range of voice, higher than a bass and lower than a soprano, the countertenor"
+        },
+        "am Steg (Ger.)": {
+            "name": "am Steg (Ger.)",
+            "lang": "German",
+            "definition": "At the bridge (i.e. playing a bowed string instrument near its bridge, which produces a heavier, stronger tone); see sul ponticello"
+        },
+        "amabile": {
+            "name": "amabile",
+            "lang": "Italian",
+            "definition": "Amiable, pleasant"
+        },
+        "ambitus": {
+            "name": "ambitus",
+            "lang": "Italian",
+            "definition": "The range between the highest and lowest notes of a given melody, part, or piece"
+        },
+        "andante": {
+            "name": "andante",
+            "lang": "Italian",
+            "definition": "At a walking pace (76–108 bpm)"
+        },
+        "andantino": {
+            "name": "andantino",
+            "lang": "Italian",
+            "definition": "Slightly faster than andante (but earlier it is sometimes used to mean slightly slower than andante)"
+        },
+        "anima": {
+            "name": "anima",
+            "lang": "Italian",
+            "definition": "Soul, spirit"
+        },
+        "animando": {
+            "name": "animando",
+            "lang": "Italian",
+            "definition": "Animating, enlivening (i.e. becoming livelier)"
+        },
+        "animato": {
+            "name": "animato",
+            "lang": "Italian",
+            "definition": "Animated, lively"
+        },
+        "antiphon": {
+            "name": "antiphon",
+            "lang": "Italian",
+            "definition": "A liturgical or other composition consisting of choral responses, sometimes between two choirs; a passage of this nature forming part of another composition; a repeated passage in a psalm or other liturgical piece, similar to a refrain."
+        },
+        "antiphonal": {
+            "name": "antiphonal",
+            "lang": "Italian",
+            "definition": "A style of composition in which two sections of singers or instrumentalists exchange sections or music one after the other; typically the performers are on different sides of a hall or venue"
+        },
+        "appassionato": {
+            "name": "appassionato",
+            "lang": "Italian",
+            "definition": "Passionately"
+        },
+        "appoggiatura": {
+            "name": "appoggiatura",
+            "lang": "Italian",
+            "definition": "One or more grace notes that take up some note value of the next full note."
+        },
+        "arco": {
+            "name": "arco",
+            "lang": "Italian",
+            "definition": "The bow used for playing some string instruments (i.e. played with the bow, as opposed to pizzicato, in music for bowed instruments); normally used to cancel a pizzicato direction"
+        },
+        "aria": {
+            "name": "aria",
+            "lang": "Italian",
+            "definition": "Self-contained piece for one voice usually with orchestral accompaniment (which may be provided by a pianist using an orchestral reduction)"
+        },
+        "arioso": {
+            "name": "arioso",
+            "lang": "Italian",
+            "definition": "Airy, or like an air (a melody) (i.e. in the manner of an aria); melodious"
+        },
+        "arpeggio": {
+            "name": "arpeggio",
+            "lang": "Italian",
+            "definition": "played like a harp (i.e. the notes of the chords are to be played quickly one after another instead of simultaneously); in music for piano, this is sometimes a solution in playing a wide-ranging chord whose notes cannot be played otherwise; arpeggios are frequently used as an accompaniment; see also broken chord"
+        },
+        "arrangement": {
+            "name": "arrangement",
+            "lang": "Italian",
+            "definition": "An adaptation of a composition for other instruments, voices, or for another style of performance"
+        },
+        "articulation": {
+            "name": "articulation",
+            "lang": "Italian",
+            "definition": "The transition or continuity between multiple notes"
+        },
+        "assai": {
+            "name": "assai",
+            "lang": "Italian",
+            "definition": "Very much, as in allegro assai, quite fast"
+        },
+        "attacca": {
+            "name": "attacca",
+            "lang": "Italian",
+            "definition": "Attack or attach; go straight on (i.e. at the end of a movement, a direction to attach the next movement to the previous one, without a gap or pause). Often used as &#39; attacca subito ,&#39; meaning a &#39;sudden&#39; movement transition (literally, &#39; attack suddenly &#39;)."
+        },
+        "ausdrucksvoll (Ger.)": {
+            "name": "ausdrucksvoll (Ger.)",
+            "lang": "German",
+            "definition": "Expressively"
+        }
+    },
+    "B": {
+        "B (Ger.)": {
+            "name": "B (Ger.)",
+            "lang": "German",
+            "definition": "German for B flat (also in Swedish, Norwegian, Finnish, Icelandic, Danish, Croatian, Estonian and Hungarian); H in German is B natural"
+        },
+        "ballabile": {
+            "name": "ballabile",
+            "lang": "Italian",
+            "definition": "From the Italian Ballabile meaning &#39;danceable&#39;. In ballet, the term refers to a dance which is performed by the corps de ballet. The term is rarely used today."
+        },
+        "ballad": {
+            "name": "ballad",
+            "lang": "Italian",
+            "definition": "A simple song, often of folk origin, usually consisting of quatrains using a common meter and rhyme scheme; a narrative poem suitable for singing, typically composed of quatrains in rhymed stanzas; a slow romantic or sentimental song."
+        },
+        "ballata": {
+            "name": "ballata",
+            "lang": "Italian",
+            "definition": "Dance (i.e. a piece of music suitable for dancing)"
+        },
+        "balletto": {
+            "name": "balletto",
+            "lang": "Italian",
+            "definition": "Ballet (i.e. a theatrical work or entertainment in which ballet dancing and music, often with scenery and costumes, combine to tell a story, establish an emotional atmosphere, etc.)"
+        },
+        "barcarola": {
+            "name": "barcarola",
+            "lang": "Italian",
+            "definition": "Barcarole (i.e. a Venetian gondolier's song, or a piece of music composed in that style)"
+        },
+        "battuta": {
+            "name": "battuta",
+            "lang": "Italian",
+            "definition": "Beat (i.e. the beat or pulse defines tempo by dividing time into pieces of equal duration)"
+        },
+        "bel canto": {
+            "name": "bel canto",
+            "lang": "Italian",
+            "definition": "Beautiful singing or song"
+        },
+        "ben marcato": {
+            "name": "ben marcato",
+            "lang": "Italian",
+            "definition": "Well marked (i.e. execute each note fully and clearly, as if marching to the beat)"
+        },
+        "berceuse (Fr.)": {
+            "name": "berceuse (Fr.)",
+            "lang": "French",
+            "definition": "Lullaby, cradle song"
+        },
+        "bewegt (Ger.)": {
+            "name": "bewegt (Ger.)",
+            "lang": "German",
+            "definition": "Moved, animated, with motion"
+        },
+        "binary form": {
+            "name": "binary form",
+            "lang": "Italian",
+            "definition": "A form comprising two sections, each of which is repeated: AABB"
+        },
+        "bocca chiusa": {
+            "name": "bocca chiusa",
+            "lang": "Italian",
+            "definition": "With closed mouth"
+        },
+        "bolero": {
+            "name": "bolero",
+            "lang": "Italian",
+            "definition": "A Spanish dance in simple triple time"
+        },
+        "bourrée": {
+            "name": "bourrée",
+            "lang": "Italian",
+            "definition": "A French dance in quick double time"
+        },
+        "bravura": {
+            "name": "bravura",
+            "lang": "Italian",
+            "definition": "Great technical skill and brilliance shown in a performance or activity"
+        },
+        "breit (Ger.)": {
+            "name": "breit (Ger.)",
+            "lang": "German",
+            "definition": "Broad, wide, slow"
+        },
+        "brillante": {
+            "name": "brillante",
+            "lang": "Italian",
+            "definition": "Brilliant, sparkling"
+        },
+        "brio": {
+            "name": "brio",
+            "lang": "Italian",
+            "definition": "Vigour or spirit in performance"
+        },
+        "brise (Fr.)": {
+            "name": "brise (Fr.)",
+            "lang": "French",
+            "definition": "Broken, as in chord"
+        },
+        "burletta": {
+            "name": "burletta",
+            "lang": "Italian",
+            "definition": "A comic opera; also, a suite of rustic dances"
+        }
+    },
+    "C": {
+        "cabaletta": {
+            "name": "cabaletta",
+            "lang": "Italian",
+            "definition": "A simple, catchy part of a melody"
+        },
+        "cadence": {
+            "name": "cadence",
+            "lang": "Italian",
+            "definition": "A progression of at least two chords that concludes a phrase, section, or piece of music"
+        },
+        "cadenza": {
+            "name": "cadenza",
+            "lang": "Italian",
+            "definition": "Originally an improvised cadence by a soloist; later becoming an elaborate and written out passage in an aria or concerto, featuring the skills of an instrumentalist or vocalist"
+        },
+        "calando": {
+            "name": "calando",
+            "lang": "Italian",
+            "definition": "Getting softer and slower"
+        },
+        "calore": {
+            "name": "calore",
+            "lang": "Italian",
+            "definition": "Warmth"
+        },
+        "cambiata": {
+            "name": "cambiata",
+            "lang": "Italian",
+            "definition": "Changing the pitch or key"
+        },
+        "cancrizans": {
+            "name": "cancrizans",
+            "lang": "Italian",
+            "definition": "A melodic line that is the reverse of a previously or simultaneously stated line"
+        },
+        "cantabile": {
+            "name": "cantabile",
+            "lang": "Italian",
+            "definition": "In a singing style"
+        },
+        "cantando": {
+            "name": "cantando",
+            "lang": "Italian",
+            "definition": "Singing"
+        },
+        "cantata": {
+            "name": "cantata",
+            "lang": "Italian",
+            "definition": "Vocal genre for solo singers, chorus and instrumentalists (usually a small orchestra or a keyboard instrument) based on a lyric or dramatic poetic narrative. It generally consists of several movements including arias, recitatives and choruses."
+        },
+        "capo": {
+            "name": "capo",
+            "lang": "Italian",
+            "definition": "Head; a direction in sheet music indicating a movement at the start (i.e. the beginning). The term is often abbreviated as D.C."
+        },
+        "capriccio": {
+            "name": "capriccio",
+            "lang": "Italian",
+            "definition": "Whim or fancy, often used as a title for a piece of music, one that is lively and free in form"
+        },
+        "cavatina": {
+            "name": "cavatina",
+            "lang": "Italian",
+            "definition": "A short and simple melody performed by a soloist that is part of a larger piece"
+        },
+        "cesura": {
+            "name": "cesura",
+            "lang": "Italian",
+            "definition": "A pause or interruption (e.g., a pause within a line of poetry)"
+        },
+        "chanson (Fr.)": {
+            "name": "chanson (Fr.)",
+            "lang": "French",
+            "definition": "Song"
+        },
+        "chorale": {
+            "name": "chorale",
+            "lang": "Italian",
+            "definition": "A hymn sung by the choir and congregation (often in unison)"
+        },
+        "coda": {
+            "name": "coda",
+            "lang": "Italian",
+            "definition": "Closing section of a movement"
+        },
+        "col legno": {
+            "name": "col legno",
+            "lang": "Italian",
+            "definition": "With the wood (i.e. the wooden back of the bow is drawn across the string(s), producing a muted percussive sound)"
+        },
+        "coloratura": {
+            "name": "coloratura",
+            "lang": "Italian",
+            "definition": "Elaborate ornamentation of vocal music written using many fast notes and trills"
+        },
+        "comodo": {
+            "name": "comodo",
+            "lang": "Italian",
+            "definition": "Comfortable, at a moderate speed"
+        },
+        "concertante": {
+            "name": "concertante",
+            "lang": "Italian",
+            "definition": "A group of instruments accompanying a soloist or a principal theme"
+        },
+        "concertato": {
+            "name": "concertato",
+            "lang": "Italian",
+            "definition": "Multiple voices or instruments independently elaborating upon the same melody"
+        },
+        "concertino": {
+            "name": "concertino",
+            "lang": "Italian",
+            "definition": "The group of instruments in a concerto grosso that function as soloists; or, a short concerto"
+        },
+        "concerto": {
+            "name": "concerto",
+            "lang": "Italian",
+            "definition": "An instrumental genre in which one or more soloists play with and against a larger orchestra"
+        },
+        "con fuoco": {
+            "name": "con fuoco",
+            "lang": "Italian",
+            "definition": "With fire, in a fiery manner"
+        },
+        "con grazia": {
+            "name": "con grazia",
+            "lang": "Italian",
+            "definition": "With grace"
+        },
+        "con moto": {
+            "name": "con moto",
+            "lang": "Italian",
+            "definition": "With movement, motion"
+        },
+        "contabile": {
+            "name": "contabile",
+            "lang": "Italian",
+            "definition": "Like singing"
+        },
+        "contralto": {
+            "name": "contralto",
+            "lang": "Italian",
+            "definition": "The lowest female voice or voice part, intermediate between soprano and tenor"
+        },
+        "corale": {
+            "name": "corale",
+            "lang": "Italian",
+            "definition": "Chorale"
+        },
+        "crescendo (cresc.)": {
+            "name": "crescendo (cresc.)",
+            "lang": "Italian",
+            "definition": "Growing, becoming louder"
+        },
+        "crotchet": {
+            "name": "crotchet",
+            "lang": "Italian",
+            "definition": "A quarter note"
+        },
+        "cut time": {
+            "name": "cut time",
+            "lang": "Italian",
+            "definition": "Also known as alla breve"
+        }
+    },
+    "D": {
+        "da capo (D.C.)": {
+            "name": "da capo (D.C.)",
+            "lang": "Italian",
+            "definition": "From the beginning (i.e. return to the start of the piece)"
+        },
+        "dal segno (D.S.)": {
+            "name": "dal segno (D.S.)",
+            "lang": "Italian",
+            "definition": "From the sign (i.e. return to a place in the music designated by the sign)"
+        },
+        "deciso": {
+            "name": "deciso",
+            "lang": "Italian",
+            "definition": "Decided, with determination"
+        },
+        "decrescendo (decresc.)": {
+            "name": "decrescendo (decresc.)",
+            "lang": "Italian",
+            "definition": "Decreasing, getting softer (see also diminuendo)"
+        },
+        "delicato": {
+            "name": "delicato",
+            "lang": "Italian",
+            "definition": "Delicate"
+        },
+        "diminuendo (dim.)": {
+            "name": "diminuendo (dim.)",
+            "lang": "Italian",
+            "definition": "Decreasing, getting softer (see also decrescendo)"
+        },
+        "divertimento": {
+            "name": "divertimento",
+            "lang": "Italian",
+            "definition": "A light, entertaining musical composition"
+        },
+        "dolce": {
+            "name": "dolce",
+            "lang": "Italian",
+            "definition": "Sweet, usually also soft"
+        },
+        "dolente": {
+            "name": "dolente",
+            "lang": "Italian",
+            "definition": "Sorrowful"
+        },
+        "dolore": {
+            "name": "dolore",
+            "lang": "Italian",
+            "definition": "Grief"
+        },
+        "doloroso": {
+            "name": "doloroso",
+            "lang": "Italian",
+            "definition": "Sorrowful"
+        },
+        "doppio movimento / doppio più mosso": {
+            "name": "doppio movimento / doppio più mosso",
+            "lang": "Italian",
+            "definition": "Double-speed"
+        },
+        "douce (Fr.)": {
+            "name": "douce (Fr.)",
+            "lang": "French",
+            "definition": "Sweet, usually also soft"
+        },
+        "doux (Fr.)": {
+            "name": "doux (Fr.)",
+            "lang": "French",
+            "definition": "Sweet, usually also soft"
+        },
+        "drammatico": {
+            "name": "drammatico",
+            "lang": "Italian",
+            "definition": "Dramatic"
+        },
+        "droit (Fr.)": {
+            "name": "droit (Fr.)",
+            "lang": "French",
+            "definition": "Right, as in &#39;main droit&#39;, right hand"
+        },
+        "duolo": {
+            "name": "duolo",
+            "lang": "Italian",
+            "definition": "Grief"
+        },
+        "duramente": {
+            "name": "duramente",
+            "lang": "Italian",
+            "definition": "Firmly, harshly"
+        }
+    },
+    "E": {
+        "ecossaise (Fr.)": {
+            "name": "ecossaise (Fr.)",
+            "lang": "French",
+            "definition": "Scottish (i.e. a type of country dance in quick 2/4 time)"
+        },
+        "ein wenig (Ger.)": {
+            "name": "ein wenig (Ger.)",
+            "lang": "German",
+            "definition": "A little"
+        },
+        "einfach (Ger.)": {
+            "name": "einfach (Ger.)",
+            "lang": "German",
+            "definition": "Simple, simply"
+        },
+        "elegante": {
+            "name": "elegante",
+            "lang": "Italian",
+            "definition": "Elegant"
+        },
+        "en dehors (Fr.)": {
+            "name": "en dehors (Fr.)",
+            "lang": "French",
+            "definition": "Outside, or outwards"
+        },
+        "encore (Fr.)": {
+            "name": "encore (Fr.)",
+            "lang": "French",
+            "definition": "Again (i.e. perform the relevant passage once more)"
+        },
+        "energico": {
+            "name": "energico",
+            "lang": "Italian",
+            "definition": "Energetic, strong, forceful"
+        },
+        "enharmonic": {
+            "name": "enharmonic",
+            "lang": "Italian",
+            "definition": "An enharmonic equivalent is one of two or more notation methods for writing the same pitch"
+        },
+        "espressivo": {
+            "name": "espressivo",
+            "lang": "Italian",
+            "definition": "Expressive"
+        },
+        "estinto": {
+            "name": "estinto",
+            "lang": "Italian",
+            "definition": "Extinct, extinguished, as soft as possible, lifeless"
+        },
+        "etude (Fr.)": {
+            "name": "etude (Fr.)",
+            "lang": "French",
+            "definition": "Study (i.e. a composition designed to train a musician technically as well as musically)"
+        }
+    },
+    "F": {
+        "facile": {
+            "name": "facile",
+            "lang": "Italian",
+            "definition": "Easy"
+        },
+        "fantasia": {
+            "name": "fantasia",
+            "lang": "Italian",
+            "definition": "Fantasy, usually a free-form musical composition"
+        },
+        "fermata": {
+            "name": "fermata",
+            "lang": "Italian",
+            "definition": "Pause, hold, stop (i.e. a hold or pause)"
+        },
+        "feroce": {
+            "name": "feroce",
+            "lang": "Italian",
+            "definition": "Fierce"
+        },
+        "fiero": {
+            "name": "fiero",
+            "lang": "Italian",
+            "definition": "Proud"
+        },
+        "finale": {
+            "name": "finale",
+            "lang": "Italian",
+            "definition": "Final or ending"
+        },
+        "fine": {
+            "name": "fine",
+            "lang": "Italian",
+            "definition": "End, as in &#39;al fine&#39;, to the end"
+        },
+        "flautando": {
+            "name": "flautando",
+            "lang": "Italian",
+            "definition": "Flute-like, i.e. to play a bowed string instrument in the manner of a flute (by bowing lightly and close to the fingerboard)"
+        },
+        "forte (f)": {
+            "name": "forte (f)",
+            "lang": "Italian",
+            "definition": "Loud"
+        },
+        "fortepiano (fp)": {
+            "name": "fortepiano (fp)",
+            "lang": "Italian",
+            "definition": "Loud then immediately soft"
+        },
+        "fortissimo (ff)": {
+            "name": "fortissimo (ff)",
+            "lang": "Italian",
+            "definition": "Very loud"
+        },
+        "forza": {
+            "name": "forza",
+            "lang": "Italian",
+            "definition": "Force"
+        },
+        "forzando (fz)": {
+            "name": "forzando (fz)",
+            "lang": "Italian",
+            "definition": "Forcing, i.e. accenting"
+        },
+        "freddo": {
+            "name": "freddo",
+            "lang": "Italian",
+            "definition": "Cold"
+        },
+        "fuoco": {
+            "name": "fuoco",
+            "lang": "Italian",
+            "definition": "Fire"
+        },
+        "furioso": {
+            "name": "furioso",
+            "lang": "Italian",
+            "definition": "Furious"
+        }
+    },
+    "G": {
+        "giocoso": {
+            "name": "giocoso",
+            "lang": "Italian",
+            "definition": "Joking, playful"
+        },
+        "giusto": {
+            "name": "giusto",
+            "lang": "Italian",
+            "definition": "Exact, strict"
+        },
+        "glissando": {
+            "name": "glissando",
+            "lang": "Italian",
+            "definition": "Sliding between two notes"
+        },
+        "grace note": {
+            "name": "grace note",
+            "lang": "Italian",
+            "definition": "An extra note added as an embellishment and not essential to the harmony or melody"
+        },
+        "grandioso": {
+            "name": "grandioso",
+            "lang": "Italian",
+            "definition": "Grandiose, majestic, pompous"
+        },
+        "grave": {
+            "name": "grave",
+            "lang": "Italian",
+            "definition": "Slow and solemn"
+        },
+        "grazioso": {
+            "name": "grazioso",
+            "lang": "Italian",
+            "definition": "Graceful"
+        }
+    },
+    "H": {
+        "hauptstimme (Ger.)": {
+            "name": "hauptstimme (Ger.)",
+            "lang": "German",
+            "definition": "Main voice, chief part; often the highest part"
+        },
+        "hemiola (Gr.)": {
+            "name": "hemiola (Gr.)",
+            "lang": "Italian",
+            "definition": "The ratio 3:2"
+        },
+        "homophony": {
+            "name": "homophony",
+            "lang": "Italian",
+            "definition": "Music in which one voice has the melody, and the others accompany"
+        }
+    },
+    "I": {
+        "improvisation": {
+            "name": "improvisation",
+            "lang": "Italian",
+            "definition": "Composition during performance"
+        },
+        "in modo di": {
+            "name": "in modo di",
+            "lang": "Italian",
+            "definition": "In the manner of"
+        },
+        "incalzando": {
+            "name": "incalzando",
+            "lang": "Italian",
+            "definition": "Getting faster"
+        },
+        "instrumentation": {
+            "name": "instrumentation",
+            "lang": "Italian",
+            "definition": "Arrangement of music for a combined number of instruments"
+        },
+        "interlude": {
+            "name": "interlude",
+            "lang": "Italian",
+            "definition": "A short piece of instrumental music played between scenes in a play or opera"
+        },
+        "intermezzo": {
+            "name": "intermezzo",
+            "lang": "Italian",
+            "definition": "Interlude, short movement or section in a larger work"
+        },
+        "intonation": {
+            "name": "intonation",
+            "lang": "Italian",
+            "definition": "The rise and fall of the voice in speaking"
+        },
+        "inversion": {
+            "name": "inversion",
+            "lang": "Italian",
+            "definition": "A melody that is turned upside down"
+        }
+    },
+    "J": {
+        "jubiloso": {
+            "name": "jubiloso",
+            "lang": "Italian",
+            "definition": "Joyful"
+        }
+    },
+    "K": {
+        "klangfarbenmelodie (Ger.)": {
+            "name": "klangfarbenmelodie (Ger.)",
+            "lang": "German",
+            "definition": "Tone-color melody"
+        },
+        "kräftig (Ger.)": {
+            "name": "kräftig (Ger.)",
+            "lang": "German",
+            "definition": "strong"
+        }
+    },
+    "L": {
+        "lamentoso": {
+            "name": "lamentoso",
+            "lang": "Italian",
+            "definition": "Mournful"
+        },
+        "larghetto": {
+            "name": "larghetto",
+            "lang": "Italian",
+            "definition": "Rather slow"
+        },
+        "larghissimo": {
+            "name": "larghissimo",
+            "lang": "Italian",
+            "definition": "Very slow"
+        },
+        "largo": {
+            "name": "largo",
+            "lang": "Italian",
+            "definition": "Slow"
+        },
+        "lebhaft (Ger.)": {
+            "name": "lebhaft (Ger.)",
+            "lang": "German",
+            "definition": "Lively"
+        },
+        "legato": {
+            "name": "legato",
+            "lang": "Italian",
+            "definition": "Smooth"
+        },
+        "legatura": {
+            "name": "legatura",
+            "lang": "Italian",
+            "definition": "Tie, slur, bind together"
+        },
+        "leggiero": {
+            "name": "leggiero",
+            "lang": "Italian",
+            "definition": "Light"
+        },
+        "libretto": {
+            "name": "libretto",
+            "lang": "Italian",
+            "definition": "Booklet"
+        },
+        "lirico": {
+            "name": "lirico",
+            "lang": "Italian",
+            "definition": "Lyric"
+        },
+        "loco": {
+            "name": "loco",
+            "lang": "Italian",
+            "definition": "Place, location"
+        },
+        "lontano": {
+            "name": "lontano",
+            "lang": "Italian",
+            "definition": "Distant"
+        }
+    },
+    "M": {
+        "ma (It.)": {
+            "name": "ma (It.)",
+            "lang": "Italian",
+            "definition": "But"
+        },
+        "ma non troppo (It.)": {
+            "name": "ma non troppo (It.)",
+            "lang": "Italian",
+            "definition": "But not too much"
+        },
+        "maestoso (It.)": {
+            "name": "maestoso (It.)",
+            "lang": "Italian",
+            "definition": "Majestic"
+        },
+        "maggiore (It.)": {
+            "name": "maggiore (It.)",
+            "lang": "Italian",
+            "definition": "Major"
+        },
+        "marcato (It.)": {
+            "name": "marcato (It.)",
+            "lang": "Italian",
+            "definition": "Marked"
+        },
+        "martellato (It.)": {
+            "name": "martellato (It.)",
+            "lang": "Italian",
+            "definition": "Hammered"
+        },
+        "mazurka (It.)": {
+            "name": "mazurka (It.)",
+            "lang": "Italian",
+            "definition": "A Polish folk dance in triple meter"
+        },
+        "medley": {
+            "name": "medley",
+            "lang": "Italian",
+            "definition": "A potpourri of tunes"
+        },
+        "melodia (It.)": {
+            "name": "melodia (It.)",
+            "lang": "Italian",
+            "definition": "Melody"
+        },
+        "meno (It.)": {
+            "name": "meno (It.)",
+            "lang": "Italian",
+            "definition": "Less"
+        },
+        "meno mosso (It.)": {
+            "name": "meno mosso (It.)",
+            "lang": "Italian",
+            "definition": "Less moved (i.e. slower)"
+        },
+        "mesto (It.)": {
+            "name": "mesto (It.)",
+            "lang": "Italian",
+            "definition": "Sad"
+        },
+        "metronome": {
+            "name": "metronome",
+            "lang": "Italian",
+            "definition": "An instrument to mark time by means of regularly recurring ticks or flashes at adjustable intervals"
+        },
+        "mezza voce (It.)": {
+            "name": "mezza voce (It.)",
+            "lang": "Italian",
+            "definition": "Half voice"
+        },
+        "mezzo (It.)": {
+            "name": "mezzo (It.)",
+            "lang": "Italian",
+            "definition": "Half"
+        },
+        "mezzo-soprano": {
+            "name": "mezzo-soprano",
+            "lang": "Italian",
+            "definition": "A female voice that is lower than a soprano but higher than an alto"
+        },
+        "minore (It.)": {
+            "name": "minore (It.)",
+            "lang": "Italian",
+            "definition": "Minor"
+        },
+        "minuet": {
+            "name": "minuet",
+            "lang": "Italian",
+            "definition": "A dance in triple time"
+        },
+        "misterioso (It.)": {
+            "name": "misterioso (It.)",
+            "lang": "Italian",
+            "definition": "Mysterious"
+        },
+        "moderato (It.)": {
+            "name": "moderato (It.)",
+            "lang": "Italian",
+            "definition": "Moderate"
+        },
+        "molto (It.)": {
+            "name": "molto (It.)",
+            "lang": "Italian",
+            "definition": "Much"
+        },
+        "mosso (It.)": {
+            "name": "mosso (It.)",
+            "lang": "Italian",
+            "definition": "Moved, movement"
+        },
+        "motet": {
+            "name": "motet",
+            "lang": "Italian",
+            "definition": "A short piece of sacred choral music, typically polyphonic and unaccompanied"
+        },
+        "moto (It.)": {
+            "name": "moto (It.)",
+            "lang": "Italian",
+            "definition": "Motion"
+        },
+        "musette (Fr.)": {
+            "name": "musette (Fr.)",
+            "lang": "French",
+            "definition": "A small bagpipe used in the French court, a pastoral dance"
+        },
+        "musicology": {
+            "name": "musicology",
+            "lang": "Italian",
+            "definition": "The scholarly study of music"
+        }
+    },
+    "N": {
+        "naturale (It.)": {
+            "name": "naturale (It.)",
+            "lang": "Italian",
+            "definition": "Natural"
+        },
+        "neoclassical": {
+            "name": "neoclassical",
+            "lang": "Italian",
+            "definition": "Music that is characterized by aesthetic order, clarity, and equilibrium"
+        },
+        "nobilmente (It.)": {
+            "name": "nobilmente (It.)",
+            "lang": "Italian",
+            "definition": "Nobly"
+        },
+        "nocturne (Fr.)": {
+            "name": "nocturne (Fr.)",
+            "lang": "French",
+            "definition": "Night piece"
+        },
+        "non troppo (It.)": {
+            "name": "non troppo (It.)",
+            "lang": "Italian",
+            "definition": "Not too much"
+        },
+        "notturno (It.)": {
+            "name": "notturno (It.)",
+            "lang": "Italian",
+            "definition": "Nocturne, night piece"
+        }
+    },
+    "O": {
+        "obbligato (It.)": {
+            "name": "obbligato (It.)",
+            "lang": "Italian",
+            "definition": "Obliged (i.e. indispensable)"
+        },
+        "octave": {
+            "name": "octave",
+            "lang": "Italian",
+            "definition": "Interval between one musical pitch and another with half or double its frequency"
+        },
+        "opera": {
+            "name": "opera",
+            "lang": "Italian",
+            "definition": "A drama set to music"
+        },
+        "opus (Lat.)": {
+            "name": "opus (Lat.)",
+            "lang": "Latin",
+            "definition": "Work, composition"
+        },
+        "orchestration": {
+            "name": "orchestration",
+            "lang": "Italian",
+            "definition": "Arrangement for an orchestra"
+        },
+        "ossia (It.)": {
+            "name": "ossia (It.)",
+            "lang": "Italian",
+            "definition": "Or, alternatively"
+        }
+    },
+    "P": {
+        "parlando (It.)": {
+            "name": "parlando (It.)",
+            "lang": "Italian",
+            "definition": "Speaking"
+        },
+        "partita (It.)": {
+            "name": "partita (It.)",
+            "lang": "Italian",
+            "definition": "Suite"
+        },
+        "passacaglia (It.)": {
+            "name": "passacaglia (It.)",
+            "lang": "Italian",
+            "definition": "Variations over a ground"
+        },
+        "passaggio (It.)": {
+            "name": "passaggio (It.)",
+            "lang": "Italian",
+            "definition": "Passage"
+        },
+        "passionato (It.)": {
+            "name": "passionato (It.)",
+            "lang": "Italian",
+            "definition": "Passionate"
+        },
+        "pastorale (It.)": {
+            "name": "pastorale (It.)",
+            "lang": "Italian",
+            "definition": "Pastoral, in a simple and tranquil manner"
+        },
+        "pavane (It.)": {
+            "name": "pavane (It.)",
+            "lang": "Italian",
+            "definition": "A slow processional dance"
+        },
+        "pesante (It.)": {
+            "name": "pesante (It.)",
+            "lang": "Italian",
+            "definition": "Heavy"
+        },
+        "peu à peu (Fr.)": {
+            "name": "peu à peu (Fr.)",
+            "lang": "French",
+            "definition": "Little by little"
+        },
+        "pianissimo (pp)": {
+            "name": "pianissimo (pp)",
+            "lang": "Italian",
+            "definition": "Very soft"
+        },
+        "piano (p)": {
+            "name": "piano (p)",
+            "lang": "Italian",
+            "definition": "Soft"
+        },
+        "pizzicato (It.)": {
+            "name": "pizzicato (It.)",
+            "lang": "Italian",
+            "definition": "Plucked"
+        },
+        "placido (It.)": {
+            "name": "placido (It.)",
+            "lang": "Italian",
+            "definition": "Calm"
+        },
+        "poco (It.)": {
+            "name": "poco (It.)",
+            "lang": "Italian",
+            "definition": "Little"
+        },
+        "poco a poco (It.)": {
+            "name": "poco a poco (It.)",
+            "lang": "Italian",
+            "definition": "Little by little"
+        },
+        "polonaise (Fr.)": {
+            "name": "polonaise (Fr.)",
+            "lang": "French",
+            "definition": "Polish"
+        },
+        "polyphony": {
+            "name": "polyphony",
+            "lang": "Italian",
+            "definition": "Music with two or more independent lines"
+        },
+        "polyrhythm": {
+            "name": "polyrhythm",
+            "lang": "Italian",
+            "definition": "Two or more rhythms being played simultaneously"
+        },
+        "portamento (It.)": {
+            "name": "portamento (It.)",
+            "lang": "Italian",
+            "definition": "Carrying"
+        },
+        "prelude": {
+            "name": "prelude",
+            "lang": "Italian",
+            "definition": "A short piece of music"
+        },
+        "presto (It.)": {
+            "name": "presto (It.)",
+            "lang": "Italian",
+            "definition": "Fast"
+        },
+        "prima donna (It.)": {
+            "name": "prima donna (It.)",
+            "lang": "Italian",
+            "definition": "First lady"
+        },
+        "program music": {
+            "name": "program music",
+            "lang": "Italian",
+            "definition": "Music that is intended to evoke images or convey the impression of events"
+        }
+    },
+    "Q": {
+        "quasi (It.)": {
+            "name": "quasi (It.)",
+            "lang": "Italian",
+            "definition": "Almost, nearly"
+        },
+        "quintet": {
+            "name": "quintet",
+            "lang": "Italian",
+            "definition": "A composition for five voices or instruments"
+        },
+        "quodlibet (Lat.)": {
+            "name": "quodlibet (Lat.)",
+            "lang": "Latin",
+            "definition": "What pleases"
+        }
+    },
+    "R": {
+        "rallentando (rall.)": {
+            "name": "rallentando (rall.)",
+            "lang": "Italian",
+            "definition": "Gradually slowing down"
+        },
+        "rapide (Fr.)": {
+            "name": "rapide (Fr.)",
+            "lang": "French",
+            "definition": "Fast"
+        },
+        "rasch (Ger.)": {
+            "name": "rasch (Ger.)",
+            "lang": "German",
+            "definition": "Fast"
+        },
+        "recapitulation": {
+            "name": "recapitulation",
+            "lang": "Italian",
+            "definition": "A reprise"
+        },
+        "recitativo (It.)": {
+            "name": "recitativo (It.)",
+            "lang": "Italian",
+            "definition": "Recitative"
+        },
+        "rhapsody": {
+            "name": "rhapsody",
+            "lang": "Italian",
+            "definition": "A free instrumental composition in one extended movement, typically one that is emotional or exuberant in character"
+        },
+        "ritardando (rit.)": {
+            "name": "ritardando (rit.)",
+            "lang": "Italian",
+            "definition": "Slowing down gradually"
+        },
+        "ritenuto (rit.)": {
+            "name": "ritenuto (rit.)",
+            "lang": "Italian",
+            "definition": "Held back (i.e. suddenly slower)"
+        },
+        "ritmico (It.)": {
+            "name": "ritmico (It.)",
+            "lang": "Italian",
+            "definition": "Rhythmical"
+        },
+        "rondo": {
+            "name": "rondo",
+            "lang": "Italian",
+            "definition": "A musical form with a recurring leading theme, often found in the final movement of a sonata or concerto"
+        },
+        "rubato (It.)": {
+            "name": "rubato (It.)",
+            "lang": "Italian",
+            "definition": "Free adjustment of tempo for expressive purposes"
+        }
+    },
+    "S": {
+        "scherzando (It.)": {
+            "name": "scherzando (It.)",
+            "lang": "Italian",
+            "definition": "Playful"
+        },
+        "scherzo (It.)": {
+            "name": "scherzo (It.)",
+            "lang": "Italian",
+            "definition": "Joke"
+        },
+        "secco (It.)": {
+            "name": "secco (It.)",
+            "lang": "Italian",
+            "definition": "Dry"
+        },
+        "segno (It.)": {
+            "name": "segno (It.)",
+            "lang": "Italian",
+            "definition": "Sign"
+        },
+        "semplice (It.)": {
+            "name": "semplice (It.)",
+            "lang": "Italian",
+            "definition": "Simple"
+        },
+        "sempre (It.)": {
+            "name": "sempre (It.)",
+            "lang": "Italian",
+            "definition": "Always"
+        },
+        "senza (It.)": {
+            "name": "senza (It.)",
+            "lang": "Italian",
+            "definition": "Without"
+        },
+        "serioso (It.)": {
+            "name": "serioso (It.)",
+            "lang": "Italian",
+            "definition": "Serious"
+        },
+        "sforzando (sfz)": {
+            "name": "sforzando (sfz)",
+            "lang": "Italian",
+            "definition": "Forced; with emphasis"
+        },
+        "simile (It.)": {
+            "name": "simile (It.)",
+            "lang": "Italian",
+            "definition": "Similar"
+        },
+        "sinfonia (It.)": {
+            "name": "sinfonia (It.)",
+            "lang": "Italian",
+            "definition": "Symphony"
+        },
+        "solo": {
+            "name": "solo",
+            "lang": "Italian",
+            "definition": "Alone"
+        },
+        "soprano": {
+            "name": "soprano",
+            "lang": "Italian",
+            "definition": "The highest singing voice"
+        },
+        "sostenuto (It.)": {
+            "name": "sostenuto (It.)",
+            "lang": "Italian",
+            "definition": "Sustained"
+        },
+        "spiccato (It.)": {
+            "name": "spiccato (It.)",
+            "lang": "Italian",
+            "definition": "Separated, distinct"
+        },
+        "staccato (It.)": {
+            "name": "staccato (It.)",
+            "lang": "Italian",
+            "definition": "Detached, disconnected"
+        },
+        "stretto (It.)": {
+            "name": "stretto (It.)",
+            "lang": "Italian",
+            "definition": "Tightened"
+        },
+        "stringendo (It.)": {
+            "name": "stringendo (It.)",
+            "lang": "Italian",
+            "definition": "Tightening"
+        },
+        "subito (It.)": {
+            "name": "subito (It.)",
+            "lang": "Italian",
+            "definition": "Suddenly"
+        },
+        "suite": {
+            "name": "suite",
+            "lang": "Italian",
+            "definition": "A set of instrumental compositions, originally in dance style, to be played in succession"
+        },
+        "sul tasto (It.)": {
+            "name": "sul tasto (It.)",
+            "lang": "Italian",
+            "definition": "On the fingerboard (i.e. playing a stringed instrument near the head, producing a softer tone)"
+        },
+        "sul ponticello (It.)": {
+            "name": "sul ponticello (It.)",
+            "lang": "Italian",
+            "definition": "On the bridge (i.e. playing a stringed instrument near the bridge, producing a heavy, strong tone)"
+        },
+        "sustain": {
+            "name": "sustain",
+            "lang": "Italian",
+            "definition": "To hold a note for its full length"
+        }
+    },
+    "T": {
+        "tacet (Lat.)": {
+            "name": "tacet (Lat.)",
+            "lang": "Latin",
+            "definition": "Is silent"
+        },
+        "tempo (It.)": {
+            "name": "tempo (It.)",
+            "lang": "Italian",
+            "definition": "Time"
+        },
+        "tenuto (It.)": {
+            "name": "tenuto (It.)",
+            "lang": "Italian",
+            "definition": "Held"
+        },
+        "ternary form": {
+            "name": "ternary form",
+            "lang": "Italian",
+            "definition": "A three-part form (ABA)"
+        },
+        "theme": {
+            "name": "theme",
+            "lang": "Italian",
+            "definition": "A melodic or, sometimes a harmonic idea presented in a musical form"
+        },
+        "timbre": {
+            "name": "timbre",
+            "lang": "Italian",
+            "definition": "The quality of a sound that distinguishes one voice or instrument from another"
+        },
+        "toccata (It.)": {
+            "name": "toccata (It.)",
+            "lang": "Italian",
+            "definition": "Touch"
+        },
+        "tonic": {
+            "name": "tonic",
+            "lang": "Italian",
+            "definition": "The first note of a scale"
+        },
+        "tranquillo (It.)": {
+            "name": "tranquillo (It.)",
+            "lang": "Italian",
+            "definition": "Calm"
+        },
+        "trill": {
+            "name": "trill",
+            "lang": "Italian",
+            "definition": "A rapid alternation between two adjacent notes, usually a semitone or tone apart, which can be identified with the context of the trill"
+        },
+        "trio": {
+            "name": "trio",
+            "lang": "Italian",
+            "definition": "A composition for three voices or instruments"
+        },
+        "triplet": {
+            "name": "triplet",
+            "lang": "Italian",
+            "definition": "Three notes played in the same amount of time as one or two beats"
+        },
+        "tutti (It.)": {
+            "name": "tutti (It.)",
+            "lang": "Italian",
+            "definition": "All"
+        }
+    },
+    "U": {
+        "unison": {
+            "name": "unison",
+            "lang": "Italian",
+            "definition": "Two or more voices or instruments playing the same note simultaneously"
+        },
+        "ut (Fr.)": {
+            "name": "ut (Fr.)",
+            "lang": "French",
+            "definition": "The syllable used in solfège to represent the tonic"
+        }
+    },
+    "V": {
+        "vamp": {
+            "name": "vamp",
+            "lang": "Italian",
+            "definition": "To repeat a short, simple passage of music"
+        },
+        "vivace (It.)": {
+            "name": "vivace (It.)",
+            "lang": "Italian",
+            "definition": "Lively and fast"
+        },
+        "vivo (It.)": {
+            "name": "vivo (It.)",
+            "lang": "Italian",
+            "definition": "Lively"
+        }
+    },
+    "Z": {
+        "zart (Ger.)": {
+            "name": "zart (Ger.)",
+            "lang": "German",
+            "definition": "Tender"
+        }
+    }
+}

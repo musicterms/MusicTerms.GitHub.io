@@ -1,0 +1,192 @@
+{
+    "Affettuoso": {
+        "italian": "Affettuoso",
+        "translation": "with feeling",
+        "definition": "Tenderly"
+    },
+    "Agitato": {
+        "italian": "Agitato",
+        "translation": "agitated, moved",
+        "definition": "Excited and fast"
+    },
+    "Animato": {
+        "italian": "Animato",
+        "translation": "animated",
+        "definition": "Animated, fast"
+    },
+    "Brillante": {
+        "italian": "Brillante",
+        "translation": "brilliant",
+        "definition": "Brilliant, radiant, bright"
+    },
+    "Bruscamente": {
+        "italian": "Bruscamente",
+        "translation": "brusquely",
+        "definition": "Brusquely – abruptly"
+    },
+    "Cantabile": {
+        "italian": "Cantabile",
+        "translation": "singable",
+        "definition": "In a singing style"
+    },
+    "Colossale": {
+        "italian": "Colossale",
+        "translation": "colossal",
+        "definition": "In a fashion which suggests immensity"
+    },
+    "Comodo": {
+        "italian": "Comodo",
+        "translation": "convenient",
+        "definition": "Comfortably, moderately"
+    },
+    "Con amore": {
+        "italian": "Con amore",
+        "translation": "with love",
+        "definition": "With love"
+    },
+    "Con brio": {
+        "italian": "Con brio",
+        "translation": "with power",
+        "definition": "With vigour"
+    },
+    "Con fuoco": {
+        "italian": "Con fuoco",
+        "translation": "with fire",
+        "definition": "With fiery manner, hasty, powerful"
+    },
+    "Con moto": {
+        "italian": "Con moto",
+        "translation": "with movement",
+        "definition": "With movement, with energy, spirited"
+    },
+    "Con spirito": {
+        "italian": "Con spirito",
+        "translation": "with spirit",
+        "definition": "With spirit"
+    },
+    "Dolce": {
+        "italian": "Dolce",
+        "translation": "sweet",
+        "definition": "Softly, sweetly"
+    },
+    "Drammatico": {
+        "italian": "Drammatico",
+        "translation": "dramatic",
+        "definition": "Dramatic"
+    },
+    "Espressivo": {
+        "italian": "Espressivo",
+        "translation": "expressive",
+        "definition": "Expressive"
+    },
+    "Feroce": {
+        "italian": "Feroce",
+        "translation": "ferocious",
+        "definition": "Fierce, heavy"
+    },
+    "Festoso": {
+        "italian": "Festoso",
+        "translation": "happy",
+        "definition": "festive, jolly"
+    },
+    "Furioso": {
+        "italian": "Furioso",
+        "translation": "furious",
+        "definition": "Angry, hasty"
+    },
+    "Giocoso": {
+        "italian": "Giocoso",
+        "translation": "playful",
+        "definition": "Merry, spirited, playful"
+    },
+    "Grandioso": {
+        "italian": "Grandioso",
+        "translation": "great, grandiose",
+        "definition": "Broad, noble, great"
+    },
+    "Grazioso": {
+        "italian": "Grazioso",
+        "translation": "gracious, graceful",
+        "definition": "Graceful or charming"
+    },
+    "Lacrimoso": {
+        "italian": "Lacrimoso",
+        "translation": "lachrymose, teary",
+        "definition": "Tearfully, sadly"
+    },
+    "Lamentoso": {
+        "italian": "Lamentoso",
+        "translation": "Plaintively, Sadly",
+        "definition": "Mournfully, Sorrowly"
+    },
+    "Maestoso": {
+        "italian": "Maestoso",
+        "translation": "majestic",
+        "definition": "Stately, broad"
+    },
+    "Misterioso": {
+        "italian": "Misterioso",
+        "translation": "mysterious",
+        "definition": "Mysteriously, secretively, enigmatic"
+    },
+    "Morendo": {
+        "italian": "Morendo",
+        "translation": "dying",
+        "definition": "Dying away"
+    },
+    "Pesante": {
+        "italian": "Pesante",
+        "translation": "heavy",
+        "definition": "Heavy, slowly, weightily"
+    },
+    "Risoluto": {
+        "italian": "Risoluto",
+        "translation": "resolved",
+        "definition": "Resolved, decisive"
+    },
+    "Scherzando": {
+        "italian": "Scherzando",
+        "translation": "playful, joking",
+        "definition": "Playful, joking"
+    },
+    "Solitario": {
+        "italian": "Solitario",
+        "translation": "lonely",
+        "definition": "Lonely, alone"
+    },
+    "Sotto (voce)": {
+        "italian": "Sotto (voce)",
+        "translation": "under-voice, subdued (voice)",
+        "definition": "Subdued, hushed"
+    },
+    "Sonore": {
+        "italian": "Sonore",
+        "translation": "loud, resonant",
+        "definition": "Full, broad"
+    },
+    "Semplicemente": {
+        "italian": "Semplicemente",
+        "translation": "simply",
+        "definition": "Simply"
+    },
+    "Slancio": {
+        "italian": "Slancio",
+        "translation": "passionately hurl or fling; lance",
+        "definition": "Enthusiastic"
+    },
+    "Tranquillo": {
+        "italian": "Tranquillo",
+        "translation": "calm, tranquil",
+        "definition": "Calm, soft, peaceful"
+    },
+    "Vivace": {
+        "italian": "Vivace",
+        "translation": "vivacious",
+        "definition": "Up-tempo, lively"
+    },
+    "Volante": {
+        "italian": "Volante",
+        "translation": "flying",
+        "definition": "speedy but light"
+    }
+}

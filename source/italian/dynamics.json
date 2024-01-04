@@ -1,0 +1,77 @@
+{
+    "Calando": {
+        "italian": "Calando",
+        "translation": "quietening",
+        "definition": "Becoming softer and slower"
+    },
+    "Crescendo": {
+        "italian": "Crescendo",
+        "translation": "growing",
+        "definition": "Becoming louder"
+    },
+    "Decrescendo": {
+        "italian": "Decrescendo",
+        "translation": "shrinking",
+        "definition": "Becoming softer"
+    },
+    "Diminuendo": {
+        "italian": "Diminuendo",
+        "translation": "dwindling",
+        "definition": "Becoming softer"
+    },
+    "Forte": {
+        "italian": "Forte",
+        "translation": "strong",
+        "definition": "Loud"
+    },
+    "Fortissimo": {
+        "italian": "Fortissimo",
+        "translation": "very strong",
+        "definition": "Very loud"
+    },
+    "Mezzo forte": {
+        "italian": "Mezzo forte",
+        "translation": "half-strong",
+        "definition": "Moderately loud"
+    },
+    "Marcato": {
+        "italian": "Marcato",
+        "translation": "marked",
+        "definition": "A note played forcefully"
+    },
+    "Messa di voce": {
+        "italian": "Messa di voce",
+        "translation": "placing the voice",
+        "definition": "A style of singing involving changing volume while holding a single note"
+    },
+    "Piano": {
+        "italian": "Piano",
+        "translation": "gentle",
+        "definition": "Soft"
+    },
+    "Pianissimo": {
+        "italian": "Pianissimo",
+        "translation": "very gentle",
+        "definition": "Very soft"
+    },
+    "Mezzo piano": {
+        "italian": "Mezzo piano",
+        "translation": "half-gentle",
+        "definition": "Moderately soft"
+    },
+    "Sforzando": {
+        "italian": "Sforzando",
+        "translation": "strained",
+        "definition": "Sharply accented"
+    },
+    "Stentato": {
+        "italian": "Stentato",
+        "translation": "in the manner of Stentor",
+        "definition": "Loud, boisterous"
+    },
+    "Tremolo": {
+        "italian": "Tremolo",
+        "translation": "trembling",
+        "definition": "A rapid repetitive variation in the volume (or pitch) of a tone"
+    }
+}

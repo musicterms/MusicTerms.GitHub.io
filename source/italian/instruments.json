@@ -1,0 +1,72 @@
+{
+    "Campana": {
+        "italian": "Campana",
+        "translation": "bell",
+        "definition": "A bell used in an orchestra; also campane \"bells\""
+    },
+    "Cornetto": {
+        "italian": "Cornetto",
+        "translation": "little horn",
+        "definition": "An old woodwind instrument"
+    },
+    "Fagotto": {
+        "italian": "Fagotto",
+        "translation": "bundle",
+        "definition": "A bassoon, a woodwind instrument played with a double reed"
+    },
+    "Orchestra": {
+        "italian": "Orchestra",
+        "translation": "orchestra, orig. Greek orkesthai \"dance\"",
+        "definition": "An ensemble of instruments"
+    },
+    "Piano(forte)": {
+        "italian": "Piano(forte)",
+        "translation": "soft-loud",
+        "definition": "A keyboard instrument"
+    },
+    "Piccolo": {
+        "italian": "Piccolo",
+        "translation": "little",
+        "definition": "A tiny woodwind instrument"
+    },
+    "Sordun": {
+        "italian": "Sordun",
+        "translation": "deaf, dull in sound",
+        "definition": "An archaic double-reed wind instrument"
+    },
+    "Timpani": {
+        "italian": "Timpani",
+        "translation": "drums",
+        "definition": "Large drums"
+    },
+    "Tuba": {
+        "italian": "Tuba",
+        "translation": "tube",
+        "definition": "A large brass instrument"
+    },
+    "Viola": {
+        "italian": "Viola",
+        "translation": "viola, orig. Latin vitulari \"be joyful\"",
+        "definition": "A medium-sized stringed instrument"
+    },
+    "Viola d'amore": {
+        "italian": "Viola d'amore",
+        "translation": "love viola",
+        "definition": "A tenor viol with no frets"
+    },
+    "Viola da braccio": {
+        "italian": "Viola da braccio",
+        "translation": "arm viola",
+        "definition": "A stringed instrument held in the arm, such as a violin or viola"
+    },
+    "Viola da gamba": {
+        "italian": "Viola da gamba",
+        "translation": "leg viola",
+        "definition": "A stringed instrument held between the legs"
+    },
+    "Violoncello": {
+        "italian": "Violoncello",
+        "translation": "Violoncello was the original name for a cello.",
+        "definition": "A large stringed instrument"
+    }
+}

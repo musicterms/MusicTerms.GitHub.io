@@ -1,0 +1,47 @@
+{
+    "Banda": {
+        "italian": "Banda",
+        "translation": "band",
+        "definition": "Small music ensemble used as a supplement to the orchestra in an opera"
+    },
+    "Comprimario": {
+        "italian": "Comprimario",
+        "translation": "with the first",
+        "definition": "Supporting role"
+    },
+    "Concertino": {
+        "italian": "Concertino",
+        "translation": "little concert",
+        "definition": "Smaller, more virtuosic group of musicians in a concerto grosso"
+    },
+    "Convenienze": {
+        "italian": "Convenienze",
+        "translation": "conveniences",
+        "definition": "Rules relating to the ranking of singers in opera (primo, secondo, comprimario) in 19th-century Italian opera, and the number of scenes, arias, etc. that they were entitled to expect.[2] The convenienze are referred to in the Donizetti opera Le convenienze ed inconvenienze teatrali."
+    },
+    "Coro": {
+        "italian": "Coro",
+        "translation": "choir",
+        "definition": "Ensemble of singers"
+    },
+    "Diva": {
+        "italian": "Diva",
+        "translation": "divine one (fem.)",
+        "definition": "Leading female singer"
+    },
+    "Prima donna": {
+        "italian": "Prima donna",
+        "translation": "first lady",
+        "definition": "Leading female role"
+    },
+    "Primo uomo": {
+        "italian": "Primo uomo",
+        "translation": "first man",
+        "definition": "Leading male role"
+    },
+    "Ripieno": {
+        "italian": "Ripieno",
+        "translation": "refilling or stuffing",
+        "definition": "The larger group of musicians in a concerto grosso"
+    }
+}

@@ -1,0 +1,252 @@
+{
+    "Molto": {
+        "italian": "Molto",
+        "translation": "very; much",
+        "definition": "Comes before other terms; e.g. molto allegro (\"very cheerful\")"
+    },
+    "Assai": {
+        "italian": "Assai",
+        "translation": "very; aplenty",
+        "definition": "Comes after other terms; e.g. allegro assai (\"very cheerful\")"
+    },
+    "Più": {
+        "italian": "Più",
+        "translation": "more",
+        "definition": "Comes before other terms; e.g. più mosso (\"more moved/agitated\")"
+    },
+    "Poco": {
+        "italian": "Poco",
+        "translation": "little",
+        "definition": "Comes before other terms; e.g. poco diminuendo (\"a little diminishing\")"
+    },
+    "poco a poco": {
+        "italian": "poco a poco",
+        "translation": "little by little",
+        "definition": "\"Slowly but steadily.\" Comes before other terms; e.g. poco a poco crescendo (\"increasing little by little\")"
+    },
+    "ma non tanto": {
+        "italian": "ma non tanto",
+        "translation": "but not so much",
+        "definition": "Comes after other terms; e.g. adagio ma non tanto (\"not quite at ease\")"
+    },
+    "ma non troppo": {
+        "italian": "ma non troppo",
+        "translation": "but not too much",
+        "definition": "Comes after other terms; e.g. allegro ma non troppo (\"not too joyful\")"
+    },
+    "Meno": {
+        "italian": "Meno",
+        "translation": "less",
+        "definition": "Comes before other terms, such as meno mosso (\"less moved/agitated\")"
+    },
+    "Subito": {
+        "italian": "Subito",
+        "translation": "suddenly, quickly",
+        "definition": "Comes before or after other terms; e.g. subito fortissimo (\"suddenly very loud\")"
+    },
+    "A cappella": {
+        "italian": "A cappella",
+        "translation": "in chapel style",
+        "definition": "Sung with no (instrumental) accompaniment, has much harmonizing"
+    },
+    "Aria": {
+        "italian": "Aria",
+        "translation": "air",
+        "definition": "Piece of music, usually for a singer"
+    },
+    "Aria di sorbetto": {
+        "italian": "Aria di sorbetto",
+        "translation": "sorbet air",
+        "definition": "A short solo performed by a secondary character in the opera"
+    },
+    "Arietta": {
+        "italian": "Arietta",
+        "translation": "little air",
+        "definition": "A short or light aria"
+    },
+    "Arioso": {
+        "italian": "Arioso",
+        "translation": "airy",
+        "definition": "A type of solo opera or operetta"
+    },
+    "Ballabile": {
+        "italian": "Ballabile",
+        "translation": "danceable",
+        "definition": "(song) to be danced to"
+    },
+    "Battaglia": {
+        "italian": "Battaglia",
+        "translation": "battle",
+        "definition": "An instrumental or vocal piece suggesting a battle"
+    },
+    "Bergamasca": {
+        "italian": "Bergamasca",
+        "translation": "from Bergamo",
+        "definition": "A peasant dance from Bergamo"
+    },
+    "Burletta": {
+        "italian": "Burletta",
+        "translation": "a little joke",
+        "definition": "A light comic or farcical opera"
+    },
+    "Cabaletta": {
+        "italian": "Cabaletta",
+        "translation": "from copola (couplet)",
+        "definition": "A two-part musical form"
+    },
+    "Cadenza": {
+        "italian": "Cadenza",
+        "translation": "falling",
+        "definition": "A florid solo at the end of a performance"
+    },
+    "Cantata": {
+        "italian": "Cantata",
+        "translation": "sung",
+        "definition": "A piece for orchestra and singers"
+    },
+    "Capriccio": {
+        "italian": "Capriccio",
+        "translation": "caprice",
+        "definition": "A lively piece, free in form, often used to show musical skill"
+    },
+    "Cavatina": {
+        "italian": "Cavatina",
+        "translation": "small instrumental tone",
+        "definition": "A simple melody or song"
+    },
+    "Coda": {
+        "italian": "Coda",
+        "translation": "tail",
+        "definition": "The end of a piece"
+    },
+    "Concerto": {
+        "italian": "Concerto",
+        "translation": "concert",
+        "definition": "A work for one or more solo instruments accompanied by an orchestra"
+    },
+    "Concertino": {
+        "italian": "Concertino",
+        "translation": "little concert",
+        "definition": "A short concerto; the solo instrument in a concerto"
+    },
+    "Concerto grosso": {
+        "italian": "Concerto grosso",
+        "translation": "big concert",
+        "definition": "A Baroque form of concerto, with a group of solo instruments"
+    },
+    "Da capo aria": {
+        "italian": "Da capo aria",
+        "translation": "from the head aria",
+        "definition": "A three-section musical form"
+    },
+    "Dramma giocoso": {
+        "italian": "Dramma giocoso",
+        "translation": "jocular drama",
+        "definition": "A form of opera"
+    },
+    "Dramma per musica": {
+        "italian": "Dramma per musica",
+        "translation": "drama for music",
+        "definition": "Libretto"
+    },
+    "Fantasia": {
+        "italian": "Fantasia",
+        "translation": "fantasy",
+        "definition": "A musical composition or “idea” typified by improvisation"
+    },
+    "Farsa": {
+        "italian": "Farsa",
+        "translation": "farce",
+        "definition": "A one-act comical opera"
+    },
+    "Festa teatrale": {
+        "italian": "Festa teatrale",
+        "translation": "theatrical party",
+        "definition": "A genre of opera"
+    },
+    "Fioritura": {
+        "italian": "Fioritura",
+        "translation": "flowery",
+        "definition": "A highly embellished vocal line"
+    },
+    "Intermedio": {
+        "italian": "Intermedio",
+        "translation": "intermediate",
+        "definition": "A short connecting instrumental movement – an intermezzo"
+    },
+    "Intermezzo": {
+        "italian": "Intermezzo",
+        "translation": "interval",
+        "definition": "A short connecting instrumental movement"
+    },
+    "Libretto": {
+        "italian": "Libretto",
+        "translation": "little book",
+        "definition": "A work containing the words to an opera, musical, or ballet"
+    },
+    "Melodramma": {
+        "italian": "Melodramma",
+        "translation": "melodrama",
+        "definition": "A style of opera"
+    },
+    "Opera": {
+        "italian": "Opera",
+        "translation": "work",
+        "definition": "A drama set to music for singers and instrumentalists"
+    },
+    "Opera buffa": {
+        "italian": "Opera buffa",
+        "translation": "humorous opera",
+        "definition": "A comic opera"
+    },
+    "Opera semiseria": {
+        "italian": "Opera semiseria",
+        "translation": "semi-serious opera",
+        "definition": "A variety of opera"
+    },
+    "Opera seria": {
+        "italian": "Opera seria",
+        "translation": "serious opera",
+        "definition": "An opera with a serious, esp. classical theme"
+    },
+    "Operetta": {
+        "italian": "Operetta",
+        "translation": "little opera",
+        "definition": "A variety of light opera"
+    },
+    "Oratorio": {
+        "italian": "Oratorio",
+        "translation": "oratory",
+        "definition": "Large musical composition for orchestra, choir, and soloists"
+    },
+    "Pasticcio": {
+        "italian": "Pasticcio",
+        "translation": "pastiche",
+        "definition": "A musical piece containing works by different composers"
+    },
+    "Ripieno concerto": {
+        "italian": "Ripieno concerto",
+        "translation": "padding concert",
+        "definition": "A form of Baroque concerto with no solo parts"
+    },
+    "Serenata": {
+        "italian": "Serenata",
+        "translation": "Serenade",
+        "definition": "A song or composition in someone's honour. Originally, a musical greeting performed for a lover"
+    },
+    "Soggetto cavato": {
+        "italian": "Soggetto cavato",
+        "translation": "carved subject",
+        "definition": "A musical cryptogram, using coded syllables as a basis for the composition"
+    },
+    "Sonata": {
+        "italian": "Sonata",
+        "translation": "sounded",
+        "definition": "A composition for one or two instruments in sonata form"
+    },
+    "Verismo": {
+        "italian": "Verismo",
+        "translation": "realism",
+        "definition": "A genre of operas with scenarios based on contemporary everyday life"
+    }
+}

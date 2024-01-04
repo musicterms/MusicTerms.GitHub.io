@@ -1,0 +1,157 @@
+{
+    "Accelerando": {
+        "italian": "Accelerando",
+        "translation": "accelerating",
+        "definition": "Accelerating"
+    },
+    "Accompagnato": {
+        "italian": "Accompagnato",
+        "translation": "accompanied",
+        "definition": "The accompaniment must follow the singer who can speed up or slow down at will."
+    },
+    "Adagio": {
+        "italian": "Adagio",
+        "translation": "ad agio, at ease",
+        "definition": "Slow and easy (but not as slow as largo)"
+    },
+    "Adagietto": {
+        "italian": "Adagietto",
+        "translation": "a bit at ease",
+        "definition": "1. Slightly less easy than adagio (so slightly faster); 2. a short adagio composition"
+    },
+    "Affrettando": {
+        "italian": "Affrettando",
+        "translation": "becoming hurried",
+        "definition": "Accelerating"
+    },
+    "Alla marcia": {
+        "italian": "Alla marcia",
+        "translation": "as a march",
+        "definition": "In strict tempo at a marching pace (e.g. 120 BPM)"
+    },
+    "Allargando": {
+        "italian": "Allargando",
+        "translation": "broadening",
+        "definition": "Slowing down and broadening; becoming more stately and majestic, possibly louder"
+    },
+    "Allegro": {
+        "italian": "Allegro",
+        "translation": "joyful; lively and fast",
+        "definition": "Joyful; moderately fast tempo"
+    },
+    "Allegretto": {
+        "italian": "Allegretto",
+        "translation": "a little bit joyful",
+        "definition": "Slightly less joyful than allegro (so slightly slower tempo)"
+    },
+    "Andante": {
+        "italian": "Andante",
+        "translation": "walking",
+        "definition": "At a walking pace; flowing; moderately slow tempo"
+    },
+    "Andantino": {
+        "italian": "Andantino",
+        "translation": "a little bit walking",
+        "definition": "Less of a walking pace than andante (so slightly quicker)"
+    },
+    "A tempo": {
+        "italian": "A tempo",
+        "translation": "to time",
+        "definition": "Return to previous tempo"
+    },
+    "Fermata": {
+        "italian": "Fermata",
+        "translation": "held, stopped, orig. Latin firmo \"make firm, fortify\"",
+        "definition": "Holding or sustaining a note"
+    },
+    "Grave": {
+        "italian": "Grave",
+        "translation": "grave, solemn",
+        "definition": "Slow and solemn tempo (slower than largo)"
+    },
+    "Largo": {
+        "italian": "Largo",
+        "translation": "broad",
+        "definition": "Slow and dignified tempo"
+    },
+    "Largamente": {
+        "italian": "Largamente",
+        "translation": "broadly",
+        "definition": "Slow and dignified tempo"
+    },
+    "Larghetto": {
+        "italian": "Larghetto",
+        "translation": "broad-ish",
+        "definition": "Slightly less dignified than largo (so slightly faster tempo)"
+    },
+    "Lento": {
+        "italian": "Lento",
+        "translation": "slow",
+        "definition": "Slow tempo"
+    },
+    "Lentando": {
+        "italian": "Lentando",
+        "translation": "slowing",
+        "definition": "Decelerating, slowing down"
+    },
+    "L'istesso tempo": {
+        "italian": "L'istesso tempo",
+        "translation": "the same time",
+        "definition": "At the same tempo"
+    },
+    "Moderato": {
+        "italian": "Moderato",
+        "translation": "moderate",
+        "definition": "Moderate tempo"
+    },
+    "Mosso": {
+        "italian": "Mosso",
+        "translation": "moved, agitated",
+        "definition": "Agitated"
+    },
+    "Presto": {
+        "italian": "Presto",
+        "translation": "prompt, quick; ready for action",
+        "definition": "Very fast"
+    },
+    "Prestissimo": {
+        "italian": "Prestissimo",
+        "translation": "very prompt, very quick",
+        "definition": "Very very fast (above 200 BPM)"
+    },
+    "Rallentando": {
+        "italian": "Rallentando",
+        "translation": "slowing down",
+        "definition": "Decelerating"
+    },
+    "Ritardando": {
+        "italian": "Ritardando",
+        "translation": "retarding",
+        "definition": "Decelerating"
+    },
+    "Tardo": {
+        "italian": "Tardo",
+        "translation": "slow, tardy",
+        "definition": "Slow tempo"
+    },
+    "Tempo": {
+        "italian": "Tempo",
+        "translation": "time",
+        "definition": "The speed of music; e.g. 120 BPM (beats per minute)"
+    },
+    "(Tempo) rubato": {
+        "italian": "(Tempo) rubato",
+        "translation": "robbed",
+        "definition": "Free flowing and exempt from steady rhythm"
+    },
+    "Tenuto": {
+        "italian": "Tenuto",
+        "translation": "sustained",
+        "definition": "Holding or sustaining a single note"
+    },
+    "Vivace": {
+        "italian": "Vivace",
+        "translation": "vivacious",
+        "definition": "Fast and lively tempo (quicker than allegro)"
+    }
+}

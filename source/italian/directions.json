@@ -1,0 +1,42 @@
+{
+    "Attacca": {
+        "italian": "Attacca",
+        "translation": "attach, begin",
+        "definition": "Proceed to the next section without pause"
+    },
+    "Cambiare": {
+        "italian": "Cambiare",
+        "translation": "change",
+        "definition": "Any change, such as to a new instrument"
+    },
+    "Da Capo (al fine)": {
+        "italian": "Da Capo (al fine)",
+        "translation": "from the beginning (to the \"fine\")",
+        "definition": "Abbreviated as D.C., informs the performer to go back to the beginning (capo) (finishing where the part is marked fine)."
+    },
+    "Dal Segno": {
+        "italian": "Dal Segno",
+        "translation": "from the sign",
+        "definition": "Abbreviated as D.S., informs the performer to repeat a specific section marked by a sign (segno)."
+    },
+    "Divisi": {
+        "italian": "Divisi",
+        "translation": "divided",
+        "definition": "Instructs one section to divide into two or more separate sections, each playing a separate part. Often these separate parts are written on the same staff."
+    },
+    "Oppure": {
+        "italian": "Oppure",
+        "translation": "from o (\"or\") + pure (\"also\")",
+        "definition": "Informs the player of alternative ways to play a passage. See Ossia."
+    },
+    "Solo": {
+        "italian": "Solo",
+        "translation": "alone",
+        "definition": "A piece or performance to be played by a single musician"
+    },
+    "Sole": {
+        "italian": "Sole",
+        "translation": "Group solo",
+        "definition": "A piece or performance to be played by a designated group"
+    }
+}

@@ -1,0 +1,102 @@
+{
+    "Alto": {
+        "italian": "Alto",
+        "translation": "high",
+        "definition": "Second-highest vocal line"
+    },
+    "Basso": {
+        "italian": "Basso",
+        "translation": "low",
+        "definition": "Or \"bass;\" the lowest vocal line"
+    },
+    "Basso profondo": {
+        "italian": "Basso profondo",
+        "translation": "deep low",
+        "definition": "A very deep bass voice"
+    },
+    "Castrato": {
+        "italian": "Castrato",
+        "translation": "castrated",
+        "definition": "A male singer, castrated before puberty so as to be able to sing soprano (now sung by women, conventional countertenors, or sopranisti)"
+    },
+    "Coloratura soprano": {
+        "italian": "Coloratura soprano",
+        "translation": "colouring soprano",
+        "definition": "A soprano specialised in complex, ornamented melody"
+    },
+    "Contralto": {
+        "italian": "Contralto",
+        "translation": "against high",
+        "definition": "Alto, esp. a female alto"
+    },
+    "Falsetto": {
+        "italian": "Falsetto",
+        "translation": "little false",
+        "definition": "A vocal register immediately above the modal voice range"
+    },
+    "Falsettone": {
+        "italian": "Falsettone",
+        "translation": "",
+        "definition": "Falsetto, sung using the usual techniques of modal voice register"
+    },
+    "Leggiero tenor": {
+        "italian": "Leggiero tenor",
+        "translation": "",
+        "definition": "See tenore di grazia"
+    },
+    "Musico": {
+        "italian": "Musico",
+        "translation": "musician",
+        "definition": "Originally, a trained musician; later, a castrato or female singer"
+    },
+    "Mezzo-soprano": {
+        "italian": "Mezzo-soprano",
+        "translation": "middle-upper",
+        "definition": "Between soprano and alto"
+    },
+    "Passaggio": {
+        "italian": "Passaggio",
+        "translation": "crossing",
+        "definition": "A vocal range"
+    },
+    "Soprano": {
+        "italian": "Soprano",
+        "translation": "upper",
+        "definition": "The highest vocal line"
+    },
+    "Soprano sfogato": {
+        "italian": "Soprano sfogato",
+        "translation": "unlimited soprano",
+        "definition": "A soprano who has extended her upper range beyond the usual range of a soprano"
+    },
+    "Spinto": {
+        "italian": "Spinto",
+        "translation": "pushed",
+        "definition": "A forceful voice, between the lyric and dramatic in weight"
+    },
+    "Spinto soprano": {
+        "italian": "Spinto soprano",
+        "translation": "pushed soprano",
+        "definition": "A soprano whose voice, while normally of lyric weight and fluidity, can be pushed to a more forceful weight"
+    },
+    "Squillo": {
+        "italian": "Squillo",
+        "translation": "ringing",
+        "definition": "The resonant clarity of an operatic singer's voice"
+    },
+    "Tenore contraltino": {
+        "italian": "Tenore contraltino",
+        "translation": "",
+        "definition": "A tenor voice capable of a slightly higher range of sustainable notes than usual"
+    },
+    "Tenore di grazia or Leggiero tenor": {
+        "italian": "Tenore di grazia or Leggiero tenor",
+        "translation": "tenor of grace or lightweight tenor",
+        "definition": "A lightweight, flexible tenor voice"
+    },
+    "Tessitura": {
+        "italian": "Tessitura",
+        "translation": "texture",
+        "definition": "A singer's comfortable range"
+    }
+}

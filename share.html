@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Terminology | Share</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.png" type="image/png">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+</head>
+
+<body>
+    <nav>
+        <span class="nav-arrow-back" id="nav-back" onclick="history.back()">
+            <icon data-icon="arrow_back_ios"></icon>
+            <font id="nav-back-text"></font>
+        </span>
+        <font id="nav-text">Share</font>
+    </nav>
+    <div class="page" id="page-1">
+        <div class="content">
+            <h2 class="center">Share <span class="nowrap">AlphaBrate Music</span> <span class="nowrap">Terminology
+                    Library</span></h2>
+            <div class="set">
+                <span class="folder" id="text">
+                    <icon data-icon="docs" class="icon file"></icon>
+                    <span>Share Text</span>
+                    <icon data-icon="share" class="icon more"></icon>
+                </span>
+            </div>
+            <p class="center e80pc select background-light"><span class="nowarp bold marginbottom">AlphaBrate Music Terminology Library</span><br>Looking for a awsome music terms library app? AlphaBrate Music Terminology Library is the best choice. Hosted on GitHub Pages, we have no operating costs that we won't let ads appears in our websites! Enjoy a elegance and simplicity surf experience with Apple-styled design now! Available on <span class="nowrap bold">https://musicterms.github.io/</span></p>
+            <p class="center e80pc gray">or copy the text to share.</p>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+    <script src="js/events.js"></script>
+    <script src="js/icon.js"></script>
+    <script>
+        const shareData = {
+            title: "AlphaBrate Music Terminology Library",
+            text: "Discover a brand-new app to surf the music terms without any ads distracting with Apple-styled design.",
+            url: "https://musicterms.github.io/",
+            image: "/favicon.png"
+        };
+        if (!navigator.share) {
+            document.getElementById('text').style.display = 'none';
+        }
+        document.getElementById('text').addEventListener('click', async () => {
+            await navigator.share(shareData);
+        });
+        
+
+    </script>
+</body>
+
+</html>
