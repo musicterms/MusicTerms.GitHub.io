@@ -10,7 +10,7 @@
     Innovative and minimalist design.
     <br/>
     <br/>
-    <a href="https://musicterms.github.io"><strong>Try out the Web App</strong></a>
+    <a href="https://musicterms.github.io"><strong>Try out the Web App 🔗</strong></a>
     <br/>
     <br/>
   </p>
@@ -42,6 +42,11 @@ Contributions are what make the open source community such an amazing place to b
 * If you have suggestions for adding or removing projects, feel free to [open an issue](https://github.com/musicterms/musicterms.github.io/issues/new) to discuss it, or directly create a pull request after you edit the *README.md* file with necessary changes.
 * Please make sure you check your spelling and grammar.
 * Create individual PR for each suggestion.
+
+> You are more than welcome to add new words or phrases to our library, which is now seriously lack of content.
+> - Add to the *JSON files in sources/terms/\*.json*
+> - Ensure your content is right.
+> - After verifying, your content will be shown on `Commonly Used > Terms` as public sources.
 
 ## License
 
