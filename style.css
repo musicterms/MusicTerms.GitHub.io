@@ -60,7 +60,14 @@
     -webkit-appearance: none;
 }
 
+@font-face {
+    font-family: "San Francisco";
+    font-weight: 400;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+
 body {
+    font-family: "San Francisco", -apple-system, BlinkMacSystemFont, sans-serif;
     user-select: none;
     -webkit-user-select: none;
     font-size: 1.2rem;
@@ -88,12 +95,14 @@ noscript {
     flex-direction: column;
     font-size: 1.2rem;
     color: var(--font-color);
+
     p {
         text-align: center;
         padding: 2em;
         display: flex;
         flex-direction: column;
     }
+
     span.sentence {
         margin-bottom: .5rem;
         line-height: 100%;
@@ -375,6 +384,7 @@ span.icon.file svg path {
         opacity: 1;
         display: block;
     }
+
     to {
         opacity: 0;
         display: none;
@@ -391,6 +401,7 @@ span.icon.file svg path {
     position: absolute;
     height: 1.2rem;
     width: 1.2rem;
+
     path {
         fill: var(--color-grey-dark);
         height: 1.2rem;
@@ -737,4 +748,3 @@ span.switch.checked:active::after {
         -webkit-filter: brightness(0) saturate(100%) invert(93%) sepia(12%) saturate(3257%) hue-rotate(45deg) brightness(92%) contrast(93%);
     }
 }
-
