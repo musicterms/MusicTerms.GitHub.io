@@ -60,15 +60,9 @@
     -webkit-appearance: none;
 }
 
-@font-face {
-    font-family: 'SF Pro Display';
-    src: url('fonts/SFProDisplay-Regular.ttf');
-}
-
 body {
     user-select: none;
     -webkit-user-select: none;
-    font-family: 'SF Pro Display', sans-serif;
     font-size: 1.2rem;
     line-height: 1.5;
     color: var(--font-color);
