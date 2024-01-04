@@ -33,6 +33,7 @@
 ## About The Project
 
 ![Screen Shot](https://github.com/musicterms/musicterms.github.io/blob/main/img/desktop.png?raw=true)
+![Repo Image](https://repository-images.githubusercontent.com/738839090/3a5d499a-9005-4596-ae7b-ad92c1b5c38f)
 
 Designed with innovation and elegance, the AlphaBrate Music Terminology Library is a simple and convenient way to look up musical terms. It’s ad-free and completely free to use, with no hidden fees or subscriptions. Just pure music term lookup at your fingertips.
 
