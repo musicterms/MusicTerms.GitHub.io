@@ -29,6 +29,7 @@
 * [Contributing](#contributing)
 * [License](#license)
 * [Authors](#authors)
+* [Sources](#sources)
 
 ## About The Project
 
@@ -55,3 +56,12 @@ Distributed under the MIT License. See [LICENSE](https://github.com/musicterms/m
 ## Authors
 
 * **ReTrn** - *co-founder of alphabrate* - [ReTrn](https://github.com/rtzg) - *Project leading*
+
+## Sources
+
+* Currently, all the contents in `Commonly Used > Terms` are not verified by HUMAN but auto scripts. Some of them are gathered by `New Bing` from documents on the public-available websites or docs that the trustworthiness CANNOT be tested. While, other sources are verifeid by human or widely.
+
+> Known Sources are as follow:
+> - [Wikipedia](https://en.wikipedia.org/wiki/Glossary_of_music_terminology)
+> - [WMich.edu](https://wmich.edu/mus-gened/mus150/Glossary.pdf)
+> - And also from ALL those contributors. Please join us by reading the [Contributing](#contributing) We sincerely appreciate it.
