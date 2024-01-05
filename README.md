@@ -55,7 +55,7 @@ Distributed under the MIT License. See [LICENSE](https://github.com/musicterms/m
 
 ## Authors
 
-* **ReTrn** - *co-founder of alphabrate* - [ReTrn](https://github.com/rtzg) - *Project leading*
+* **ReTrn** - *co-founder of alphabrate* - [ReTrn](https://github.com/rtzg) - *Project leading & Developing*
 
 ## Sources
 
