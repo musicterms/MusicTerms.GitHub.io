@@ -44,7 +44,7 @@ Contributions are what make the open source community such an amazing place to b
 * Please make sure you check your spelling and grammar.
 * Create individual PR for each suggestion.
 
-> You are more than welcome to add new words or phrases to our library, which is now seriously lack of content.
+> You are more than welcome to add new words or phrases to our library, which is now lacking of content.
 > - Add to the *JSON files in sources/terms/\*.json*
 > - Ensure your content is right.
 > - After verifying, your content will be shown on `Commonly Used > Terms` as public sources.
