@@ -1,0 +1,567 @@
+{
+    "Abdruck": {
+        "german": "Abdruck",
+        "translation": "Abdr.",
+        "definition": "impression, print, reproduction"
+    },
+    "Abschrift": {
+        "german": "Abschrift",
+        "translation": "Abschr.",
+        "definition": "reprint, copy"
+    },
+    "Abteilung": {
+        "german": "Abteilung",
+        "translation": "Abt.",
+        "definition": "part"
+    },
+    "Anhang": {
+        "german": "Anhang",
+        "translation": "Anh.",
+        "definition": "appendix, supplement"
+    },
+    "Anmerkung": {
+        "german": "Anmerkung",
+        "translation": "Anm.",
+        "definition": "commentary"
+    },
+    "arrangiert": {
+        "german": "arrangiert",
+        "translation": " ",
+        "definition": "arranged"
+    },
+    "Aufführung(en); Aufführungsdauer": {
+        "german": "Aufführung(en); Aufführungsdauer",
+        "translation": " ",
+        "definition": "performance(s); performance duration"
+    },
+    "Aufführungspraxis": {
+        "german": "Aufführungspraxis",
+        "translation": " ",
+        "definition": "performance practice"
+    },
+    "Auflage": {
+        "german": "Auflage",
+        "translation": "Aufl.",
+        "definition": "impression, edition"
+    },
+    "Ausgabe": {
+        "german": "Ausgabe",
+        "translation": "Ausg.",
+        "definition": "edition"
+    },
+    "ausgewählte": {
+        "german": "ausgewählte",
+        "translation": " ",
+        "definition": "selected"
+    },
+    "Autograph": {
+        "german": "Autograph",
+        "translation": " ",
+        "definition": "holograph"
+    },
+    "Band": {
+        "german": "Band",
+        "translation": "Bd.",
+        "definition": "volume"
+    },
+    "Bearbeiter; bearbeitet; Bearbeitung(en)": {
+        "german": "Bearbeiter; bearbeitet; Bearbeitung(en)",
+        "translation": "Bearb.",
+        "definition": "arranger; arranged, revised; arrangement(s)"
+    },
+    "Beiheft": {
+        "german": "Beiheft",
+        "translation": " ",
+        "definition": "supplement"
+    },
+    "Beispiel": {
+        "german": "Beispiel",
+        "translation": " ",
+        "definition": "example"
+    },
+    "Bemerkungen": {
+        "german": "Bemerkungen",
+        "translation": " ",
+        "definition": "remarks, annotations, commentary"
+    },
+    "Bericht": {
+        "german": "Bericht",
+        "translation": " ",
+        "definition": "report, commentary"
+    },
+    "Besetzung": {
+        "german": "Besetzung",
+        "translation": " ",
+        "definition": "setting (usually referring to instrumentation)"
+    },
+    "Bibliothek": {
+        "german": "Bibliothek",
+        "translation": " ",
+        "definition": "library"
+    },
+    "Blatt": {
+        "german": "Blatt",
+        "translation": " ",
+        "definition": "leaf, page (of book); folio (of manuscript); sheet"
+    },
+    "Buhnenwerke": {
+        "german": "Buhnenwerke",
+        "translation": " ",
+        "definition": "dramatic works"
+    },
+    "Brief": {
+        "german": "Brief",
+        "translation": " ",
+        "definition": "letter"
+    },
+    "Druck": {
+        "german": "Druck",
+        "translation": " ",
+        "definition": "impression, print"
+    },
+    "Dur": {
+        "german": "Dur",
+        "translation": " ",
+        "definition": "major (key)"
+    },
+    "durchgesehen": {
+        "german": "durchgesehen",
+        "translation": " ",
+        "definition": "revised"
+    },
+    "eigentlich": {
+        "german": "eigentlich",
+        "translation": "eigtl.",
+        "definition": "introduction"
+    },
+    "Einleitung": {
+        "german": "Einleitung",
+        "translation": "Einl.",
+        "definition": "introduction"
+    },
+    "Einrichtung": {
+        "german": "Einrichtung",
+        "translation": " ",
+        "definition": "fingering"
+    },
+    "Erhaltene Werke": {
+        "german": "Erhaltene Werke",
+        "translation": " ",
+        "definition": "surviving works"
+    },
+    "erscheinen": {
+        "german": "erscheinen",
+        "translation": " ",
+        "definition": "to publish"
+    },
+    "Erstausgabe": {
+        "german": "Erstausgabe",
+        "translation": " ",
+        "definition": "first edition"
+    },
+    "erweitert": {
+        "german": "erweitert",
+        "translation": "erw.",
+        "definition": "enlarged"
+    },
+    "etwa": {
+        "german": "etwa",
+        "translation": " ",
+        "definition": "approximately"
+    },
+    "Fassung": {
+        "german": "Fassung",
+        "translation": " ",
+        "definition": "version"
+    },
+    "Festschrift": {
+        "german": "Festschrift",
+        "translation": " ",
+        "definition": "publication on the occasion of a celebration"
+    },
+    "Folge": {
+        "german": "Folge",
+        "translation": " ",
+        "definition": "series"
+    },
+    "Fundort Verzeichnis": {
+        "german": "Fundort Verzeichnis",
+        "translation": " ",
+        "definition": "found/discovered index"
+    },
+    "geboren": {
+        "german": "geboren",
+        "translation": "geb.",
+        "definition": "born"
+    },
+    "gedruckt": {
+        "german": "gedruckt",
+        "translation": "gedr.",
+        "definition": "printed"
+    },
+    "Gegenwart": {
+        "german": "Gegenwart",
+        "translation": " ",
+        "definition": "present time"
+    },
+    "Generalbass": {
+        "german": "Generalbass",
+        "translation": "Gb.",
+        "definition": "continuo"
+    },
+    "Gesamtausgabe": {
+        "german": "Gesamtausgabe",
+        "translation": " ",
+        "definition": "complete works"
+    },
+    "Geschichte": {
+        "german": "Geschichte",
+        "translation": " ",
+        "definition": "history"
+    },
+    "Gesellschaft": {
+        "german": "Gesellschaft",
+        "translation": " ",
+        "definition": "society, association, club"
+    },
+    "gestorben": {
+        "german": "gestorben",
+        "translation": "gest.",
+        "definition": "died"
+    },
+    "getauft": {
+        "german": "getauft",
+        "translation": "get.",
+        "definition": "baptized"
+    },
+    "Handschrift": {
+        "german": "Handschrift",
+        "translation": " ",
+        "definition": "manuscript"
+    },
+    "heilig": {
+        "german": "heilig",
+        "translation": " ",
+        "definition": "sacred"
+    },
+    "herausgegeben von": {
+        "german": "herausgegeben von",
+        "translation": "hrsg. von",
+        "definition": "edited by"
+    },
+    "Herausgeber": {
+        "german": "Herausgeber",
+        "translation": "Hrsg.",
+        "definition": "editor"
+    },
+    "Heft": {
+        "german": "Heft",
+        "translation": "H.",
+        "definition": "number, part"
+    },
+    "Inhalt": {
+        "german": "Inhalt",
+        "translation": " ",
+        "definition": "Contents"
+    },
+    "Jahr": {
+        "german": "Jahr",
+        "translation": " ",
+        "definition": "volume, annual, year"
+    },
+    "Jahrhundert": {
+        "german": "Jahrhundert",
+        "translation": "Jh.",
+        "definition": "century"
+    },
+    "Katalog": {
+        "german": "Katalog",
+        "translation": " ",
+        "definition": "catalog"
+    },
+    "Klavierauszug": {
+        "german": "Klavierauszug",
+        "translation": " ",
+        "definition": "piano-vocal score"
+    },
+    "Komponist": {
+        "german": "Komponist",
+        "translation": " ",
+        "definition": "composer"
+    },
+    "korrigiert": {
+        "german": "korrigiert",
+        "translation": " ",
+        "definition": "corrected"
+    },
+    "Kritischer Bericht": {
+        "german": "Kritischer Bericht",
+        "translation": " ",
+        "definition": "critical report or commentary"
+    },
+    "Kunst": {
+        "german": "Kunst",
+        "translation": " ",
+        "definition": "art"
+    },
+    "Manuskript": {
+        "german": "Manuskript",
+        "translation": "Ms.",
+        "definition": "manuscript"
+    },
+    "Mitarbeiter": {
+        "german": "Mitarbeiter",
+        "translation": " ",
+        "definition": "collaborator"
+    },
+    "Moll": {
+        "german": "Moll",
+        "translation": " ",
+        "definition": "minor (key)"
+    },
+    "Musikforschung": {
+        "german": "Musikforschung",
+        "translation": " ",
+        "definition": "music research"
+    },
+    "Musikschule": {
+        "german": "Musikschule",
+        "translation": " ",
+        "definition": "music school"
+    },
+    "Musikwissenschaft": {
+        "german": "Musikwissenschaft",
+        "translation": " ",
+        "definition": "musicology"
+    },
+    "Nachdruck": {
+        "german": "Nachdruck",
+        "translation": " ",
+        "definition": "reprint"
+    },
+    "Nachweise": {
+        "german": "Nachweise",
+        "translation": " ",
+        "definition": "proof, records"
+    },
+    "Nachwort": {
+        "german": "Nachwort",
+        "translation": " ",
+        "definition": "afterword"
+    },
+    "Namenszug": {
+        "german": "Namenszug",
+        "translation": " ",
+        "definition": "signature"
+    },
+    "Neudruck": {
+        "german": "Neudruck",
+        "translation": "Neudr.",
+        "definition": "reprint"
+    },
+    "Neue Ausgabe; Neuausagbe": {
+        "german": "Neue Ausgabe; Neuausagbe",
+        "translation": " ",
+        "definition": "new edition"
+    },
+    "Nummer": {
+        "german": "Nummer",
+        "translation": "Nr.",
+        "definition": "number"
+    },
+    "Opus": {
+        "german": "Opus",
+        "translation": "op.",
+        "definition": "opus"
+    },
+    "Partitur": {
+        "german": "Partitur",
+        "translation": "Part.",
+        "definition": "score"
+    },
+    "Quelle": {
+        "german": "Quelle",
+        "translation": " ",
+        "definition": "source"
+    },
+    "Redakteur; Redaktion": {
+        "german": "Redakteur; Redaktion",
+        "translation": " ",
+        "definition": "editor; editing"
+    },
+    "redigiert": {
+        "german": "redigiert",
+        "translation": " ",
+        "definition": "edited"
+    },
+    "Register": {
+        "german": "Register",
+        "translation": " ",
+        "definition": "index"
+    },
+    "Reihe": {
+        "german": "Reihe",
+        "translation": " ",
+        "definition": "series"
+    },
+    "revidiert": {
+        "german": "revidiert",
+        "translation": "rev.",
+        "definition": "revised"
+    },
+    "Revisionsbericht": {
+        "german": "Revisionsbericht",
+        "translation": " ",
+        "definition": "critical commentary"
+    },
+    "Sammlung": {
+        "german": "Sammlung",
+        "translation": "Samml.",
+        "definition": "collection"
+    },
+    "Sämtliche Werke": {
+        "german": "Sämtliche Werke",
+        "translation": " ",
+        "definition": "complete works"
+    },
+    "Satz": {
+        "german": "Satz",
+        "translation": " ",
+        "definition": "movement"
+    },
+    "Schrift": {
+        "german": "Schrift",
+        "translation": " ",
+        "definition": "writing, book, periodical, etc."
+    },
+    "Seite": {
+        "german": "Seite",
+        "translation": "S.",
+        "definition": "page"
+    },
+    "Skizzen": {
+        "german": "Skizzen",
+        "translation": " ",
+        "definition": "sketches"
+    },
+    "Sprechgesang; Sprechstimme": {
+        "german": "Sprechgesang; Sprechstimme",
+        "translation": " ",
+        "definition": "speech-song"
+    },
+    "Stimmen": {
+        "german": "Stimmen",
+        "translation": " ",
+        "definition": "instrumental parts; voices"
+    },
+    "Teil": {
+        "german": "Teil",
+        "translation": "T.",
+        "definition": "part, volume"
+    },
+    "Textbuch": {
+        "german": "Textbuch",
+        "translation": " ",
+        "definition": "libretto"
+    },
+    "Titelblatt": {
+        "german": "Titelblatt",
+        "translation": " ",
+        "definition": "title page"
+    },
+    "Tonkunst": {
+        "german": "Tonkunst",
+        "translation": " ",
+        "definition": "art music; music"
+    },
+    "Überschrift": {
+        "german": "Überschrift",
+        "translation": " ",
+        "definition": "heading, title"
+    },
+    "Übersetzung": {
+        "german": "Übersetzung",
+        "translation": " ",
+        "definition": "translation"
+    },
+    "Übertragung(en)": {
+        "german": "Übertragung(en)",
+        "translation": " ",
+        "definition": "transcription, transcriptions"
+    },
+    "unbekannt": {
+        "german": "unbekannt",
+        "translation": " ",
+        "definition": "unknown"
+    },
+    "Untergeschoben": {
+        "german": "Untergeschoben",
+        "translation": " ",
+        "definition": "attributed falsely"
+    },
+    "Urtext": {
+        "german": "Urtext",
+        "translation": " ",
+        "definition": "original text"
+    },
+    "Verfasser": {
+        "german": "Verfasser",
+        "translation": " ",
+        "definition": "composer, author"
+    },
+    "Verlag; Verlager": {
+        "german": "Verlag; Verlager",
+        "translation": " ",
+        "definition": "publishing house or firm; publisher"
+    },
+    "verlorengegangene": {
+        "german": "verlorengegangene",
+        "translation": " ",
+        "definition": "lost"
+    },
+    "veröffentlicht; Veröffentlichung": {
+        "german": "veröffentlicht; Veröffentlichung",
+        "translation": " ",
+        "definition": "published; publication"
+    },
+    "Verzeichnis": {
+        "german": "Verzeichnis",
+        "translation": "Verl.",
+        "definition": "list (usually of works)"
+    },
+    "weltlich": {
+        "german": "weltlich",
+        "translation": " ",
+        "definition": "secular"
+    },
+    "Werke(s)": {
+        "german": "Werke(s)",
+        "translation": " ",
+        "definition": "work(s)"
+    },
+    "Widmung": {
+        "german": "Widmung",
+        "translation": " ",
+        "definition": "dedication"
+    },
+    "Wissenschaft": {
+        "german": "Wissenschaft",
+        "translation": " ",
+        "definition": "science, knowledge"
+    },
+    "Zahl": {
+        "german": "Zahl",
+        "translation": " ",
+        "definition": "number"
+    },
+    "zusammengestellt": {
+        "german": "zusammengestellt",
+        "translation": " ",
+        "definition": "compiled"
+    },
+    "zweifelhaft": {
+        "german": "zweifelhaft",
+        "translation": " ",
+        "definition": "doubtful, questionable; usually applied to attribution of a work"
+    }
+}
