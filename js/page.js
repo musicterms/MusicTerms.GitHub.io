@@ -14,6 +14,7 @@ var lists = {
     'techniques': { 'name': 'Techniques', 'path': 'source/italian/techniques.json' },
     'tempo': { 'name': 'Tempo', 'path': 'source/italian/tempo.json' },
     'voices': { 'name': 'Voices', 'path': 'source/italian/voices.json' },
+    'german': { 'name': 'German', 'path': 'source/german/german.json' },
 }
 
 function addHrefHistory(page, e) {
@@ -51,6 +52,7 @@ var toDoForPages = {
         document.title = 'Music Terminology | Details'
         var word;
         if (e[0].italian != void 0) word = e[0].italian;
+        if (e[0].german != void 0) word = e[0].german;
         document.getElementById('word').innerText = word;
         document.getElementById('translate').innerText = e[0].translation;
         document.getElementById('definition').innerText = e[0].definition;
@@ -252,7 +254,7 @@ try {
 
 function details(term, e) {
     var parsed = JSON.parse(e);
-    if (Object.keys(parsed).includes('italian')) {
+    if (Object.keys(parsed).includes('italian') || Object.keys(parsed).includes('german')) {
         changePage('word-details', [parsed, term]);
     } else if (Object.keys(parsed[1]).includes('lang')) {
         changePage('term-details', ['Search', JSON.stringify(parsed[1])]);
