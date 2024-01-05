@@ -64,4 +64,5 @@ Distributed under the MIT License. See [LICENSE](https://github.com/musicterms/m
 > Known Sources are as follow:
 > - [Wikipedia](https://en.wikipedia.org/wiki/Glossary_of_music_terminology)
 > - [WMich.edu](https://wmich.edu/mus-gened/mus150/Glossary.pdf)
+> - [Yale.edu](https://web.library.yale.edu/cataloging/music/Common-terms-used-in-German-music-publications-and-thematic-indices)
 > - And also from ALL those contributors. Please join us by reading the [Contributing](#contributing) We sincerely appreciate it.
