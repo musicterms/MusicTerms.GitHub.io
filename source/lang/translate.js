@@ -1,5 +1,7 @@
 var language = location.href.split('/')[3];
 
+document.documentElement.lang = language;
+
 var languages = {
     'AlphaBrate Music Terminology Library': {
         "zh": "AlphaBrate 音乐术语词典",
@@ -141,6 +143,15 @@ var languages = {
     },
     "No Favorite Items.": {
         "zh": "没有收藏的内容。"
+    },
+    "Language": {
+        "zh": "语言"
+    },
+    "ENG": {
+        "zh": "中文"
+    },
+    "Change Language": {
+        "zh": "更改语言"
     },
 }
 

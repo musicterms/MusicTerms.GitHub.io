@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -21,12 +21,6 @@
     <link rel="icon" href="/favicon.png" type="image/png">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <link rel="stylesheet" href="/style.css">
-    <style>
-        @font-face {
-            font-family: 'San Francisco';
-            src: url(/fonts/PingFangSC.ttf);
-        }
-    </style>
 </head>
 
 <body>
@@ -251,7 +245,7 @@
                 </span>
                 <span class="folder" onclick="location.href='/?add_to_home_screen'">
                     <icon data-icon="home" class="icon file"></icon>
-                    <span><span class="nowrap">Add this Web App</span><span class="nowrap">to Home Screen</span></span>
+                    <span><span class="nowrap">Add this Web App</span> <span class="nowrap">to Home Screen</span></span>
                     <icon data-icon="forward" class="icon more"></icon>
                 </span>
             </div>
@@ -271,9 +265,16 @@
                 </span>
             </div>
             <div class="set">
+                <span class="folder" onclick="location.href='/language.html'">
+                    <icon data-icon="language" class="icon file"></icon>
+                    <span>Change Language</span>
+                    <span class="icon file" id="lang">ENG</span>
+                    <icon data-icon="forward" class="icon more"></icon>
+                </span>
                 <span class="folder" onclick="location.href='/'">
                     <icon data-icon="refresh" class="icon file"></icon>
-                    <span><span class="nowrap">Some changes may</span> <span class="nowrap">require a refresh.</span></span>
+                    <span><span class="nowrap">Some changes may</span> <span class="nowrap">require a
+                            refresh.</span></span>
                 </span>
                 <span class="folder"
                     onclick="location.href='https://github.com/musicterms/musicterms.github.io?tab=readme-ov-file#sources'">
