@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Music Terminology | Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta property="og:title" content="AlphaBrate Music Terminology Library" />
+    <meta property="og:type" content="video.movie" />
+    <meta property="og:url" content="https://musicterms.github.io" />
+    <meta property="og:description"
+        content="Looking for a awsome music terms library app? AlphaBrate Music Terminology Library is the best choice. Hosted on GitHub Pages, we have no operating costs that we won't let ads appears in our websites! Enjoy a elegance and simplicity surf experience with innovative design now! Available on https://musicterms.github.io" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="AlphaBrate Music Terminology Library">
+    <meta name="twitter:description"
+        content="Looking for a awsome music terms library app? AlphaBrate Music Terminology Library is the best choice. Hosted on GitHub Pages, we have no operating costs that we won't let ads appears in our websites! Enjoy a elegance and simplicity surf experience with innovative design now! Available on https://musicterms.github.io">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="icon" href="/favicon.png" type="image/png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="stylesheet" href="/style.css">
+    <style>
+        @font-face {
+            font-family: 'San Francisco';
+            src: url(/fonts/PingFangSC.ttf);
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <span class="nav-arrow-back hidden" id="nav-back">
+            <icon data-icon="arrow_back_ios"></icon>
+            <font id="nav-back-text"></font>
+        </span>
+        <font id="nav-text">Music Terminology</font>
+    </nav>
+    <div id="confirm_fullscreen">
+        <div id="confirm_tag" class="removed">
+            <div class="upper">
+                <p id="confirm_message"></p>
+            </div>
+            <div class="lower">
+                <button class="no" id="confirm-no">Cancel</button>
+                <div class="vertical-line"></div>
+                <button class="yes" id="confirm-yes">Yes</button>
+            </div>
+        </div>
+    </div>
+    <noscript>
+        <p>
+            <span class="sentence">We're sorry, but our website <span class="nowrap">requires JavaScript.</span></span>
+            <span class="sentence">Please enable it <span class="nowrap">in order to experience</span> the <span
+                    class="nowrap">elegance
+                    and simplicity.</span></span>
+        </p>
+        <style>
+            html {
+                overflow: hidden !important;
+            }
+        </style>
+    </noscript>
+    <div class="page" id="page-1">
+        <div class="content">
+            <font class="small-title">Commonly Used</font>
+            <div class="set">
+                <span class="folder" onclick="changePage('search')">
+                    <icon data-icon="search" class="icon file"></icon>
+                    Search
+                    <icon data-icon="forward" class="icon more"></icon>
+                </span>
+                <span class="folder" onclick="changePage('settings')">
+                    <icon data-icon="settings" class="icon file"></icon>
+                    Settings
+                    <icon data-icon="forward" class="icon more"></icon>
+                </span>
+                <span class="folder hidden_zone" onclick="changePage('favorites')" id="fav_fol">
+                    <icon data-icon="star_full" class="icon file"></icon>
+                    Favorites
+                    <icon data-icon="forward" class="icon more"></icon>
+                </span>
+                <span class="folder" onclick="openFolder(this)">
+                    <icon data-icon="sort" class="icon file"></icon>
+                    Terms
+                    <icon data-icon="forward" class="icon more"></icon>
+                </span>
+            </div>
+            <font class="small-title">Italian</font>
+            <div class="set">
+                <span class="folder" onclick="openFolder(this)">
+                    <icon data-icon="voice_over" class="icon file"></icon>
+                    Criticism
+                    <icon data-icon="forward" class="icon more"></icon>
+                </span>
+                <span class="folder" onclick="openFolder(this)">
+                    <icon data-icon="tune" class="icon file"></icon>
+                    Directions
+                    <icon data-icon="forward" class="icon more"></icon>
+                </span>
+                <span class="folder" onclick="openFolder(this)">
+                    <icon data-icon="forte" class="icon file"></icon>
+                    Dynamics
+                    <icon data-icon="forward" class="icon more"></icon>
+                </span>
+                <span class="folder" onclick="openFolder(this)">
+                    <icon data-icon="translate" class="icon file"></icon>
+                    General Terms / Words
+                    <icon data-icon="forward" class="icon more"></icon>
+                </span>
+                <span class="folder" onclick="openFolder(this)">
+                    <icon data-icon="piano" class="icon file"></icon>
+                    Instruments
+                    <icon data-icon="forward" class="icon more"></icon>
+                </span>
+                <span class="folder" onclick="openFolder(this)">
+                    <icon data-icon="happy" class="icon file"></icon>
+                    Moods / Expressions
+                    <icon data-icon="forward" class="icon more"></icon>
+                </span>
+                <span class="folder" onclick="openFolder(this)">
+                    <icon data-icon="timeline" class="icon file"></icon>
+                    Patterns
+                    <icon data-icon="forward" class="icon more"></icon>
+                </span>
+                <span class="folder" onclick="openFolder(this)">
+                    <icon data-icon="diversity" class="icon file"></icon>
+                    Roles
+                    <icon data-icon="forward" class="icon more"></icon>
+                </span>
+                <span class="folder" onclick="openFolder(this)">
+                    <icon data-icon="podium" class="icon file"></icon>
+                    Staging
+                    <icon data-icon="forward" class="icon more"></icon>
+                </span>
+                <span class="folder" onclick="openFolder(this)">
+                    <icon data-icon="sign_lang" class="icon file"></icon>
+                    Techniques
+                    <icon data-icon="forward" class="icon more"></icon>
+                </span>
+                <span class="folder" onclick="openFolder(this)">
+                    <icon data-icon="timer" class="icon file"></icon>
+                    Tempo
+                    <icon data-icon="forward" class="icon more"></icon>
+                </span>
+                <span class="folder" onclick="openFolder(this)">
+                    <icon data-icon="voice" class="icon file"></icon>
+                    Voices
+                    <icon data-icon="forward" class="icon more"></icon>
+                </span>
+            </div>
+            <font class="small-title">Other Languages</font>
+            <div class="set">
+                <span class="folder" onclick="openFolder(this)">
+                    <icon data-icon="folder" class="icon file"></icon>
+                    German
+                    <icon data-icon="forward" class="icon more"></icon>
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class="page" id="page-list-of-words">
+        <div class="content" id="list-of-words-content">
+        </div>
+    </div>
+    <div class="page" id="word-details">
+        <div class="content" id="word-details-content">
+            <div class="flex">
+                <h1 id="word">
+                </h1>
+                <div class="favorite_star">
+                </div>
+                <icon data-icon="spellcheck" class="detail"></icon>
+            </div>
+            <h3 id="translate" class="detail">
+            </h3>
+            <p id="definition" class="detail"></p>
+            <footer>
+                <div>
+                    <icon data-icon="spellcheck" class="authorize"></icon>: From authoritative databases
+                </div>
+            </footer>
+        </div>
+
+    </div>
+    <div class="page" id="term-details">
+        <div class="content" id="word-details-content">
+            <div class="flex">
+                <h1 id="term">
+                </h1>
+                <div class="favorite_star">
+                </div>
+                <icon data-icon="public" class="detail"></icon>
+            </div>
+            </h3>
+            <p id="definition-of-term" class="detail"></p>
+            <footer>
+                <div>
+                    <icon data-icon="public" class="authorize"></icon>: Information is gathered from<br>publicly
+                    available online sources<br>and may not be entirely accurate.
+                </div>
+            </footer>
+        </div>
+
+    </div>
+    <div class="page" id="settings">
+        <div class="content">
+            <div class="set">
+                <span class="folder lane">
+                    <icon data-icon="reaction" class="icon file"></icon>
+                    Enable Cache of Icon
+                    <span class="switch settings" id="icon_cache_enable_switch"
+                        onclick="writeCookie(this.id,!this.classList.contains('checked'))"></span>
+                </span>
+                <span class="folder lane">
+                    <icon data-icon="download" class="icon file"></icon>
+                    Enable Cache of Data
+                    <span class="switch settings" id="data_cache_enable_switch"
+                        onclick="writeCookie(this.id,!this.classList.contains('checked'))"></span>
+                </span>
+                <span class="folder lane">
+                    <icon data-icon="compass" class="icon file"></icon>
+                    Enable Save of Location
+                    <span class="switch settings" id="locaion_save_enable_switch"
+                        onclick="writeCookie(this.id,!this.classList.contains('checked'))"></span>
+                </span>
+            </div>
+            <div class="set">
+                <span class="folder lane no-line">
+                    <icon data-icon="star_full" class="icon file star_switch_icon"></icon>
+                    Enable Favorite
+                    <span class="switch settings" id="favorite_enable_switch"
+                        onclick="writeCookie(this.id,!this.classList.contains('checked'))"></span>
+                </span>
+                <span class="folder lane hidden_tip_settings" id="favorite_tip">
+                    <icon data-icon="placeholder" class="icon file"></icon>
+                    <span><span class="nowrap">Your favorites remain</span>
+                        <span class="nowrap">safe and intact,</span>
+                        <span class="nowrap">select 'Reset All'</span>
+                        <span class="nowrap">to delete.</span>
+                    </span>
+                </span>
+            </div>
+            <div class="set">
+                <span class="folder" onclick="location.href='share.html'">
+                    <icon data-icon="share" class="icon file"></icon>
+                    <span>Share This Web App</span>
+                    <icon data-icon="open_in_new" class="icon file open_in_new"></icon>
+                    <icon data-icon="forward" class="icon more"></icon>
+                </span>
+                <span class="folder" onclick="location.href='/?add_to_home_screen'">
+                    <icon data-icon="home" class="icon file"></icon>
+                    <span><span class="nowrap">Add this Web App</span><span class="nowrap">to Home Screen</span></span>
+                    <icon data-icon="forward" class="icon more"></icon>
+                </span>
+            </div>
+            <div class="set">
+                <span class="folder lane">
+                    <icon data-icon="info" class="icon file"></icon>
+                    <span>Version 1.0.0</span>
+                </span>
+                <span class="folder lane">
+                    <icon data-icon="placeholder" class="icon file"></icon>
+                    <span>By AlphaBrate Team 2024</span>
+                </span>
+                <span class="folder lane" onclick="location.href='https://github.com/musicterms/musicterms.github.io'">
+                    <icon data-icon="github-mark" class="icon file"></icon>
+                    <span>GitHub Repository</span>
+                    <icon data-icon="open_in_new" class="icon file open_in_new"></icon>
+                </span>
+            </div>
+            <div class="set">
+                <span class="folder" onclick="location.href='/'">
+                    <icon data-icon="refresh" class="icon file"></icon>
+                    <span><span class="nowrap">Some changes may</span> <span class="nowrap">require a refresh.</span></span>
+                </span>
+                <span class="folder"
+                    onclick="location.href='https://github.com/musicterms/musicterms.github.io?tab=readme-ov-file#sources'">
+                    <icon data-icon="public" class="icon file"></icon>
+                    <span>Sources</span>
+                    <icon data-icon="open_in_new" class="icon file open_in_new"></icon>
+                </span>
+                <span class="folder lane">
+                    <icon data-icon="placeholder" class="icon file"></icon>
+                    <span>Some sources can't be found</span>
+                </span>
+                <span class="folder color-red" onclick="tryDelCookies()">
+                    <icon data-icon="cookies_off" class="icon file"></icon>
+                    <span>Reset All</span>
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class="page" id="search">
+        <div class="content">
+            <label for="search-input" class="text">
+                <icon data-icon="search" class="search-input-svg"></icon><input type="text" id="search-input"
+                    placeholder="Search">
+            </label>
+            <p id="search_receipt"></p>
+            <div id="search-result-list" class="set"></div>
+        </div>
+    </div>
+    <div class="page" id="favorites">
+        <div class="content">
+
+        </div>
+    </div>
+    <!-- To use <icon>, add data-icon and it will be replaced by <svg> -->
+    <script src="/source/lang/translate.js"></script>
+    <script src="/js/index.js"></script>
+    <script src="/js/icon.js"></script>
+    <script src="/js/events.js"></script>
+    <script src="/js/page.js"></script>
+    <script src="/js/search.js"></script>
+</body>
+
+</html>

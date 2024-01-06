@@ -2,101 +2,121 @@
     "Alto": {
         "italian": "Alto",
         "translation": "high",
-        "definition": "Second-highest vocal line"
+        "definition": "Second-highest vocal line",
+        "zh": "女低音：第二高声线"
     },
     "Basso": {
         "italian": "Basso",
         "translation": "low",
-        "definition": "Or \"bass;\" the lowest vocal line"
+        "definition": "Or \"bass;\" the lowest vocal line",
+        "zh": "男低音"
     },
     "Basso profondo": {
         "italian": "Basso profondo",
         "translation": "deep low",
-        "definition": "A very deep bass voice"
+        "definition": "A very deep bass voice",
+        "zh": "非常深沉的低音"
     },
     "Castrato": {
         "italian": "Castrato",
         "translation": "castrated",
-        "definition": "A male singer, castrated before puberty so as to be able to sing soprano (now sung by women, conventional countertenors, or sopranisti)"
+        "definition": "A male singer, castrated before puberty so as to be able to sing soprano (now sung by women, conventional countertenors, or sopranisti)",
+        "zh": "阉伶：一名男歌手，在青春期前被阉割，以便能够唱女高音"
     },
     "Coloratura soprano": {
         "italian": "Coloratura soprano",
         "translation": "colouring soprano",
-        "definition": "A soprano specialised in complex, ornamented melody"
+        "definition": "A soprano specialised in complex, ornamented melody",
+        "zh": "花腔女高音：擅长复杂、装饰性旋律的女高音"
     },
     "Contralto": {
         "italian": "Contralto",
         "translation": "against high",
-        "definition": "Alto, esp. a female alto"
+        "definition": "Alto, esp. a female alto",
+        "zh": "女低音：比Alto还低"
     },
     "Falsetto": {
         "italian": "Falsetto",
         "translation": "little false",
-        "definition": "A vocal register immediately above the modal voice range"
+        "definition": "A vocal register immediately above the modal voice range",
+        "zh": "假声：是指用以发出比正常音域高的声音，并且和正常音域重叠大概一个八度"
     },
     "Falsettone": {
         "italian": "Falsettone",
         "translation": "",
-        "definition": "Falsetto, sung using the usual techniques of modal voice register"
+        "definition": "Falsetto, sung using the usual techniques of modal voice register",
+        "zh": "假声，描述过去男性歌唱家使用的发声技术"
     },
     "Leggiero tenor": {
         "italian": "Leggiero tenor",
         "translation": "",
-        "definition": "See tenore di grazia"
+        "definition": "See tenore di grazia",
+        "zh": "轻盈、灵活的男高音"
     },
     "Musico": {
         "italian": "Musico",
         "translation": "musician",
-        "definition": "Originally, a trained musician; later, a castrato or female singer"
+        "definition": "Originally, a trained musician; later, a castrato or female singer",
+        "zh": "前期意思：一名训练有素的音乐家；后期意思：阉人或女歌手"
     },
     "Mezzo-soprano": {
         "italian": "Mezzo-soprano",
         "translation": "middle-upper",
-        "definition": "Between soprano and alto"
+        "definition": "Between soprano and alto",
+        "zh": "次女高音：介于女高音和女低音之间"
     },
     "Passaggio": {
         "italian": "Passaggio",
         "translation": "crossing",
-        "definition": "A vocal range"
+        "definition": "A vocal range",
+        "zh": "过度声域：声区之间的过渡区域。声音的传声介于不同的声乐发音之间，例如胸部声音（任何歌手都可以发出强大的声音），中间声音和头部声音（可以听到穿透性声音），但通常只能通过声音训练"
     },
     "Soprano": {
         "italian": "Soprano",
         "translation": "upper",
-        "definition": "The highest vocal line"
+        "definition": "The highest vocal line",
+        "zh": "女高音：最高声线"
     },
     "Soprano sfogato": {
         "italian": "Soprano sfogato",
         "translation": "unlimited soprano",
-        "definition": "A soprano who has extended her upper range beyond the usual range of a soprano"
+        "definition": "A soprano who has extended her upper range beyond the usual range of a soprano",
+        "zh": "一位女高音将她的音域扩展到了女高音通常的音域之外"
     },
     "Spinto": {
         "italian": "Spinto",
         "translation": "pushed",
-        "definition": "A forceful voice, between the lyric and dramatic in weight"
+        "definition": "A forceful voice, between the lyric and dramatic in weight",
+        "zh": "声音有力，重量介于抒情与戏剧之间"
     },
     "Spinto soprano": {
         "italian": "Spinto soprano",
         "translation": "pushed soprano",
-        "definition": "A soprano whose voice, while normally of lyric weight and fluidity, can be pushed to a more forceful weight"
+        "definition": "A soprano whose voice, while normally of lyric weight and fluidity, can be pushed to a more forceful weight",
+        "zh": "一位女高音，其声音通常具有抒情的分量和流动性，但可以被推至更有力的分量"
     },
     "Squillo": {
         "italian": "Squillo",
         "translation": "ringing",
-        "definition": "The resonant clarity of an operatic singer's voice"
+        "definition": "The resonant clarity of an operatic singer's voice",
+        "zh": "歌剧歌手的声音洪亮而清晰"
     },
     "Tenore contraltino": {
         "italian": "Tenore contraltino",
         "translation": "",
-        "definition": "A tenor voice capable of a slightly higher range of sustainable notes than usual"
+        "definition": "A tenor voice capable of a slightly higher range of sustainable notes than usual",
+        "zh": "“浪漫”男高音：19世纪初意大利歌剧中出现的一种特殊的男高音形式，主要出现在罗西尼的曲目中，并迅速演变成现代“浪漫”男高音"
     },
     "Tenore di grazia or Leggiero tenor": {
         "italian": "Tenore di grazia or Leggiero tenor",
         "translation": "tenor of grace or lightweight tenor",
-        "definition": "A lightweight, flexible tenor voice"
+        "definition": "A lightweight, flexible tenor voice",
+        "zh": "轻盈、灵活的男高音"
     },
     "Tessitura": {
         "italian": "Tessitura",
         "translation": "texture",
-        "definition": "A singer's comfortable range"
+        "definition": "A singer's comfortable range",
+        "zh": "歌手舒适的音域"
     }
 }

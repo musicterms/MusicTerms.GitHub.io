@@ -66,6 +66,10 @@
     src: url("/fonts/SFPro.ttf");
 }
 
+* {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "San Francisco", -apple-system, BlinkMacSystemFont, sans-serif;
     user-select: none;
@@ -418,6 +422,10 @@ span.icon.file svg path {
         opacity: 1;
     }
 
+    95% {
+        opacity: 0;
+    }
+
     100% {
         opacity: 0;
     }
@@ -426,6 +434,10 @@ span.icon.file svg path {
 @keyframes page-enter {
     0% {
         transform: translateX(100%);
+    }
+
+    95% {
+        transform: translateX(0px);
     }
 
     100% {
@@ -442,6 +454,10 @@ span.icon.file svg path {
         opacity: 1;
     }
 
+    95% {
+        opacity: 1;
+    }
+
     100% {
         opacity: 1;
     }
@@ -450,6 +466,10 @@ span.icon.file svg path {
 @keyframes page-leave {
     0% {
         transform: translateX(0px);
+    }
+
+    95% {
+        transform: translateX(100%);
     }
 
     100% {

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Music Terminology</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/style.css">
     <meta property="og:title" content="AlphaBrate Music Terminology Library" />
     <meta property="og:type" content="video.movie" />
     <meta property="og:url" content="https://musicterms.github.io" />
@@ -98,7 +98,7 @@
                 style="max-height:1.5rem;max-width: 1.5rem;height: 1em!important;margin: 0!important;padding: 0;"></span><span
             style="transform: translateY(.2rem);">▼</span>
     </footer>
-    <script src="js/events.js"></script>
+    <script src="/js/events.js"></script>
     <script>
         if (document.cookie == null || document.cookie == '') {
             document.cookie = 'icon_cache_enable_switch=true;path=/';
@@ -119,14 +119,14 @@
                 e.prompt();
             }
         });
-        var supported_languages = ['en'];
+        var supported_languages = ['en', 'zh'];
         var language = navigator.language || navigator.userLanguage;
         language = language.substring(0, 2);
         if (supported_languages.indexOf(language) == -1) {
             language = 'en';
         }
         if (location.search == '?redirect=no-delay') {
-            document.location.replace(language + '.html');
+            document.location.replace('/' + language);
         }
         if (location.search.includes('add_to_home_screen')) {
             const isIos = () => {
@@ -154,7 +154,7 @@
         } else {
             document.getElementsByTagName('svg')[0].style.opacity = '0';
             setTimeout(function () {
-                document.location.replace(language + '.html');
+                document.location.replace('/' + language);
             }, 2000)
         }
     </script>

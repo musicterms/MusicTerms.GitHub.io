@@ -2,26 +2,31 @@
     "Maestro": {
         "italian": "Maestro",
         "translation": "master, teacher",
-        "definition": "Conductor, music director, music teacher; also composer and other eminent musicians and singers"
+        "definition": "Conductor, music director, music teacher; also composer and other eminent musicians and singers",
+        "zh": "指挥、音乐总监、音乐教师； 还有作曲家和其他杰出的音乐家和歌手"
     },
     "Maestro collaboratore": {
         "italian": "Maestro collaboratore",
         "translation": "collaborating master",
-        "definition": "Assistant conductor"
+        "definition": "Assistant conductor",
+        "zh": "助理指挥"
     },
     "Maestro sostituto": {
         "italian": "Maestro sostituto",
         "translation": "substitute/deputy master",
-        "definition": "Assistant conductor"
+        "definition": "Assistant conductor",
+        "zh": "助理指挥"
     },
     "Maestro suggeritore": {
         "italian": "Maestro suggeritore",
         "translation": "master suggester/prompter",
-        "definition": "Prompter"
+        "definition": "Prompter",
+        "zh": "提示器"
     },
     "Stagione": {
         "italian": "Stagione",
         "translation": "season",
-        "definition": "A variety of formal organisation of players and crew in the staging of operas"
+        "definition": "A variety of formal organisation of players and crew in the staging of operas",
+        "zh": "歌剧演出中演员和剧组的各种正式的组织"
     }
 }

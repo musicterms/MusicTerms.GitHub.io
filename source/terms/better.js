@@ -1,4 +1,6 @@
-var json = {
+// A file that combines the two json files into one
+
+var json1 = {
     "0-9": {
         "1′": "\"sifflet\" or one foot organ stop",
         "I": "usually for orchestral string instruments, used to indicate that the player should play the passage on the highest-pitched, thinnest string",
@@ -371,34 +373,247 @@ var json = {
     }
 };
 
-// make a new json
-// {'0-9': {'name': '1′', lang: 'Undefined', 'definition': 'sifflet or one foot organ stop'}}
+var json2 = {
+    "A": {
+        "absolute music": "instrumental music with no intended story (non-programmatic music)",
+        "a cappella": "choral music with no instrumental accompaniment",
+        "accelerando": "gradually speeding up the speed of the rhythmic beat",
+        "accent": "momentarily emphasizing a note with a dynamic attack",
+        "adagio": "a slow tempo",
+        "allegro": "a fast tempo",
+        "alto": "a low-ranged female voice; the second lowest instrumental range",
+        "andante": "moderate tempo (a walking speed; 'Andare' means to walk)",
+        "aria": "a beautiful manner of solo singing, accompanied by orchestra, with a steady metrical beat",
+        "art-music": "a general term used to describe the 'formal concert music' traditions of the West, as opposed to 'popular' and 'commercial music' styles.",
+        "art song": "(genre) a musical setting of artistic poetry for solo voice accompanied by piano (or orchestra)",
+        "atonality": "modern harmony that intentionally avoids a tonal center (has no apparent home key)",
+        "augmentation": "lengthening the rhythmic values of a fugal subject",
+        "avant-garde": "('at the forefront') a French term that describes highly experimental modern musical styles"
+    },
+    "B": {
+        "ballet": "(genre) a programmatic theatrical work for dancers and orchestra",
+        "bar": "a common term for a musical measure",
+        "baritone": "a moderately low male voice; in range between a tenor and a bass",
+        "Baroque Era": "c1600-1750; a musical period of extremely ornate and elaborate approaches to the arts[^16^][16]. This era saw the rise of instrumental music, the invention of the modern violin family and the creation of the first orchestras (Vivaldi, Handel, JS Bach)",
+        "bass": "the lowest male voice; (see Double Bass)",
+        "bass drum": "the lowest-sounding non-pitched percussion instrument",
+        "basso continuo": "the back-up ensemble of the Baroque Era usually comprised of a keyboard instrument (harpsichord or organ) and a melodic stringed bass instrument (viol' da gamba or cello)",
+        "bassoon": "the lowest-sounding regular instrument of the woodwind family (a double-reed instrument)",
+        "beat": "a musical pulse",
+        "bebop": "a complex, highly-improvisatory style of jazz promoted by Charlie Parker in the 1940s-50s",
+        "Big Band jazz": "see 'Swing'",
+        "binary form": "a form comprised of two distinctly opposing sections ('A' vs. 'B')",
+        "Blues": "a melancholy style of Afro-American secular music, based on a simple musical/poetic form[^25^][25]. 'Delta' blues began in the early 1900s; 'Classic' blues in the late 1920s; 'Rhythm and Blues' in the 1940s.",
+        "brass instrument": "a powerful metallic instrument with a mouthpiece and tubing that must be blown into by the player, such as trumpet, trombone, French horn, tuba, baritone, bugel"
+    },
+    "C": {
+        "cadence": "a melodic or harmonic punctuation mark at the end of a phrase, major section or entire work",
+        "cadenza": "an unaccompanied section of virtuosic display played by a soloist in a concerto",
+        "call and response": "a traditional African process in which a leader's phrase ('call') is repeatedly answered by a chorus. This process became an important aspect of many Afro-American styles.",
+        "canon": "a type of strict imitation created by strict echoing between a melodic 'leader' and subsequent 'follower(s)'",
+        "cantata": "(genre) a composition in several movements, written for chorus, soloist(s) and orchestra; traditionally, these are religious works.",
+        "cello": "the tenor-ranged instrument of the modern string family (an abbreviation for violoncello)",
+        "chamber music": "(genre) music performed by a small group of players (one player per part)",
+        "chance music": "(genre) a modern manner of composition in which some or all of the work is left to chance",
+        "chant": "(genre) a monophonic melody sung in a free rhythm (such as 'Gregorian' chant of the Roman Catholic Church)",
+        "character piece": "(genre) a 1-movement programmatic work for a solo pianist",
+        "chimes": "a percussion instrument comprised of several tube-shaped bells struck by a leather hammer",
+        "chorale": "1) a Lutheran liturgical melody; 2) a 4-part hymn-like chorale harmonization",
+        "chord": "a harmonic combination that has three or more pitches sounding simultaneously",
+        "chorus": "1) a fairly large choral group; 2) in Jazz, a single statement of the main harmonic/melody pattern",
+        "chromaticism": "1) harmonic or melodic movement by half-step intervals; 2) harmony that uses pitches beyond the central key of a work",
+        "clarinet": "the tenor-ranged instrument of the woodwind family (a single-reed instrument)",
+        "Classic Era": "c1750-1820; a politically turbulent era focused on structural unity, clarity and balance. (Haydn, Mozart, Beethoven)",
+        "coda": "(means 'tail' in Italian) a concluding section appended to the end of a work",
+        "collegium musicum": "a university ensemble dedicated to the performance of early music (pre- 1750)",
+        "computer music": "music in which the composition and/or performance is controlled by a computer",
+        "concert band": "a large (non-marching) ensemble of woodwind, brass and percussion instruments",
+        "concerto": "(genre) the general term for a multi-movement work for soloist(s) and orchestra (see 'solo concerto' and 'concerto grosso')",
+        "concerto grosso": "(genre) a 3-movement work for a small group of soloists and orchestra",
+        "conductor": "the leader of a performing group of musicians",
+        "consonance": "pleasant-sounding harmony",
+        "contrabassoon": "the lowest-sounding double-reed instrument of the woodwind family",
+        "cool jazz": "a relaxed style of modern jazz, promoted in the 1950s/60s by Brubeck etc.",
+        "cornet": "a mellow-sounding member of the trumpet family",
+        "countermelody": "a secondary melodic idea that accompanies and opposes a main thematic idea",
+        "counterpoint": "a complex polyphonic texture combining two or more independent melodies",
+        "crescendo": "gradually getting louder",
+        "cymbals": "percussion instrument usually consisting of two circular brass plates struck together as a pair"
+    },
+    "D": {
+        "decrescendo": "gradually getting softer",
+        "development": "the second section of a sonata-form movement, in which themes from the exposition are developed and the music is modulated to other keys",
+        "diminuendo": "gradually getting softer",
+        "dissonance": "unpleasant-sounding harmony",
+        "divertimento": "(genre) a light, multi-movement work for chamber ensemble or soloist, similar to the serenade and cassation",
+        "double bass": "the lowest-ranged instrument of the modern string family",
+        "double reed": "a type of mouthpiece used by the oboe and bassoon families",
+        "drum": "a percussion instrument with a membrane that is usually struck with a stick or hand",
+        "duet": "(genre) a composition for two performers of equal importance to the piece",
+        "dynamics": "the volume of sound; the loudness or softness of a musical passage"
+    },
+    "E": {
+        "elegy": "(genre) a mournful composition that evokes contemplation or sorrow",
+        "embouchure": "the position of the lips and facial muscles in playing a wind instrument",
+        "English horn": "a double-reed woodwind instrument with a range lower than that of the oboe",
+        "ensemble": "a group of musicians performing together",
+        "etude": "(genre) a composition built on a technical motive, but played for its artistic value",
+        "exposition": "the first section of a sonata-form movement, which sets up a strong conflict between the tonic key and a new key; and between the first theme (or group of themes) and the second theme (or group of themes)",
+        "expressionism": "a style of visual art and literature in Germany and Austria in the early twentieth century. The term is sometimes also applied to music, especially composers of the Second Viennese School (Schoenberg, Berg, Webern)"
+    },
+    "F": {
+        "fugue": "(genre) a composition of three, four, five parts played or sung by voices or instruments",
+        "forte": "loud",
+        "fortissimo": "very loud",
+        "french horn": "a brass instrument made of about 12–13 feet (3.7–4.0 m) of tubing wrapped into a coil with a flared bell",
+        "frequency": "the number of occurrences of a repeating event per unit of time",
+        "fugue": "(genre) a composition written systematically in imitative polyphony, usually with a single main theme, the fugue subject"
+    },
+    "G": {
+        "gavotte": "(genre) a 17th-18th century dance written in Quadruple meter",
+        "glissando": "a continuous sliding from one pitch to another (a true glissando), or an incidental scale executed while moving from one melodic note to another (an effective glissando)",
+        "grace note": "an extra note added as an embellishment and not essential to the harmony or melody",
+        "grandioso": "grand or noble style",
+        "grave": "slow and solemn",
+        "gregorian chant": "(genre) a monophonic, unaccompanied sacred song of the Roman Catholic Church",
+        "groove": "a term popularized by musicians meaning to enjoy playing together"
+    },
+    "H": {
+        "half step": "the smallest interval used in the Western system; the octave divides into 12 such intervals; on the piano, the distance between any two adjacent keys, whether black or white",
+        "harmony": "the sound resulting from the simultaneous playing of two or more notes and the technique governing the construction of such chords and their arrangement in a series",
+        "harpsichord": "a keyboard instrument, precursor of the piano, in which the strings are plucked by quills or jacks",
+        "homophony": "music in which melody and accompaniment are distinct",
+        "hymn": "(genre) a song of praise and glorification, most often to a deity"
+    },
+    "I": {
+        "impressionism": "a French movement developed by visual artists who favored vague, blurry images intended to capture an 'impression' of the subject",
+        "improvisation": "creation of a musical composition while it is being performed",
+        "interval": "the distance in pitch between two notes",
+        "intonation": "the manner in which phrases and melodies are rendered in singing; the manner in which tones are produced with regard to their pitch"
+    },
+    "J": {
+        "jazz": "(genre) a style of American modern popular music combining African and Western musical traits",
+        "jig": "(genre) a lively dance-song with a fast tempo and a complex meter",
+        "jubilus": "a joyful hymn or song of praise"
+    },
+    "K": {
+        "keyboard": "a component of many instruments including the piano, organ, and harpsichord consisting of usually black and white keys that cause different tones to be produced when struck",
+        "key signature": "the flats and sharps at the beginning of each staff line indicating the key of music the piece is to be played"
+    },
+    "L": {
+        "lament": "(genre) a song or poem expressing deep grief or mourning",
+        "leading note": "the seventh note of the diatonic scale where there is a strong desire to resolve on the tonic",
+        "libretto": "text or script of an opera, oratorio, cantata, or musical (also called the 'book' in a musical)",
+        "lied": "(genre) German for 'song'; most commonly associated with the solo art song of the 19th century, usually accompanied by piano"
+    },
+    "M": {
+        "madrigal": "(genre) a popular secular vocal music form during the Renaissance and early Baroque periods, originating from Italy",
+        "maestro": "a master in an art, especially a composer of music",
+        "major": "one of the two modes of the tonal system. Music written in major keys have a positive affirming character",
+        "march": "(genre) a piece of music designed or suited for marching",
+        "measure": "the division of beats into defined groups separated by bar lines in Western music",
+        "medley": "(genre) often used in overtures, a composition that uses passages from other movements of the composition in its entirety",
+        "melody": "a rhythmically organized sequence of single tones so related to one another as to make up a particular phrase or idea",
+        "meter": "the arrangement of rhythms in a repetitive pattern of strong and weak beats",
+        "mezzo": "the female singing voice between soprano and contralto",
+        "middle C": "the note in the middle of the musical range",
+        "minim": "a half note",
+        "minor": "one of the two modes of the tonal system. The minor mode can be identified by the dark, melancholic mood",
+        "minuet": "(genre) a slow, stately ballroom dance for two in triple time, popular especially in the 18th century",
+        "mixolydian mode": "a seven-note scale with a major third but a dominant seventh",
+        "mode": "any of various fixed orders of the various diatonic notes within an octave",
+        "modulation": "the process of changing from one key to another",
+        "motif": "a short musical idea, melodic, harmonic, rhythmic, or any combination of these three",
+        "movement": "a separate section of a larger composition",
+        "musical": "(genre) a genre of music that combines songs, spoken dialogue, acting, and dance",
+        "musicology": "the scholarly study of music"
+    },
+    "N": {
+        "natural": "a symbol in sheet music that returns a note to its original pitch after it has been augmented or diminished",
+        "neoclassical": "movement in music where the characteristics are crisp and direct",
+        "nocturne": "(genre) a musical composition that is inspired by, or evocative of, the night",
+        "nonet": "(genre) a composition for nine voices or instruments",
+        "notation": "first developed in the 8th century, methods used to write music"
+    },
+    "O": {
+        "oboe": "a double reed instrument in the woodwind family",
+        "octave": "the interval between two notes. One of the notes has twice the frequency of the other",
+        "opera": "(genre) a drama set to music, usually sung throughout, originating in 17th century Italy",
+        "operetta": "(genre) a short light musical drama",
+        "orchestra": "a large instrumental ensemble that contains sections of string, brass, woodwind, and percussion instruments",
+        "ornamentation": "the practice of adding embellishments to a basic melodic line"
+    },
+    "P": {
+        "piano": "a keyboard instrument that produces sound by striking strings with hammers",
+        "pitch": "the perceived frequency of a sound or note",
+        "pizzicato": "string performance technique where the string is plucked, not bowed",
+        "polyphony": "music with two or more independent melodies sounding at the same time",
+        "pop song": "(genre) a song that is written in a popular song format",
+        "program music": "(genre) instrumental music associated with a story or other extramusical idea",
+        "puppet opera": "(genre) a work combining puppetry and singing"
+    },
+    "Q": {
+        "quartet": "(genre) a composition for four voices or instruments",
+        "quintet": "(genre) a composition for five voices or instruments",
+        "quodlibet": "(genre) a humorous composition consisting of two or more independent and harmonically complementary melodies, usually popular tunes, performed simultaneously"
+    }, "U": {
+        "unison": "two or more voices or instruments playing the same note simultaneously",
+        "upbeat": "last beat of a measure, a weak beat, which anticipates the downbeat"
+    },
+    "V": {
+        "vamp": "to repeat measures of music until a singer or scene is ready",
+        "variation": "(genre) a form in which a theme is presented and then altered in some way—through harmony, melody, texture, dynamics, or some combination of these—in a succession of individual variations",
+        "vibrato": "creating variation pitch in a note by quickly moving the finger back and forth on the string",
+        "vocalise": "(genre) a vocal melody sung on one vowel as an exercise or as a piece of music, often without words",
+        "vocal range": "the measure of the breadth of pitches that a human voice can phonate"
+    },
+    "W": {
+        "waltz": "(genre) a dance written in triple time, where the accent falls on the first beat of each measure",
+        "whole step": "an interval consisting of two half steps",
+        "woodwind": "a family of instruments that were originally made of wood, which produce sound when the player blows air against a sharp edge or through a reed, causing the air within its resonator (usually a column of air) to vibrate"
+    },
+    "X": {
+        "xenharmonic": "pertaining to a musical scale that does not conform to the intervals of any of the standard scales"
+    },
+    "Y": {
+        "yodeling": "a form of singing that involves repeated and rapid changes of pitch"
+    },
+    "Z": {
+        "zither": "a musical instrument consisting of a flat wooden sound box with numerous strings stretched across it, placed horizontally and played with the fingers and a plectrum"
+    }
+}
 
-var newJson = {};
-var keys = Object.keys(json);
-keys.forEach(function(key) {
-    var newKey = key;
-    var value = json[key];
-    var newValues = {};
-    var valueKeys = Object.keys(value);
-    valueKeys.forEach(function(valueKey) {
-        var lang = 'Italian';
-        if (valueKey.indexOf('(Ger.)') > -1) {
-            lang = 'German';
-        } else if (valueKey.indexOf('(Fr.)') > -1) {
-            lang = 'French';
-        } else if (valueKey.indexOf('(It.)') > -1) {
-            lang = 'Italian';
-        } else if (valueKey.indexOf('(Lat.)') > -1) {
-            lang = 'Latin';
+
+
+
+let mergedJson = {...json1}; // Start with a copy of json1
+
+for (let key in json2) {
+    if (mergedJson[key]) {
+        // If the BIGTITLE already exists in json1, merge the titles
+        for (let subKey in json2[key]) {
+            mergedJson[key][subKey] = json2[key][subKey];
         }
-        newValues[valueKey] = {
-            'name': valueKey,
-            'lang': lang,
-            'definition': value[valueKey]
-        };
-    });
-    newJson[newKey] = newValues;
-});
+    } else {
+        // If the BIGTITLE does not exist in json1, just use the one from json2
+        mergedJson[key] = json2[key];
+    }
+}
 
-console.log(newJson);
+for (let key in mergedJson) {
+    for (let subKey in mergedJson[key]) {
+        // {a:b} -> {a: 'name':a, 'definition':b}
+        mergedJson[key][subKey] = {
+            name: subKey,
+            definition: mergedJson[key][subKey]
+        }
+    }
+}
+
+// sort with a-z
+for (let key in mergedJson) {
+    mergedJson[key] = Object.fromEntries(Object.entries(mergedJson[key]).sort());
+}
+
+
+console.log(mergedJson);

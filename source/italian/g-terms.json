@@ -2,251 +2,301 @@
     "Molto": {
         "italian": "Molto",
         "translation": "very; much",
-        "definition": "Comes before other terms; e.g. molto allegro (\"very cheerful\")"
+        "definition": "Comes before other terms; e.g. molto allegro (\"very cheerful\")",
+        "zh": "出现在其他术语之前； 例如 molto allegro（“非常开朗”）"
     },
     "Assai": {
         "italian": "Assai",
         "translation": "very; aplenty",
-        "definition": "Comes after other terms; e.g. allegro assai (\"very cheerful\")"
+        "definition": "Comes after other terms; e.g. allegro assai (\"very cheerful\")",
+        "zh": "出现在其他术语之后； 例如 allegro assai（“非常快乐”）"
     },
     "Più": {
         "italian": "Più",
         "translation": "more",
-        "definition": "Comes before other terms; e.g. più mosso (\"more moved/agitated\")"
+        "definition": "Comes before other terms; e.g. più mosso (\"more moved/agitated\")",
+        "zh": "出现在其他术语之前； 例如 più mosso（“更加感动/激动”）"
     },
     "Poco": {
         "italian": "Poco",
         "translation": "little",
-        "definition": "Comes before other terms; e.g. poco diminuendo (\"a little diminishing\")"
+        "definition": "Comes before other terms; e.g. poco diminuendo (\"a little diminishing\")",
+        "zh": "出现在其他术语之前； 例如 poco diminuendo（“一点点减弱”）"
     },
     "poco a poco": {
         "italian": "poco a poco",
         "translation": "little by little",
-        "definition": "\"Slowly but steadily.\" Comes before other terms; e.g. poco a poco crescendo (\"increasing little by little\")"
+        "definition": "\"Slowly but steadily.\" Comes before other terms; e.g. poco a poco crescendo (\"increasing little by little\")",
+        "zh": "“缓慢但稳定。” 出现在其他术语之前； 例如 poco a poco crescendo（“一点一点地增加”）"
     },
     "ma non tanto": {
         "italian": "ma non tanto",
         "translation": "but not so much",
-        "definition": "Comes after other terms; e.g. adagio ma non tanto (\"not quite at ease\")"
+        "definition": "Comes after other terms; e.g. adagio ma non tanto (\"not quite at ease\")",
+        "zh": "出现在其他术语之后； 例如 adagio ma non tanto（“不太放松”）"
     },
     "ma non troppo": {
         "italian": "ma non troppo",
         "translation": "but not too much",
-        "definition": "Comes after other terms; e.g. allegro ma non troppo (\"not too joyful\")"
+        "definition": "Comes after other terms; e.g. allegro ma non troppo (\"not too joyful\")",
+        "zh": "出现在其他术语之后； 例如 allegro ma non troppo（“不太快乐”）"
     },
     "Meno": {
         "italian": "Meno",
         "translation": "less",
-        "definition": "Comes before other terms, such as meno mosso (\"less moved/agitated\")"
+        "definition": "Comes before other terms, such as meno mosso (\"less moved/agitated\")",
+        "zh": "出现在其他术语之前，例如 meno mosso（“较少感动/激动”）"
     },
     "Subito": {
         "italian": "Subito",
         "translation": "suddenly, quickly",
-        "definition": "Comes before or after other terms; e.g. subito fortissimo (\"suddenly very loud\")"
+        "definition": "Comes before or after other terms; e.g. subito fortissimo (\"suddenly very loud\")",
+        "zh": "在其他术语之前或之后； 例如 subito fortissimo（“突然非常大声”）"
     },
     "A cappella": {
         "italian": "A cappella",
         "translation": "in chapel style",
-        "definition": "Sung with no (instrumental) accompaniment, has much harmonizing"
+        "definition": "Sung with no (instrumental) accompaniment, has much harmonizing",
+        "zh": "没有（乐器）伴奏的演唱，但有很多和声"
     },
     "Aria": {
         "italian": "Aria",
         "translation": "air",
-        "definition": "Piece of music, usually for a singer"
+        "definition": "Piece of music, usually for a singer",
+        "zh": "为歌手创作的一首音乐"
     },
     "Aria di sorbetto": {
         "italian": "Aria di sorbetto",
         "translation": "sorbet air",
-        "definition": "A short solo performed by a secondary character in the opera"
+        "definition": "A short solo performed by a secondary character in the opera",
+        "zh": "歌剧中次要人物表演的短独奏"
     },
     "Arietta": {
         "italian": "Arietta",
         "translation": "little air",
-        "definition": "A short or light aria"
+        "definition": "A short or light aria",
+        "zh": "短或轻的咏叹调"
     },
     "Arioso": {
         "italian": "Arioso",
         "translation": "airy",
-        "definition": "A type of solo opera or operetta"
+        "definition": "A type of solo opera or operetta",
+        "zh": "独奏歌剧或轻歌剧的一种"
     },
     "Ballabile": {
         "italian": "Ballabile",
         "translation": "danceable",
-        "definition": "(song) to be danced to"
+        "definition": "(song) to be danced to",
+        "zh": "舞曲"
     },
     "Battaglia": {
         "italian": "Battaglia",
         "translation": "battle",
-        "definition": "An instrumental or vocal piece suggesting a battle"
+        "definition": "An instrumental or vocal piece suggesting a battle",
+        "zh": "提倡战争的音乐"
     },
     "Bergamasca": {
         "italian": "Bergamasca",
         "translation": "from Bergamo",
-        "definition": "A peasant dance from Bergamo"
+        "definition": "A peasant dance from Bergamo",
+        "zh": "来自贝加莫的农民舞蹈"
     },
     "Burletta": {
         "italian": "Burletta",
         "translation": "a little joke",
-        "definition": "A light comic or farcical opera"
+        "definition": "A light comic or farcical opera",
+        "zh": "轻喜剧或闹剧"
     },
     "Cabaletta": {
         "italian": "Cabaletta",
         "translation": "from copola (couplet)",
-        "definition": "A two-part musical form"
+        "definition": "A two-part musical form",
+        "zh": "两部分的音乐形式"
     },
     "Cadenza": {
         "italian": "Cadenza",
         "translation": "falling",
-        "definition": "A florid solo at the end of a performance"
+        "definition": "A florid solo at the end of a performance",
+        "zh": "演出结束时华丽的独奏"
     },
     "Cantata": {
         "italian": "Cantata",
         "translation": "sung",
-        "definition": "A piece for orchestra and singers"
+        "definition": "A piece for orchestra and singers",
+        "zh": "为管弦乐队和歌手而作的作品"
     },
     "Capriccio": {
         "italian": "Capriccio",
         "translation": "caprice",
-        "definition": "A lively piece, free in form, often used to show musical skill"
+        "definition": "A lively piece, free in form, often used to show musical skill",
+        "zh": "形式自由，常用于展示音乐技巧"
     },
     "Cavatina": {
         "italian": "Cavatina",
         "translation": "small instrumental tone",
-        "definition": "A simple melody or song"
+        "definition": "A simple melody or song",
+        "zh": "一首简单的旋律或歌曲"
     },
     "Coda": {
         "italian": "Coda",
         "translation": "tail",
-        "definition": "The end of a piece"
+        "definition": "The end of a piece",
+        "zh": "一段（音乐）的结束"
     },
     "Concerto": {
         "italian": "Concerto",
         "translation": "concert",
-        "definition": "A work for one or more solo instruments accompanied by an orchestra"
+        "definition": "A work for one or more solo instruments accompanied by an orchestra",
+        "zh": "由管弦乐队伴奏的一首或多首独奏乐器的作品"
     },
     "Concertino": {
         "italian": "Concertino",
         "translation": "little concert",
-        "definition": "A short concerto; the solo instrument in a concerto"
+        "definition": "A short concerto; the solo instrument in a concerto",
+        "zh": "一首短协奏曲； 协奏曲中的独奏乐器"
     },
     "Concerto grosso": {
         "italian": "Concerto grosso",
         "translation": "big concert",
-        "definition": "A Baroque form of concerto, with a group of solo instruments"
+        "definition": "A Baroque form of concerto, with a group of solo instruments",
+        "zh": "巴洛克风格的协奏曲，由一组独奏乐器组成"
     },
     "Da capo aria": {
         "italian": "Da capo aria",
         "translation": "from the head aria",
-        "definition": "A three-section musical form"
+        "definition": "A three-section musical form",
+        "zh": "三段体（的音乐）"
     },
     "Dramma giocoso": {
         "italian": "Dramma giocoso",
         "translation": "jocular drama",
-        "definition": "A form of opera"
+        "definition": "A form of opera",
+        "zh": "歌剧的一种形式"
     },
     "Dramma per musica": {
         "italian": "Dramma per musica",
         "translation": "drama for music",
-        "definition": "Libretto"
+        "definition": "Libretto",
+        "zh": "歌词"
     },
     "Fantasia": {
         "italian": "Fantasia",
         "translation": "fantasy",
-        "definition": "A musical composition or “idea” typified by improvisation"
+        "definition": "A musical composition or “idea” typified by improvisation",
+        "zh": "以即兴创作为代表的音乐作品或“想法”"
     },
     "Farsa": {
         "italian": "Farsa",
         "translation": "farce",
-        "definition": "A one-act comical opera"
+        "definition": "A one-act comical opera",
+        "zh": "一部独幕喜剧"
     },
     "Festa teatrale": {
         "italian": "Festa teatrale",
         "translation": "theatrical party",
-        "definition": "A genre of opera"
+        "definition": "A genre of opera",
+        "zh": "歌剧的一种流派"
     },
     "Fioritura": {
         "italian": "Fioritura",
         "translation": "flowery",
-        "definition": "A highly embellished vocal line"
+        "definition": "A highly embellished vocal line",
+        "zh": "高度修饰的声线"
     },
     "Intermedio": {
         "italian": "Intermedio",
         "translation": "intermediate",
-        "definition": "A short connecting instrumental movement – an intermezzo"
+        "definition": "A short connecting instrumental movement – an intermezzo",
+        "zh": "间奏曲"
     },
     "Intermezzo": {
         "italian": "Intermezzo",
         "translation": "interval",
-        "definition": "A short connecting instrumental movement"
+        "definition": "A short connecting instrumental movement",
+        "zh": "简短的连接乐器的乐章"
     },
     "Libretto": {
         "italian": "Libretto",
         "translation": "little book",
-        "definition": "A work containing the words to an opera, musical, or ballet"
+        "definition": "A work containing the words to an opera, musical, or ballet",
+        "zh": "包含歌剧、音乐剧或芭蕾舞剧台词的作品"
     },
     "Melodramma": {
         "italian": "Melodramma",
         "translation": "melodrama",
-        "definition": "A style of opera"
+        "definition": "A style of opera",
+        "zh": "一种歌剧风格"
     },
     "Opera": {
         "italian": "Opera",
         "translation": "work",
-        "definition": "A drama set to music for singers and instrumentalists"
+        "definition": "A drama set to music for singers and instrumentalists",
+        "zh": "为歌手和演奏家配乐的戏剧"
     },
     "Opera buffa": {
         "italian": "Opera buffa",
         "translation": "humorous opera",
-        "definition": "A comic opera"
+        "definition": "A comic opera",
+        "zh": "一部喜歌剧"
     },
     "Opera semiseria": {
         "italian": "Opera semiseria",
         "translation": "semi-serious opera",
-        "definition": "A variety of opera"
+        "definition": "A variety of opera",
+        "zh": "各种歌剧"
     },
     "Opera seria": {
         "italian": "Opera seria",
         "translation": "serious opera",
-        "definition": "An opera with a serious, esp. classical theme"
+        "definition": "An opera with a serious, esp. classical theme",
+        "zh": "一部严肃的歌剧。尤其是古典主题"
     },
     "Operetta": {
         "italian": "Operetta",
         "translation": "little opera",
-        "definition": "A variety of light opera"
+        "definition": "A variety of light opera",
+        "zh": "各种轻歌剧"
     },
     "Oratorio": {
         "italian": "Oratorio",
         "translation": "oratory",
-        "definition": "Large musical composition for orchestra, choir, and soloists"
+        "definition": "Large musical composition for orchestra, choir, and soloists",
+        "zh": "为管弦乐队、合唱团和独奏家创作的大型音乐作品"
     },
     "Pasticcio": {
         "italian": "Pasticcio",
         "translation": "pastiche",
-        "definition": "A musical piece containing works by different composers"
+        "definition": "A musical piece containing works by different composers",
+        "zh": "包含不同作曲家作品的音乐作品"
     },
     "Ripieno concerto": {
         "italian": "Ripieno concerto",
         "translation": "padding concert",
-        "definition": "A form of Baroque concerto with no solo parts"
+        "definition": "A form of Baroque concerto with no solo parts",
+        "zh": "巴洛克协奏曲的一种形式，没有独奏部分"
     },
     "Serenata": {
         "italian": "Serenata",
         "translation": "Serenade",
-        "definition": "A song or composition in someone's honour. Originally, a musical greeting performed for a lover"
+        "definition": "A song or composition in someone's honour. Originally, a musical greeting performed for a lover",
+        "zh": "为纪念某人而创作的歌曲或作品。 原本是为恋人表演的音乐问候"
     },
     "Soggetto cavato": {
         "italian": "Soggetto cavato",
         "translation": "carved subject",
-        "definition": "A musical cryptogram, using coded syllables as a basis for the composition"
+        "definition": "A musical cryptogram, using coded syllables as a basis for the composition",
+        "zh": "音乐密码 (Musical cryptogram)，音乐密码是音乐符号的密码序列，通常可以通过音符名称和字母之间的某种“逻辑”关系来使用该序列来指代音乐外文本。"
     },
     "Sonata": {
         "italian": "Sonata",
         "translation": "sounded",
-        "definition": "A composition for one or two instruments in sonata form"
+        "definition": "A composition for one or two instruments in sonata form",
+        "zh": "为一到两种乐器创作的奏鸣曲"
     },
     "Verismo": {
         "italian": "Verismo",
         "translation": "realism",
-        "definition": "A genre of operas with scenarios based on contemporary everyday life"
+        "definition": "A genre of operas with scenarios based on contemporary everyday life",
+        "zh": "一种以当代日常生活为背景的歌剧流派"
     }
 }

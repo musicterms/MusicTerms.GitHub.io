@@ -1,5 +1,8 @@
 var currentPage = 'page-1';
 
+var language = location.href.split('/')[3];
+var is_definition_or_languge = language == 'en' ? 'definition' : language || 'definition';
+
 var lists = {
     'terms': { 'name': 'Terms', 'path': 'source/terms/source.json' },
     'criticism': { 'name': 'Criticism', 'path': 'source/italian/criticism.json' },
@@ -7,7 +10,7 @@ var lists = {
     'dynamics': { 'name': 'Dynamics', 'path': 'source/italian/dynamics.json' },
     'generalterms/words': { 'name': 'General', 'path': 'source/italian/g-terms.json' },
     'instruments': { 'name': 'Instruments', 'path': 'source/italian/instruments.json' },
-    'moods': { 'name': 'Moods', 'path': 'source/italian/moods.json' },
+    'moods/expressions': { 'name': 'Moods', 'path': 'source/italian/moods.json' },
     'patterns': { 'name': 'Patterns', 'path': 'source/italian/patterns.json' },
     'roles': { 'name': 'Roles', 'path': 'source/italian/roles.json' },
     'staging': { 'name': 'Staging', 'path': 'source/italian/staging.json' },
@@ -15,6 +18,21 @@ var lists = {
     'tempo': { 'name': 'Tempo', 'path': 'source/italian/tempo.json' },
     'voices': { 'name': 'Voices', 'path': 'source/italian/voices.json' },
     'german': { 'name': 'German', 'path': 'source/german/german.json' },
+    // zh
+    '术语': { 'name': 'Terms', 'path': 'source/terms/source.json' },
+    '评论': { 'name': 'Criticism', 'path': 'source/italian/criticism.json' },
+    '指示': { 'name': 'Directions', 'path': 'source/italian/directions.json' },
+    '力度': { 'name': 'Dynamics', 'path': 'source/italian/dynamics.json' },
+    '常用术语/词语': { 'name': 'General', 'path': 'source/italian/g-terms.json' },
+    '乐器': { 'name': 'Instruments', 'path': 'source/italian/instruments.json' },
+    '情绪/表情': { 'name': 'Moods', 'path': 'source/italian/moods.json' },
+    '模式/形态': { 'name': 'Patterns', 'path': 'source/italian/patterns.json' },
+    '角色': { 'name': 'Roles', 'path': 'source/italian/roles.json' },
+    '指挥': { 'name': 'Staging', 'path': 'source/italian/staging.json' },
+    '技巧': { 'name': 'Techniques', 'path': 'source/italian/techniques.json' },
+    '速度': { 'name': 'Tempo', 'path': 'source/italian/tempo.json' },
+    '人声': { 'name': 'Voices', 'path': 'source/italian/voices.json' },
+    '德语': { 'name': 'German', 'path': 'source/german/german.json' },
 }
 
 function addHrefHistory(page, e) {
@@ -29,6 +47,7 @@ var toDoForPages = {
         document.getElementById('nav-back-text').innerText = '';
         addHrefHistory('page-1', 'true');
         document.title = 'Music Terminology | Home';
+        try { translate(); } catch { }
     },
     'page-list-of-words': function (e) {
         document.getElementById('nav-back-text').innerText = 'Folders';
@@ -37,12 +56,13 @@ var toDoForPages = {
             addHrefHistory('page-list-of-words', e);
             document.getElementById('nav-text').innerText = lists[e].name;
             document.title = 'Music Terminology | ' + lists[e].name;;
-            fetch(lists[e].path).then(function (response) {
+            fetch('/' + lists[e].path).then(function (response) {
                 return response.json();
             }).then(function (json) {
-                if (e == 'terms') loadTerms(json);
+                if (e == 'terms' || e == '术语') loadTerms(json);
                 else loadLangWords(json);
             });
+            try { translate(); } catch { }
         } catch { }
     },
     'word-details': function (e) {
@@ -55,8 +75,9 @@ var toDoForPages = {
         if (e[0].german != void 0) word = e[0].german;
         document.getElementById('word').innerText = word;
         document.getElementById('translate').innerText = e[0].translation;
-        document.getElementById('definition').innerText = e[0].definition;
+        document.getElementById('definition').innerText = e[0][is_definition_or_languge];
         setFavoriteStar(word);
+        try { translate(); } catch { }
     },
     'term-details': function (e) {
         document.getElementById('nav-back').classList.remove('hidden');
@@ -66,10 +87,14 @@ var toDoForPages = {
         var j = JSON.parse(e[1]);
         console.log(e);
         document.getElementById('term').innerText = j.name;
-        document.getElementById('definition-of-term').innerText = j.definition.replaceAll('&#39;', "'");
+        document.getElementById('definition-of-term').innerText = j[is_definition_or_languge].replaceAll('&#39;', "'");
         setFavoriteStar(j.name);
+        try { translate(); } catch { }
     },
     'settings': function () {
+        try {
+            try { translate(); } catch { }
+        } catch { }
         document.getElementById('nav-text').innerText = 'Settings';
         document.getElementById('nav-back-text').innerText = 'Folders';
         document.getElementById('nav-back').classList.remove('hidden');
@@ -88,6 +113,7 @@ var toDoForPages = {
         results.forEach(result => {
             searchResult(result);
         });
+        try { translate(); } catch { }
     },
     'favorites': function () {
         document.getElementById('nav-text').innerText = 'Favorites';
@@ -99,6 +125,7 @@ var toDoForPages = {
         var cookies = readAllCookies();
         if (cookies.favorites == void 0 || cookies.favorites == '{}') {
             content.innerHTML = '<h1 class="center">No Favorite Items.</h1>';
+            try { translate(); } catch { }
             return;
         }
         var favorites = JSON.parse(cookies.favorites);
@@ -106,16 +133,15 @@ var toDoForPages = {
         content.innerHTML = '';
         var div = document.createElement('div');
         div.setAttribute('class', 'set');
-        console.log(favorites);
         for (var i = 0; i < keys.length; i++) {
             var span = document.createElement('span');
             span.setAttribute('class', 'folder full-width-line');
             if (favorites[keys[i]].treat_as_word) {
                 var j = favorites[keys[i]];
-                span.setAttribute('onclick', `word({"italian": "${j.term}", "translation": "${j.translation}", "definition": "${j.definition}"}, "${j.term}")`);
+                span.setAttribute('onclick', `word({"italian": "${j.term}", "translation": "${j.translation}", "definition": "${j[is_definition_or_languge]}"}, "${j.term}")`);
             } else {
                 var j = favorites[keys[i]];
-                var a = ['Favorites', JSON.stringify({ "name": j.term, "definition": j.definition })];
+                var a = ['Favorites', JSON.stringify({ "name": j.term, "definition": j[is_definition_or_languge] })];
                 span.setAttribute('onclick', `term(${JSON.stringify(a)})`);
             }
             span.innerText = keys[i];
@@ -126,6 +152,7 @@ var toDoForPages = {
         div.lastChild.classList.remove('full-width-line');
         content.appendChild(div);
         icons();
+        try { translate(); } catch { }
     }
 }
 
@@ -180,10 +207,9 @@ loadTerms = function (json) {
 var pageHistory = ['page-1'];
 
 function changePage(page, e, back = false) {
-    // to the top
-    window.scrollTo(0, 0);
     if (page == currentPage) return;
     if (document.getElementById(page) == null) return;
+    sessionStorage[`${currentPage}-scroll`] = document.documentElement.scrollTop;
     var pageElement = document.getElementById(page);
     var currentPageElement = document.getElementById(currentPage);
     currentPageElement.style.position = 'absolute';
@@ -195,10 +221,10 @@ function changePage(page, e, back = false) {
         pageElement.style.zIndex = '1';
         currentPageElement.style.zIndex = '2';
         currentPageElement.style.animation = 'page-leave 0.3s cubic-bezier(0.65, 0.8, 0.87, 0.92)';
-        pageElement.style.animation = 'page-appears 0.3s cubic-bezier(0.65, 0.8, 0.87, 0.92)';
+        pageElement.style.animation = 'page-appears 0.33s cubic-bezier(0.65, 0.8, 0.87, 0.92)';
     } else {
         currentPageElement.style.animation = 'page-left 0.3s cubic-bezier(0.65, 0.8, 0.87, 0.92)';
-        pageElement.style.animation = 'page-enter 0.3s cubic-bezier(0.65, 0.8, 0.87, 0.92)';
+        pageElement.style.animation = 'page-enter 0.33s cubic-bezier(0.65, 0.8, 0.87, 0.92)';
         currentPageElement.style.zIndex = '1';
         pageElement.style.zIndex = '2';
     }
@@ -210,7 +236,8 @@ function changePage(page, e, back = false) {
         pageElement.style.position = 'relative';
         pageElement.style.animation = '';
         currentPageElement.style.animation = '';
-    }, 300);
+        document.documentElement.scrollTop = sessionStorage[`${page}-scroll`] || 0;
+    }, 290);
     pageHistory.push(page);
     currentPage = page;
     if (toDoForPages[currentPage]) {
@@ -254,9 +281,10 @@ try {
 
 function details(term, e) {
     var parsed = JSON.parse(e);
+    console.log(parsed[1]);
     if (Object.keys(parsed).includes('italian') || Object.keys(parsed).includes('german')) {
         changePage('word-details', [parsed, term]);
-    } else if (Object.keys(parsed[1]).includes('lang')) {
+    } else if (Object.keys(parsed[1]).includes('name')) {
         changePage('term-details', ['Search', JSON.stringify(parsed[1])]);
     }
 }

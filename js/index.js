@@ -27,22 +27,27 @@ function readAllCookies() {
     return cookies_json;
 }
 
-var switches = document.getElementsByClassName('switch');
 var cookies = readAllCookies();
-for (var i = 0; i < switches.length; i++) {
-    if (cookies[switches[i].getAttribute('id')] && cookies[switches[i].getAttribute('id')] == 'true') switches[i].classList.add('checked');
-    switches[i].addEventListener('click', function (e) {
-        var switch_element = e.target;
-        var switch_class = switch_element.getAttribute('class');
-        cookies = readAllCookies();
-        if (switch_class.includes('checked')) {
-            switch_element.classList.remove('checked');
-        } else {
-            switch_element.classList.add('checked');
-        }
-    });
+
+function turnSwitches() {
+    var switches = document.getElementsByClassName('switch');
+    for (var i = 0; i < switches.length; i++) {
+        if (cookies[switches[i].getAttribute('id')] && cookies[switches[i].getAttribute('id')] == 'true') switches[i].classList.add('checked');
+        switches[i].addEventListener('click', function (e) {
+            var switch_element = e.target;
+            var switch_class = switch_element.getAttribute('class');
+            cookies = readAllCookies();
+            if (switch_class.includes('checked')) {
+                switch_element.classList.remove('checked');
+            } else {
+                switch_element.classList.add('checked');
+            }
+        });
+    }
+    addFavoriteSwitch();
 }
 
+turnSwitches();
 
 function createElementFromHTML(htmlString) {
     var div = document.createElement('div');
@@ -50,27 +55,27 @@ function createElementFromHTML(htmlString) {
     return div.firstChild;
 }
 
-document.getElementById('favorite_enable_switch').addEventListener('click', function (e) {
-    var switch_element = e.target;
-    var switch_class = switch_element.getAttribute('class');
-    if (switch_class.includes('checked')) {
-        writeCookie('favorite_enable_switch', 'true');
-        document.getElementsByClassName('star_switch_icon')[0].replaceWith(createElementFromHTML('<icon class="icon file star_switch_icon" data-icon="star_full"></icon>'))
-        document.getElementById('favorite_tip').classList.add('hidden_tip_settings');
-        document.getElementById('fav_fol').classList.remove('hidden_zone');
-        e.target.parentElement.classList.remove('line');
-    } else {
-        writeCookie('favorite_enable_switch', 'false');
-        document.getElementsByClassName('star_switch_icon')[0].replaceWith(createElementFromHTML('<icon class="icon file star_switch_icon" data-icon="star_empty"></icon>'))
-        e.target.parentElement.classList.add('line');
-        document.getElementById('favorite_tip').classList.remove('hidden_tip_settings');
-        document.getElementById('fav_fol').classList.add('hidden_zone');
-    }
-    icons();
-});
+function addFavoriteSwitch() {
+    document.getElementById('favorite_enable_switch').addEventListener('click', function (e) {
+        if (readAllCookies().favorite_enable_switch == 'true') {
+            writeCookie('favorite_enable_switch', 'true');
+            document.getElementsByClassName('star_switch_icon')[0].replaceWith(createElementFromHTML('<icon class="icon file star_switch_icon" data-icon="star_full"></icon>'))
+            document.getElementById('favorite_tip').classList.add('hidden_tip_settings');
+            document.getElementById('fav_fol').classList.remove('hidden_zone');
+            e.target.parentElement.classList.remove('line');
+        } else {
+            writeCookie('favorite_enable_switch', 'false');
+            document.getElementsByClassName('star_switch_icon')[0].replaceWith(createElementFromHTML('<icon class="icon file star_switch_icon" data-icon="star_empty"></icon>'))
+            e.target.parentElement.classList.add('line');
+            document.getElementById('favorite_tip').classList.remove('hidden_tip_settings');
+            document.getElementById('fav_fol').classList.add('hidden_zone');
+        }
+        icons();
+    });
+}
 
 function tryDelCookies() {
-    confirm(`All of your data <span class="nowrap">would NOT be saved.</span> <br>Are you sure about that?`,
+    confirm(`<span class="nowrap">All of your data</span> <span class="nowrap">would NOT be saved.</span> <br><span class="nowrap">Are you sure about that?</span>`,
         function () {
             const cookies = document.cookie.split(";");
             for (let i = 0; i < cookies.length; i++) {
@@ -115,4 +120,5 @@ function confirm(message, callback) {
             confirm_fullscreen.style.display = 'none';
         }, 1000);
     });
+    try {translate();} catch {}
 }

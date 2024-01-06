@@ -2,16 +2,19 @@
     "Bel canto": {
         "italian": "Bel canto",
         "translation": "beautiful singing",
-        "definition": "Any fine singing, esp. that popular in 18th- and 19th-century Italian opera"
+        "definition": "Any fine singing, esp. that popular in 18th- and 19th-century Italian opera",
+        "zh": "用于描述任何好听的歌声。尤其是在 18 世纪和 19 世纪的意大利歌剧中流行使用。"
     },
     "Bravura": {
         "italian": "Bravura",
         "translation": "skill",
-        "definition": "A performance of extraordinary virtuosity"
+        "definition": "A performance of extraordinary virtuosity",
+        "zh": "非凡的表演"
     },
     "Bravo": {
         "italian": "Bravo",
         "translation": "skillful",
-        "definition": "A cry of congratulation to a male singer or performer. (Masc. pl. bravi; fem. sing. brava; fem. pl. brave.) The use of ! after a written expression of \"bravo/a/i/e(!)\" strongly emphasizes it."
+        "definition": "A cry of congratulation to a male singer or performer. (Masc. pl. bravi; fem. sing. brava; fem. pl. brave.) The use of ! after a written expression of \"bravo/a/i/e(!)\" strongly emphasizes it.",
+        "zh": "对表演者表示祝贺的呼喊。"
     }
 }

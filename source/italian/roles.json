@@ -2,46 +2,55 @@
     "Banda": {
         "italian": "Banda",
         "translation": "band",
-        "definition": "Small music ensemble used as a supplement to the orchestra in an opera"
+        "definition": "Small music ensemble used as a supplement to the orchestra in an opera",
+        "zh": "歌剧中作为管弦乐队补充的小型乐团"
     },
     "Comprimario": {
         "italian": "Comprimario",
         "translation": "with the first",
-        "definition": "Supporting role"
+        "definition": "Supporting role",
+        "zh": "配角"
     },
     "Concertino": {
         "italian": "Concertino",
         "translation": "little concert",
-        "definition": "Smaller, more virtuosic group of musicians in a concerto grosso"
+        "definition": "Smaller, more virtuosic group of musicians in a concerto grosso",
+        "zh": "规模较小，但技艺精湛的音乐家团体演奏大协奏曲"
     },
     "Convenienze": {
         "italian": "Convenienze",
         "translation": "conveniences",
-        "definition": "Rules relating to the ranking of singers in opera (primo, secondo, comprimario) in 19th-century Italian opera, and the number of scenes, arias, etc. that they were entitled to expect.[2] The convenienze are referred to in the Donizetti opera Le convenienze ed inconvenienze teatrali."
+        "definition": "Rules relating to the ranking of singers in opera (primo, secondo, comprimario) in 19th-century Italian opera, and the number of scenes, arias, etc. that they were entitled to expect.[2] The convenienze are referred to in the Donizetti opera Le convenienze ed inconvenienze teatrali.",
+        "zh": "与19世纪意大利歌剧中歌剧演员的排名（primo、secondo、comprimario）有关的规则。"
     },
     "Coro": {
         "italian": "Coro",
         "translation": "choir",
-        "definition": "Ensemble of singers"
+        "definition": "Ensemble of singers",
+        "zh": "合奏或合唱"
     },
     "Diva": {
         "italian": "Diva",
         "translation": "divine one (fem.)",
-        "definition": "Leading female singer"
+        "definition": "Leading female singer",
+        "zh": "领唱的女歌手"
     },
     "Prima donna": {
         "italian": "Prima donna",
         "translation": "first lady",
-        "definition": "Leading female role"
+        "definition": "Leading female role",
+        "zh": "领奏的女音乐家"
     },
     "Primo uomo": {
         "italian": "Primo uomo",
         "translation": "first man",
-        "definition": "Leading male role"
+        "definition": "Leading male role",
+        "zh": "领奏的男音乐家"
     },
     "Ripieno": {
         "italian": "Ripieno",
         "translation": "refilling or stuffing",
-        "definition": "The larger group of musicians in a concerto grosso"
+        "definition": "The larger group of musicians in a concerto grosso",
+        "zh": "在大协奏曲中的更多的音乐家"
     }
 }

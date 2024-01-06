@@ -2,151 +2,181 @@
     "Acciaccatura": {
         "italian": "Acciaccatura",
         "translation": "crunching",
-        "definition": "An extra, very fast grace note"
+        "definition": "An extra, very fast grace note",
+        "zh": "额外的、非常快的装饰音"
     },
     "Altissimo": {
         "italian": "Altissimo",
         "translation": "very high",
-        "definition": "Very high"
+        "definition": "Very high",
+        "zh": "很高（音）"
     },
     "Appoggiatura": {
         "italian": "Appoggiatura",
         "translation": "leaning, supporting",
-        "definition": "A type of ornament that creates a \"yearning\" effect"
+        "definition": "A type of ornament that creates a \"yearning\" effect",
+        "zh": "花音"
     },
     "Arco": {
         "italian": "Arco",
         "translation": "bow",
-        "definition": "Cancels col legno and pizzicato. (In any string passage, arco is usually expected, as it is the \"default\" approach; it is only ever written at the end of col legno or pizzicato passages.)"
+        "definition": "Cancels col legno and pizzicato. (In any string passage, arco is usually expected, as it is the \"default\" approach; it is only ever written at the end of col legno or pizzicato passages.)",
+        "zh": "取消col legno（用琴弓敲击琴弦）和pizzicato（拨奏）"
     },
     "Arpeggio": {
         "italian": "Arpeggio",
         "translation": "harp-like",
-        "definition": "A chord with the notes spread out in time (rather than sounded simultaneously)"
+        "definition": "A chord with the notes spread out in time (rather than sounded simultaneously)",
+        "zh": "琶音：音符分开从下至上（或上至下）演奏（而不是同时响起）"
     },
     "Basso continuo": {
         "italian": "Basso continuo",
         "translation": "continuous bass",
-        "definition": "Continuous bass accompaniment by chordal instrument(s) and bass instrument(s) (see figured bass.)"
+        "definition": "Continuous bass accompaniment by chordal instrument(s) and bass instrument(s) (see figured bass.)",
+        "zh": "由和弦乐器和低音乐器连续低音伴奏"
     },
     "A bocca chiusa": {
         "italian": "A bocca chiusa",
         "translation": "in closed mouth",
-        "definition": "Wordless humming in a choral piece"
+        "definition": "Wordless humming in a choral piece",
+        "zh": "合唱曲中无言的哼唱（humming）"
     },
     "Chiuso": {
         "italian": "Chiuso",
         "translation": "closed",
-        "definition": "Calls for a horn to be muted by hand."
+        "definition": "Calls for a horn to be muted by hand.",
+        "zh": "要求用手将号（铜管）“静音”"
     },
     "Coloratura": {
         "italian": "Coloratura",
         "translation": "colouration",
-        "definition": "Elaborate ornamentation of a vocal line"
+        "definition": "Elaborate ornamentation of a vocal line",
+        "zh": "花腔：是一种华丽的演唱技巧，主要应用于西洋古典音乐中，以装饰音多而难度大而著名"
     },
     "Coperti": {
         "italian": "Coperti",
         "translation": "covered",
-        "definition": "Of a drum, muted with a cloth"
+        "definition": "Of a drum, muted with a cloth",
+        "zh": "用布静音鼓声"
     },
     "Una corda": {
         "italian": "Una corda",
         "translation": "one string, cord",
-        "definition": "On a piano, played with the soft pedal depressed"
+        "definition": "On a piano, played with the soft pedal depressed",
+        "zh": "在钢琴上，踩下柔音踏板进行演奏（一条弦）"
     },
     "Due corde": {
         "italian": "Due corde",
         "translation": "two strings",
-        "definition": "On a piano, played with the soft pedal depressed (For why both terms exist, see Piano#Pedals.)"
+        "definition": "On a piano, played with the soft pedal depressed (For why both terms exist, see Piano#Pedals.)",
+        "zh": "在钢琴上，半放开 / 半踩下柔音踏板进行演奏（两条弦）"
     },
     "Tre corde or tutte le corde": {
         "italian": "Tre corde or tutte le corde",
         "translation": "three strings or all the strings",
-        "definition": "Cancels una corda"
+        "definition": "Cancels una corda",
+        "zh": "取消使用一条弦：在钢琴上完全放开柔音踏板进行演奏（三条弦）"
     },
     "Glissando": {
         "italian": "Glissando",
         "translation": "gliding, glossing",
-        "definition": "A sweeping glide from one pitch to another used for dramatic effect"
+        "definition": "A sweeping glide from one pitch to another used for dramatic effect",
+        "zh": "从一个音到另一个音快速滑行，用于产生戏剧性的感觉"
     },
     "Legato": {
         "italian": "Legato",
         "translation": "tied",
-        "definition": "A series of notes played with a smooth connection between them"
+        "definition": "A series of notes played with a smooth connection between them",
+        "zh": "流畅：一系列音符之间的流畅连接演奏"
     },
     "Col legno": {
         "italian": "Col legno",
         "translation": "with the wood",
-        "definition": "Calls for a bowed instrument's strings to be struck with the wood of the bow (rather than drawn across with the hair of the bow)."
+        "definition": "Calls for a bowed instrument's strings to be struck with the wood of the bow (rather than drawn across with the hair of the bow).",
+        "zh": "用琴弓敲击琴弦"
     },
     "Martellato": {
         "italian": "Martellato",
         "translation": "hammered",
-        "definition": "Of notes, strongly accented and detached"
+        "definition": "Of notes, strongly accented and detached",
+        "zh": "大声演奏"
     },
     "Pizzicato": {
         "italian": "Pizzicato",
         "translation": "pinched, plucked",
-        "definition": "Calls for a bowed instrument's strings to be plucked with the fingers."
+        "definition": "Calls for a bowed instrument's strings to be plucked with the fingers.",
+        "zh": "拨奏：要求用手指拨动弓形乐器的琴弦"
     },
     "Portamento": {
         "italian": "Portamento",
         "translation": "carrying",
-        "definition": "Playing with a sliding of pitch between two notes"
+        "definition": "Playing with a sliding of pitch between two notes",
+        "zh": "滑音：在两个音符之间滑动（同根琴弦上滑动）进行演奏"
     },
     "Portato": {
         "italian": "Portato",
         "translation": "carried",
-        "definition": "Played in a style between staccato and legato"
+        "definition": "Played in a style between staccato and legato",
+        "zh": "演奏风格介于断奏和连奏之间"
     },
     "Sforzando": {
         "italian": "Sforzando",
         "translation": "forcing",
-        "definition": "Playing with strong, marked emphasis"
+        "definition": "Playing with strong, marked emphasis",
+        "zh": "演奏时有强烈、明显的强调"
     },
     "Scordatura": {
         "italian": "Scordatura",
         "translation": "discord",
-        "definition": "Alternate tuning (of strings)"
+        "definition": "Alternate tuning (of strings)",
+        "zh": "（弦乐）调音"
     },
     "Con sordino": {
         "italian": "Con sordino",
         "translation": "with sourdine (mute)",
-        "definition": "With mute applied, esp. to string instruments"
+        "definition": "With mute applied, esp. to string instruments",
+        "zh": "应用静音器"
     },
     "Senza sordino": {
         "italian": "Senza sordino",
         "translation": "without sourdine (mute)",
-        "definition": "With mute removed"
+        "definition": "With mute removed",
+        "zh": "取消静音器"
     },
     "Spiccato": {
         "italian": "Spiccato",
         "translation": "separated, distinct; standing out",
-        "definition": "With a stringed instrument, played by bouncing the bow lightly on the strings"
+        "definition": "With a stringed instrument, played by bouncing the bow lightly on the strings",
+        "zh": "跳弓：在琴弦上轻轻演奏"
     },
     "Staccato": {
         "italian": "Staccato",
         "translation": "detached",
-        "definition": "A form of musical articulation in which notes are distinct and separated from each other by short gaps"
+        "definition": "A form of musical articulation in which notes are distinct and separated from each other by short gaps",
+        "zh": "跳音：一种音乐发音形式，其中音符清晰且彼此间隔较短"
     },
     "Staccatissimo": {
         "italian": "Staccatissimo",
         "translation": "very detached",
-        "definition": "Forcefully exaggerated staccato"
+        "definition": "Forcefully exaggerated staccato",
+        "zh": "短跳音：夸张的断奏"
     },
     "Tutti": {
         "italian": "Tutti",
         "translation": "all",
-        "definition": "Played or sung by the entire ensemble, rather than by just a soloist or principal player"
+        "definition": "Played or sung by the entire ensemble, rather than by just a soloist or principal player",
+        "zh": "由整个乐团演奏或演唱，而不仅仅是独奏者或主要演奏者"
     },
     "Vibrato": {
         "italian": "Vibrato",
         "translation": "vibrating",
-        "definition": "Played with rapid repetitive variation or undulation in pitch"
+        "definition": "Played with rapid repetitive variation or undulation in pitch",
+        "zh": "振音（颤音，但不是Thrill）：以快速重复的音调变化或波动进行演奏（弦乐器主要是借由手指在弦上的揉动；声乐和管乐亦能使用）"
     },
     "Colla voce": {
         "italian": "Colla voce",
         "translation": "with the voice",
-        "definition": "(For accompanists) In time with the singer's text, especially when slowing for textual effect"
+        "definition": "(For accompanists) In time with the singer's text, especially when slowing for textual effect",
+        "zh": "（对于伴奏者）与歌手的歌词同步，尤其是为了效果放慢速度时"
     }
 }

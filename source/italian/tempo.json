@@ -2,156 +2,187 @@
     "Accelerando": {
         "italian": "Accelerando",
         "translation": "accelerating",
-        "definition": "Accelerating"
+        "definition": "Accelerating",
+        "zh": "加速、变快"
     },
     "Accompagnato": {
         "italian": "Accompagnato",
         "translation": "accompanied",
-        "definition": "The accompaniment must follow the singer who can speed up or slow down at will."
+        "definition": "The accompaniment must follow the singer who can speed up or slow down at will.",
+        "zh": "伴奏要和歌手的演唱一起加快或减慢。"
     },
     "Adagio": {
         "italian": "Adagio",
         "translation": "ad agio, at ease",
-        "definition": "Slow and easy (but not as slow as largo)"
+        "definition": "Slow and easy (but not as slow as largo)",
+        "zh": "慢板：缓慢而简单（但不像largo那么慢）"
     },
     "Adagietto": {
         "italian": "Adagietto",
         "translation": "a bit at ease",
-        "definition": "1. Slightly less easy than adagio (so slightly faster); 2. a short adagio composition"
+        "definition": "1. Slightly less easy than adagio (so slightly faster); 2. a short adagio composition",
+        "zh": "稍慢板：比慢板稍微简单一点（所以稍微快一些）"
     },
     "Affrettando": {
         "italian": "Affrettando",
         "translation": "becoming hurried",
-        "definition": "Accelerating"
+        "definition": "Accelerating",
+        "zh": "速度转快"
     },
     "Alla marcia": {
         "italian": "Alla marcia",
         "translation": "as a march",
-        "definition": "In strict tempo at a marching pace (e.g. 120 BPM)"
+        "definition": "In strict tempo at a marching pace (e.g. 120 BPM)",
+        "zh": "进行曲风格：以庄严的速度进行（例如 120 BPM）"
     },
     "Allargando": {
         "italian": "Allargando",
         "translation": "broadening",
-        "definition": "Slowing down and broadening; becoming more stately and majestic, possibly louder"
+        "definition": "Slowing down and broadening; becoming more stately and majestic, possibly louder",
+        "zh": "逐渐减慢并转强的"
     },
     "Allegro": {
         "italian": "Allegro",
         "translation": "joyful; lively and fast",
-        "definition": "Joyful; moderately fast tempo"
+        "definition": "Joyful; moderately fast tempo",
+        "zh": "快板; 中等快的速度"
     },
     "Allegretto": {
         "italian": "Allegretto",
         "translation": "a little bit joyful",
-        "definition": "Slightly less joyful than allegro (so slightly slower tempo)"
+        "definition": "Slightly less joyful than allegro (so slightly slower tempo)",
+        "zh": "小快板：比快板稍微不那么快乐（所以节奏稍慢）"
     },
     "Andante": {
         "italian": "Andante",
         "translation": "walking",
-        "definition": "At a walking pace; flowing; moderately slow tempo"
+        "definition": "At a walking pace; flowing; moderately slow tempo",
+        "zh": "行板：以步行的速度；节奏适度缓慢"
     },
     "Andantino": {
         "italian": "Andantino",
         "translation": "a little bit walking",
-        "definition": "Less of a walking pace than andante (so slightly quicker)"
+        "definition": "Less of a walking pace than andante (so slightly quicker)",
+        "zh": "小行板：步行速度比行板慢（所以稍微快一些）"
     },
     "A tempo": {
         "italian": "A tempo",
         "translation": "to time",
-        "definition": "Return to previous tempo"
+        "definition": "Return to previous tempo",
+        "zh": "返回之前的速度（初始速度）"
     },
     "Fermata": {
         "italian": "Fermata",
         "translation": "held, stopped, orig. Latin firmo \"make firm, fortify\"",
-        "definition": "Holding or sustaining a note"
+        "definition": "Holding or sustaining a note",
+        "zh": "保持或维持一个音符"
     },
     "Grave": {
         "italian": "Grave",
         "translation": "grave, solemn",
-        "definition": "Slow and solemn tempo (slower than largo)"
+        "definition": "Slow and solemn tempo (slower than largo)",
+        "zh": "庄板：缓慢而庄严的速度（比慢板慢）"
     },
     "Largo": {
         "italian": "Largo",
         "translation": "broad",
-        "definition": "Slow and dignified tempo"
+        "definition": "Slow and dignified tempo",
+        "zh": "广板：速度缓慢而凝重"
     },
     "Largamente": {
         "italian": "Largamente",
         "translation": "broadly",
-        "definition": "Slow and dignified tempo"
+        "definition": "Slow and dignified tempo",
+        "zh": "寬廣的：速度缓慢而凝重"
     },
     "Larghetto": {
         "italian": "Larghetto",
         "translation": "broad-ish",
-        "definition": "Slightly less dignified than largo (so slightly faster tempo)"
+        "definition": "Slightly less dignified than largo (so slightly faster tempo)",
+        "zh": "小广板：比 largo 稍微不那么端庄（所以节奏稍快一些）"
     },
     "Lento": {
         "italian": "Lento",
         "translation": "slow",
-        "definition": "Slow tempo"
+        "definition": "Slow tempo",
+        "zh": "缓板：速度慢"
     },
     "Lentando": {
         "italian": "Lentando",
         "translation": "slowing",
-        "definition": "Decelerating, slowing down"
+        "definition": "Decelerating, slowing down",
+        "zh": "漸慢地"
     },
     "L'istesso tempo": {
         "italian": "L'istesso tempo",
         "translation": "the same time",
-        "definition": "At the same tempo"
+        "definition": "At the same tempo",
+        "zh": "以同样的速度"
     },
     "Moderato": {
         "italian": "Moderato",
         "translation": "moderate",
-        "definition": "Moderate tempo"
+        "definition": "Moderate tempo",
+        "zh": "中板：速度适中"
     },
     "Mosso": {
         "italian": "Mosso",
         "translation": "moved, agitated",
-        "definition": "Agitated"
+        "definition": "Agitated",
+        "zh": "快一点、慢一点"
     },
     "Presto": {
         "italian": "Presto",
         "translation": "prompt, quick; ready for action",
-        "definition": "Very fast"
+        "definition": "Very fast",
+        "zh": "急板：非常快"
     },
     "Prestissimo": {
         "italian": "Prestissimo",
         "translation": "very prompt, very quick",
-        "definition": "Very very fast (above 200 BPM)"
+        "definition": "Very very fast (above 200 BPM)",
+        "zh": "最急板：非常非常快（超过 200 BPM）"
     },
     "Rallentando": {
         "italian": "Rallentando",
         "translation": "slowing down",
-        "definition": "Decelerating"
+        "definition": "Decelerating",
+        "zh": "漸慢"
     },
     "Ritardando": {
         "italian": "Ritardando",
         "translation": "retarding",
-        "definition": "Decelerating"
+        "definition": "Decelerating",
+        "zh": "漸慢"
     },
     "Tardo": {
         "italian": "Tardo",
         "translation": "slow, tardy",
-        "definition": "Slow tempo"
+        "definition": "Slow tempo",
+        "zh": "缓慢的"
     },
     "Tempo": {
         "italian": "Tempo",
         "translation": "time",
-        "definition": "The speed of music; e.g. 120 BPM (beats per minute)"
+        "definition": "The speed of music; e.g. 120 BPM (beats per minute)",
+        "zh": "音乐的速度； 例如 120 BPM（每分钟节拍）"
     },
     "(Tempo) rubato": {
         "italian": "(Tempo) rubato",
         "translation": "robbed",
-        "definition": "Free flowing and exempt from steady rhythm"
+        "definition": "Free flowing and exempt from steady rhythm",
+        "zh": "伸缩处理：由独奏者或指挥者自行决定的表达和节奏自由度的轻微加快然后减慢。"
     },
     "Tenuto": {
         "italian": "Tenuto",
         "translation": "sustained",
-        "definition": "Holding or sustaining a single note"
+        "definition": "Holding or sustaining a single note",
+        "zh": "保持或维持单个音符"
     },
     "Vivace": {
         "italian": "Vivace",
         "translation": "vivacious",
-        "definition": "Fast and lively tempo (quicker than allegro)"
+        "definition": "Fast and lively tempo (quicker than allegro)",
+        "zh": "活泼的"
     }
 }

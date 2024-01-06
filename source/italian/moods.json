@@ -2,191 +2,229 @@
     "Affettuoso": {
         "italian": "Affettuoso",
         "translation": "with feeling",
-        "definition": "Tenderly"
+        "definition": "Tenderly",
+        "zh": "温柔地"
     },
     "Agitato": {
         "italian": "Agitato",
         "translation": "agitated, moved",
-        "definition": "Excited and fast"
+        "definition": "Excited and fast",
+        "zh": "兴奋而快速"
     },
     "Animato": {
         "italian": "Animato",
         "translation": "animated",
-        "definition": "Animated, fast"
+        "definition": "Animated, fast",
+        "zh": "快速地"
     },
     "Brillante": {
         "italian": "Brillante",
         "translation": "brilliant",
-        "definition": "Brilliant, radiant, bright"
+        "definition": "Brilliant, radiant, bright",
+        "zh": "辉煌的、容光焕发的、明亮的"
     },
     "Bruscamente": {
         "italian": "Bruscamente",
         "translation": "brusquely",
-        "definition": "Brusquely – abruptly"
+        "definition": "Brusquely – abruptly",
+        "zh": "粗暴地、突然地"
     },
     "Cantabile": {
         "italian": "Cantabile",
         "translation": "singable",
-        "definition": "In a singing style"
+        "definition": "In a singing style",
+        "zh": "以歌唱风格"
     },
     "Colossale": {
         "italian": "Colossale",
         "translation": "colossal",
-        "definition": "In a fashion which suggests immensity"
+        "definition": "In a fashion which suggests immensity",
+        "zh": "巨大、庞大的"
     },
     "Comodo": {
         "italian": "Comodo",
         "translation": "convenient",
-        "definition": "Comfortably, moderately"
+        "definition": "Comfortably, moderately",
+        "zh": "舒适、适度"
     },
     "Con amore": {
         "italian": "Con amore",
         "translation": "with love",
-        "definition": "With love"
+        "definition": "With love",
+        "zh": "有爱"
     },
     "Con brio": {
         "italian": "Con brio",
         "translation": "with power",
-        "definition": "With vigour"
+        "definition": "With vigour",
+        "zh": "充满活力"
     },
     "Con fuoco": {
         "italian": "Con fuoco",
         "translation": "with fire",
-        "definition": "With fiery manner, hasty, powerful"
+        "definition": "With fiery manner, hasty, powerful",
+        "zh": "态度火热、仓促、有力"
     },
     "Con moto": {
         "italian": "Con moto",
         "translation": "with movement",
-        "definition": "With movement, with energy, spirited"
+        "definition": "With movement, with energy, spirited",
+        "zh": "有动感、有活力、有活力"
     },
     "Con spirito": {
         "italian": "Con spirito",
         "translation": "with spirit",
-        "definition": "With spirit"
+        "definition": "With spirit",
+        "zh": "有精神"
     },
     "Dolce": {
         "italian": "Dolce",
         "translation": "sweet",
-        "definition": "Softly, sweetly"
+        "definition": "Softly, sweetly",
+        "zh": "温柔地、甜蜜地"
     },
     "Drammatico": {
         "italian": "Drammatico",
         "translation": "dramatic",
-        "definition": "Dramatic"
+        "definition": "Dramatic",
+        "zh": "戏剧性"
     },
     "Espressivo": {
         "italian": "Espressivo",
         "translation": "expressive",
-        "definition": "Expressive"
+        "definition": "Expressive",
+        "zh": "富有表现力"
     },
     "Feroce": {
         "italian": "Feroce",
         "translation": "ferocious",
-        "definition": "Fierce, heavy"
+        "definition": "Fierce, heavy",
+        "zh": "猛烈、沉重"
     },
     "Festoso": {
         "italian": "Festoso",
         "translation": "happy",
-        "definition": "festive, jolly"
+        "definition": "festive, jolly",
+        "zh": "喜庆的，欢乐的"
     },
     "Furioso": {
         "italian": "Furioso",
         "translation": "furious",
-        "definition": "Angry, hasty"
+        "definition": "Angry, hasty",
+        "zh": "生气、急躁"
     },
     "Giocoso": {
         "italian": "Giocoso",
         "translation": "playful",
-        "definition": "Merry, spirited, playful"
+        "definition": "Merry, spirited, playful",
+        "zh": "快乐、活泼、顽皮"
     },
     "Grandioso": {
         "italian": "Grandioso",
         "translation": "great, grandiose",
-        "definition": "Broad, noble, great"
+        "definition": "Broad, noble, great",
+        "zh": "宽广、高贵、伟大"
     },
     "Grazioso": {
         "italian": "Grazioso",
         "translation": "gracious, graceful",
-        "definition": "Graceful or charming"
+        "definition": "Graceful or charming",
+        "zh": "或优雅或迷人"
     },
     "Lacrimoso": {
         "italian": "Lacrimoso",
         "translation": "lachrymose, teary",
-        "definition": "Tearfully, sadly"
+        "definition": "Tearfully, sadly",
+        "zh": "含泪、悲伤"
     },
     "Lamentoso": {
         "italian": "Lamentoso",
         "translation": "Plaintively, Sadly",
-        "definition": "Mournfully, Sorrowly"
+        "definition": "Mournfully, Sorrowly",
+        "zh": "悲痛地、悲伤地"
     },
     "Maestoso": {
         "italian": "Maestoso",
         "translation": "majestic",
-        "definition": "Stately, broad"
+        "definition": "Stately, broad",
+        "zh": "庄严、宽阔"
     },
     "Misterioso": {
         "italian": "Misterioso",
         "translation": "mysterious",
-        "definition": "Mysteriously, secretively, enigmatic"
+        "definition": "Mysteriously, secretively, enigmatic",
+        "zh": "神秘的、隐秘的、神秘的"
     },
     "Morendo": {
         "italian": "Morendo",
         "translation": "dying",
-        "definition": "Dying away"
+        "definition": "Dying away",
+        "zh": "消逝"
     },
     "Pesante": {
         "italian": "Pesante",
         "translation": "heavy",
-        "definition": "Heavy, slowly, weightily"
+        "definition": "Heavy, slowly, weightily",
+        "zh": "沉重、缓慢、沉重"
     },
     "Risoluto": {
         "italian": "Risoluto",
         "translation": "resolved",
-        "definition": "Resolved, decisive"
+        "definition": "Resolved, decisive",
+        "zh": "下定决心，果断"
     },
     "Scherzando": {
         "italian": "Scherzando",
         "translation": "playful, joking",
-        "definition": "Playful, joking"
+        "definition": "Playful, joking",
+        "zh": "如开玩笑般"
     },
     "Solitario": {
         "italian": "Solitario",
         "translation": "lonely",
-        "definition": "Lonely, alone"
+        "definition": "Lonely, alone",
+        "zh": "如独自孤单般"
     },
     "Sotto (voce)": {
         "italian": "Sotto (voce)",
         "translation": "under-voice, subdued (voice)",
-        "definition": "Subdued, hushed"
+        "definition": "Subdued, hushed",
+        "zh": "柔和、安静"
     },
     "Sonore": {
         "italian": "Sonore",
         "translation": "loud, resonant",
-        "definition": "Full, broad"
+        "definition": "Full, broad",
+        "zh": "饱满、宽广"
     },
     "Semplicemente": {
         "italian": "Semplicemente",
         "translation": "simply",
-        "definition": "Simply"
+        "definition": "Simply",
+        "zh": "简单地"
     },
     "Slancio": {
         "italian": "Slancio",
         "translation": "passionately hurl or fling; lance",
-        "definition": "Enthusiastic"
+        "definition": "Enthusiastic",
+        "zh": "热情的"
     },
     "Tranquillo": {
         "italian": "Tranquillo",
         "translation": "calm, tranquil",
-        "definition": "Calm, soft, peaceful"
+        "definition": "Calm, soft, peaceful",
+        "zh": "平静、柔和、平和"
     },
     "Vivace": {
         "italian": "Vivace",
         "translation": "vivacious",
-        "definition": "Up-tempo, lively"
+        "definition": "Up-tempo, lively",
+        "zh": "节奏明快、活泼"
     },
     "Volante": {
         "italian": "Volante",
         "translation": "flying",
-        "definition": "speedy but light"
+        "definition": "speedy but light",
+        "zh": "快速但轻巧"
     }
 }

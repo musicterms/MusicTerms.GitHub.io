@@ -4,7 +4,7 @@ let data = {};
 
 async function preloadData() {
     for (let key in path_list) {
-        let response = await fetch(path_list[key]['path']);
+        let response = await fetch('/' + path_list[key]['path']);
         data[key] = await response.json();
     }
 }
@@ -16,11 +16,13 @@ async function search(input) {
 
     let results = [];
     for (let key in data) {
-        if (key=='terms') {
+
+        console.log(key);
+        if (key == 'terms' || key == '术语') {
             for (let category in data[key]) {
                 for (let term in data[key][category]) {
                     if (term.toLowerCase().includes(input)) {
-                        results.push({ term: term, e: JSON.stringify([category,data[key][category][term]]) });
+                        results.push({ term: term, e: JSON.stringify([category, data[key][category][term]]) });
                     }
                 }
             }

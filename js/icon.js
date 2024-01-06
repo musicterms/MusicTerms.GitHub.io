@@ -10,7 +10,7 @@ async function icons() {
     var icon_element = icon_holders[0];
     var icon_parent = icon_element.parentElement;
     if (loaded_icons[icon] == void 0) {
-        await fetch(`icons/${icon}.svg`)
+        await fetch(`/icons/${icon}.svg`)
             .then(response => response.text())
             .then(svg => {
                 var span = document.createElement('span');
@@ -36,7 +36,7 @@ icons();
 
 function preloadIcon(icon) {
     if (loaded_icons[icon] == void 0) {
-        fetch(`icons/${icon}.svg`)
+        fetch(`/icons/${icon}.svg`)
             .then(response => response.text())
             .then(svg => {
                 loaded_icons[icon] = svg;
