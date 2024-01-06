@@ -9,8 +9,7 @@
 
 <p align="center">
   <a href="https://github.com/musicterms/musicterms.github.io">
-    <img src="https://musicterms.github.io
-/icon-smooth.png" alt="Logo" width="80" height="80">
+    <img src="https://musicterms.github.io/icon-smooth.png" alt="Logo" width="80" height="80">
   </a>
   <h3 align="center">AlphaBrate音乐术语词典</h3>
   <p align="center">
