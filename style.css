@@ -344,12 +344,19 @@ svg path {
     overflow: hidden;
 }
 
+.icon {
+    transition: opacity .1s;
+}
+
 span.icon.file {
     padding: 0;
     height: 1.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
+    color: var(--functional-color);
+    font-weight: bold;
+    font-size: .8rem;
 }
 
 span.icon.file svg,
@@ -375,6 +382,11 @@ span.icon.file svg path {
 
 .hidden {
     opacity: 0;
+}
+
+#lang {
+    transform: translate(-.5rem, .05rem);
+    color: var(--font-color-gray);
 }
 
 .removed {
@@ -410,6 +422,24 @@ span.icon.file svg path {
         fill: var(--color-grey-dark);
         height: 1.2rem;
         width: 1.2rem;
+    }
+}
+
+.icon.option {
+    right: 0;
+    padding: .5rem;
+    padding-left: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    height: 1.4rem;
+    width: 1.4rem;
+
+    path {
+        fill: var(--functional-color);
+        height: 1.4rem;
+        width: 1.4rem;
     }
 }
 

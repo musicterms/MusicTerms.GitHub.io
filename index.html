@@ -100,11 +100,6 @@
     </footer>
     <script src="/js/events.js"></script>
     <script>
-        if (document.cookie == null || document.cookie == '') {
-            document.cookie = 'icon_cache_enable_switch=true;path=/';
-            document.cookie = 'data_cache_enable_switch=true;path=/';
-            document.cookie = 'locaion_save_enable_switch=true;path=/';
-        }
         var nav_bar_color = getComputedStyle(document.documentElement).getPropertyValue('--background-color');
         var meta = document.createElement('meta');
         meta.setAttribute('name', 'theme-color');
@@ -124,6 +119,14 @@
         language = language.substring(0, 2);
         if (supported_languages.indexOf(language) == -1) {
             language = 'en';
+        }
+        // get localstorage
+        var localstorage = window.localStorage;
+        var localstorage_language = localstorage.getItem('language');
+        if (localstorage_language == null) {
+            localstorage.setItem('language', language);
+        } else {
+            language = localstorage_language;
         }
         if (location.search == '?redirect=no-delay') {
             document.location.replace('/' + language);

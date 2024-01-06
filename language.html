@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Terminology | Language</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.png" type="image/png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+</head>
+
+<body>
+    <nav>
+        <span class="nav-arrow-back" id="nav-back" onclick="history.back()">
+            <icon data-icon="arrow_back_ios"></icon>
+            <font id="nav-back-text"></font>
+        </span>
+        <font id="nav-text">Set Language</font>
+    </nav>
+    <div class="page" id="page-1">
+        <div class="content">
+            <div class="set">
+                <span class="folder line" id="en" onclick="language(this.id)">
+                    <span class="icon file">EN</span>
+                    <span>English - US / UK</span>
+                    <icon data-icon="tick" class="icon option hidden"></icon>
+                </span>
+                <span class="folder" id="zh" onclick="language(this.id)">
+                    <span class="icon file">ZH</span>
+                    <span>中文 - 中国</span>
+                    <icon data-icon="tick" class="icon option hidden"></icon>
+                </span>
+
+            </div>
+        </div>
+    </div>
+    <script src="/js/index.js"></script>
+    <script src="/js/events.js"></script>
+    <script src="/js/icon.js"></script>
+    <script>
+        var localstorage = window.localStorage;
+        var lang = localstorage.getItem('language');
+        if (lang == null) {
+            lang = 'en';
+        }
+        document.getElementById(lang).getElementsByClassName('option')[0].classList.remove('hidden');
+        function language(l) {
+            for (var i = 0; i < document.getElementsByClassName('option').length; i++) {
+                document.getElementsByClassName('option')[i].classList.add('hidden');
+            }
+            document.getElementById(l).getElementsByClassName('option')[0].classList.remove('hidden');
+            localstorage.setItem('language', l);
+            document.getElementById('nav-back').onclick = function () { top.location = '/'; }
+        }
+    </script>
+</body>
+
+</html>
