@@ -13,30 +13,30 @@ for (var i = 0; i < content.length; i++) {
     content[i].style.marginTop = nav_bar_height + 25 + 'px';
 }
 
-function writeCookie(name, value) {
-    document.cookie = `${name}=${value};path=/`;
+function writeStorage(name, value) {
+    window.localStorage.setItem(name, value);
 }
 
-function readAllCookies() {
-    var cookies = document.cookie.split(';');
-    var cookies_json = {};
-    for (var i = 0; i < cookies.length; i++) {
-        var cookie = cookies[i].split('=');
-        cookies_json[cookie[0].replaceAll(' ', '')] = cookie[1];
+function readAllStorage() {
+    var storage_json = {};
+    for (var i = 0; i < window.localStorage.length; i++) {
+        var key = window.localStorage.key(i);
+        storage_json[key] = window.localStorage.getItem(key);
     }
-    return cookies_json;
+    return storage_json;
+    
 }
 
-var cookies = readAllCookies();
+var storages = readAllStorage();
 
 function turnSwitches() {
     var switches = document.getElementsByClassName('switch');
     for (var i = 0; i < switches.length; i++) {
-        if (cookies[switches[i].getAttribute('id')] && cookies[switches[i].getAttribute('id')] == 'true') switches[i].classList.add('checked');
+        if (storages[switches[i].getAttribute('id')] && storages[switches[i].getAttribute('id')] == 'true') switches[i].classList.add('checked');
         switches[i].addEventListener('click', function (e) {
             var switch_element = e.target;
             var switch_class = switch_element.getAttribute('class');
-            cookies = readAllCookies();
+            storages = readAllStorage();
             if (switch_class.includes('checked')) {
                 switch_element.classList.remove('checked');
             } else {
@@ -57,14 +57,14 @@ function createElementFromHTML(htmlString) {
 
 function addFavoriteSwitch() {
     document.getElementById('favorite_enable_switch').addEventListener('click', function (e) {
-        if (readAllCookies().favorite_enable_switch == 'true') {
-            writeCookie('favorite_enable_switch', 'true');
+        if (readAllStorage().favorite_enable_switch == 'true') {
+            writeStorage('favorite_enable_switch', 'true');
             document.getElementsByClassName('star_switch_icon')[0].replaceWith(createElementFromHTML('<icon class="icon file star_switch_icon" data-icon="star_full"></icon>'))
             document.getElementById('favorite_tip').classList.add('hidden_tip_settings');
             document.getElementById('fav_fol').classList.remove('hidden_zone');
             e.target.parentElement.classList.remove('line');
         } else {
-            writeCookie('favorite_enable_switch', 'false');
+            writeStorage('favorite_enable_switch', 'false');
             document.getElementsByClassName('star_switch_icon')[0].replaceWith(createElementFromHTML('<icon class="icon file star_switch_icon" data-icon="star_empty"></icon>'))
             e.target.parentElement.classList.add('line');
             document.getElementById('favorite_tip').classList.remove('hidden_tip_settings');
@@ -77,13 +77,6 @@ function addFavoriteSwitch() {
 function tryDelCookies() {
     confirm(`Reset All`, `All your data will be deleted.`,
         function () {
-            const cookies = document.cookie.split(";");
-            for (let i = 0; i < cookies.length; i++) {
-                const cookie = cookies[i];
-                const eqPos = cookie.indexOf("=");
-                const name = eqPos > -1 ? cookie.substr(0, eqPos) : cookie;
-                document.cookie = name + "=;expires=Thu, 01 Jan 1970 00:00:00 GMT";
-            }
             window.localStorage.clear();
             var settings = document.getElementById('settings');
             sets = settings.getElementsByClassName('set');

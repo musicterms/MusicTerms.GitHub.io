@@ -17,13 +17,11 @@ async function preloadData() {
 
 async function search(input) {
     input = input.toLowerCase();
-    if (cookies.data_cache_enable_switch == 'false') data = {};
+    if (storages.data_cache_enable_switch == 'false') data = {};
     if (Object.keys(data).length === 0) await preloadData();
 
     let results = [];
     for (let key in data) {
-
-        console.log(key);
         if (key == 'terms' || key == '术语') {
             for (let category in data[key]) {
                 for (let term in data[key][category]) {
@@ -90,7 +88,7 @@ document.getElementById('search-input').addEventListener('input', async function
 var element_star_icon_full = createElementFromHTML('<icon class="icon file star_switch_icon" data-icon="star_full"></icon>');
 var element_star_icon_empty = createElementFromHTML('<icon class="icon file star_switch_icon" data-icon="star_empty"></icon>');
 
-if (cookies.favorite_enable_switch == 'true') {
+if (storages.favorite_enable_switch == 'true') {
     document.getElementsByClassName('star_switch_icon')[0].replaceWith(element_star_icon_full);
     preloadIcon('star_empty');
 } else {

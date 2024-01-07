@@ -27,12 +27,12 @@ for (let i = 0; i < favorite_stars.length; i++) {
             var definition = content.getElementsByTagName('p')[0].innerText;
             result = { "term": term, "definition": definition, "treat_as_word": is_word };
         }
-        // cookies
-        var cookies = readAllCookies();
-        if (cookies.favorites == void 0) {
-            cookies.favorites = JSON.stringify({});
+        // storages
+        var storages = readAllStorage();
+        if (storages.favorites == void 0) {
+            storages.favorites = JSON.stringify({});
         }
-        var favorites = JSON.parse(cookies.favorites);
+        var favorites = JSON.parse(storages.favorites);
         if (favorites[result.term] == void 0) {
             favorites[result.term] = result;
             e.target.classList.add('stared');
@@ -40,6 +40,6 @@ for (let i = 0; i < favorite_stars.length; i++) {
             delete favorites[result.term];
             e.target.classList.remove('stared');
         }
-        writeCookie('favorites', JSON.stringify(favorites));
+        writeStorage('favorites', JSON.stringify(favorites));
     });
 }

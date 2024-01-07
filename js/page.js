@@ -51,7 +51,7 @@ var lists = {
 }
 
 function addHrefHistory(page, e) {
-    if (cookies.locaion_save_enable_switch == 'false') return;
+    if (storages.locaion_save_enable_switch == 'false') return;
     window.history.pushState({}, 'Title', '?page=' + page + '&e=' + e);
 }
 
@@ -74,7 +74,7 @@ var toDoForPages = {
             fetch('/' + lists[e].path).then(function (response) {
                 return response.json();
             }).then(function (json) {
-                if (e == 'terms' || e == '术语') loadTerms(json);
+                if (e == 'terms' || e == '术语' || e == '術語') loadTerms(json);
                 else loadLangWords(json);
             });
         } catch { }
@@ -135,13 +135,13 @@ var toDoForPages = {
         document.title = 'Music Terminology | Favorites'
         var page = document.getElementById('favorites');
         var content = page.getElementsByClassName('content')[0];
-        var cookies = readAllCookies();
-        if (cookies.favorites == void 0 || cookies.favorites == '{}') {
+        var storages = readAllStorage();
+        if (storages.favorites == void 0 || storages.favorites == '{}') {
             content.innerHTML = '<h1 class="center">No Favorite Items.</h1>';
             try { translate(); } catch { }
             return;
         }
-        var favorites = JSON.parse(cookies.favorites);
+        var favorites = JSON.parse(storages.favorites);
         var keys = Object.keys(favorites);
         content.innerHTML = '';
         var div = document.createElement('div');
@@ -303,9 +303,9 @@ function details(term, e) {
 }
 
 function setFavoriteStar(term) {
-    var cookies = readAllCookies();
+    var storages = readAllStorage();
     var stars = document.getElementsByClassName('favorite_star');
-    if (cookies.favorite_enable_switch != 'true') {
+    if (storages.favorite_enable_switch != 'true') {
         for (var i = 0; i < stars.length; i++) {
             stars[i].classList.add('removed');
         }
@@ -315,10 +315,10 @@ function setFavoriteStar(term) {
             stars[i].classList.remove('removed');
         }
     }
-    if (cookies.favorites == void 0) {
-        cookies.favorites = JSON.stringify({});
+    if (storages.favorites == void 0) {
+        storages.favorites = JSON.stringify({});
     }
-    var favorites = JSON.parse(cookies.favorites);
+    var favorites = JSON.parse(storages.favorites);
     for (var i = 0; i < stars.length; i++) {
         if (favorites[term] != void 0) {
             stars[i].classList.add('stared');
@@ -328,6 +328,6 @@ function setFavoriteStar(term) {
     }
 }
 
-if (readAllCookies().favorite_enable_switch == 'true') {
+if (readAllStorage().favorite_enable_switch == 'true') {
     document.getElementById('fav_fol').classList.remove('hidden_zone');
 }

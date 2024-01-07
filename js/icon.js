@@ -20,7 +20,7 @@ async function icons() {
                 try { icon_parent.replaceChild(span, icon_element); } catch { }
                 icons();
                 loaded_icons[icon] = svg;
-                if (cookies.icon_cache_enable_switch == 'false') loaded_icons = {};
+                if (storages.icon_cache_enable_switch == 'false') loaded_icons = {};
             });
     } else {
         var span = document.createElement('span');
