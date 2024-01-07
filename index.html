@@ -129,7 +129,7 @@
             language = localstorage_language;
         }
         if (location.search == '?redirect=no-delay') {
-            document.location.replace('/' + language);
+            document.location.replace('/' + language + '/index.html');
         }
         if (location.search.includes('add_to_home_screen')) {
             const isIos = () => {
@@ -157,7 +157,7 @@
         } else {
             document.getElementsByTagName('svg')[0].style.opacity = '0';
             setTimeout(function () {
-                document.location.replace('/' + language);
+                document.location.replace('/' + language + '/index.html');
             }, 2000)
         }
     </script>
