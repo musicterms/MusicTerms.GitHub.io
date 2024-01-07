@@ -32,43 +32,47 @@
     <input type="text" id="lang">
     <textarea id="json"></textarea>
     <script>
-        var json;
+        // Words
+        // var json;
+        // document.getElementById("j").onchange = function () {
+        //     json = JSON.parse(document.getElementById("j").value);
+        //     for (var key in json) {
+        //         document.getElementById("original").innerHTML += json[key]["zh-CN"] + '\n\n';
+        //     }
+        // }
+
+        // document.getElementById("append").onclick = function () {
+        //     var lang = document.getElementById("lang").value;
+        //     var translated = document.getElementById("translate").value;
+        //     translated = translated.split('\n\n');
+        //     console.log(translated);
+        //     for (var key in json) {
+        //         json[key][lang] = translated.shift();
+        //     }
+        //     document.getElementById("json").innerHTML = JSON.stringify(json);
+        // }
+
+        // add all definition in json to the orginal
         document.getElementById("j").onchange = function () {
             json = JSON.parse(document.getElementById("j").value);
             for (var key in json) {
-                document.getElementById("original").innerHTML += json[key].definition + '\n\n';
+                for (var key2 in json[key]) {
+                    document.getElementById("original").innerHTML += json[key][key2]["zh-CN"] + '\n\n';
+                }
             }
         }
-
         document.getElementById("append").onclick = function () {
             var lang = document.getElementById("lang").value;
             var translated = document.getElementById("translate").value;
             translated = translated.split('\n\n');
             console.log(translated);
             for (var key in json) {
-                json[key][lang] = translated.shift();
+                for (var key2 in json[key]) {
+                    json[key][key2][lang] = translated.shift();
+                }
             }
             document.getElementById("json").innerHTML = JSON.stringify(json);
         }
-
-        // add all definition in json to the orginal
-        // for (var key in json) {
-        //     for (var key2 in json[key]) {
-        //         document.getElementById("original").innerHTML += json[key][key2].definition + '\n\n';
-        //     }
-        // }
-        // document.getElementById("append").onclick = function() {
-        //     var lang = document.getElementById("lang").value;
-        //     var translated = document.getElementById("translate").value;
-        //     translated = translated.split('\n\n');
-        //     console.log(translated);
-        //     for (var key in json) {
-        //         for (var key2 in json[key]) {
-        //             json[key][key2][lang] = translated.shift();
-        //         }
-        //     }
-        //     document.getElementById("json").innerHTML = JSON.stringify(json);
-        // }
         // For source.json
 
     </script>

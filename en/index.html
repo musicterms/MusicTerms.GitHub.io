@@ -31,15 +31,17 @@
         </span>
         <font id="nav-text">Music Terminology</font>
     </nav>
-    <div id="confirm_fullscreen">
-        <div id="confirm_tag" class="removed">
-            <div class="upper">
-                <p id="confirm_message"></p>
+    <div id="alert-fullscreen">
+        <div id="alert">
+            <div class="alert-content">
+                <h1 id="alert-title"></h1>
+                <p id="alert-text"></p>
             </div>
-            <div class="lower">
-                <button class="no" id="confirm-no">Cancel</button>
-                <div class="vertical-line"></div>
-                <button class="yes" id="confirm-yes">Yes</button>
+            <div class="divider-hoz"></div>
+            <div class="actions">
+                <span id="alert-cancel" class="alert-btn">Cancel</span>
+                <div class="divider-ver"></div>
+                <span id="alert-confirm" class="alert-btn">OK</span>
             </div>
         </div>
     </div>
@@ -252,11 +254,17 @@
             <div class="set">
                 <span class="folder lane">
                     <icon data-icon="info" class="icon file"></icon>
-                    <span>Version 1.0.0</span>
+                    <span>Version 1.0.1</span>
+                    <span class="icon file s">7 Jan 2024</span>
                 </span>
                 <span class="folder lane">
                     <icon data-icon="placeholder" class="icon file"></icon>
                     <span>By AlphaBrate Team 2024</span>
+                </span>
+                <span class="folder lane" onclick="confirm('Server Error', `<span class='nowrap'>Sorry, the server is not </span><br><span class='nowrap'>working well currently.</span>`, ()=>{})">
+                    <icon data-icon="bug" class="icon file"></icon>
+                    <span>Report a Bug</span>
+                    <icon data-icon="open_in_new" class="icon file open_in_new"></icon>
                 </span>
                 <span class="folder lane" onclick="location.href='https://github.com/musicterms/musicterms.github.io'">
                     <icon data-icon="github-mark" class="icon file"></icon>
@@ -267,13 +275,12 @@
             <div class="set">
                 <span class="folder" onclick="location.href='/'">
                     <icon data-icon="refresh" class="icon file"></icon>
-                    <span><span class="nowrap">Some changes may</span> <span class="nowrap">require a
-                            refresh.</span></span>
+                    <span><span class="nowrap">Some changes may</span> <span class="nowrap">require a refresh.</span></span>
                 </span>
                 <span class="folder" onclick="location.href='/language.html'">
                     <icon data-icon="language" class="icon file"></icon>
                     <span>Change Language</span>
-                    <span class="icon file" id="lang">ENG</span>
+                    <span class="icon file s">ENG</span>
                     <icon data-icon="forward" class="icon more"></icon>
                 </span>
                 <span class="folder"

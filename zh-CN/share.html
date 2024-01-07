@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh">
 
 <head>
     <meta charset="UTF-8">
@@ -17,25 +17,23 @@
             <icon data-icon="arrow_back_ios"></icon>
             <font id="nav-back-text"></font>
         </span>
-        <font id="nav-text">Share</font>
+        <font id="nav-text">分享</font>
     </nav>
     <div class="page" id="page-1">
         <div class="content">
-            <h2 class="center">Share <span class="nowrap">AlphaBrate Music</span> <span class="nowrap">Terminology
-                    Library</span></h2>
+            <h2 class="center">分享<span class="nowrap">AlphaBrate音乐</span><span class="nowrap">术语词典</span></h2>
             <div class="set">
                 <span class="folder" id="text">
                     <icon data-icon="docs" class="icon file"></icon>
-                    <span>Share Link</span>
+                    <span>分享链接</span>
                     <icon data-icon="share" class="icon more"></icon>
                 </span>
             </div>
-            <p class="center e80pc select background-light"><span class="nowarp bold marginbottom">AlphaBrate Music
-                    Terminology Library</span><br>Looking for a awsome music terms library app? AlphaBrate Music
-                Terminology Library is the best choice. Hosted on GitHub Pages, we have no operating costs that we won't
-                let ads appears in our websites! Enjoy a elegance and simplicity surf experience with Apple-styled
-                design now! Available on <span class="nowrap bold">https://musicterms.github.io/</span></p>
-            <p class="center e80pc gray">or copy the text to share.</p>
+            <p class="center e80pc select background-light"><span class="nowarp bold marginbottom">AlphaBrate
+                    音乐术语词典</span><br>正在寻找一款很棒的音乐术语应用？AlphaBrate 音乐术语词典是最好的选择。因为被托管在 GitHub Pages
+                上，我们没有运营成本。我们不会让广告出现在我们的网站上。立即享受创新风格设计的优雅简约的体验！可在 <span
+                    class="nowrap bold">https://musicterms.github.io/</span> 上体验。</p>
+            <p class="center e80pc gray">或者复制文字分享。</p>
         </div>
     </div>
     <script src="/js/index.js"></script>
@@ -44,17 +42,17 @@
     <script>
         const broswerLang = navigator.language || navigator.userLanguage;
         const shareData = {
-            title: "Music Term",
-            text: "AlphaBrate Music Terminology Library",
+            title: "音乐术语词典",
+            text: "AlphaBrate 音乐术语库",
             url: "https://musicterms.github.io/",
             image: "/icon-smooth.png"
         };
-        
+
         if (!navigator.share) {
             document.getElementById('text').style.display = 'none';
         }
         document.getElementById('text').addEventListener('click', async () => {
-            await navigator.share(shareData[lang]);
+            await navigator.share(shareData);
         });
 
 

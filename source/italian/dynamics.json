@@ -2,91 +2,106 @@
     "Calando": {
         "italian": "Calando",
         "translation": "quietening",
-        "definition": "Becoming softer and slower",
-        "zh": "声音越来越小；速度越来越慢"
+        "definition": "Becoming softer and slower.",
+        "zh-CN": "声音越来越小；速度越来越慢。",
+        "zh": "聲音越來越小；速度越來越慢。"
     },
     "Crescendo": {
         "italian": "Crescendo",
         "translation": "growing",
-        "definition": "Becoming louder",
-        "zh": "声音越来越大"
+        "definition": "Becoming louder.",
+        "zh-CN": "声音越来越大。",
+        "zh": "聲音越來越大。"
     },
     "Decrescendo": {
         "italian": "Decrescendo",
         "translation": "shrinking",
-        "definition": "Becoming softer",
-        "zh": "声音越来越小"
+        "definition": "Becoming softer.",
+        "zh-CN": "声音越来越小。",
+        "zh": "聲音越來越小。"
     },
     "Diminuendo": {
         "italian": "Diminuendo",
         "translation": "dwindling",
-        "definition": "Becoming softer",
-        "zh": "声音越来越小"
+        "definition": "Becoming softer.",
+        "zh-CN": "声音越来越小。",
+        "zh": "聲音越來越小。"
     },
     "Forte": {
         "italian": "Forte",
         "translation": "strong",
-        "definition": "Loud",
-        "zh": "大声"
+        "definition": "Loud.",
+        "zh-CN": "大声。",
+        "zh": "大聲。"
     },
     "Fortissimo": {
         "italian": "Fortissimo",
         "translation": "very strong",
-        "definition": "Very loud",
-        "zh": "很大声"
+        "definition": "Very loud.",
+        "zh-CN": "很大声。",
+        "zh": "很大聲。"
     },
     "Mezzo forte": {
         "italian": "Mezzo forte",
         "translation": "half-strong",
-        "definition": "Moderately loud",
-        "zh": "中等大声"
+        "definition": "Moderately loud.",
+        "zh-CN": "中等大声。",
+        "zh": "中等大聲。"
     },
     "Marcato": {
         "italian": "Marcato",
         "translation": "marked",
-        "definition": "A note played forcefully",
-        "zh": "用力演奏一个音符"
+        "definition": "A note played forcefully.",
+        "zh-CN": "用力演奏一个音符。",
+        "zh": "用力演奏一個音符。"
     },
     "Messa di voce": {
         "italian": "Messa di voce",
         "translation": "placing the voice",
-        "definition": "A style of singing involving changing volume while holding a single note",
-        "zh": "在持续演唱 / 演奏同一音符时做出音量改变"
+        "definition": "A style of singing involving changing volume while holding a single note.",
+        "zh-CN": "在持续演唱 / 演奏同一音符时做出音量改变。",
+        "zh": "在持續唱 / 演奏同一音符時做出音量改變。"
     },
     "Piano": {
         "italian": "Piano",
         "translation": "gentle",
-        "definition": "Soft",
-        "zh": "小声"
+        "definition": "Soft.",
+        "zh-CN": "小声。",
+        "zh": "小聲。"
     },
     "Pianissimo": {
         "italian": "Pianissimo",
         "translation": "very gentle",
-        "definition": "Very soft",
-        "zh": "很小声"
+        "definition": "Very soft.",
+        "zh-CN": "很小声。",
+        "zh": "很小聲。"
     },
     "Mezzo piano": {
         "italian": "Mezzo piano",
         "translation": "half-gentle",
-        "definition": "Moderately soft",
-        "zh": "中等小声"
+        "definition": "Moderately soft.",
+        "zh-CN": "中等小声。",
+        "zh": "中等小聲。"
     },
     "Sforzando": {
         "italian": "Sforzando",
         "translation": "strained",
-        "definition": "Sharply accented",
-        "zh": "突然加强"
+        "definition": "Sharply accented.",
+        "zh-CN": "突然加强。",
+        "zh": "突然加強。"
     },
     "Stentato": {
         "italian": "Stentato",
         "translation": "in the manner of Stentor",
-        "definition": "Loud, boisterous",
-        "zh": "大声、热闹"
+        "definition": "Loud, boisterous.",
+        "zh-CN": "大声、热闹。",
+        "zh": "大聲、熱鬧。"
     },
     "Tremolo": {
         "italian": "Tremolo",
         "translation": "trembling",
-        "definition": "A rapid repetitive variation in the volume (or pitch) of a tone",
-        "zh": "音量（或音高）快速、重复变化"
+        "definition": "A rapid repetitive variation in the volume (or pitch) of a tone.",
+        "zh-CN": "音量（或音高）快速、重复变化。",
+        "zh": "音量（或音高）快速、重複變化。"
     }
 }

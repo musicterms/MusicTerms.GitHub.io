@@ -18,7 +18,7 @@ var lists = {
     'tempo': { 'name': 'Tempo', 'path': 'source/italian/tempo.json' },
     'voices': { 'name': 'Voices', 'path': 'source/italian/voices.json' },
     'german': { 'name': 'German', 'path': 'source/german/german.json' },
-    // zh
+    // zh-CN
     '术语': { 'name': 'Terms', 'path': 'source/terms/source.json' },
     '评论': { 'name': 'Criticism', 'path': 'source/italian/criticism.json' },
     '指示': { 'name': 'Directions', 'path': 'source/italian/directions.json' },
@@ -33,6 +33,21 @@ var lists = {
     '速度': { 'name': 'Tempo', 'path': 'source/italian/tempo.json' },
     '人声': { 'name': 'Voices', 'path': 'source/italian/voices.json' },
     '德语': { 'name': 'German', 'path': 'source/german/german.json' },
+    // zh
+    '術語': { 'name': 'Terms', 'path': 'source/terms/source.json' },
+    '評論': { 'name': 'Criticism', 'path': 'source/italian/criticism.json' },
+    '指示': { 'name': 'Directions', 'path': 'source/italian/directions.json' },
+    '力度': { 'name': 'Dynamics', 'path': 'source/italian/dynamics.json' },
+    '常用術語/詞語': { 'name': 'General', 'path': 'source/italian/g-terms.json' },
+    '樂器': { 'name': 'Instruments', 'path': 'source/italian/instruments.json' },
+    '情緒/表情': { 'name': 'Moods', 'path': 'source/italian/moods.json' },
+    '模式/形態': { 'name': 'Patterns', 'path': 'source/italian/patterns.json' },
+    '角色': { 'name': 'Roles', 'path': 'source/italian/roles.json' },
+    '指揮': { 'name': 'Staging', 'path': 'source/italian/staging.json' },
+    '技巧': { 'name': 'Techniques', 'path': 'source/italian/techniques.json' },
+    '速度': { 'name': 'Tempo', 'path': 'source/italian/tempo.json' },
+    '人聲': { 'name': 'Voices', 'path': 'source/italian/voices.json' },
+    '德文': { 'name': 'German', 'path': 'source/german/german.json' },
 }
 
 function addHrefHistory(page, e) {
@@ -43,7 +58,7 @@ function addHrefHistory(page, e) {
 var toDoForPages = {
     'page-1': function () {
         document.getElementById('nav-back').classList.add('hidden');
-        document.getElementById('nav-text').innerText = 'Music Terminology';
+        document.getElementById('nav-text').innerText = getTranslateOf('Music Terminology');
         document.getElementById('nav-back-text').innerText = '';
         addHrefHistory('page-1', 'true');
         document.title = 'Music Terminology | Home';
@@ -54,22 +69,22 @@ var toDoForPages = {
         document.getElementById('nav-back').classList.remove('hidden');
         try {
             addHrefHistory('page-list-of-words', e);
-            document.getElementById('nav-text').innerText = lists[e].name;
-            document.title = 'Music Terminology | ' + lists[e].name;;
+            document.getElementById('nav-text').innerText = getTranslateOf(lists[e].name);
+            document.title = 'Music Terminology | ' + lists[e].name;
             fetch('/' + lists[e].path).then(function (response) {
                 return response.json();
             }).then(function (json) {
                 if (e == 'terms' || e == '术语') loadTerms(json);
                 else loadLangWords(json);
             });
-            try { translate(); } catch { }
         } catch { }
+        try { translate(); } catch { }
     },
     'word-details': function (e) {
         document.getElementById('nav-back').classList.remove('hidden');
         document.getElementById('nav-back-text').innerText = document.getElementById('nav-text').innerText;
-        document.getElementById('nav-text').innerText = 'Details'
-        document.title = 'Music Terminology | Details'
+        document.getElementById('nav-text').innerText = getTranslateOf('Details');
+        document.title = 'Music Terminology | Details';
         var word;
         if (e[0].italian != void 0) word = e[0].italian;
         if (e[0].german != void 0) word = e[0].german;
@@ -81,8 +96,8 @@ var toDoForPages = {
     },
     'term-details': function (e) {
         document.getElementById('nav-back').classList.remove('hidden');
-        document.getElementById('nav-text').innerText = 'Details';
-        document.title = 'Music Terminology | Details'
+        document.getElementById('nav-text').innerText = getTranslateOf('Details');
+        document.title = 'Music Terminology | Details';
         document.getElementById('nav-back-text').innerText = e[0];
         var j = JSON.parse(e[1]);
         console.log(e);
@@ -92,17 +107,15 @@ var toDoForPages = {
         try { translate(); } catch { }
     },
     'settings': function () {
-        try {
-            try { translate(); } catch { }
-        } catch { }
-        document.getElementById('nav-text').innerText = 'Settings';
+        document.getElementById('nav-text').innerText = getTranslateOf('Settings');
         document.getElementById('nav-back-text').innerText = 'Folders';
         document.getElementById('nav-back').classList.remove('hidden');
         document.title = 'Music Terminology | Settings'
         addHrefHistory('settings', 'true');
+        try { translate(); } catch { }
     },
     'search': async function () {
-        document.getElementById('nav-text').innerText = 'Search';
+        document.getElementById('nav-text').innerText = getTranslateOf('Search');
         document.getElementById('nav-back-text').innerText = 'Folders';
         document.getElementById('nav-back').classList.remove('hidden');
         document.title = 'Music Terminology | Search'
@@ -116,7 +129,7 @@ var toDoForPages = {
         try { translate(); } catch { }
     },
     'favorites': function () {
-        document.getElementById('nav-text').innerText = 'Favorites';
+        document.getElementById('nav-text').innerText = getTranslateOf('Favorites');
         document.getElementById('nav-back-text').innerText = 'Folders';
         document.getElementById('nav-back').classList.remove('hidden');
         document.title = 'Music Terminology | Favorites'
@@ -220,11 +233,11 @@ function changePage(page, e, back = false) {
     if (back) {
         pageElement.style.zIndex = '1';
         currentPageElement.style.zIndex = '2';
-        currentPageElement.style.animation = 'page-leave 0.3s cubic-bezier(0.65, 0.8, 0.87, 0.92)';
-        pageElement.style.animation = 'page-appears 0.33s cubic-bezier(0.65, 0.8, 0.87, 0.92)';
+        currentPageElement.style.animation = 'page-leave 0.33s';
+        pageElement.style.animation = 'page-appears 0.33s';
     } else {
-        currentPageElement.style.animation = 'page-left 0.3s cubic-bezier(0.65, 0.8, 0.87, 0.92)';
-        pageElement.style.animation = 'page-enter 0.33s cubic-bezier(0.65, 0.8, 0.87, 0.92)';
+        currentPageElement.style.animation = 'page-left 0.28s';
+        pageElement.style.animation = 'page-enter 0.33s';
         currentPageElement.style.zIndex = '1';
         pageElement.style.zIndex = '2';
     }
@@ -237,7 +250,7 @@ function changePage(page, e, back = false) {
         pageElement.style.animation = '';
         currentPageElement.style.animation = '';
         document.documentElement.scrollTop = sessionStorage[`${page}-scroll`] || 0;
-    }, 290);
+    }, 250);
     pageHistory.push(page);
     currentPage = page;
     if (toDoForPages[currentPage]) {

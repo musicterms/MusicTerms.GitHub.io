@@ -2,49 +2,57 @@
     "Attacca": {
         "italian": "Attacca",
         "translation": "attach, begin",
-        "definition": "Proceed to the next section without pause",
-        "zh": "直接继续下一部分（不间断）"
+        "definition": "Proceed to the next section without pause.",
+        "zh-CN": "直接继续下一部分（不间断）。",
+        "zh": "直接繼續下一部分（不間斷）。"
     },
     "Cambiare": {
         "italian": "Cambiare",
         "translation": "change",
-        "definition": "Any change, such as to a new instrument",
-        "zh": "任何改变，例如新乐器"
+        "definition": "Any change, such as to a new instrument.",
+        "zh-CN": "任何改变，例如新乐器。",
+        "zh": "任何改變，例如新樂器。"
     },
     "Da Capo (al fine)": {
         "italian": "Da Capo (al fine)",
         "translation": "from the beginning (to the \"fine\")",
         "definition": "Abbreviated as D.C., informs the performer to go back to the beginning (capo) (finishing where the part is marked fine).",
-        "zh": "缩写为 D.C.，通知演奏者回到开头（Capo）（直到完成标记为“fine”的部分）。"
+        "zh-CN": "缩写为 D.C.，通知演奏者回到开头（Capo）（直到完成标记为“fine”的部分）。",
+        "zh": "縮寫為 D.C.，通知演奏者回到開頭（Capo）（直到完成標記為“fine”的部分）。"
     },
     "Dal Segno": {
         "italian": "Dal Segno",
         "translation": "from the sign",
         "definition": "Abbreviated as D.S., informs the performer to repeat a specific section marked by a sign (segno).",
-        "zh": "缩写为 D.S.，通知表演者重复用符号 (segno) 标记的特定部分。"
+        "zh-CN": "缩写为 D.S.，通知表演者重复用符号 (segno) 标记的特定部分。",
+        "zh": "縮寫為 D.S.，通知表演者重複用符號 (segno) 標記的特定部分。"
     },
     "Divisi": {
         "italian": "Divisi",
         "translation": "divided",
         "definition": "Instructs one section to divide into two or more separate sections, each playing a separate part. Often these separate parts are written on the same staff.",
-        "zh": "指示一个部分分为两个或多个单独的部分，每个部分演奏一个单独的部分。 通常，这些单独的部分写在相同的五线谱上。"
+        "zh-CN": "指示一个部分分为两个或多个单独的部分，每个部分演奏一个单独的部分。 通常，这些单独的部分写在相同的五线谱上。",
+        "zh": "指示一個部分分為兩個或多個單獨的部分，每個部分演奏一個單獨的部分。 通常，這些單獨的部分寫在相同的五線譜上。"
     },
     "Oppure": {
         "italian": "Oppure",
         "translation": "from o (\"or\") + pure (\"also\")",
         "definition": "Informs the player of alternative ways to play a passage. See Ossia.",
-        "zh": "告知玩家演奏乐段的替代方法。 参见Ossia。"
+        "zh-CN": "告知玩家演奏乐段的替代方法。 参见Ossia。",
+        "zh": "告知玩家演奏樂段的替代方法。 參見Ossia。"
     },
     "Solo": {
         "italian": "Solo",
         "translation": "alone",
-        "definition": "A piece or performance to be played by a single musician",
-        "zh": "由单个音乐家演奏的作品或表演"
+        "definition": "A piece or performance to be played by a single musician.",
+        "zh-CN": "由单个音乐家演奏的作品或表演。",
+        "zh": "由單一音樂家演奏的作品或表演。"
     },
     "Sole": {
         "italian": "Sole",
         "translation": "Group solo",
-        "definition": "A piece or performance to be played by a designated group",
-        "zh": "由指定团体演奏的作品或表演"
+        "definition": "A piece or performance to be played by a designated group.",
+        "zh-CN": "由指定团体演奏的作品或表演。",
+        "zh": "由指定團體演奏的作品或表演。"
     }
 }

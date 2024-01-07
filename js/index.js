@@ -75,7 +75,7 @@ function addFavoriteSwitch() {
 }
 
 function tryDelCookies() {
-    confirm(`<span class="nowrap">All of your data</span> <span class="nowrap">would NOT be saved.</span> <br><span class="nowrap">Are you sure about that?</span>`,
+    confirm(`Reset All`, `All your data will be deleted.`,
         function () {
             const cookies = document.cookie.split(";");
             for (let i = 0; i < cookies.length; i++) {
@@ -84,6 +84,7 @@ function tryDelCookies() {
                 const name = eqPos > -1 ? cookie.substr(0, eqPos) : cookie;
                 document.cookie = name + "=;expires=Thu, 01 Jan 1970 00:00:00 GMT";
             }
+            window.localStorage.clear();
             var settings = document.getElementById('settings');
             sets = settings.getElementsByClassName('set');
             for (var i = 0; i < sets.length - 1; i++) {
@@ -96,29 +97,42 @@ function tryDelCookies() {
             folders[0].classList.remove('line');
             document.getElementById('nav-back').remove();
             document.getElementById('nav-text').innerText = 'A refresh is required';
+            try { translate(); } catch { }
         });
 }
 
-function confirm(message, callback) {
-    document.getElementById('confirm_tag').classList.remove('removed');
-    document.getElementById('confirm_message').innerHTML = message;
-    var confirm_fullscreen = document.getElementById('confirm_fullscreen');
-    confirm_fullscreen.style.display = 'block';
-    confirm_fullscreen.style.opacity = '1';
-    document.getElementById('confirm-yes').addEventListener('click', function () {
-        document.getElementById('confirm_tag').classList.add('removed');
+function confirm(title, message, callback) {
+    var alert_fullscreen = document.getElementById('alert-fullscreen');
+    var alert_title = document.getElementById('alert-title');
+    var alert_text = document.getElementById('alert-text');
+    var alert_cancel = document.getElementById('alert-cancel');
+    var alert_confirm = document.getElementById('alert-confirm');
+    alert_title.innerHTML = title;
+    alert_text.innerHTML = message;
+    alert_fullscreen.style.display = 'flex';
+    alert_fullscreen.style.opacity = '1';
+    alert_fullscreen.style.animation = 'fade-in .1s ease-in-out';
+    alert_cancel.onclick = function () {
+        alert_fullscreen.style.opacity = '0';
+        alert_fullscreen.style.animation = 'fade-out .1s ease-in-out';
+        setTimeout(function () {
+            alert_fullscreen.style.display = 'none';
+        }, 100);
+    }
+    alert_confirm.onclick = function () {
+        alert_fullscreen.style.opacity = '0';
+        alert_fullscreen.style.animation = 'fade-out .1s ease-in-out';
+        setTimeout(function () {
+            alert_fullscreen.style.display = 'none';
+        }, 100);
         callback();
-        confirm_fullscreen.style.opacity = '0';
-        setTimeout(function () {
-            confirm_fullscreen.style.display = 'none';
-        }, 1000);
-    });
-    document.getElementById('confirm-no').addEventListener('click', function () {
-        document.getElementById('confirm_tag').classList.add('removed');
-        confirm_fullscreen.style.opacity = '0';
-        setTimeout(function () {
-            confirm_fullscreen.style.display = 'none';
-        }, 1000);
-    });
-    try {translate();} catch {}
+    }
+
+    try { translate(); } catch { }
+}
+
+if (typeof getTranslateOf == 'undefined') {
+    function getTranslateOf(text, l = language) {
+        return text;
+    }
 }

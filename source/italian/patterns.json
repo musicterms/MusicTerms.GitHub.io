@@ -2,43 +2,50 @@
     "Lacuna": {
         "italian": "Lacuna",
         "translation": "gap",
-        "definition": "A silent pause in a piece of music",
-        "zh": "一段音乐中的无声停顿"
+        "definition": "A silent pause in a piece of music.",
+        "zh-CN": "一段音乐中的无声停顿。",
+        "zh": "一段音樂中的無聲停頓。"
     },
     "Ossia": {
         "italian": "Ossia",
         "translation": "from o (\"or\") + sia (\"that it be\")",
-        "definition": "A secondary passage of music which may be played in place of the original",
-        "zh": "选奏：乐段，用以替代原有的旋律，演奏此曲时则在选奏和原有旋律中任择其一。"
+        "definition": "A secondary passage of music which may be played in place of the original.",
+        "zh-CN": "选奏：乐段，用以替代原有的旋律，演奏此曲时则在选奏和原有旋律中任择其一。",
+        "zh": "選奏：樂段，用以替代原有的旋律，演奏此曲時則在選奏和原有旋律中任擇其一。"
     },
     "Ostinato": {
         "italian": "Ostinato",
-        "translation": "stubborn, obstinate",
-        "definition": "A repeated motif or phrase in a piece of music",
-        "zh": "一首音乐中重复的主题或短语"
+        "translation": "stubborn, obstinate.",
+        "definition": "A repeated motif or phrase in a piece of music.",
+        "zh-CN": "一首音乐中重复的主题或短语。",
+        "zh": "一首音樂中重復的主題或短語。"
     },
     "Pensato": {
         "italian": "Pensato",
         "translation": "thought out",
-        "definition": "A composed imaginary note",
-        "zh": "一个虚构的音符，一个既不被演奏也不被听到的书面音符。“这意味着音符必须如此温柔和柔软，以至于只允许被想到。"
+        "definition": "A composed imaginary note.",
+        "zh-CN": "一个虚构的音符，一个既不被演奏也不被听到的书面音符。“这意味着音符必须如此温柔和柔软，以至于只允许被想到。",
+        "zh": "一個虛構的音符，一個既不被演奏也不被聽到的書面音符。「這意味著音符必須如此溫柔和柔軟，以至於只允許被想到。"
     },
     "Ritornello": {
         "italian": "Ritornello",
         "translation": "little return",
-        "definition": "A recurring passage in a piece of Baroque music",
-        "zh": "巴洛克音乐中反复出现的段落"
+        "definition": "A recurring passage in a piece of Baroque music.",
+        "zh-CN": "巴洛克音乐中反复出现的段落。",
+        "zh": "巴洛克音樂中反復出現的段落。"
     },
-    "Segue": {
-        "italian": "Segue",
+    "Segue.": {
+        "italian": "Segue.",
         "translation": "it follows",
-        "definition": "A smooth movement from one passage to another with no pause",
-        "zh": "从一个段落到另一个段落的流畅小段落，没有停顿"
+        "definition": "A smooth movement from one passage to another with no pause.",
+        "zh-CN": "从一个段落到另一个段落的流畅小段落，没有停顿。",
+        "zh": "從一個段落到另一個段落的流暢小段落，沒有停頓。"
     },
     "Stretto": {
         "italian": "Stretto",
         "translation": "tightened, strict",
-        "definition": "In a fugue, the repeating of a motif by a second voice before the first rendition is completed",
-        "zh": "在赋格曲中，是对主题的连续模仿，因此答案在主题完成之前就进入了。\n在非赋格乐曲中，stretto（有时也拼写为 stretta）是一个段落，通常在咏叹调或乐章的末尾，节奏较快。"
+        "definition": "In a fugue, the repeating of a motif by a second voice before the first rendition is completed.",
+        "zh-CN": "在赋格曲中，是对主题的连续模仿，因此答案在主题完成之前就进入了。\n在非赋格乐曲中，stretto（有时也拼写为 stretta）是一个段落，通常在咏叹调或乐章的末尾，节奏较快。",
+        "zh": "在賦格曲中，是對主題的連續模仿，因此答案在主題完成之前就進入了。\n在非賦格樂曲中，stretto（有時也拼寫為 stretta）是一個段落，通常在詠嘆調或樂章的末尾，節奏較快。"
     }
 }

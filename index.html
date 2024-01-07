@@ -114,11 +114,14 @@
                 e.prompt();
             }
         });
-        var supported_languages = ['en', 'zh'];
+        var supported_languages = ['en', 'zh-CN', 'zh'];
         var language = navigator.language || navigator.userLanguage;
-        language = language.substring(0, 2);
+        
         if (supported_languages.indexOf(language) == -1) {
-            language = 'en';
+            language = language.substring(0, 2);
+            if (supported_languages.indexOf(language) == -1) {
+                language = 'en';
+            }
         }
         // get localstorage
         var localstorage = window.localStorage;

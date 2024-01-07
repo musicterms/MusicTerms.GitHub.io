@@ -3,10 +3,16 @@ var path_list = lists;
 let data = {};
 
 async function preloadData() {
+    // try get from local storage
+    if (localStorage.getItem('data')) {
+        data = JSON.parse(localStorage.getItem('data'));
+        return;
+    }
     for (let key in path_list) {
         let response = await fetch('/' + path_list[key]['path']);
         data[key] = await response.json();
     }
+    localStorage.setItem('data', JSON.stringify(data));
 }
 
 async function search(input) {

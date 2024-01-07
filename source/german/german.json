@@ -3,678 +3,791 @@
         "german": "Abdruck",
         "translation": "Abdr.",
         "definition": "impression, print, reproduction",
-        "zh": "印象、印刷、复制"
+        "zh-CN": "印象、印刷、复制",
+        "zh": "印象、印刷、複製"
     },
     "Abschrift": {
         "german": "Abschrift",
         "translation": "Abschr.",
         "definition": "reprint, copy",
-        "zh": "重印、复印"
+        "zh-CN": "重印、复印",
+        "zh": "重印、影印"
     },
     "Abteilung": {
         "german": "Abteilung",
         "translation": "Abt.",
         "definition": "part",
+        "zh-CN": "部分",
         "zh": "部分"
     },
     "Anhang": {
         "german": "Anhang",
         "translation": "Anh.",
         "definition": "appendix, supplement",
-        "zh": "附录，补充"
+        "zh-CN": "附录，补充",
+        "zh": "附錄，補充"
     },
     "Anmerkung": {
         "german": "Anmerkung",
         "translation": "Anm.",
         "definition": "commentary",
-        "zh": "评论"
+        "zh-CN": "评论",
+        "zh": "評論"
     },
     "arrangiert": {
         "german": "arrangiert",
         "translation": " ",
         "definition": "arranged",
+        "zh-CN": "安排的",
         "zh": "安排的"
     },
     "Aufführung(en); Aufführungsdauer": {
         "german": "Aufführung(en); Aufführungsdauer",
         "translation": " ",
         "definition": "performance(s); performance duration",
-        "zh": "表现； 表演时长"
+        "zh-CN": "表现； 表演时长",
+        "zh": "表現； 表演時長"
     },
     "Aufführungspraxis": {
         "german": "Aufführungspraxis",
         "translation": " ",
         "definition": "performance practice",
-        "zh": "表演练习"
+        "zh-CN": "表演练习",
+        "zh": "表演練習"
     },
     "Auflage": {
         "german": "Auflage",
         "translation": "Aufl.",
         "definition": "impression, edition",
+        "zh-CN": "印象、版本",
         "zh": "印象、版本"
     },
     "Ausgabe": {
         "german": "Ausgabe",
         "translation": "Ausg.",
         "definition": "edition",
-        "zh": "版"
+        "zh-CN": "版本",
+        "zh": "版本"
     },
     "ausgewählte": {
         "german": "ausgewählte",
         "translation": " ",
         "definition": "selected",
-        "zh": "已选择"
+        "zh-CN": "已选择",
+        "zh": "已選擇"
     },
     "Autograph": {
         "german": "Autograph",
         "translation": " ",
         "definition": "holograph",
-        "zh": "全息图"
+        "zh-CN": "全息图",
+        "zh": "全息圖"
     },
     "Band": {
         "german": "Band",
         "translation": "Bd.",
         "definition": "volume",
-        "zh": "体积"
+        "zh-CN": "体积",
+        "zh": "體積"
     },
     "Bearbeiter; bearbeitet; Bearbeitung(en)": {
         "german": "Bearbeiter; bearbeitet; Bearbeitung(en)",
         "translation": "Bearb.",
         "definition": "arranger; arranged, revised; arrangement(s)",
-        "zh": "编曲者； 安排、修改； 安排"
+        "zh-CN": "编曲者；编曲、修改；编排",
+        "zh": "編曲者；編曲、修改；編排"
     },
     "Beiheft": {
         "german": "Beiheft",
         "translation": " ",
         "definition": "supplement",
-        "zh": "补充"
+        "zh-CN": "补充",
+        "zh": "補充"
     },
     "Beispiel": {
         "german": "Beispiel",
         "translation": " ",
         "definition": "example",
+        "zh-CN": "例子",
         "zh": "例子"
     },
     "Bemerkungen": {
         "german": "Bemerkungen",
         "translation": " ",
         "definition": "remarks, annotations, commentary",
-        "zh": "备注、注释、评论"
+        "zh-CN": "备注、注释、评论",
+        "zh": "備註、註釋、評論"
     },
     "Bericht": {
         "german": "Bericht",
         "translation": " ",
         "definition": "report, commentary",
-        "zh": "报告、评论"
+        "zh-CN": "报告、评论",
+        "zh": "報告、評論"
     },
     "Besetzung": {
         "german": "Besetzung",
         "translation": " ",
         "definition": "setting (usually referring to instrumentation)",
-        "zh": "设置（通常指仪器）"
+        "zh-CN": "设置（通常指乐器）",
+        "zh": "設置（通常指樂器）"
     },
     "Bibliothek": {
         "german": "Bibliothek",
         "translation": " ",
         "definition": "library",
-        "zh": "图书馆"
+        "zh-CN": "图书馆",
+        "zh": "圖書館"
     },
     "Blatt": {
         "german": "Blatt",
         "translation": " ",
         "definition": "leaf, page (of book); folio (of manuscript); sheet",
-        "zh": "（书的）叶，页； （手稿的）对开页； 床单"
+        "zh-CN": "纸张",
+        "zh": "紙張"
     },
     "Buhnenwerke": {
         "german": "Buhnenwerke",
         "translation": " ",
         "definition": "dramatic works",
-        "zh": "戏剧作品"
+        "zh-CN": "戏剧作品",
+        "zh": "戲劇作品"
     },
     "Brief": {
         "german": "Brief",
         "translation": " ",
         "definition": "letter",
+        "zh-CN": "信",
         "zh": "信"
     },
     "Druck": {
         "german": "Druck",
         "translation": " ",
         "definition": "impression, print",
+        "zh-CN": "印象、印刷",
         "zh": "印象、印刷"
     },
     "Dur": {
         "german": "Dur",
         "translation": " ",
         "definition": "major (key)",
-        "zh": "主要（关键）"
+        "zh-CN": "大调",
+        "zh": "大調"
     },
     "durchgesehen": {
         "german": "durchgesehen",
         "translation": " ",
         "definition": "revised",
+        "zh-CN": "修改",
         "zh": "修改"
     },
     "eigentlich": {
         "german": "eigentlich",
         "translation": "eigtl.",
         "definition": "introduction",
-        "zh": "介绍"
+        "zh-CN": "介绍",
+        "zh": "介紹"
     },
     "Einleitung": {
         "german": "Einleitung",
         "translation": "Einl.",
         "definition": "introduction",
-        "zh": "介绍"
+        "zh-CN": "介绍",
+        "zh": "介紹"
     },
     "Einrichtung": {
         "german": "Einrichtung",
         "translation": " ",
         "definition": "fingering",
+        "zh-CN": "指法",
         "zh": "指法"
     },
     "Erhaltene Werke": {
         "german": "Erhaltene Werke",
         "translation": " ",
         "definition": "surviving works",
-        "zh": "幸存的作品"
+        "zh-CN": "幸存的作品",
+        "zh": "倖存的作品"
     },
     "erscheinen": {
         "german": "erscheinen",
         "translation": " ",
         "definition": "to publish",
-        "zh": "发布"
+        "zh-CN": "发布",
+        "zh": "發布"
     },
     "Erstausgabe": {
         "german": "Erstausgabe",
         "translation": " ",
         "definition": "first edition",
+        "zh-CN": "第一版",
         "zh": "第一版"
     },
     "erweitert": {
         "german": "erweitert",
         "translation": "erw.",
         "definition": "enlarged",
+        "zh-CN": "放大的",
         "zh": "放大的"
     },
     "etwa": {
         "german": "etwa",
         "translation": " ",
         "definition": "approximately",
-        "zh": "大约"
+        "zh-CN": "大约",
+        "zh": "大約"
     },
     "Fassung": {
         "german": "Fassung",
         "translation": " ",
         "definition": "version",
+        "zh-CN": "版本",
         "zh": "版本"
     },
     "Festschrift": {
         "german": "Festschrift",
         "translation": " ",
         "definition": "publication on the occasion of a celebration",
-        "zh": "庆祝活动时出版"
+        "zh-CN": "庆祝活动时出版的。",
+        "zh": "慶祝活動時出版的。"
     },
     "Folge": {
         "german": "Folge",
         "translation": " ",
         "definition": "series",
+        "zh-CN": "系列",
         "zh": "系列"
     },
     "Fundort Verzeichnis": {
         "german": "Fundort Verzeichnis",
         "translation": " ",
         "definition": "found/discovered index",
-        "zh": "发现/发现索引"
+        "zh-CN": "发现",
+        "zh": "發現"
     },
     "geboren": {
         "german": "geboren",
         "translation": "geb.",
         "definition": "born",
+        "zh-CN": "出生",
         "zh": "出生"
     },
     "gedruckt": {
         "german": "gedruckt",
         "translation": "gedr.",
         "definition": "printed",
-        "zh": "打印"
+        "zh-CN": "打印",
+        "zh": "列印"
     },
     "Gegenwart": {
         "german": "Gegenwart",
         "translation": " ",
         "definition": "present time",
-        "zh": "当前时间"
+        "zh-CN": "当前时间",
+        "zh": "目前時間"
     },
     "Generalbass": {
         "german": "Generalbass",
         "translation": "Gb.",
         "definition": "continuo",
-        "zh": "连续的"
+        "zh-CN": "连续的",
+        "zh": "連續的"
     },
     "Gesamtausgabe": {
         "german": "Gesamtausgabe",
         "translation": " ",
         "definition": "complete works",
+        "zh-CN": "全集",
         "zh": "全集"
     },
     "Geschichte": {
         "german": "Geschichte",
         "translation": " ",
         "definition": "history",
-        "zh": "历史"
+        "zh-CN": "历史",
+        "zh": "歷史"
     },
     "Gesellschaft": {
         "german": "Gesellschaft",
         "translation": " ",
         "definition": "society, association, club",
-        "zh": "社团、协会、俱乐部"
+        "zh-CN": "社团、协会、俱乐部",
+        "zh": "社團、協會、俱樂部"
     },
     "gestorben": {
         "german": "gestorben",
         "translation": "gest.",
         "definition": "died",
-        "zh": "死了"
+        "zh-CN": "已逝的",
+        "zh": "已逝的"
     },
     "getauft": {
         "german": "getauft",
         "translation": "get.",
         "definition": "baptized",
-        "zh": "受洗礼"
+        "zh-CN": "受洗礼",
+        "zh": "受洗禮"
     },
     "Handschrift": {
         "german": "Handschrift",
         "translation": " ",
         "definition": "manuscript",
-        "zh": "手稿"
+        "zh-CN": "手稿",
+        "zh": "稿"
     },
     "heilig": {
         "german": "heilig",
         "translation": " ",
         "definition": "sacred",
-        "zh": "神圣"
+        "zh-CN": "神圣",
+        "zh": "神聖"
     },
     "herausgegeben von": {
         "german": "herausgegeben von",
         "translation": "hrsg. von",
         "definition": "edited by",
-        "zh": "编辑者"
+        "zh-CN": "编辑者",
+        "zh": "編輯者"
     },
     "Herausgeber": {
         "german": "Herausgeber",
         "translation": "Hrsg.",
         "definition": "editor",
-        "zh": "编辑"
+        "zh-CN": "编辑",
+        "zh": "編輯"
     },
     "Heft": {
         "german": "Heft",
         "translation": "H.",
         "definition": "number, part",
-        "zh": "数量、部分"
+        "zh-CN": "数量、部分",
+        "zh": "數量、部分"
     },
     "Inhalt": {
         "german": "Inhalt",
         "translation": " ",
         "definition": "Contents",
-        "zh": "内容"
+        "zh-CN": "内容",
+        "zh": "內容"
     },
     "Jahr": {
         "german": "Jahr",
         "translation": " ",
         "definition": "volume, annual, year",
-        "zh": "数量、年度、年份"
+        "zh-CN": "数量、年度、年份",
+        "zh": "數量、年度、年份"
     },
     "Jahrhundert": {
         "german": "Jahrhundert",
         "translation": "Jh.",
         "definition": "century",
-        "zh": "世纪"
+        "zh-CN": "世纪",
+        "zh": "世紀"
     },
     "Katalog": {
         "german": "Katalog",
         "translation": " ",
         "definition": "catalog",
-        "zh": "目录"
+        "zh-CN": "目录",
+        "zh": "目錄"
     },
     "Klavierauszug": {
         "german": "Klavierauszug",
         "translation": " ",
         "definition": "piano-vocal score",
-        "zh": "钢琴声乐乐谱"
+        "zh-CN": "钢琴加声乐的乐谱。",
+        "zh": "鋼琴加聲樂的樂譜。"
     },
     "Komponist": {
         "german": "Komponist",
         "translation": " ",
         "definition": "composer",
+        "zh-CN": "作曲家",
         "zh": "作曲家"
     },
     "korrigiert": {
         "german": "korrigiert",
         "translation": " ",
         "definition": "corrected",
-        "zh": "已纠正"
+        "zh-CN": "已纠正",
+        "zh": "已糾正"
     },
     "Kritischer Bericht": {
         "german": "Kritischer Bericht",
         "translation": " ",
         "definition": "critical report or commentary",
-        "zh": "批评性报告或评论"
+        "zh-CN": "批评性报告或评论。",
+        "zh": "批評性報告或評論。"
     },
     "Kunst": {
         "german": "Kunst",
         "translation": " ",
         "definition": "art",
-        "zh": "艺术"
+        "zh-CN": "艺术",
+        "zh": "藝術"
     },
     "Manuskript": {
         "german": "Manuskript",
         "translation": "Ms.",
         "definition": "manuscript",
-        "zh": "手稿"
+        "zh-CN": "手稿",
+        "zh": "稿"
     },
     "Mitarbeiter": {
         "german": "Mitarbeiter",
         "translation": " ",
         "definition": "collaborator",
+        "zh-CN": "合作者",
         "zh": "合作者"
     },
     "Moll": {
         "german": "Moll",
         "translation": " ",
         "definition": "minor (key)",
-        "zh": "小调（关键）"
+        "zh-CN": "小调",
+        "zh": "小調"
     },
     "Musikforschung": {
         "german": "Musikforschung",
         "translation": " ",
         "definition": "music research",
-        "zh": "音乐研究"
+        "zh-CN": "音乐研究",
+        "zh": "音樂研究"
     },
     "Musikschule": {
         "german": "Musikschule",
         "translation": " ",
         "definition": "music school",
-        "zh": "音乐学校"
+        "zh-CN": "音乐学校",
+        "zh": "音樂學校"
     },
     "Musikwissenschaft": {
         "german": "Musikwissenschaft",
         "translation": " ",
         "definition": "musicology",
-        "zh": "音乐学"
+        "zh-CN": "音乐学",
+        "zh": "音樂學"
     },
     "Nachdruck": {
         "german": "Nachdruck",
         "translation": " ",
         "definition": "reprint",
+        "zh-CN": "重印",
         "zh": "重印"
     },
     "Nachweise": {
         "german": "Nachweise",
         "translation": " ",
         "definition": "proof, records",
-        "zh": "证明、记录"
+        "zh-CN": "证明、记录",
+        "zh": "證明、記錄"
     },
     "Nachwort": {
         "german": "Nachwort",
         "translation": " ",
         "definition": "afterword",
-        "zh": "后记"
+        "zh-CN": "后记",
+        "zh": "後記"
     },
     "Namenszug": {
         "german": "Namenszug",
         "translation": " ",
         "definition": "signature",
-        "zh": "签名"
+        "zh-CN": "签名",
+        "zh": "簽名"
     },
     "Neudruck": {
         "german": "Neudruck",
         "translation": "Neudr.",
         "definition": "reprint",
+        "zh-CN": "重印",
         "zh": "重印"
     },
     "Neue Ausgabe; Neuausagbe": {
         "german": "Neue Ausgabe; Neuausagbe",
         "translation": " ",
         "definition": "new edition",
+        "zh-CN": "新版本",
         "zh": "新版本"
     },
     "Nummer": {
         "german": "Nummer",
         "translation": "Nr.",
         "definition": "number",
-        "zh": "数字"
+        "zh-CN": "数字",
+        "zh": "數位"
     },
     "Opus": {
         "german": "Opus",
         "translation": "op.",
         "definition": "opus",
+        "zh-CN": "作品",
         "zh": "作品"
     },
     "Partitur": {
         "german": "Partitur",
         "translation": "Part.",
         "definition": "score",
-        "zh": "分数"
+        "zh-CN": "分数",
+        "zh": "分數"
     },
     "Quelle": {
         "german": "Quelle",
         "translation": " ",
         "definition": "source",
-        "zh": "来源"
+        "zh-CN": "来源",
+        "zh": "來源"
     },
     "Redakteur; Redaktion": {
         "german": "Redakteur; Redaktion",
         "translation": " ",
         "definition": "editor; editing",
-        "zh": "编辑; 编辑"
+        "zh-CN": "编辑; 编辑",
+        "zh": "編輯; 編輯"
     },
     "redigiert": {
         "german": "redigiert",
         "translation": " ",
         "definition": "edited",
-        "zh": "已编辑"
+        "zh-CN": "已编辑",
+        "zh": "已編輯"
     },
     "Register": {
         "german": "Register",
         "translation": " ",
         "definition": "index",
-        "zh": "指数"
+        "zh-CN": "指数",
+        "zh": "指數"
     },
     "Reihe": {
         "german": "Reihe",
         "translation": " ",
         "definition": "series",
+        "zh-CN": "系列",
         "zh": "系列"
     },
     "revidiert": {
         "german": "revidiert",
         "translation": "rev.",
         "definition": "revised",
+        "zh-CN": "修改",
         "zh": "修改"
     },
     "Revisionsbericht": {
         "german": "Revisionsbericht",
         "translation": " ",
         "definition": "critical commentary",
-        "zh": "批判性评论"
+        "zh-CN": "批判性评论",
+        "zh": "批判性評論"
     },
     "Sammlung": {
         "german": "Sammlung",
         "translation": "Samml.",
         "definition": "collection",
+        "zh-CN": "收藏",
         "zh": "收藏"
     },
     "Sämtliche Werke": {
         "german": "Sämtliche Werke",
         "translation": " ",
         "definition": "complete works",
+        "zh-CN": "全集",
         "zh": "全集"
     },
     "Satz": {
         "german": "Satz",
         "translation": " ",
         "definition": "movement",
-        "zh": "移动"
+        "zh-CN": "移动",
+        "zh": "移動"
     },
     "Schrift": {
         "german": "Schrift",
         "translation": " ",
         "definition": "writing, book, periodical, etc.",
-        "zh": "写作、书籍、期刊等"
+        "zh-CN": "写作、书籍、期刊等",
+        "zh": "寫作、書籍、期刊等"
     },
     "Seite": {
         "german": "Seite",
         "translation": "S.",
         "definition": "page",
-        "zh": "页"
+        "zh-CN": "页",
+        "zh": "頁"
     },
     "Skizzen": {
         "german": "Skizzen",
         "translation": " ",
         "definition": "sketches",
-        "zh": "草图"
+        "zh-CN": "草图",
+        "zh": "草圖"
     },
     "Sprechgesang; Sprechstimme": {
         "german": "Sprechgesang; Sprechstimme",
         "translation": " ",
         "definition": "speech-song",
-        "zh": "演讲歌曲"
+        "zh-CN": "演讲歌曲",
+        "zh": "演講歌曲"
     },
     "Stimmen": {
         "german": "Stimmen",
         "translation": " ",
         "definition": "instrumental parts; voices",
-        "zh": "乐器零件； 声音"
+        "zh-CN": "乐器零件； 声音",
+        "zh": "樂器零件； 聲音"
     },
     "Teil": {
         "german": "Teil",
         "translation": "T.",
         "definition": "part, volume",
-        "zh": "份数、体积"
+        "zh-CN": "份数、体积",
+        "zh": "份數、體積"
     },
     "Textbuch": {
         "german": "Textbuch",
         "translation": " ",
         "definition": "libretto",
-        "zh": "唱词"
+        "zh-CN": "唱词",
+        "zh": "唱詞"
     },
     "Titelblatt": {
         "german": "Titelblatt",
         "translation": " ",
         "definition": "title page",
+        "zh-CN": "封面",
         "zh": "封面"
     },
     "Tonkunst": {
         "german": "Tonkunst",
         "translation": " ",
         "definition": "art music; music",
-        "zh": "艺术音乐； 音乐"
+        "zh-CN": "艺术音乐； 音乐",
+        "zh": "藝術音樂； 音樂"
     },
     "Überschrift": {
         "german": "Überschrift",
         "translation": " ",
         "definition": "heading, title",
-        "zh": "标题，标题"
+        "zh-CN": "标题，标题",
+        "zh": "標題，標題"
     },
     "Übersetzung": {
         "german": "Übersetzung",
         "translation": " ",
         "definition": "translation",
-        "zh": "翻译"
+        "zh-CN": "翻译",
+        "zh": "翻譯"
     },
     "Übertragung(en)": {
         "german": "Übertragung(en)",
         "translation": " ",
         "definition": "transcription, transcriptions",
-        "zh": "转录，转录"
+        "zh-CN": "转录，转录",
+        "zh": "轉錄，轉錄"
     },
     "unbekannt": {
         "german": "unbekannt",
         "translation": " ",
         "definition": "unknown",
+        "zh-CN": "未知",
         "zh": "未知"
     },
     "Untergeschoben": {
         "german": "Untergeschoben",
         "translation": " ",
         "definition": "attributed falsely",
-        "zh": "错误归因"
+        "zh-CN": "错误归因",
+        "zh": "錯誤歸因"
     },
     "Urtext": {
         "german": "Urtext",
         "translation": " ",
         "definition": "original text",
+        "zh-CN": "原文",
         "zh": "原文"
     },
     "Verfasser": {
         "german": "Verfasser",
         "translation": " ",
         "definition": "composer, author",
+        "zh-CN": "作曲家、作家",
         "zh": "作曲家、作家"
     },
     "Verlag; Verlager": {
         "german": "Verlag; Verlager",
         "translation": " ",
         "definition": "publishing house or firm; publisher",
+        "zh-CN": "出版社或公司； 出版商",
         "zh": "出版社或公司； 出版商"
     },
     "verlorengegangene": {
         "german": "verlorengegangene",
         "translation": " ",
         "definition": "lost",
-        "zh": "丢失的"
+        "zh-CN": "丢失的",
+        "zh": "遺失的"
     },
     "veröffentlicht; Veröffentlichung": {
         "german": "veröffentlicht; Veröffentlichung",
         "translation": " ",
         "definition": "published; publication",
-        "zh": "发表； 出版物"
+        "zh-CN": "发表； 出版物",
+        "zh": "發表； 出版品"
     },
     "Verzeichnis": {
         "german": "Verzeichnis",
         "translation": "Verl.",
         "definition": "list (usually of works)",
-        "zh": "清单（通常是作品）"
+        "zh-CN": "清单（通常是作品）",
+        "zh": "清單（通常是作品）"
     },
     "weltlich": {
         "german": "weltlich",
         "translation": " ",
         "definition": "secular",
+        "zh-CN": "世俗",
         "zh": "世俗"
     },
     "Werke(s)": {
         "german": "Werke(s)",
         "translation": " ",
         "definition": "work(s)",
-        "zh": "作品）"
+        "zh-CN": "作品",
+        "zh": "作品"
     },
     "Widmung": {
         "german": "Widmung",
         "translation": " ",
         "definition": "dedication",
-        "zh": "奉献"
+        "zh-CN": "奉献",
+        "zh": "奉獻"
     },
     "Wissenschaft": {
         "german": "Wissenschaft",
         "translation": " ",
         "definition": "science, knowledge",
-        "zh": "科学、知识"
+        "zh-CN": "科学、知识",
+        "zh": "科學、知識"
     },
     "Zahl": {
         "german": "Zahl",
         "translation": " ",
         "definition": "number",
-        "zh": "数字"
+        "zh-CN": "数字",
+        "zh": "數位"
     },
     "zusammengestellt": {
         "german": "zusammengestellt",
         "translation": " ",
         "definition": "compiled",
-        "zh": "编译的"
+        "zh-CN": "编译的",
+        "zh": "編譯的"
     },
     "zweifelhaft": {
         "german": "zweifelhaft",
         "translation": " ",
         "definition": "doubtful, questionable; usually applied to attribution of a work",
-        "zh": "可疑的，值得怀疑的； 通常应用于作品的归属"
+        "zh-CN": "可疑的，值得怀疑的； 通常应用于作品的归属。",
+        "zh": "可疑的，值得懷疑的； 通常應用於作品的歸屬。"
     }
 }

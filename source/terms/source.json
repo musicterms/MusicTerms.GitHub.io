@@ -3,1193 +3,1429 @@
         "1 + 3⁄5 ′": {
             "name": "1 + 3⁄5 ′",
             "definition": "Tierce organ stop",
-            "zh": "停止（蒂尔斯风琴）"
+            "zh-CN": "停止（蒂尔斯风琴）",
+            "zh": "停止（蒂爾斯風琴）"
         },
         "16 ′": {
             "name": "16 ′",
             "definition": "sixteen-foot pipe – pipe organ indication calling for one octave below 8 ′",
-            "zh": "十六英尺管 – 管风琴指示要求低于 8 ′ 一个八度"
+            "zh-CN": "十六英尺管 – 管风琴指示要求低于 8 ′ 一个八度",
+            "zh": "十六英尺管 – 管風琴指示要求低於 8 ′ 一個八度"
         },
         "2 + 2⁄3 ′": {
             "name": "2 + 2⁄3 ′",
             "definition": "pipe organ stop for the twelfth interval",
-            "zh": "第十二个音程的管风琴停止"
+            "zh-CN": "第十二个音程的管风琴停止",
+            "zh": "第十二個音程的管風琴停止"
         },
         "2 ′": {
             "name": "2 ′",
             "definition": "two feet – pipe organ indication; see Organ stop § Pitch and length",
-            "zh": "两脚——管风琴指示； 请参见风琴止动件§节距和长度"
+            "zh-CN": "两脚——管风琴指示； 请参见风琴止动件§节距和长度",
+            "zh": "兩腳——管風琴指示； 請參見風琴止動件§節距和長度"
         },
         "64 ′": {
             "name": "64 ′",
             "definition": "sixty-four-foot pipe – pipe organ indication (only a few organs have this deep a pitch)",
-            "zh": "六十四英尺管 – 管风琴指示（只有少数风琴有这么深的音高）"
+            "zh-CN": "六十四英尺管 – 管风琴指示（只有少数风琴有这么深的音高）",
+            "zh": "六十四英尺管 – 管風琴指示（只有少數風琴有這麽深的音高）"
         },
         "8 ′": {
             "name": "8 ′",
             "definition": "eight-foot pipe – pipe organ indication",
-            "zh": "八英尺管 – 管风琴指示"
+            "zh-CN": "八英尺管 – 管风琴指示",
+            "zh": "八英尺管 – 管風琴指示"
         },
         "I": {
             "name": "I",
             "definition": "usually for orchestral string instruments, used to indicate that the player should play the passage on the highest-pitched, thinnest string",
-            "zh": "通常用于管弦乐器，用于指示演奏者应在音调最高、最细的琴弦上演奏该乐段"
+            "zh-CN": "通常用于管弦乐器，用于指示演奏者应在音调最高、最细的琴弦上演奏该乐段",
+            "zh": "通常用於管弦樂器，用於指示演奏者應在音調最高、最細的琴弦上演奏該樂段"
         },
         "II cymbal stop on pipe organ": {
             "name": "II cymbal stop on pipe organ",
             "definition": "a stop that produces a sound resembling cymbals",
-            "zh": "发出类似铙钹声音的音栓"
+            "zh-CN": "发出类似铙钹声音的音栓",
+            "zh": "發出類似鐃鈸聲音的音栓"
         },
         "II": {
             "name": "II",
             "definition": "usually for orchestral string instruments, used to indicate that the player should play the passage on the second highest string",
-            "zh": "通常用于管弦乐器，用于指示演奏者应在第二高弦上演奏该乐段"
+            "zh-CN": "通常用于管弦乐器，用于指示演奏者应在第二高弦上演奏该乐段",
+            "zh": "通常用於管弦樂器，用於指示演奏者應在第二高弦上演奏該樂段"
         },
         "III": {
             "name": "III",
             "definition": "usually for orchestral string instruments, used to indicate that the player should play the passage on the third-highest string",
-            "zh": "通常用于管弦乐器，用于指示演奏者应在第三高弦上演奏该乐段"
+            "zh-CN": "通常用于管弦乐器，用于指示演奏者应在第三高弦上演奏该乐段",
+            "zh": "通常用於管弦樂器，用於指示演奏者應在第三高弦上演奏該樂段"
         },
         "IV": {
             "name": "IV",
             "definition": "usually for orchestral string instruments, used to indicate that the player should play the passage on the lowest-pitched, thickest string, i.e. the fourth-highest string",
-            "zh": "通常用于管弦乐器，用于指示演奏者应在音调最低、最粗的琴弦（即第四高的琴弦）上演奏乐段"
+            "zh-CN": "通常用于管弦乐器，用于指示演奏者应在音调最低、最粗的琴弦（即第四高的琴弦）上演奏乐段",
+            "zh": "通常用於管弦樂器，用於指示演奏者應在音調最低、最粗的琴弦（即第四高的琴弦）上演奏樂段"
         },
         "IV–VI": {
             "name": "IV–VI",
             "definition": "mixture stop on pipe organ",
-            "zh": "管风琴上的混合物停止"
+            "zh-CN": "管风琴上的混合物停止",
+            "zh": "管風琴上的混合物停止"
         }
     },
     "A": {
         "a battuta": {
             "name": "a battuta",
             "definition": "Return to normal tempo after a deviation. Not recommended in string parts, due to possible confusion with battuto (qv.); use a tempo, which means the same thing",
-            "zh": "出现偏差后恢复正常节奏。 不推荐用于弦乐声部，因为可能与 battuto (qv.) 混淆； 使用节奏，这意味着同样的事情"
+            "zh-CN": "出现偏差后恢复正常节奏。 不推荐用于弦乐声部，因为可能与 battuto (qv.) 混淆； 使用节奏，这意味着同样的事情",
+            "zh": "出現偏差後恢復正常節奏。 不推薦用於弦樂聲部，因為可能與 battuto (qv.) 混淆； 使用節奏，這意味著同樣的事情"
         },
         "a bene placito": {
             "name": "a bene placito",
             "definition": "Up to the performer",
-            "zh": "由表演者决定"
+            "zh-CN": "由表演者决定",
+            "zh": "由表演者決定"
         },
         "a cappella": {
             "name": "a cappella",
             "definition": "choral music with no instrumental accompaniment",
-            "zh": "无乐器伴奏的合唱音乐"
+            "zh-CN": "无乐器伴奏的合唱音乐",
+            "zh": "無樂器伴奏的合唱音樂"
         },
         "a capriccio": {
             "name": "a capriccio",
             "definition": "A free and capricious approach to tempo",
-            "zh": "自由而变化无常的节奏方法"
+            "zh-CN": "自由而变化无常的节奏方法",
+            "zh": "自由而變化無常的節奏方法"
         },
         "a due (a 2)": {
             "name": "a due (a 2)",
             "definition": "intended as a duet; for two voices or instruments; together; two instruments are to play in unison after a solo passage for one of the instruments",
-            "zh": "旨在作为二重唱； 对于两种声音或乐器； 一起; 在其中一种乐器的独奏乐段之后，两种乐器要齐声演奏"
+            "zh-CN": "旨在作为二重唱； 对于两种声音或乐器； 一起; 在其中一种乐器的独奏乐段之后，两种乐器要齐声演奏",
+            "zh": "旨在作為二重唱； 對於兩種聲音或樂器； 一起; 在其中一種樂器的獨奏樂段之後，兩種樂器要齊聲演奏"
         },
         "a niente": {
             "name": "a niente",
             "definition": "To nothing; indicating a diminuendo which fades completely away",
-            "zh": "什么也没有； 表示完全消失的渐弱音"
+            "zh-CN": "什么也没有； 表示完全消失的渐弱音",
+            "zh": "什麽也沒有； 表示完全消失的漸弱音"
         },
         "a or à (Fr.)": {
             "name": "a or à (Fr.)",
             "definition": "at, to, by, for, in",
-            "zh": "在、到、由、为、在"
+            "zh-CN": "在、到、由、为、在",
+            "zh": "在、到、由、為、在"
         },
         "a piacere": {
             "name": "a piacere",
             "definition": "At pleasure (i.e. the performer need not follow the rhythm strictly, for example in a cadenza)",
-            "zh": "随意（即表演者无需严格遵循节奏，例如在华彩乐段中）"
+            "zh-CN": "随意（即表演者无需严格遵循节奏，例如在华彩乐段中）",
+            "zh": "隨意（即表演者無需嚴格遵循節奏，例如在華彩樂段中）"
         },
         "a prima vista": {
             "name": "a prima vista",
             "definition": "lit. \"at first sight\". Sight-reading (i.e. played or sung from written notation but without prior review of the written material; refer to the figure)",
-            "zh": "点燃。 “第一眼”。 视奏（即根据书面乐谱演奏或演唱，但未事先审阅书面材料；参见附图）"
+            "zh-CN": "点燃。 “第一眼”。 视奏（即根据书面乐谱演奏或演唱，但未事先审阅书面材料；参见附图）",
+            "zh": "點燃。 「第一眼」。 視奏（即根據書面樂譜演奏或演唱，但未事先審閱書面材料；參見附圖）"
         },
         "a tempo": {
             "name": "a tempo",
             "definition": "In time (i.e. the performer should return to the stable tempo, such as after an accelerando or ritardando ); also may be found in combination with other terms such as a tempo giusto (in strict time) or a tempo di menuetto (at the speed of a minuet)",
-            "zh": "及时（即表演者应返回到稳定的节奏，例如在加速或慢速之后）； 也可以与其他术语结合使用，例如 tempo giusto（严格时间）或 tempo di menuetto（小步舞曲的速度）"
+            "zh-CN": "及时（即表演者应返回到稳定的节奏，例如在加速或慢速之后）； 也可以与其他术语结合使用，例如 tempo giusto（严格时间）或 tempo di menuetto（小步舞曲的速度）",
+            "zh": "及時（即表演者應返回到穩定的節奏，例如在加速或慢速之後）； 也可以與其他術語結合使用，例如 tempo giusto（嚴格時間）或 tempo di menuetto（小步舞曲的速度）"
         },
         "abafando (Port.)": {
             "name": "abafando (Port.)",
             "definition": "Muffling, dampening (i.e. on a drum, muted with a cloth)",
-            "zh": "消声、阻尼（即在鼓上，用布消音）"
+            "zh-CN": "消声、阻尼（即在鼓上，用布消音）",
+            "zh": "消聲、阻尼（即在鼓上，用布消音）"
         },
         "absolute music": {
             "name": "absolute music",
             "definition": "instrumental music with no intended story (non-programmatic music)",
-            "zh": "没有预期故事的器乐（非程序性音乐）"
+            "zh-CN": "没有预期故事的器乐（非程序性音乐）",
+            "zh": "沒有預期故事的器樂（非程序性音樂）"
         },
         "accelerando (accel.)": {
             "name": "accelerando (accel.)",
             "definition": "Accelerating; gradually increasing the tempo",
-            "zh": "加速； 逐渐加快节奏"
+            "zh-CN": "加速； 逐渐加快节奏",
+            "zh": "加速； 逐漸加快節奏"
         },
         "accelerando": {
             "name": "accelerando",
             "definition": "gradually speeding up the speed of the rhythmic beat",
-            "zh": "逐渐加快有节奏的节拍速度"
+            "zh-CN": "逐渐加快有节奏的节拍速度",
+            "zh": "逐漸加快有節奏的節拍速度"
         },
         "accent": {
             "name": "accent",
             "definition": "momentarily emphasizing a note with a dynamic attack",
-            "zh": "暂时强调带有动态起音的音符"
+            "zh-CN": "暂时强调带有动态起音的音符",
+            "zh": "暫時強調帶有動態起音的音符"
         },
         "accesso": {
             "name": "accesso",
             "definition": "Ignited, on fire",
-            "zh": "着火了般"
+            "zh-CN": "着火了般",
+            "zh": "著火了般"
         },
         "acciaccatura": {
             "name": "acciaccatura",
             "definition": "Crushing (i.e. a very fast grace note that is \"crushed\" against the note that follows and takes up no value in the measure)",
-            "zh": "压碎（即，一个非常快的装饰音符被“压碎”在后面的音符上，并且在小节中不占据任何价值）"
+            "zh-CN": "压碎（即，一个非常快的装饰音符被“压碎”在后面的音符上，并且在小节中不占据任何价值）",
+            "zh": "壓碎（即，一個非常快的裝飾音符被「壓碎」在後面的音符上，並且在小節中不占據任何價值）"
         },
         "accidental": {
             "name": "accidental",
             "definition": "A note that is not part of the scale indicated by the key signature",
-            "zh": "不属于调号所指示音阶的音符"
+            "zh-CN": "不属于调号所指示音阶的音符",
+            "zh": "不屬於調號所指示音階的音符"
         },
         "accompagnato": {
             "name": "accompagnato",
             "definition": "Accompanied (i.e. with the accompaniment following the soloist, who may speed up or slow down at will)",
-            "zh": "有伴奏（即伴奏跟随独奏者，可随意加快或减慢）"
+            "zh-CN": "有伴奏（即伴奏跟随独奏者，可随意加快或减慢）",
+            "zh": "有伴奏（即伴奏跟隨獨奏者，可隨意加快或減慢）"
         },
         "acoustic": {
             "name": "acoustic",
             "definition": "Relating to music produced by instruments, as opposed to electric or electronic means",
-            "zh": "与乐器产生的音乐有关，而不是电动或电子方式"
+            "zh-CN": "与乐器产生的音乐有关，而不是电动或电子方式",
+            "zh": "與樂器產生的音樂有關，而不是電動或電子方式"
         },
         "ad libitum (ad lib.)": {
             "name": "ad libitum (ad lib.)",
             "definition": "At liberty (i.e. the speed and manner of execution are left to the performer. It can also mean improvisation .)",
-            "zh": "自由（即表演的速度和方式由表演者决定。它也可以意味着即兴创作。）"
+            "zh-CN": "自由（即表演的速度和方式由表演者决定。它也可以意味着即兴创作。）",
+            "zh": "自由（即表演的速度和方式由表演者決定。它也可以意味著即興創作。）"
         },
         "adagietto": {
             "name": "adagietto",
             "definition": "Slightly faster than adagio",
+            "zh-CN": "比慢板稍快一些",
             "zh": "比慢板稍快一些"
         },
         "adagio": {
             "name": "adagio",
             "definition": "a slow tempo",
-            "zh": "缓慢的节奏"
+            "zh-CN": "缓慢的节奏",
+            "zh": "緩慢的節奏"
         },
         "adagissimo": {
             "name": "adagissimo",
             "definition": "Very, very slow (20 bpm and below)",
+            "zh-CN": "非常非常慢（20 bpm 及以下）",
             "zh": "非常非常慢（20 bpm 及以下）"
         },
         "affannato, affannoso": {
             "name": "affannato, affannoso",
             "definition": "Anguished",
+            "zh-CN": "痛苦的",
             "zh": "痛苦的"
         },
         "affettuoso, affettuosamente, or con affetto": {
             "name": "affettuoso, affettuosamente, or con affetto",
             "definition": "With affect (that is, with emotion); see also con amore",
-            "zh": "带有情感（即带有情感）； 另请参阅 con amore"
+            "zh-CN": "带有情感（即带有情感）； 另请参阅 con amore",
+            "zh": "帶有情感（即帶有情感）； 另請參閱 con amore"
         },
         "affrettando": {
             "name": "affrettando",
             "definition": "Hurrying, pressing onwards",
-            "zh": "匆匆忙忙，奋力前行"
+            "zh-CN": "匆匆忙忙，奋力前行",
+            "zh": "匆匆忙忙，奮力前行"
         },
         "agitato": {
             "name": "agitato",
             "definition": "Agitated",
-            "zh": "激动"
+            "zh-CN": "激动",
+            "zh": "激動"
         },
         "al fine": {
             "name": "al fine",
             "definition": "To the end (i.e. an instruction to repeat the previous section of music, often using a dal segno or da capo, until reaching the final barline or the word \"fine\")",
-            "zh": "到最后（即重复音乐前一部分的指令，通常使用 dal segno 或 da capo，直到到达最后的小节线或单词“fine”）"
+            "zh-CN": "到最后（即重复音乐前一部分的指令，通常使用 dal segno 或 da capo，直到到达最后的小节线或单词“fine”）",
+            "zh": "到最後（即重復音樂前一部分的指令，通常使用 dal segno 或 da capo，直到到達最後的小節線或單詞「fine」）"
         },
         "al niente": {
             "name": "al niente",
             "definition": "To nothing; fading to silence",
-            "zh": "什么也没有； 渐渐归于寂静"
+            "zh-CN": "什么也没有； 渐渐归于寂静",
+            "zh": "什麽也沒有； 漸漸歸於寂靜"
         },
         "al segno": {
             "name": "al segno",
             "definition": "To the sign (i.e. return to a place in the music designated by the sign )",
-            "zh": "到标志（即返回到音乐中由标志指定的位置）"
+            "zh-CN": "到标志（即返回到音乐中由标志指定的位置）",
+            "zh": "到標誌（即返回到音樂中由標誌指定的位置）"
         },
         "al, alla": {
             "name": "al, alla",
             "definition": "To the, in the manner of ( al before masculine nouns, alla before feminine)",
-            "zh": "到 the，以（al 在阳性名词之前，alla 在阴性名词之前）的方式"
+            "zh-CN": "到 the，以（al 在阳性名词之前，alla 在阴性名词之前）的方式",
+            "zh": "到 the，以（al 在陽性名詞之前，alla 在陰性名詞之前）的方式"
         },
         "allegretto": {
             "name": "allegretto",
             "definition": "A little lively, moderately fast",
-            "zh": "有点活泼，速度适中"
+            "zh-CN": "有点活泼，速度适中",
+            "zh": "有點活潑，速度適中"
         },
         "allegro": {
             "name": "allegro",
             "definition": "a fast tempo",
-            "zh": "快节奏"
+            "zh-CN": "快节奏",
+            "zh": "快節奏"
         },
         "allentando": {
             "name": "allentando",
             "definition": "Slowing down; decelerating; opposite of accelerando (same as ritardando or rallentando)",
-            "zh": "慢下来; 减速； 与 accelerando 相反（与 ritardando 或 rallentando 相同）"
+            "zh-CN": "慢下来; 减速； 与 accelerando 相反（与 ritardando 或 rallentando 相同）",
+            "zh": "慢下來; 減速； 與 accelerando 相反（與 ritardando 或 rallentando 相同）"
         },
         "alt (Eng.)": {
             "name": "alt (Eng.)",
             "definition": "High; often refers to a particular range of voice, higher than a tenor but lower than a soprano",
-            "zh": "高的; 通常指特定的音域，高于男高音但低于女高音"
+            "zh-CN": "高的; 通常指特定的音域，高于男高音但低于女高音",
+            "zh": "高的; 通常指特定的音域，高於男高音但低於女高音"
         },
         "altissimo": {
             "name": "altissimo",
             "definition": "Very high; see also in altissimo",
-            "zh": "很高; 另见 Altissimo"
+            "zh-CN": "很高; 另见 Altissimo",
+            "zh": "很高; 另見 Altissimo"
         },
         "alto": {
             "name": "alto",
             "definition": "a low-ranged female voice; the second lowest instrumental range",
-            "zh": "低音女声； 第二低的乐器音域"
+            "zh-CN": "低音女声； 第二低的乐器音域",
+            "zh": "低音女聲； 第二低的樂器音域"
         },
         "am Steg (Ger.)": {
             "name": "am Steg (Ger.)",
             "definition": "At the bridge (i.e. playing a bowed string instrument near its bridge, which produces a heavier, stronger tone); see sul ponticello",
-            "zh": "在琴桥处（即在琴桥附近演奏弓弦乐器，会产生更重、更强的音调）； 西蓬蒂塞洛河畔"
+            "zh-CN": "在琴桥处（即在琴桥附近演奏弓弦乐器，会产生更重、更强的音调）； 西蓬蒂塞洛河畔",
+            "zh": "在琴橋處（即在琴橋附近演奏弓弦樂器，會產生更重、更強的音調）； 西蓬蒂塞洛河畔"
         },
         "amabile": {
             "name": "amabile",
             "definition": "Amiable, pleasant",
-            "zh": "和蔼可亲、令人愉快"
+            "zh-CN": "和蔼可亲、令人愉快",
+            "zh": "和藹可親、令人愉快"
         },
         "ambitus": {
             "name": "ambitus",
             "definition": "The range between the highest and lowest notes of a given melody, part, or piece",
-            "zh": "给定旋律、部分或片段的最高音符和最低音符之间的范围"
+            "zh-CN": "给定旋律、部分或片段的最高音符和最低音符之间的范围",
+            "zh": "給定旋律、部分或片段的最高音符和最低音符之間的範圍"
         },
         "andante": {
             "name": "andante",
             "definition": "moderate tempo (a walking speed; 'Andare' means to walk)",
-            "zh": "中等节奏（步行速度；“Andare”意思是步行）"
+            "zh-CN": "中等节奏（步行速度；“Andare”意思是步行）",
+            "zh": "中等節奏（步行速度；「Andare」意思是步行）"
         },
         "andantino": {
             "name": "andantino",
             "definition": "Slightly faster than andante (but earlier it is sometimes used to mean slightly slower than andante)",
-            "zh": "比行板稍快（但早期有时用来表示比行板稍慢）"
+            "zh-CN": "比行板稍快（但早期有时用来表示比行板稍慢）",
+            "zh": "比行板稍快（但早期有時用來表示比行板稍慢）"
         },
         "anima": {
             "name": "anima",
             "definition": "Soul, spirit",
-            "zh": "灵魂，精神"
+            "zh-CN": "灵魂，精神",
+            "zh": "靈魂，精神"
         },
         "animando": {
             "name": "animando",
             "definition": "Animating, enlivening (i.e. becoming livelier)",
-            "zh": "动画、活跃（即变得更加活跃）"
+            "zh-CN": "动画、活跃（即变得更加活跃）",
+            "zh": "動畫、活躍（即變得更加活躍）"
         },
         "animato": {
             "name": "animato",
             "definition": "Animated, lively",
-            "zh": "动画、活泼"
+            "zh-CN": "动画、活泼",
+            "zh": "動畫、活潑"
         },
         "antiphon": {
             "name": "antiphon",
             "definition": "A liturgical or other composition consisting of choral responses, sometimes between two choirs; a passage of this nature forming part of another composition; a repeated passage in a psalm or other liturgical piece, similar to a refrain.",
-            "zh": "由合唱响应组成的礼拜仪式或其他作品，有时是两个合唱团之间的； 构成另一篇作品一部分的这种性质的段落； 诗篇或其他礼拜仪式中重复出现的段落，类似于副歌。"
+            "zh-CN": "由合唱响应组成的礼拜仪式或其他作品，有时是两个合唱团之间的； 构成另一篇作品一部分的这种性质的段落； 诗篇或其他礼拜仪式中重复出现的段落，类似于副歌。",
+            "zh": "由合唱響應組成的禮拜儀式或其他作品，有時是兩個合唱團之間的； 構成另一篇作品一部分的這種性質的段落； 詩篇或其他禮拜儀式中重復出現的段落，類似於副歌。"
         },
         "antiphonal": {
             "name": "antiphonal",
             "definition": "A style of composition in which two sections of singers or instrumentalists exchange sections or music one after the other; typically the performers are on different sides of a hall or venue",
-            "zh": "一种作曲风格，由两部分歌手或演奏者依次交换乐段或音乐； 通常表演者位于大厅或场地的不同侧面"
+            "zh-CN": "一种作曲风格，由两部分歌手或演奏者依次交换乐段或音乐； 通常表演者位于大厅或场地的不同侧面",
+            "zh": "一種作曲風格，由兩部分歌手或演奏者依次交換樂段或音樂； 通常表演者位於大廳或場地的不同側面"
         },
         "appassionato": {
             "name": "appassionato",
             "definition": "Passionately",
-            "zh": "热情地"
+            "zh-CN": "热情地",
+            "zh": "熱情地"
         },
         "appoggiatura": {
             "name": "appoggiatura",
             "definition": "One or more grace notes that take up some note value of the next full note.",
-            "zh": "一个或多个装饰音符占据下一个完整音符的一些音符值。"
+            "zh-CN": "一个或多个装饰音符占据下一个完整音符的一些音符值。",
+            "zh": "一個或多個裝飾音符占據下一個完整音符的一些音符值。"
         },
         "arco": {
             "name": "arco",
             "definition": "The bow used for playing some string instruments (i.e. played with the bow, as opposed to pizzicato, in music for bowed instruments); normally used to cancel a pizzicato direction",
-            "zh": "用于演奏某些弦乐器的弓（即用弓演奏，而不是弓乐器音乐中的拨奏）； 通常用于取消拨奏方向"
+            "zh-CN": "用于演奏某些弦乐器的弓（即用弓演奏，而不是弓乐器音乐中的拨奏）； 通常用于取消拨奏方向",
+            "zh": "用於演奏某些弦樂器的弓（即用弓演奏，而不是弓樂器音樂中的撥奏）； 通常用於取消撥奏方向"
         },
         "aria": {
             "name": "aria",
             "definition": "a beautiful manner of solo singing, accompanied by orchestra, with a steady metrical beat",
-            "zh": "优美的独唱方式，由管弦乐队伴奏，节奏稳定"
+            "zh-CN": "优美的独唱方式，由管弦乐队伴奏，节奏稳定",
+            "zh": "優美的獨唱方式，由管弦樂隊伴奏，節奏穩定"
         },
         "arioso": {
             "name": "arioso",
             "definition": "Airy, or like an air (a melody) (i.e. in the manner of an aria); melodious",
-            "zh": "轻快的，或像空气（旋律）（即以咏叹调的方式）； 悠扬的"
+            "zh-CN": "轻快的，或像空气（旋律）（即以咏叹调的方式）； 悠扬的",
+            "zh": "輕快的，或像空氣（旋律）（即以詠嘆調的方式）； 悠揚的"
         },
         "arpeggio": {
             "name": "arpeggio",
             "definition": "played like a harp (i.e. the notes of the chords are to be played quickly one after another instead of simultaneously); in music for piano, this is sometimes a solution in playing a wide-ranging chord whose notes cannot be played otherwise; arpeggios are frequently used as an accompaniment; see also broken chord",
-            "zh": "像竖琴一样演奏（即和弦的音符要一个接一个地快速演奏，而不是同时演奏）； 在钢琴音乐中，有时这是弹奏范围广泛的和弦的解决方案，否则无法弹奏其音符； 琶音经常用作伴奏； 另请参见分解和弦"
+            "zh-CN": "像竖琴一样演奏（即和弦的音符要一个接一个地快速演奏，而不是同时演奏）； 在钢琴音乐中，有时这是弹奏范围广泛的和弦的解决方案，否则无法弹奏其音符； 琶音经常用作伴奏； 另请参见分解和弦",
+            "zh": "像豎琴一樣演奏（即和弦的音符要一個接一個地快速演奏，而不是同時演奏）； 在鋼琴音樂中，有時這是彈奏範圍廣泛的和弦的解決方案，否則無法彈奏其音符； 琶音經常用作伴奏； 另請參見分解和弦"
         },
         "arrangement": {
             "name": "arrangement",
             "definition": "An adaptation of a composition for other instruments, voices, or for another style of performance",
-            "zh": "为其他乐器、声音或其他表演风格而改编的作品"
+            "zh-CN": "为其他乐器、声音或其他表演风格而改编的作品",
+            "zh": "為其他樂器、聲音或其他表演風格而改編的作品"
         },
         "art song": {
             "name": "art song",
             "definition": "(genre) a musical setting of artistic poetry for solo voice accompanied by piano (or orchestra)",
-            "zh": "（流派）由钢琴（或管弦乐队）伴奏的艺术诗歌的音乐背景"
+            "zh-CN": "（流派）由钢琴（或管弦乐队）伴奏的艺术诗歌的音乐背景",
+            "zh": "（流派）由鋼琴（或管弦樂隊）伴奏的藝術詩歌的音樂背景"
         },
         "art-music": {
             "name": "art-music",
             "definition": "a general term used to describe the 'formal concert music' traditions of the West, as opposed to 'popular' and 'commercial music' styles.",
-            "zh": "一个通用术语，用于描述西方的“正式音乐会音乐”传统，而不是“流行”和“商业音乐”风格。"
+            "zh-CN": "一个通用术语，用于描述西方的“正式音乐会音乐”传统，而不是“流行”和“商业音乐”风格。",
+            "zh": "一個通用術語，用於描述西方的「正式音樂會音樂」傳統，而不是「流行」和「商業音樂」風格。"
         },
         "articulation": {
             "name": "articulation",
             "definition": "The transition or continuity between multiple notes",
-            "zh": "多个音符之间的过渡或连续性"
+            "zh-CN": "多个音符之间的过渡或连续性",
+            "zh": "多個音符之間的過渡或連續性"
         },
         "assai": {
             "name": "assai",
             "definition": "Very much, as in allegro assai, quite fast",
-            "zh": "非常多，就像 allegro assai 一样，相当快"
+            "zh-CN": "非常多，就像 allegro assai 一样，相当快",
+            "zh": "非常多，就像 allegro assai 一樣，相當快"
         },
         "atonality": {
             "name": "atonality",
             "definition": "modern harmony that intentionally avoids a tonal center (has no apparent home key)",
-            "zh": "故意避免音调中心的现代和谐（没有明显的主页键）"
+            "zh-CN": "故意避免音调中心的现代和谐（没有明显的主页键）",
+            "zh": "故意避免音調中心的現代和諧（沒有明顯的主頁鍵）"
         },
         "attacca": {
             "name": "attacca",
             "definition": "Attack or attach; go straight on (i.e. at the end of a movement, a direction to attach the next movement to the previous one, without a gap or pause). Often used as \" attacca subito ,\" meaning a \"sudden\" movement transition (literally, \" attack suddenly \").",
-            "zh": "攻击或附着； 继续（即在一个动作结束时，将下一个动作附加到前一个动作的方向，没有间隙或停顿）。 通常用作“attacca subito”，意思是“突然”的运动过渡（字面意思是“突然攻击”）。"
+            "zh-CN": "攻击或附着； 继续（即在一个动作结束时，将下一个动作附加到前一个动作的方向，没有间隙或停顿）。 通常用作“attacca subito”，意思是“突然”的运动过渡（字面意思是“突然攻击”）。",
+            "zh": "攻擊或附著； 繼續（即在一個動作結束時，將下一個動作附加到前一個動作的方向，沒有間隙或停頓）。 通常用作「attacca subito」，意思是「突然」的運動過渡（字面意思是「突然攻擊」）。"
         },
         "augmentation": {
             "name": "augmentation",
             "definition": "lengthening the rhythmic values of a fugal subject",
-            "zh": "延长赋格主题的节奏值"
+            "zh-CN": "延长赋格主题的节奏值",
+            "zh": "延長賦格主題的節奏值"
         },
         "ausdrucksvoll (Ger.)": {
             "name": "ausdrucksvoll (Ger.)",
             "definition": "Expressively",
-            "zh": "表现地"
+            "zh-CN": "表现地",
+            "zh": "表現地"
         },
         "avant-garde": {
             "name": "avant-garde",
             "definition": "('at the forefront') a French term that describes highly experimental modern musical styles",
-            "zh": "（“在最前沿”）一个法语术语，描述高度实验性的现代音乐风格"
+            "zh-CN": "（“在最前沿”）一个法语术语，描述高度实验性的现代音乐风格",
+            "zh": "（「在最前沿」）一個法語術語，描述高度實驗性的現代音樂風格"
         },
         "à la (Fr.)": {
             "name": "à la (Fr.)",
             "definition": "in the style of...",
-            "zh": "以...的风格"
+            "zh-CN": "以...的风格",
+            "zh": "以...的風格"
         }
     },
     "B": {
         "B (Ger.)": {
             "name": "B (Ger.)",
             "definition": "German for B flat (also in Swedish, Norwegian, Finnish, Icelandic, Danish, Croatian, Estonian and Hungarian); H in German is B natural",
-            "zh": "德语降B（还有瑞典语、挪威语、芬兰语、冰岛语、丹麦语、克罗地亚语、爱沙尼亚语和匈牙利语）； 德语中的 H 是自然 B"
+            "zh-CN": "德语降B（还有瑞典语、挪威语、芬兰语、冰岛语、丹麦语、克罗地亚语、爱沙尼亚语和匈牙利语）； 德语中的 H 是自然 B",
+            "zh": "德語降B（還有瑞典語、挪威語、芬蘭語、冰島語、丹麥語、克羅地亞語、愛沙尼亞語和匈牙利語）； 德語中的 H 是自然 B"
         },
         "Baroque Era": {
             "name": "Baroque Era",
             "definition": "c1600-1750; a musical period of extremely ornate and elaborate approaches to the arts[^16^][16]. This era saw the rise of instrumental music, the invention of the modern violin family and the creation of the first orchestras (Vivaldi, Handel, JS Bach)",
-            "zh": "c1600-1750; 一个极其华丽和精致的艺术方法的音乐时期[^16^][16]。 这个时代见证了器乐的兴起、现代小提琴家族的发明以及第一批管弦乐团的创建（维瓦尔第、亨德尔、JS 巴赫）"
+            "zh-CN": "c1600-1750; 一个极其华丽和精致的艺术方法的音乐时期[^16^][16]。 这个时代见证了器乐的兴起、现代小提琴家族的发明以及第一批管弦乐团的创建（维瓦尔第、亨德尔、JS 巴赫）",
+            "zh": "c1600-1750; 一個極其華麗和精致的藝術方法的音樂時期[^16^][16]。 這個時代見證了器樂的興起、現代小提琴家族的發明以及第一批管弦樂團的創建（維瓦爾第、亨德爾、JS 巴赫）"
         },
         "Big Band jazz": {
             "name": "Big Band jazz",
             "definition": "see 'Swing'",
-            "zh": "见“摇摆”"
+            "zh-CN": "见“摇摆”",
+            "zh": "見「搖擺」"
         },
         "Blues": {
             "name": "Blues",
             "definition": "a melancholy style of Afro-American secular music, based on a simple musical/poetic form[^25^][25]. 'Delta' blues began in the early 1900s; 'Classic' blues in the late 1920s; 'Rhythm and Blues' in the 1940s.",
-            "zh": "一种忧郁的美国黑人世俗音乐风格，基于简单的音乐/诗歌形式[^25^][25]。 “Delta”布鲁斯始于 1900 年代初； 20 年代末的“经典”布鲁斯； 20 世纪 40 年代的“节奏与布鲁斯”。"
+            "zh-CN": "一种忧郁的美国黑人世俗音乐风格，基于简单的音乐/诗歌形式[^25^][25]。 “Delta”布鲁斯始于 1900 年代初； 20 年代末的“经典”布鲁斯； 20 世纪 40 年代的“节奏与布鲁斯”。",
+            "zh": "一種憂郁的美國黑人世俗音樂風格，基於簡單的音樂/詩歌形式[^25^][25]。 「Delta」布魯斯始於 1900 年代初； 20 年代末的「經典」布魯斯； 20 世紀 40 年代的「節奏與布魯斯」。"
         },
         "ballabile": {
             "name": "ballabile",
             "definition": "From the Italian Ballabile meaning \"danceable\". In ballet, the term refers to a dance which is performed by the corps de ballet. The term is rarely used today.",
-            "zh": "源自意大利语 Ballabile，意思是“可跳舞的”。 在芭蕾舞中，该术语指的是由芭蕾舞团表演的舞蹈。 如今这个词已经很少使用了。"
+            "zh-CN": "源自意大利语 Ballabile，意思是“可跳舞的”。 在芭蕾舞中，该术语指的是由芭蕾舞团表演的舞蹈。 如今这个词已经很少使用了。",
+            "zh": "源自意大利語 Ballabile，意思是「可跳舞的」。 在芭蕾舞中，該術語指的是由芭蕾舞團表演的舞蹈。 如今這個詞已經很少使用了。"
         },
         "ballad": {
             "name": "ballad",
             "definition": "A simple song, often of folk origin, usually consisting of quatrains using a common meter and rhyme scheme; a narrative poem suitable for singing, typically composed of quatrains in rhymed stanzas; a slow romantic or sentimental song.",
-            "zh": "一首简单的歌曲，通常源自民间，通常由使用共同格律和韵律的绝句组成； 适合歌唱的叙事诗，通常由押韵诗节中的绝句组成； 一首缓慢的浪漫或感伤的歌曲。"
+            "zh-CN": "一首简单的歌曲，通常源自民间，通常由使用共同格律和韵律的绝句组成； 适合歌唱的叙事诗，通常由押韵诗节中的绝句组成； 一首缓慢的浪漫或感伤的歌曲。",
+            "zh": "一首簡單的歌曲，通常源自民間，通常由使用共同格律和韻律的絕句組成； 適合歌唱的敘事詩，通常由押韻詩節中的絕句組成； 一首緩慢的浪漫或感傷的歌曲。"
         },
         "ballata": {
             "name": "ballata",
             "definition": "Dance (i.e. a piece of music suitable for dancing)",
-            "zh": "舞蹈（即一段适合跳舞的音乐）"
+            "zh-CN": "舞蹈（即一段适合跳舞的音乐）",
+            "zh": "舞蹈（即一段適合跳舞的音樂）"
         },
         "ballet": {
             "name": "ballet",
             "definition": "(genre) a programmatic theatrical work for dancers and orchestra",
-            "zh": "（流派）为舞者和管弦乐队表演的节目戏剧作品"
+            "zh-CN": "（流派）为舞者和管弦乐队表演的节目戏剧作品",
+            "zh": "（流派）為舞者和管弦樂隊表演的節目戲劇作品"
         },
         "balletto": {
             "name": "balletto",
             "definition": "Ballet (i.e. a theatrical work or entertainment in which ballet dancing and music, often with scenery and costumes, combine to tell a story, establish an emotional atmosphere, etc.)",
-            "zh": "芭蕾（即一种戏剧作品或娱乐节目，其中芭蕾舞蹈和音乐，通常与布景和服装相结合，讲述一个故事，营造一种情感氛围等）"
+            "zh-CN": "芭蕾（即一种戏剧作品或娱乐节目，其中芭蕾舞蹈和音乐，通常与布景和服装相结合，讲述一个故事，营造一种情感氛围等）",
+            "zh": "芭蕾（即一種戲劇作品或娛樂節目，其中芭蕾舞蹈和音樂，通常與布景和服裝相結合，講述一個故事，營造一種情感氛圍等）"
         },
         "bar": {
             "name": "bar",
             "definition": "a common term for a musical measure",
-            "zh": "音乐小节的通用术语"
+            "zh-CN": "音乐小节的通用术语",
+            "zh": "音樂小節的通用術語"
         },
         "barcarola": {
             "name": "barcarola",
             "definition": "Barcarole (i.e. a Venetian gondolier's song, or a piece of music composed in that style)",
-            "zh": "船歌（即威尼斯船夫的歌曲，或以此风格创作的一首音乐）"
+            "zh-CN": "船歌（即威尼斯船夫的歌曲，或以此风格创作的一首音乐）",
+            "zh": "船歌（即威尼斯船夫的歌曲，或以此風格創作的一首音樂）"
         },
         "baritone": {
             "name": "baritone",
             "definition": "a moderately low male voice; in range between a tenor and a bass",
-            "zh": "中等低沉的男声； 介于男高音和男低音之间的音域"
+            "zh-CN": "中等低沉的男声； 介于男高音和男低音之间的音域",
+            "zh": "中等低沈的男聲； 介於男高音和男低音之間的音域"
         },
         "bass drum": {
             "name": "bass drum",
             "definition": "the lowest-sounding non-pitched percussion instrument",
-            "zh": "声音最低的无音打击乐器"
+            "zh-CN": "声音最低的无音打击乐器",
+            "zh": "聲音最低的無音打擊樂器"
         },
         "bass": {
             "name": "bass",
             "definition": "the lowest male voice; (see Double Bass)",
-            "zh": "最低沉的男声； （参见低音提琴）"
+            "zh-CN": "最低沉的男声； （参见低音提琴）",
+            "zh": "最低沈的男聲； （參見低音提琴）"
         },
         "basso continuo": {
             "name": "basso continuo",
             "definition": "the back-up ensemble of the Baroque Era usually comprised of a keyboard instrument (harpsichord or organ) and a melodic stringed bass instrument (viol' da gamba or cello)",
-            "zh": "巴洛克时代的伴奏合奏通常由键盘乐器（羽管键琴或管风琴）和旋律低音弦乐器（viol' da gamba 或大提琴）组成"
+            "zh-CN": "巴洛克时代的伴奏合奏通常由键盘乐器（羽管键琴或管风琴）和旋律低音弦乐器（viol' da gamba 或大提琴）组成",
+            "zh": "巴洛克時代的伴奏合奏通常由鍵盤樂器（羽管鍵琴或管風琴）和旋律低音弦樂器（viol' da gamba 或大提琴）組成"
         },
         "bassoon": {
             "name": "bassoon",
             "definition": "the lowest-sounding regular instrument of the woodwind family (a double-reed instrument)",
-            "zh": "木管乐器家族中声音最低的常规乐器（双簧乐器）"
+            "zh-CN": "木管乐器家族中声音最低的常规乐器（双簧乐器）",
+            "zh": "木管樂器家族中聲音最低的常規樂器（雙簧樂器）"
         },
         "battuta": {
             "name": "battuta",
             "definition": "Beat (i.e. the beat or pulse defines tempo by dividing time into pieces of equal duration)",
-            "zh": "节拍（即节拍或脉冲通过将时间分成相等持续时间的片段来定义节奏）"
+            "zh-CN": "节拍（即节拍或脉冲通过将时间分成相等持续时间的片段来定义节奏）",
+            "zh": "節拍（即節拍或脈沖通過將時間分成相等持續時間的片段來定義節奏）"
         },
         "beat": {
             "name": "beat",
             "definition": "a musical pulse",
-            "zh": "音乐脉搏"
+            "zh-CN": "音乐脉搏",
+            "zh": "音樂脈搏"
         },
         "bebop": {
             "name": "bebop",
             "definition": "a complex, highly-improvisatory style of jazz promoted by Charlie Parker in the 1940s-50s",
-            "zh": "查理·帕克 (Charlie Parker) 在 20 世纪 40 年代至 50 年代提倡的一种复杂、高度即兴的爵士乐风格"
+            "zh-CN": "查理·帕克 (Charlie Parker) 在 20 世纪 40 年代至 50 年代提倡的一种复杂、高度即兴的爵士乐风格",
+            "zh": "查理·帕克 (Charlie Parker) 在 20 世紀 40 年代至 50 年代提倡的一種復雜、高度即興的爵士樂風格"
         },
         "bel canto": {
             "name": "bel canto",
             "definition": "Beautiful singing or song",
-            "zh": "优美的歌声或歌曲"
+            "zh-CN": "优美的歌声或歌曲",
+            "zh": "優美的歌聲或歌曲"
         },
         "ben marcato": {
             "name": "ben marcato",
             "definition": "Well marked (i.e. execute each note fully and clearly, as if marching to the beat)",
-            "zh": "标记良好（即完整、清晰地执行每个音符，就像跟着节拍前进一样）"
+            "zh-CN": "标记良好（即完整、清晰地执行每个音符，就像跟着节拍前进一样）",
+            "zh": "標記良好（即完整、清晰地執行每個音符，就像跟著節拍前進一樣）"
         },
         "berceuse (Fr.)": {
             "name": "berceuse (Fr.)",
             "definition": "Lullaby, cradle song",
-            "zh": "摇篮曲、摇篮曲"
+            "zh-CN": "摇篮曲、摇篮曲",
+            "zh": "搖籃曲、搖籃曲"
         },
         "bewegt (Ger.)": {
             "name": "bewegt (Ger.)",
             "definition": "Moved, animated, with motion",
-            "zh": "移动的、动画的、有动作的"
+            "zh-CN": "移动的、动画的、有动作的",
+            "zh": "移動的、動畫的、有動作的"
         },
         "binary form": {
             "name": "binary form",
             "definition": "a form comprised of two distinctly opposing sections ('A' vs. 'B')",
-            "zh": "由两个截然不同的部分组成的形式（“A”与“B”）"
+            "zh-CN": "由两个截然不同的部分组成的形式（“A”与“B”）",
+            "zh": "由兩個截然不同的部分組成的形式（「A」與「B」）"
         },
         "bocca chiusa": {
             "name": "bocca chiusa",
             "definition": "With closed mouth",
-            "zh": "闭着嘴"
+            "zh-CN": "闭着嘴",
+            "zh": "閉著嘴"
         },
         "bolero": {
             "name": "bolero",
             "definition": "A Spanish dance in simple triple time",
-            "zh": "简单三拍子的西班牙舞蹈"
+            "zh-CN": "简单三拍子的西班牙舞蹈",
+            "zh": "簡單三拍子的西班牙舞蹈"
         },
         "bourrée": {
             "name": "bourrée",
             "definition": "A French dance in quick double time",
-            "zh": "快速双拍法式舞蹈"
+            "zh-CN": "快速双拍法式舞蹈",
+            "zh": "快速雙拍法式舞蹈"
         },
         "brass instrument": {
             "name": "brass instrument",
             "definition": "a powerful metallic instrument with a mouthpiece and tubing that must be blown into by the player, such as trumpet, trombone, French horn, tuba, baritone, bugel",
-            "zh": "一种强大的金属乐器，带有吹口和管子，必须由演奏者吹奏，例如小号、长号、圆号、大号、男中音、号角"
+            "zh-CN": "一种强大的金属乐器，带有吹口和管子，必须由演奏者吹奏，例如小号、长号、圆号、大号、男中音、号角",
+            "zh": "一種強大的金屬樂器，帶有吹口和管子，必須由演奏者吹奏，例如小號、長號、圓號、大號、男中音、號角"
         },
         "bravura": {
             "name": "bravura",
             "definition": "Great technical skill and brilliance shown in a performance or activity",
-            "zh": "在表演或活动中表现出出色的技术能力和才华"
+            "zh-CN": "在表演或活动中表现出出色的技术能力和才华",
+            "zh": "在表演或活動中表現出出色的技術能力和才華"
         },
         "breit (Ger.)": {
             "name": "breit (Ger.)",
             "definition": "Broad, wide, slow",
-            "zh": "宽阔、宽阔、缓慢"
+            "zh-CN": "宽阔、宽阔、缓慢",
+            "zh": "寬闊、寬闊、緩慢"
         },
         "brillante": {
             "name": "brillante",
             "definition": "Brilliant, sparkling",
-            "zh": "辉煌、闪闪发光"
+            "zh-CN": "辉煌、闪闪发光",
+            "zh": "輝煌、閃閃發光"
         },
         "brio": {
             "name": "brio",
             "definition": "Vigour or spirit in performance",
+            "zh-CN": "表演中的活力或精神",
             "zh": "表演中的活力或精神"
         },
         "brise (Fr.)": {
             "name": "brise (Fr.)",
             "definition": "Broken, as in chord",
+            "zh-CN": "破碎，如和弦",
             "zh": "破碎，如和弦"
         },
         "burletta": {
             "name": "burletta",
             "definition": "A comic opera; also, a suite of rustic dances",
-            "zh": "喜剧； 还有一套乡村舞蹈"
+            "zh-CN": "喜剧； 还有一套乡村舞蹈",
+            "zh": "喜劇； 還有一套鄉村舞蹈"
         }
     },
     "C": {
         "Classic Era": {
             "name": "Classic Era",
             "definition": "c1750-1820; a politically turbulent era focused on structural unity, clarity and balance. (Haydn, Mozart, Beethoven)",
-            "zh": "c1750-1820； 这是一个政治动荡的时代，注重结构统一、清晰和平衡。 （海顿、莫扎特、贝多芬）"
+            "zh-CN": "c1750-1820； 这是一个政治动荡的时代，注重结构统一、清晰和平衡。 （海顿、莫扎特、贝多芬）",
+            "zh": "c1750-1820； 這是一個政治動蕩的時代，註重結構統一、清晰和平衡。 （海頓、莫紮特、貝多芬）"
         },
         "cabaletta": {
             "name": "cabaletta",
             "definition": "A simple, catchy part of a melody",
-            "zh": "旋律中简单、朗朗上口的部分"
+            "zh-CN": "旋律中简单、朗朗上口的部分",
+            "zh": "旋律中簡單、朗朗上口的部分"
         },
         "cadence": {
             "name": "cadence",
             "definition": "a melodic or harmonic punctuation mark at the end of a phrase, major section or entire work",
-            "zh": "乐句、主要部分或整个作品末尾的旋律或和声标点符号"
+            "zh-CN": "乐句、主要部分或整个作品末尾的旋律或和声标点符号",
+            "zh": "樂句、主要部分或整個作品末尾的旋律或和聲標點符號"
         },
         "cadenza": {
             "name": "cadenza",
             "definition": "an unaccompanied section of virtuosic display played by a soloist in a concerto",
-            "zh": "由独奏者在协奏曲中演奏的无伴奏的艺术表演部分"
+            "zh-CN": "由独奏者在协奏曲中演奏的无伴奏的艺术表演部分",
+            "zh": "由獨奏者在協奏曲中演奏的無伴奏的藝術表演部分"
         },
         "calando": {
             "name": "calando",
             "definition": "Getting softer and slower",
-            "zh": "变得更柔和、更缓慢"
+            "zh-CN": "变得更柔和、更缓慢",
+            "zh": "變得更柔和、更緩慢"
         },
         "call and response": {
             "name": "call and response",
             "definition": "a traditional African process in which a leader's phrase ('call') is repeatedly answered by a chorus. This process became an important aspect of many Afro-American styles.",
-            "zh": "这是一种传统的非洲过程，领导人的一句话（“号召”）会被合唱团反复回应。 这一过程成为许多美国黑人风格的一个重要方面。"
+            "zh-CN": "这是一种传统的非洲过程，领导人的一句话（“号召”）会被合唱团反复回应。 这一过程成为许多美国黑人风格的一个重要方面。",
+            "zh": "這是一種傳統的非洲過程，領導人的一句話（「號召」）會被合唱團反復回應。 這一過程成為許多美國黑人風格的一個重要方面。"
         },
         "calore": {
             "name": "calore",
             "definition": "Warmth",
-            "zh": "温暖"
+            "zh-CN": "温暖",
+            "zh": "溫暖"
         },
         "cambiata": {
             "name": "cambiata",
             "definition": "Changing the pitch or key",
-            "zh": "改变音高或调"
+            "zh-CN": "改变音高或调",
+            "zh": "改變音高或調"
         },
         "cancrizans": {
             "name": "cancrizans",
             "definition": "A melodic line that is the reverse of a previously or simultaneously stated line",
-            "zh": "与先前或同时陈述的旋律线相反的旋律线"
+            "zh-CN": "与先前或同时陈述的旋律线相反的旋律线",
+            "zh": "與先前或同時陳述的旋律線相反的旋律線"
         },
         "canon": {
             "name": "canon",
             "definition": "a type of strict imitation created by strict echoing between a melodic 'leader' and subsequent 'follower(s)'",
-            "zh": "一种由旋律“领导者”和随后的“跟随者”之间严格呼应而产生的严格模仿"
+            "zh-CN": "一种由旋律“领导者”和随后的“跟随者”之间严格呼应而产生的严格模仿",
+            "zh": "一種由旋律「領導者」和隨後的「跟隨者」之間嚴格呼應而產生的嚴格模仿"
         },
         "cantabile": {
             "name": "cantabile",
             "definition": "In a singing style",
-            "zh": "以歌唱风格"
+            "zh-CN": "以歌唱风格",
+            "zh": "以歌唱風格"
         },
         "cantando": {
             "name": "cantando",
             "definition": "Singing",
+            "zh-CN": "唱歌",
             "zh": "唱歌"
         },
         "cantata": {
             "name": "cantata",
             "definition": "(genre) a composition in several movements, written for chorus, soloist(s) and orchestra; traditionally, these are religious works.",
-            "zh": "（流派）为合唱团、独奏者和管弦乐队而写的多乐章作品； 传统上，这些都是宗教作品。"
+            "zh-CN": "（流派）为合唱团、独奏者和管弦乐队而写的多乐章作品； 传统上，这些都是宗教作品。",
+            "zh": "（流派）為合唱團、獨奏者和管弦樂隊而寫的多樂章作品； 傳統上，這些都是宗教作品。"
         },
         "capo": {
             "name": "capo",
             "definition": "Head; a direction in sheet music indicating a movement at the start (i.e. the beginning). The term is often abbreviated as D.C.",
-            "zh": "头; 乐谱中指示开头（即开始）的乐章的方向。 该术语通常缩写为 D.C."
+            "zh-CN": "头; 乐谱中指示开头（即开始）的乐章的方向。 该术语通常缩写为 D.C.",
+            "zh": "頭; 樂譜中指示開頭（即開始）的樂章的方向。 該術語通常縮寫為 D.C."
         },
         "capriccio": {
             "name": "capriccio",
             "definition": "Whim or fancy, often used as a title for a piece of music, one that is lively and free in form",
-            "zh": "突发奇想或奇思妙想，通常用作一首音乐的标题，一首形式活泼、自由的音乐"
+            "zh-CN": "突发奇想或奇思妙想，通常用作一首音乐的标题，一首形式活泼、自由的音乐",
+            "zh": "突發奇想或奇思妙想，通常用作一首音樂的標題，一首形式活潑、自由的音樂"
         },
         "cavatina": {
             "name": "cavatina",
             "definition": "A short and simple melody performed by a soloist that is part of a larger piece",
-            "zh": "由独奏者演奏的短而简单的旋律，是一首较大作品的一部分"
+            "zh-CN": "由独奏者演奏的短而简单的旋律，是一首较大作品的一部分",
+            "zh": "由獨奏者演奏的短而簡單的旋律，是一首較大作品的一部分"
         },
         "cello": {
             "name": "cello",
             "definition": "the tenor-ranged instrument of the modern string family (an abbreviation for violoncello)",
-            "zh": "现代弦乐家族的次中音乐器（大提琴的缩写）"
+            "zh-CN": "现代弦乐家族的次中音乐器（大提琴的缩写）",
+            "zh": "現代弦樂家族的次中音樂器（大提琴的縮寫）"
         },
         "cesura": {
             "name": "cesura",
             "definition": "A pause or interruption (e.g., a pause within a line of poetry)",
-            "zh": "停顿或中断（例如，一行诗中的停顿）"
+            "zh-CN": "停顿或中断（例如，一行诗中的停顿）",
+            "zh": "停頓或中斷（例如，一行詩中的停頓）"
         },
         "chamber music": {
             "name": "chamber music",
             "definition": "(genre) music performed by a small group of players (one player per part)",
-            "zh": "（流派）由一小群演奏者演奏的音乐（每个部分一名演奏者）"
+            "zh-CN": "（流派）由一小群演奏者演奏的音乐（每个部分一名演奏者）",
+            "zh": "（流派）由一小群演奏者演奏的音樂（每個部分一名演奏者）"
         },
         "chance music": {
             "name": "chance music",
             "definition": "(genre) a modern manner of composition in which some or all of the work is left to chance",
-            "zh": "（流派）一种现代的创作方式，其中部分或全部作品都是偶然的"
+            "zh-CN": "（流派）一种现代的创作方式，其中部分或全部作品都是偶然的",
+            "zh": "（流派）一種現代的創作方式，其中部分或全部作品都是偶然的"
         },
         "chanson (Fr.)": {
             "name": "chanson (Fr.)",
             "definition": "Song",
+            "zh-CN": "歌曲",
             "zh": "歌曲"
         },
         "chant": {
             "name": "chant",
             "definition": "(genre) a monophonic melody sung in a free rhythm (such as 'Gregorian' chant of the Roman Catholic Church)",
-            "zh": "（流派）以自由节奏演唱的单音旋律（例如罗马天主教会的“格里高利”圣歌）"
+            "zh-CN": "（流派）以自由节奏演唱的单音旋律（例如罗马天主教会的“格里高利”圣歌）",
+            "zh": "（流派）以自由節奏演唱的單音旋律（例如羅馬天主教會的「格裏高利」聖歌）"
         },
         "character piece": {
             "name": "character piece",
             "definition": "(genre) a 1-movement programmatic work for a solo pianist",
-            "zh": "（流派）钢琴独奏家的单乐章程序化作品"
+            "zh-CN": "（流派）钢琴独奏家的单乐章程序化作品",
+            "zh": "（流派）鋼琴獨奏家的單樂章程序化作品"
         },
         "chimes": {
             "name": "chimes",
             "definition": "a percussion instrument comprised of several tube-shaped bells struck by a leather hammer",
-            "zh": "一种打击乐器，由几个管状铃组成，用皮锤敲击"
+            "zh-CN": "一种打击乐器，由几个管状铃组成，用皮锤敲击",
+            "zh": "一種打擊樂器，由幾個管狀鈴組成，用皮錘敲擊"
         },
         "chorale": {
             "name": "chorale",
             "definition": "1) a Lutheran liturgical melody; 2) a 4-part hymn-like chorale harmonization",
-            "zh": "1）路德教会的礼拜旋律； 2) 4 部分赞美诗般的合唱和声"
+            "zh-CN": "1）路德教会的礼拜旋律； 2) 4 部分赞美诗般的合唱和声",
+            "zh": "1）路德教會的禮拜旋律； 2) 4 部分贊美詩般的合唱和聲"
         },
         "chord": {
             "name": "chord",
             "definition": "a harmonic combination that has three or more pitches sounding simultaneously",
-            "zh": "具有三个或更多音高同时发声的和声组合"
+            "zh-CN": "具有三个或更多音高同时发声的和声组合",
+            "zh": "具有三個或更多音高同時發聲的和聲組合"
         },
         "chorus": {
             "name": "chorus",
             "definition": "1) a fairly large choral group; 2) in Jazz, a single statement of the main harmonic/melody pattern",
-            "zh": "1）有相当规模的合唱团； 2) 在爵士乐中，主要和声/旋律模式的单一陈述"
+            "zh-CN": "1）有相当规模的合唱团； 2) 在爵士乐中，主要和声/旋律模式的单一陈述",
+            "zh": "1）有相當規模的合唱團； 2) 在爵士樂中，主要和聲/旋律模式的單一陳述"
         },
         "chromaticism": {
             "name": "chromaticism",
             "definition": "1) harmonic or melodic movement by half-step intervals; 2) harmony that uses pitches beyond the central key of a work",
-            "zh": "1）半步间隔的和声或旋律运动； 2）使用超出作品中心音调的和声"
+            "zh-CN": "1）半步间隔的和声或旋律运动； 2）使用超出作品中心音调的和声",
+            "zh": "1）半步間隔的和聲或旋律運動； 2）使用超出作品中心音調的和聲"
         },
         "clarinet": {
             "name": "clarinet",
             "definition": "the tenor-ranged instrument of the woodwind family (a single-reed instrument)",
-            "zh": "木管乐器家族的次中音乐器（单簧片乐器）"
+            "zh-CN": "木管乐器家族的次中音乐器（单簧片乐器）",
+            "zh": "木管樂器家族的次中音樂器（單簧片樂器）"
         },
         "coda": {
             "name": "coda",
             "definition": "(means 'tail' in Italian) a concluding section appended to the end of a work",
-            "zh": "（意大利语中“尾部”的意思）附加在作品末尾的结论部分"
+            "zh-CN": "（意大利语中“尾部”的意思）附加在作品末尾的结论部分",
+            "zh": "（意大利語中「尾部」的意思）附加在作品末尾的結論部分"
         },
         "col legno": {
             "name": "col legno",
             "definition": "With the wood (i.e. the wooden back of the bow is drawn across the string(s), producing a muted percussive sound)",
-            "zh": "用木头（即弓的木背拉过琴弦，产生柔和的敲击声）"
+            "zh-CN": "用木头（即弓的木背拉过琴弦，产生柔和的敲击声）",
+            "zh": "用木頭（即弓的木背拉過琴弦，產生柔和的敲擊聲）"
         },
         "collegium musicum": {
             "name": "collegium musicum",
             "definition": "a university ensemble dedicated to the performance of early music (pre- 1750)",
-            "zh": "致力于早期音乐表演的大学乐团（1750 年之前）"
+            "zh-CN": "致力于早期音乐表演的大学乐团（1750 年之前）",
+            "zh": "致力於早期音樂表演的大學樂團（1750 年之前）"
         },
         "coloratura": {
             "name": "coloratura",
             "definition": "Elaborate ornamentation of vocal music written using many fast notes and trills",
-            "zh": "使用许多快速音符和颤音编写的声乐的精致装饰"
+            "zh-CN": "使用许多快速音符和颤音编写的声乐的精致装饰",
+            "zh": "使用許多快速音符和顫音編寫的聲樂的精致裝飾"
         },
         "comodo": {
             "name": "comodo",
             "definition": "Comfortable, at a moderate speed",
-            "zh": "舒适，速度适中"
+            "zh-CN": "舒适，速度适中",
+            "zh": "舒適，速度適中"
         },
         "computer music": {
             "name": "computer music",
             "definition": "music in which the composition and/or performance is controlled by a computer",
-            "zh": "由计算机控制作曲和/或演奏的音乐"
+            "zh-CN": "由计算机控制作曲和/或演奏的音乐",
+            "zh": "由計算機控製作曲和/或演奏的音樂"
         },
         "con fuoco": {
             "name": "con fuoco",
             "definition": "With fire, in a fiery manner",
-            "zh": "用火，以火热的方式"
+            "zh-CN": "用火，以火热的方式",
+            "zh": "用火，以火熱的方式"
         },
         "con grazia": {
             "name": "con grazia",
             "definition": "With grace",
-            "zh": "带着恩典"
+            "zh-CN": "带着恩典",
+            "zh": "帶著恩典"
         },
         "con moto": {
             "name": "con moto",
             "definition": "With movement, motion",
-            "zh": "随着运动、运动"
+            "zh-CN": "随着运动、运动",
+            "zh": "隨著運動、運動"
         },
         "concert band": {
             "name": "concert band",
             "definition": "a large (non-marching) ensemble of woodwind, brass and percussion instruments",
-            "zh": "由木管乐器、铜管乐器和打击乐器组成的大型（非进行曲）合奏团"
+            "zh-CN": "由木管乐器、铜管乐器和打击乐器组成的大型（非进行曲）合奏团",
+            "zh": "由木管樂器、銅管樂器和打擊樂器組成的大型（非進行曲）合奏團"
         },
         "concertante": {
             "name": "concertante",
             "definition": "A group of instruments accompanying a soloist or a principal theme",
-            "zh": "为独奏者或主题伴奏的一组乐器"
+            "zh-CN": "为独奏者或主题伴奏的一组乐器",
+            "zh": "為獨奏者或主題伴奏的一組樂器"
         },
         "concertato": {
             "name": "concertato",
             "definition": "Multiple voices or instruments independently elaborating upon the same melody",
-            "zh": "多个声音或乐器独立阐述同一旋律"
+            "zh-CN": "多个声音或乐器独立阐述同一旋律",
+            "zh": "多個聲音或樂器獨立闡述同一旋律"
         },
         "concertino": {
             "name": "concertino",
             "definition": "The group of instruments in a concerto grosso that function as soloists; or, a short concerto",
-            "zh": "大协奏曲中充当独奏者的一组乐器； 或者，一首短协奏曲"
+            "zh-CN": "大协奏曲中充当独奏者的一组乐器； 或者，一首短协奏曲",
+            "zh": "大協奏曲中充當獨奏者的一組樂器； 或者，一首短協奏曲"
         },
         "concerto grosso": {
             "name": "concerto grosso",
             "definition": "(genre) a 3-movement work for a small group of soloists and orchestra",
-            "zh": "（流派）为一小群独奏者和管弦乐队而作的三乐章作品"
+            "zh-CN": "（流派）为一小群独奏者和管弦乐队而作的三乐章作品",
+            "zh": "（流派）為一小群獨奏者和管弦樂隊而作的三樂章作品"
         },
         "concerto": {
             "name": "concerto",
             "definition": "(genre) the general term for a multi-movement work for soloist(s) and orchestra (see 'solo concerto' and 'concerto grosso')",
-            "zh": "（流派）独奏者和管弦乐队的多乐章作品的总称（参见“独奏协奏曲”和“大协奏曲”）"
+            "zh-CN": "（流派）独奏者和管弦乐队的多乐章作品的总称（参见“独奏协奏曲”和“大协奏曲”）",
+            "zh": "（流派）獨奏者和管弦樂隊的多樂章作品的總稱（參見「獨奏協奏曲」和「大協奏曲」）"
         },
         "conductor": {
             "name": "conductor",
             "definition": "the leader of a performing group of musicians",
-            "zh": "音乐家表演团体的领导者"
+            "zh-CN": "音乐家表演团体的领导者",
+            "zh": "音樂家表演團體的領導者"
         },
         "consonance": {
             "name": "consonance",
             "definition": "pleasant-sounding harmony",
-            "zh": "听起来和谐"
+            "zh-CN": "听起来和谐",
+            "zh": "聽起來和諧"
         },
         "contabile": {
             "name": "contabile",
             "definition": "Like singing",
-            "zh": "喜欢唱歌"
+            "zh-CN": "喜欢唱歌",
+            "zh": "喜歡唱歌"
         },
         "contrabassoon": {
             "name": "contrabassoon",
             "definition": "the lowest-sounding double-reed instrument of the woodwind family",
-            "zh": "木管乐器家族中声音最低的双簧乐器"
+            "zh-CN": "木管乐器家族中声音最低的双簧乐器",
+            "zh": "木管樂器家族中聲音最低的雙簧樂器"
         },
         "contralto": {
             "name": "contralto",
             "definition": "The lowest female voice or voice part, intermediate between soprano and tenor",
-            "zh": "最低的女声或声部，介于女高音和男高音之间"
+            "zh-CN": "最低的女声或声部，介于女高音和男高音之间",
+            "zh": "最低的女聲或聲部，介於女高音和男高音之間"
         },
         "cool jazz": {
             "name": "cool jazz",
             "definition": "a relaxed style of modern jazz, promoted in the 1950s/60s by Brubeck etc.",
-            "zh": "一种轻松的现代爵士乐风格，由 Brubeck 等人在 20 世纪 50 年代/60 年代推广。"
+            "zh-CN": "一种轻松的现代爵士乐风格，由 Brubeck 等人在 20 世纪 50 年代/60 年代推广。",
+            "zh": "一種輕松的現代爵士樂風格，由 Brubeck 等人在 20 世紀 50 年代/60 年代推廣。"
         },
         "corale": {
             "name": "corale",
             "definition": "Chorale",
-            "zh": "合唱团"
+            "zh-CN": "合唱团",
+            "zh": "合唱團"
         },
         "cornet": {
             "name": "cornet",
             "definition": "a mellow-sounding member of the trumpet family",
-            "zh": "小号家族中声音圆润的一员"
+            "zh-CN": "小号家族中声音圆润的一员",
+            "zh": "小號家族中聲音圓潤的一員"
         },
         "countermelody": {
             "name": "countermelody",
             "definition": "a secondary melodic idea that accompanies and opposes a main thematic idea",
-            "zh": "与主要主题思想相伴并与之对立的次要旋律思想"
+            "zh-CN": "与主要主题思想相伴并与之对立的次要旋律思想",
+            "zh": "與主要主題思想相伴並與之對立的次要旋律思想"
         },
         "counterpoint": {
             "name": "counterpoint",
             "definition": "a complex polyphonic texture combining two or more independent melodies",
-            "zh": "结合两个或多个独立旋律的复杂复调结构"
+            "zh-CN": "结合两个或多个独立旋律的复杂复调结构",
+            "zh": "結合兩個或多個獨立旋律的復雜復調結構"
         },
         "crescendo (cresc.)": {
             "name": "crescendo (cresc.)",
             "definition": "Growing, becoming louder",
-            "zh": "长大了，声音变大了"
+            "zh-CN": "长大了，声音变大了",
+            "zh": "長大了，聲音變大了"
         },
         "crescendo": {
             "name": "crescendo",
             "definition": "gradually getting louder",
-            "zh": "逐渐变大"
+            "zh-CN": "逐渐变大",
+            "zh": "逐漸變大"
         },
         "crotchet": {
             "name": "crotchet",
             "definition": "A quarter note",
+            "zh-CN": "四分音符",
             "zh": "四分音符"
         },
         "cut time": {
             "name": "cut time",
             "definition": "Also known as alla breve",
-            "zh": "也称为短阿拉"
+            "zh-CN": "也称为短阿拉",
+            "zh": "也稱為短阿拉"
         },
         "cymbals": {
             "name": "cymbals",
             "definition": "percussion instrument usually consisting of two circular brass plates struck together as a pair",
-            "zh": "打击乐器，通常由两块圆形黄铜板作为一对敲击在一起组成"
+            "zh-CN": "打击乐器，通常由两块圆形黄铜板作为一对敲击在一起组成",
+            "zh": "打擊樂器，通常由兩塊圓形黃銅板作為一對敲擊在一起組成"
         }
     },
     "D": {
         "da capo (D.C.)": {
             "name": "da capo (D.C.)",
             "definition": "From the beginning (i.e. return to the start of the piece)",
-            "zh": "从头开始（即返回到乐曲的开头）"
+            "zh-CN": "从头开始（即返回到乐曲的开头）",
+            "zh": "從頭開始（即返回到樂曲的開頭）"
         },
         "dal segno (D.S.)": {
             "name": "dal segno (D.S.)",
             "definition": "From the sign (i.e. return to a place in the music designated by the sign)",
-            "zh": "从标志开始（即返回到标志指定的音乐中的位置）"
+            "zh-CN": "从标志开始（即返回到标志指定的音乐中的位置）",
+            "zh": "從標誌開始（即返回到標誌指定的音樂中的位置）"
         },
         "deciso": {
             "name": "deciso",
             "definition": "Decided, with determination",
-            "zh": "下定决心，下定决心"
+            "zh-CN": "下定决心，下定决心",
+            "zh": "下定決心，下定決心"
         },
         "decrescendo (decresc.)": {
             "name": "decrescendo (decresc.)",
             "definition": "Decreasing, getting softer (see also diminuendo)",
-            "zh": "减弱，变得柔和（另见渐弱）"
+            "zh-CN": "减弱，变得柔和（另见渐弱）",
+            "zh": "減弱，變得柔和（另見漸弱）"
         },
         "decrescendo": {
             "name": "decrescendo",
             "definition": "gradually getting softer",
-            "zh": "逐渐变得柔软"
+            "zh-CN": "逐渐变得柔软",
+            "zh": "逐漸變得柔軟"
         },
         "delicato": {
             "name": "delicato",
             "definition": "Delicate",
+            "zh-CN": "精美的",
             "zh": "精美的"
         },
         "development": {
             "name": "development",
             "definition": "the second section of a sonata-form movement, in which themes from the exposition are developed and the music is modulated to other keys",
-            "zh": "奏鸣曲形式乐章的第二部分，其中发展了阐述中的主题并将音乐调制为其他调"
+            "zh-CN": "奏鸣曲形式乐章的第二部分，其中发展了阐述中的主题并将音乐调制为其他调",
+            "zh": "奏鳴曲形式樂章的第二部分，其中發展了闡述中的主題並將音樂調製為其他調"
         },
         "diminuendo (dim.)": {
             "name": "diminuendo (dim.)",
             "definition": "Decreasing, getting softer (see also decrescendo)",
-            "zh": "减少，变得柔和（另见渐减）"
+            "zh-CN": "减少，变得柔和（另见渐减）",
+            "zh": "減少，變得柔和（另見漸減）"
         },
         "diminuendo": {
             "name": "diminuendo",
             "definition": "gradually getting softer",
-            "zh": "逐渐变得柔软"
+            "zh-CN": "逐渐变得柔软",
+            "zh": "逐漸變得柔軟"
         },
         "dissonance": {
             "name": "dissonance",
             "definition": "unpleasant-sounding harmony",
-            "zh": "听起来不愉快的和谐"
+            "zh-CN": "听起来不愉快的和谐",
+            "zh": "聽起來不愉快的和諧"
         },
         "divertimento": {
             "name": "divertimento",
             "definition": "(genre) a light, multi-movement work for chamber ensemble or soloist, similar to the serenade and cassation",
-            "zh": "（流派）室内合奏或独奏的轻快、多乐章的作品，类似于小夜曲和最高法院"
+            "zh-CN": "（流派）室内合奏或独奏的轻快、多乐章的作品，类似于小夜曲和最高法院",
+            "zh": "（流派）室內合奏或獨奏的輕快、多樂章的作品，類似於小夜曲和最高法院"
         },
         "dolce": {
             "name": "dolce",
             "definition": "Sweet, usually also soft",
-            "zh": "甜甜的，通常也很软"
+            "zh-CN": "甜甜的，通常也很软",
+            "zh": "甜甜的，通常也很軟"
         },
         "dolente": {
             "name": "dolente",
             "definition": "Sorrowful",
-            "zh": "悲伤"
+            "zh-CN": "悲伤",
+            "zh": "悲傷"
         },
         "dolore": {
             "name": "dolore",
             "definition": "Grief",
-            "zh": "悲伤"
+            "zh-CN": "悲伤",
+            "zh": "悲傷"
         },
         "doloroso": {
             "name": "doloroso",
             "definition": "Sorrowful",
-            "zh": "悲伤"
+            "zh-CN": "悲伤",
+            "zh": "悲傷"
         },
         "doppio movimento / doppio più mosso": {
             "name": "doppio movimento / doppio più mosso",
             "definition": "Double-speed",
-            "zh": "双速"
+            "zh-CN": "双速",
+            "zh": "雙速"
         },
         "double bass": {
             "name": "double bass",
             "definition": "the lowest-ranged instrument of the modern string family",
-            "zh": "现代弦乐家族中音域最低的乐器"
+            "zh-CN": "现代弦乐家族中音域最低的乐器",
+            "zh": "現代弦樂家族中音域最低的樂器"
         },
         "double reed": {
             "name": "double reed",
             "definition": "a type of mouthpiece used by the oboe and bassoon families",
-            "zh": "双簧管和巴松管家族使用的一种吹嘴"
+            "zh-CN": "双簧管和巴松管家族使用的一种吹嘴",
+            "zh": "雙簧管和巴松管家族使用的一種吹嘴"
         },
         "douce (Fr.)": {
             "name": "douce (Fr.)",
             "definition": "Sweet, usually also soft",
-            "zh": "甜甜的，通常也很软"
+            "zh-CN": "甜甜的，通常也很软",
+            "zh": "甜甜的，通常也很軟"
         },
         "doux (Fr.)": {
             "name": "doux (Fr.)",
             "definition": "Sweet, usually also soft",
-            "zh": "甜甜的，通常也很软"
+            "zh-CN": "甜甜的，通常也很软",
+            "zh": "甜甜的，通常也很軟"
         },
         "drammatico": {
             "name": "drammatico",
             "definition": "Dramatic",
-            "zh": "戏剧性"
+            "zh-CN": "戏剧性",
+            "zh": "戲劇性"
         },
         "droit (Fr.)": {
             "name": "droit (Fr.)",
             "definition": "Right, as in \"main droit\", right hand",
-            "zh": "右，如“主要权利”中，右手"
+            "zh-CN": "右，如“主要权利”中，右手",
+            "zh": "右，如「主要權利」中，右手"
         },
         "drum": {
             "name": "drum",
             "definition": "a percussion instrument with a membrane that is usually struck with a stick or hand",
-            "zh": "带有薄膜的打击乐器，通常用棍子或手敲击"
+            "zh-CN": "带有薄膜的打击乐器，通常用棍子或手敲击",
+            "zh": "帶有薄膜的打擊樂器，通常用棍子或手敲擊"
         },
         "duet": {
             "name": "duet",
             "definition": "(genre) a composition for two performers of equal importance to the piece",
-            "zh": "（流派）两位对作品同等重要的表演者的作品"
+            "zh-CN": "（流派）两位对作品同等重要的表演者的作品",
+            "zh": "（流派）兩位對作品同等重要的表演者的作品"
         },
         "duolo": {
             "name": "duolo",
             "definition": "Grief",
-            "zh": "悲伤"
+            "zh-CN": "悲伤",
+            "zh": "悲傷"
         },
         "duramente": {
             "name": "duramente",
             "definition": "Firmly, harshly",
-            "zh": "坚决地、严厉地"
+            "zh-CN": "坚决地、严厉地",
+            "zh": "堅決地、嚴厲地"
         },
         "dynamics": {
             "name": "dynamics",
             "definition": "the volume of sound; the loudness or softness of a musical passage",
-            "zh": "音量； 音乐段落的响亮或柔和"
+            "zh-CN": "音量； 音乐段落的响亮或柔和",
+            "zh": "音量； 音樂段落的響亮或柔和"
         }
     },
     "E": {
         "English horn": {
             "name": "English horn",
             "definition": "a double-reed woodwind instrument with a range lower than that of the oboe",
-            "zh": "音域低于双簧管的双簧木管乐器"
+            "zh-CN": "音域低于双簧管的双簧木管乐器",
+            "zh": "音域低於雙簧管的雙簧木管樂器"
         },
         "ecossaise (Fr.)": {
             "name": "ecossaise (Fr.)",
             "definition": "Scottish (i.e. a type of country dance in quick 2/4 time)",
-            "zh": "苏格兰（即一种快速 2/4 拍乡村舞蹈）"
+            "zh-CN": "苏格兰（即一种快速 2/4 拍乡村舞蹈）",
+            "zh": "蘇格蘭（即一種快速 2/4 拍鄉村舞蹈）"
         },
         "ein wenig (Ger.)": {
             "name": "ein wenig (Ger.)",
             "definition": "A little",
-            "zh": "一点"
+            "zh-CN": "一点",
+            "zh": "一點"
         },
         "einfach (Ger.)": {
             "name": "einfach (Ger.)",
             "definition": "Simple, simply",
-            "zh": "简单，简单"
+            "zh-CN": "简单，简单",
+            "zh": "簡單，簡單"
         },
         "elegante": {
             "name": "elegante",
             "definition": "Elegant",
-            "zh": "优雅的"
+            "zh-CN": "优雅的",
+            "zh": "優雅的"
         },
         "elegy": {
             "name": "elegy",
             "definition": "(genre) a mournful composition that evokes contemplation or sorrow",
-            "zh": "（体裁）引起沉思或悲伤的悲伤作品"
+            "zh-CN": "（体裁）引起沉思或悲伤的悲伤作品",
+            "zh": "（體裁）引起沈思或悲傷的悲傷作品"
         },
         "embouchure": {
             "name": "embouchure",
             "definition": "the position of the lips and facial muscles in playing a wind instrument",
-            "zh": "演奏管乐器时嘴唇和面部肌肉的位置"
+            "zh-CN": "演奏管乐器时嘴唇和面部肌肉的位置",
+            "zh": "演奏管樂器時嘴唇和面部肌肉的位置"
         },
         "en dehors (Fr.)": {
             "name": "en dehors (Fr.)",
             "definition": "Outside, or outwards",
+            "zh-CN": "外面，或者外面",
             "zh": "外面，或者外面"
         },
         "encore (Fr.)": {
             "name": "encore (Fr.)",
             "definition": "Again (i.e. perform the relevant passage once more)",
-            "zh": "再次（即再次执行相关段落）"
+            "zh-CN": "再次（即再次执行相关段落）",
+            "zh": "再次（即再次執行相關段落）"
         },
         "energico": {
             "name": "energico",
             "definition": "Energetic, strong, forceful",
-            "zh": "精力充沛、强壮、有力"
+            "zh-CN": "精力充沛、强壮、有力",
+            "zh": "精力充沛、強壯、有力"
         },
         "enharmonic": {
             "name": "enharmonic",
             "definition": "An enharmonic equivalent is one of two or more notation methods for writing the same pitch",
-            "zh": "等效等音是用于书写相同音高的两种或多种记谱方法之一"
+            "zh-CN": "等效等音是用于书写相同音高的两种或多种记谱方法之一",
+            "zh": "等效等音是用於書寫相同音高的兩種或多種記譜方法之一"
         },
         "ensemble": {
             "name": "ensemble",
             "definition": "a group of musicians performing together",
-            "zh": "一群音乐家一起表演"
+            "zh-CN": "一群音乐家一起表演",
+            "zh": "一群音樂家一起表演"
         },
         "espressivo": {
             "name": "espressivo",
             "definition": "Expressive",
-            "zh": "富有表现力"
+            "zh-CN": "富有表现力",
+            "zh": "富有表現力"
         },
         "estinto": {
             "name": "estinto",
             "definition": "Extinct, extinguished, as soft as possible, lifeless",
-            "zh": "灭绝，熄灭，尽可能柔软，毫无生气"
+            "zh-CN": "灭绝，熄灭，尽可能柔软，毫无生气",
+            "zh": "滅絕，熄滅，盡可能柔軟，毫無生氣"
         },
         "etude (Fr.)": {
             "name": "etude (Fr.)",
             "definition": "Study (i.e. a composition designed to train a musician technically as well as musically)",
-            "zh": "研究（即旨在训练音乐家技术和音乐上的作品）"
+            "zh-CN": "研究（即旨在训练音乐家技术和音乐上的作品）",
+            "zh": "研究（即旨在訓練音樂家技術和音樂上的作品）"
         },
         "etude": {
             "name": "etude",
             "definition": "(genre) a composition built on a technical motive, but played for its artistic value",
-            "zh": "（流派）基于技术动机但发挥其艺术价值的作品"
+            "zh-CN": "（流派）基于技术动机但发挥其艺术价值的作品",
+            "zh": "（流派）基於技術動機但發揮其藝術價值的作品"
         },
         "exposition": {
             "name": "exposition",
             "definition": "the first section of a sonata-form movement, which sets up a strong conflict between the tonic key and a new key; and between the first theme (or group of themes) and the second theme (or group of themes)",
-            "zh": "奏鸣曲式乐章的第一部分，在主调和新调之间建立了强烈的冲突； 以及第一主题（或主题组）和第二主题（或主题组）之间"
+            "zh-CN": "奏鸣曲式乐章的第一部分，在主调和新调之间建立了强烈的冲突； 以及第一主题（或主题组）和第二主题（或主题组）之间",
+            "zh": "奏鳴曲式樂章的第一部分，在主調和新調之間建立了強烈的沖突； 以及第一主題（或主題組）和第二主題（或主題組）之間"
         },
         "expressionism": {
             "name": "expressionism",
             "definition": "a style of visual art and literature in Germany and Austria in the early twentieth century. The term is sometimes also applied to music, especially composers of the Second Viennese School (Schoenberg, Berg, Webern)",
-            "zh": "二十世纪初德国和奥地利的一种视觉艺术和文学风格。 该术语有时也适用于音乐，特别是第二维也纳学派的作曲家（勋伯格、伯格、韦伯恩）"
+            "zh-CN": "二十世纪初德国和奥地利的一种视觉艺术和文学风格。 该术语有时也适用于音乐，特别是第二维也纳学派的作曲家（勋伯格、伯格、韦伯恩）",
+            "zh": "二十世紀初德國和奧地利的一種視覺藝術和文學風格。 該術語有時也適用於音樂，特別是第二維也納學派的作曲家（勛伯格、伯格、韋伯恩）"
         }
     },
     "F": {
         "facile": {
             "name": "facile",
             "definition": "Easy",
-            "zh": "简单的"
+            "zh-CN": "简单的",
+            "zh": "簡單的"
         },
         "fantasia": {
             "name": "fantasia",
             "definition": "Fantasy, usually a free-form musical composition",
-            "zh": "幻想，通常是自由形式的音乐作品"
+            "zh-CN": "幻想，通常是自由形式的音乐作品",
+            "zh": "幻想，通常是自由形式的音樂作品"
         },
         "fermata": {
             "name": "fermata",
             "definition": "Pause, hold, stop (i.e. a hold or pause)",
-            "zh": "暂停、保持、停止（即保持或暂停）"
+            "zh-CN": "暂停、保持、停止（即保持或暂停）",
+            "zh": "暫停、保持、停止（即保持或暫停）"
         },
         "feroce": {
             "name": "feroce",
             "definition": "Fierce",
-            "zh": "凶猛的"
+            "zh-CN": "凶猛的",
+            "zh": "兇猛的"
         },
         "fiero": {
             "name": "fiero",
             "definition": "Proud",
+            "zh-CN": "自豪的",
             "zh": "自豪的"
         },
         "finale": {
             "name": "finale",
             "definition": "Final or ending",
-            "zh": "最终或结束"
+            "zh-CN": "最终或结束",
+            "zh": "最終或結束"
         },
         "fine": {
             "name": "fine",
             "definition": "End, as in \"al fine\", to the end",
-            "zh": "结束，如“alfine”，到最后"
+            "zh-CN": "结束，如“alfine”，到最后",
+            "zh": "結束，如「alfine」，到最後"
         },
         "flautando": {
             "name": "flautando",
             "definition": "Flute-like, i.e. to play a bowed string instrument in the manner of a flute (by bowing lightly and close to the fingerboard)",
-            "zh": "类似长笛，即以长笛的方式演奏弓弦乐器（轻轻拉弓并靠近指板）"
+            "zh-CN": "类似长笛，即以长笛的方式演奏弓弦乐器（轻轻拉弓并靠近指板）",
+            "zh": "類似長笛，即以長笛的方式演奏弓弦樂器（輕輕拉弓並靠近指板）"
         },
         "forte (f)": {
             "name": "forte (f)",
             "definition": "Loud",
-            "zh": "大声"
+            "zh-CN": "大声",
+            "zh": "大聲"
         },
         "forte": {
             "name": "forte",
             "definition": "loud",
-            "zh": "大声"
+            "zh-CN": "大声",
+            "zh": "大聲"
         },
         "fortepiano (fp)": {
             "name": "fortepiano (fp)",
             "definition": "Loud then immediately soft",
-            "zh": "大声然后立即柔和"
+            "zh-CN": "大声然后立即柔和",
+            "zh": "大聲然後立即柔和"
         },
         "fortissimo (ff)": {
             "name": "fortissimo (ff)",
             "definition": "Very loud",
-            "zh": "很响"
+            "zh-CN": "很响",
+            "zh": "很響"
         },
         "fortissimo": {
             "name": "fortissimo",
             "definition": "very loud",
-            "zh": "很响"
+            "zh-CN": "很响",
+            "zh": "很響"
         },
         "forza": {
             "name": "forza",
             "definition": "Force",
+            "zh-CN": "力量",
             "zh": "力量"
         },
         "forzando (fz)": {
             "name": "forzando (fz)",
             "definition": "Forcing, i.e. accenting",
-            "zh": "强迫，即重音"
+            "zh-CN": "强迫，即重音",
+            "zh": "強迫，即重音"
         },
         "freddo": {
             "name": "freddo",
             "definition": "Cold",
+            "zh-CN": "寒冷的",
             "zh": "寒冷的"
         },
         "french horn": {
             "name": "french horn",
             "definition": "a brass instrument made of about 12–13 feet (3.7–4.0 m) of tubing wrapped into a coil with a flared bell",
-            "zh": "一种铜管乐器，由约 12–13 英尺（3.7–4.0 m）的管子缠绕成带有喇叭形喇叭的线圈"
+            "zh-CN": "一种铜管乐器，由约 12–13 英尺（3.7–4.0 m）的管子缠绕成带有喇叭形喇叭的线圈",
+            "zh": "一種銅管樂器，由約 12–13 英尺（3.7–4.0 m）的管子纏繞成帶有喇叭形喇叭的線圈"
         },
         "frequency": {
             "name": "frequency",
             "definition": "the number of occurrences of a repeating event per unit of time",
-            "zh": "每单位时间重复事件发生的次数"
+            "zh-CN": "每单位时间重复事件发生的次数",
+            "zh": "每單位時間重復事件發生的次數"
         },
         "fugue": {
             "name": "fugue",
             "definition": "(genre) a composition written systematically in imitative polyphony, usually with a single main theme, the fugue subject",
-            "zh": "（流派）用模仿复调音乐系统地写成的作品，通常有一个主题，即赋格主题"
+            "zh-CN": "（流派）用模仿复调音乐系统地写成的作品，通常有一个主题，即赋格主题",
+            "zh": "（流派）用模仿復調音樂系統地寫成的作品，通常有一個主題，即賦格主題"
         },
         "fuoco": {
             "name": "fuoco",
             "definition": "Fire",
+            "zh-CN": "火",
             "zh": "火"
         },
         "furioso": {
             "name": "furioso",
             "definition": "Furious",
+            "zh-CN": "狂怒",
             "zh": "狂怒"
         }
     },
@@ -1197,530 +1433,633 @@
         "gavotte": {
             "name": "gavotte",
             "definition": "(genre) a 17th-18th century dance written in Quadruple meter",
-            "zh": "（体裁）17-18世纪用四拍子写成的舞蹈"
+            "zh-CN": "（体裁）17-18世纪用四拍子写成的舞蹈",
+            "zh": "（體裁）17-18世紀用四拍子寫成的舞蹈"
         },
         "giocoso": {
             "name": "giocoso",
             "definition": "Joking, playful",
-            "zh": "开玩笑、贪玩"
+            "zh-CN": "开玩笑、贪玩",
+            "zh": "開玩笑、貪玩"
         },
         "giusto": {
             "name": "giusto",
             "definition": "Exact, strict",
-            "zh": "准确、严格"
+            "zh-CN": "准确、严格",
+            "zh": "準確、嚴格"
         },
         "glissando": {
             "name": "glissando",
             "definition": "a continuous sliding from one pitch to another (a true glissando), or an incidental scale executed while moving from one melodic note to another (an effective glissando)",
-            "zh": "从一个音高到另一个音高的连续滑动（真正的滑奏），或者从一个旋律音符移动到另一个旋律音符时执行的附带音阶（有效的滑奏）"
+            "zh-CN": "从一个音高到另一个音高的连续滑动（真正的滑奏），或者从一个旋律音符移动到另一个旋律音符时执行的附带音阶（有效的滑奏）",
+            "zh": "從一個音高到另一個音高的連續滑動（真正的滑奏），或者從一個旋律音符移動到另一個旋律音符時執行的附帶音階（有效的滑奏）"
         },
         "grace note": {
             "name": "grace note",
             "definition": "an extra note added as an embellishment and not essential to the harmony or melody",
-            "zh": "作为装饰而添加的额外音符，对于和声或旋律来说不是必需的"
+            "zh-CN": "作为装饰而添加的额外音符，对于和声或旋律来说不是必需的",
+            "zh": "作為裝飾而添加的額外音符，對於和聲或旋律來說不是必需的"
         },
         "grandioso": {
             "name": "grandioso",
             "definition": "grand or noble style",
-            "zh": "宏伟或高贵的风格"
+            "zh-CN": "宏伟或高贵的风格",
+            "zh": "宏偉或高貴的風格"
         },
         "grave": {
             "name": "grave",
             "definition": "slow and solemn",
-            "zh": "缓慢而庄严"
+            "zh-CN": "缓慢而庄严",
+            "zh": "緩慢而莊嚴"
         },
         "grazioso": {
             "name": "grazioso",
             "definition": "Graceful",
-            "zh": "优美"
+            "zh-CN": "优美",
+            "zh": "優美"
         },
         "gregorian chant": {
             "name": "gregorian chant",
             "definition": "(genre) a monophonic, unaccompanied sacred song of the Roman Catholic Church",
-            "zh": "（流派）罗马天主教会的单音、无伴奏圣歌"
+            "zh-CN": "（流派）罗马天主教会的单音、无伴奏圣歌",
+            "zh": "（流派）羅馬天主教會的單音、無伴奏聖歌"
         },
         "groove": {
             "name": "groove",
             "definition": "a term popularized by musicians meaning to enjoy playing together",
-            "zh": "音乐家流行的一个术语，意思是一起享受演奏的乐趣"
+            "zh-CN": "音乐家流行的一个术语，意思是一起享受演奏的乐趣",
+            "zh": "音樂家流行的一個術語，意思是一起享受演奏的樂趣"
         }
     },
     "H": {
         "half step": {
             "name": "half step",
             "definition": "the smallest interval used in the Western system; the octave divides into 12 such intervals; on the piano, the distance between any two adjacent keys, whether black or white",
-            "zh": "西方系统中使用的最小间隔； 八度分为 12 个这样的音程； 在钢琴上，任何两个相邻键之间的距离，无论是黑键还是白键"
+            "zh-CN": "西方系统中使用的最小间隔； 八度分为 12 个这样的音程； 在钢琴上，任何两个相邻键之间的距离，无论是黑键还是白键",
+            "zh": "西方系統中使用的最小間隔； 八度分為 12 個這樣的音程； 在鋼琴上，任何兩個相鄰鍵之間的距離，無論是黑鍵還是白鍵"
         },
         "harmony": {
             "name": "harmony",
             "definition": "the sound resulting from the simultaneous playing of two or more notes and the technique governing the construction of such chords and their arrangement in a series",
-            "zh": "同时演奏两个或多个音符所产生的声音以及控制此类和弦的结构及其一系列排列的技术"
+            "zh-CN": "同时演奏两个或多个音符所产生的声音以及控制此类和弦的结构及其一系列排列的技术",
+            "zh": "同時演奏兩個或多個音符所產生的聲音以及控製此類和弦的結構及其一系列排列的技術"
         },
         "harpsichord": {
             "name": "harpsichord",
             "definition": "a keyboard instrument, precursor of the piano, in which the strings are plucked by quills or jacks",
-            "zh": "一种键盘乐器，钢琴的前身，用羽毛笔或千斤顶拨动琴弦"
+            "zh-CN": "一种键盘乐器，钢琴的前身，用羽毛笔或千斤顶拨动琴弦",
+            "zh": "一種鍵盤樂器，鋼琴的前身，用羽毛筆或千斤頂撥動琴弦"
         },
         "hauptstimme (Ger.)": {
             "name": "hauptstimme (Ger.)",
             "definition": "Main voice, chief part; often the highest part",
-            "zh": "主声部、主要声部； 通常是最高的部分"
+            "zh-CN": "主声部、主要声部； 通常是最高的部分",
+            "zh": "主聲部、主要聲部； 通常是最高的部分"
         },
         "hemiola (Gr.)": {
             "name": "hemiola (Gr.)",
             "definition": "The ratio 3:2",
+            "zh-CN": "比例3:2",
             "zh": "比例3:2"
         },
         "homophony": {
             "name": "homophony",
             "definition": "music in which melody and accompaniment are distinct",
-            "zh": "旋律和伴奏截然不同的音乐"
+            "zh-CN": "旋律和伴奏截然不同的音乐",
+            "zh": "旋律和伴奏截然不同的音樂"
         },
         "hymn": {
             "name": "hymn",
             "definition": "(genre) a song of praise and glorification, most often to a deity",
-            "zh": "（流派）赞美和颂扬的歌曲，通常是对神灵的"
+            "zh-CN": "（流派）赞美和颂扬的歌曲，通常是对神灵的",
+            "zh": "（流派）贊美和頌揚的歌曲，通常是對神靈的"
         }
     },
     "I": {
         "impressionism": {
             "name": "impressionism",
             "definition": "a French movement developed by visual artists who favored vague, blurry images intended to capture an 'impression' of the subject",
-            "zh": "由视觉艺术家发起的一项法国运动，他们喜欢模糊的图像，旨在捕捉主题的“印象”"
+            "zh-CN": "由视觉艺术家发起的一项法国运动，他们喜欢模糊的图像，旨在捕捉主题的“印象”",
+            "zh": "由視覺藝術家發起的一項法國運動，他們喜歡模糊的圖像，旨在捕捉主題的「印象」"
         },
         "improvisation": {
             "name": "improvisation",
             "definition": "creation of a musical composition while it is being performed",
-            "zh": "在演奏时创作音乐作品"
+            "zh-CN": "在演奏时创作音乐作品",
+            "zh": "在演奏時創作音樂作品"
         },
         "in modo di": {
             "name": "in modo di",
             "definition": "In the manner of",
+            "zh-CN": "以如下方式",
             "zh": "以如下方式"
         },
         "incalzando": {
             "name": "incalzando",
             "definition": "Getting faster",
-            "zh": "变得更快"
+            "zh-CN": "变得更快",
+            "zh": "變得更快"
         },
         "instrumentation": {
             "name": "instrumentation",
             "definition": "Arrangement of music for a combined number of instruments",
-            "zh": "为多种乐器编排音乐"
+            "zh-CN": "为多种乐器编排音乐",
+            "zh": "為多種樂器編排音樂"
         },
         "interlude": {
             "name": "interlude",
             "definition": "A short piece of instrumental music played between scenes in a play or opera",
-            "zh": "戏剧或歌剧场景之间演奏的一小段器乐"
+            "zh-CN": "戏剧或歌剧场景之间演奏的一小段器乐",
+            "zh": "戲劇或歌劇場景之間演奏的一小段器樂"
         },
         "intermezzo": {
             "name": "intermezzo",
             "definition": "Interlude, short movement or section in a larger work",
-            "zh": "大型作品中的间奏曲、短乐章或片段"
+            "zh-CN": "大型作品中的间奏曲、短乐章或片段",
+            "zh": "大型作品中的間奏曲、短樂章或片段"
         },
         "interval": {
             "name": "interval",
             "definition": "the distance in pitch between two notes",
-            "zh": "两个音符之间的音高距离"
+            "zh-CN": "两个音符之间的音高距离",
+            "zh": "兩個音符之間的音高距離"
         },
         "intonation": {
             "name": "intonation",
             "definition": "the manner in which phrases and melodies are rendered in singing; the manner in which tones are produced with regard to their pitch",
-            "zh": "歌唱中乐句和旋律的呈现方式； 音调的产生方式与音高相关"
+            "zh-CN": "歌唱中乐句和旋律的呈现方式； 音调的产生方式与音高相关",
+            "zh": "歌唱中樂句和旋律的呈現方式； 音調的產生方式與音高相關"
         },
         "inversion": {
             "name": "inversion",
             "definition": "A melody that is turned upside down",
-            "zh": "颠倒的旋律"
+            "zh-CN": "颠倒的旋律",
+            "zh": "顛倒的旋律"
         }
     },
     "J": {
         "jazz": {
             "name": "jazz",
             "definition": "(genre) a style of American modern popular music combining African and Western musical traits",
-            "zh": "（流派）结合非洲和西方音乐特征的美国现代流行音乐风格"
+            "zh-CN": "（流派）结合非洲和西方音乐特征的美国现代流行音乐风格",
+            "zh": "（流派）結合非洲和西方音樂特征的美國現代流行音樂風格"
         },
         "jig": {
             "name": "jig",
             "definition": "(genre) a lively dance-song with a fast tempo and a complex meter",
-            "zh": "（流派）节奏快、节奏复杂的活泼舞曲"
+            "zh-CN": "（流派）节奏快、节奏复杂的活泼舞曲",
+            "zh": "（流派）節奏快、節奏復雜的活潑舞曲"
         },
         "jubiloso": {
             "name": "jubiloso",
             "definition": "Joyful",
-            "zh": "快乐"
+            "zh-CN": "快乐",
+            "zh": "快樂"
         },
         "jubilus": {
             "name": "jubilus",
             "definition": "a joyful hymn or song of praise",
-            "zh": "一首欢乐的赞美诗或赞美之歌"
+            "zh-CN": "一首欢乐的赞美诗或赞美之歌",
+            "zh": "一首歡樂的贊美詩或贊美之歌"
         }
     },
     "K": {
         "key signature": {
             "name": "key signature",
             "definition": "the flats and sharps at the beginning of each staff line indicating the key of music the piece is to be played",
-            "zh": "每条谱线开头的降号和升号表示该乐曲要演奏的音乐调"
+            "zh-CN": "每条谱线开头的降号和升号表示该乐曲要演奏的音乐调",
+            "zh": "每條譜線開頭的降號和升號表示該樂曲要演奏的音樂調"
         },
         "keyboard": {
             "name": "keyboard",
             "definition": "a component of many instruments including the piano, organ, and harpsichord consisting of usually black and white keys that cause different tones to be produced when struck",
-            "zh": "许多乐器的组成部分，包括钢琴、管风琴和羽管键琴，通常由黑键和白键组成，敲击时会产生不同的音调"
+            "zh-CN": "许多乐器的组成部分，包括钢琴、管风琴和羽管键琴，通常由黑键和白键组成，敲击时会产生不同的音调",
+            "zh": "許多樂器的組成部分，包括鋼琴、管風琴和羽管鍵琴，通常由黑鍵和白鍵組成，敲擊時會產生不同的音調"
         },
         "klangfarbenmelodie (Ger.)": {
             "name": "klangfarbenmelodie (Ger.)",
             "definition": "Tone-color melody",
+            "zh-CN": "音色旋律",
             "zh": "音色旋律"
         },
         "kräftig (Ger.)": {
             "name": "kräftig (Ger.)",
             "definition": "strong",
-            "zh": "强的"
+            "zh-CN": "强的",
+            "zh": "強的"
         }
     },
     "L": {
         "lament": {
             "name": "lament",
             "definition": "(genre) a song or poem expressing deep grief or mourning",
-            "zh": "（体裁）表达深切悲伤或哀悼的歌曲或诗歌"
+            "zh-CN": "（体裁）表达深切悲伤或哀悼的歌曲或诗歌",
+            "zh": "（體裁）表達深切悲傷或哀悼的歌曲或詩歌"
         },
         "lamentoso": {
             "name": "lamentoso",
             "definition": "Mournful",
+            "zh-CN": "悲哀",
             "zh": "悲哀"
         },
         "larghetto": {
             "name": "larghetto",
             "definition": "Rather slow",
-            "zh": "相当慢"
+            "zh-CN": "相当慢",
+            "zh": "相當慢"
         },
         "larghissimo": {
             "name": "larghissimo",
             "definition": "Very slow",
+            "zh-CN": "非常慢",
             "zh": "非常慢"
         },
         "largo": {
             "name": "largo",
             "definition": "Slow",
+            "zh-CN": "慢的",
             "zh": "慢的"
         },
         "leading note": {
             "name": "leading note",
             "definition": "the seventh note of the diatonic scale where there is a strong desire to resolve on the tonic",
-            "zh": "全音阶的第七个音符，其中有强烈的愿望要解决主音"
+            "zh-CN": "全音阶的第七个音符，其中有强烈的愿望要解决主音",
+            "zh": "全音階的第七個音符，其中有強烈的願望要解決主音"
         },
         "lebhaft (Ger.)": {
             "name": "lebhaft (Ger.)",
             "definition": "Lively",
-            "zh": "活泼"
+            "zh-CN": "活泼",
+            "zh": "活潑"
         },
         "legato": {
             "name": "legato",
             "definition": "Smooth",
+            "zh-CN": "光滑的",
             "zh": "光滑的"
         },
         "legatura": {
             "name": "legatura",
             "definition": "Tie, slur, bind together",
-            "zh": "捆绑、诽谤、捆绑在一起"
+            "zh-CN": "捆绑、诽谤、捆绑在一起",
+            "zh": "捆綁、誹謗、捆綁在一起"
         },
         "leggiero": {
             "name": "leggiero",
             "definition": "Light",
+            "zh-CN": "光",
             "zh": "光"
         },
         "libretto": {
             "name": "libretto",
             "definition": "text or script of an opera, oratorio, cantata, or musical (also called the 'book' in a musical)",
-            "zh": "歌剧、清唱剧、清唱剧或音乐剧的文本或剧本（也称为音乐剧中的“书”）"
+            "zh-CN": "歌剧、清唱剧、清唱剧或音乐剧的文本或剧本（也称为音乐剧中的“书”）",
+            "zh": "歌劇、清唱劇、清唱劇或音樂劇的文本或劇本（也稱為音樂劇中的「書」）"
         },
         "lied": {
             "name": "lied",
             "definition": "(genre) German for 'song'; most commonly associated with the solo art song of the 19th century, usually accompanied by piano",
-            "zh": "（流派）德语“歌曲”； 最常与 19 世纪的独奏艺术歌曲联系在一起，通常由钢琴伴奏"
+            "zh-CN": "（流派）德语“歌曲”； 最常与 19 世纪的独奏艺术歌曲联系在一起，通常由钢琴伴奏",
+            "zh": "（流派）德語「歌曲」； 最常與 19 世紀的獨奏藝術歌曲聯系在一起，通常由鋼琴伴奏"
         },
         "lirico": {
             "name": "lirico",
             "definition": "Lyric",
-            "zh": "歌词"
+            "zh-CN": "歌词",
+            "zh": "歌詞"
         },
         "loco": {
             "name": "loco",
             "definition": "Place, location",
-            "zh": "地点、地点"
+            "zh-CN": "地点、地点",
+            "zh": "地點、地點"
         },
         "lontano": {
             "name": "lontano",
             "definition": "Distant",
-            "zh": "遥远"
+            "zh-CN": "遥远",
+            "zh": "遙遠"
         }
     },
     "M": {
         "ma (It.)": {
             "name": "ma (It.)",
             "definition": "But",
+            "zh-CN": "但",
             "zh": "但"
         },
         "ma non troppo (It.)": {
             "name": "ma non troppo (It.)",
             "definition": "But not too much",
+            "zh-CN": "但不要太多",
             "zh": "但不要太多"
         },
         "madrigal": {
             "name": "madrigal",
             "definition": "(genre) a popular secular vocal music form during the Renaissance and early Baroque periods, originating from Italy",
-            "zh": "（流派）文艺复兴时期和巴洛克早期流行的世俗声乐形式，起源于意大利"
+            "zh-CN": "（流派）文艺复兴时期和巴洛克早期流行的世俗声乐形式，起源于意大利",
+            "zh": "（流派）文藝復興時期和巴洛克早期流行的世俗聲樂形式，起源於意大利"
         },
         "maestoso (It.)": {
             "name": "maestoso (It.)",
             "definition": "Majestic",
-            "zh": "雄伟"
+            "zh-CN": "雄伟",
+            "zh": "雄偉"
         },
         "maestro": {
             "name": "maestro",
             "definition": "a master in an art, especially a composer of music",
-            "zh": "艺术大师，尤其是音乐作曲家"
+            "zh-CN": "艺术大师，尤其是音乐作曲家",
+            "zh": "藝術大師，尤其是音樂作曲家"
         },
         "maggiore (It.)": {
             "name": "maggiore (It.)",
             "definition": "Major",
+            "zh-CN": "主要的",
             "zh": "主要的"
         },
         "major": {
             "name": "major",
             "definition": "one of the two modes of the tonal system. Music written in major keys have a positive affirming character",
-            "zh": "声调系统的两种模式之一。 用大调写成的音乐具有积极的肯定特征"
+            "zh-CN": "声调系统的两种模式之一。 用大调写成的音乐具有积极的肯定特征",
+            "zh": "聲調系統的兩種模式之一。 用大調寫成的音樂具有積極的肯定特征"
         },
         "marcato (It.)": {
             "name": "marcato (It.)",
             "definition": "Marked",
-            "zh": "标记"
+            "zh-CN": "标记",
+            "zh": "標記"
         },
         "march": {
             "name": "march",
             "definition": "(genre) a piece of music designed or suited for marching",
-            "zh": "（流派）一首设计或适合行进的音乐"
+            "zh-CN": "（流派）一首设计或适合行进的音乐",
+            "zh": "（流派）一首設計或適合行進的音樂"
         },
         "martellato (It.)": {
             "name": "martellato (It.)",
             "definition": "Hammered",
-            "zh": "锤击"
+            "zh-CN": "锤击",
+            "zh": "錘擊"
         },
         "mazurka (It.)": {
             "name": "mazurka (It.)",
             "definition": "A Polish folk dance in triple meter",
-            "zh": "波兰三拍子民间舞蹈"
+            "zh-CN": "波兰三拍子民间舞蹈",
+            "zh": "波蘭三拍子民間舞蹈"
         },
         "measure": {
             "name": "measure",
             "definition": "the division of beats into defined groups separated by bar lines in Western music",
-            "zh": "西方音乐中将节拍划分为由小节线分隔的定义组"
+            "zh-CN": "西方音乐中将节拍划分为由小节线分隔的定义组",
+            "zh": "西方音樂中將節拍劃分為由小節線分隔的定義組"
         },
         "medley": {
             "name": "medley",
             "definition": "(genre) often used in overtures, a composition that uses passages from other movements of the composition in its entirety",
-            "zh": "（流派）常用于序曲，这是一种完整使用乐曲其他乐章段落的乐曲"
+            "zh-CN": "（流派）常用于序曲，这是一种完整使用乐曲其他乐章段落的乐曲",
+            "zh": "（流派）常用於序曲，這是一種完整使用樂曲其他樂章段落的樂曲"
         },
         "melodia (It.)": {
             "name": "melodia (It.)",
             "definition": "Melody",
+            "zh-CN": "旋律",
             "zh": "旋律"
         },
         "melody": {
             "name": "melody",
             "definition": "a rhythmically organized sequence of single tones so related to one another as to make up a particular phrase or idea",
-            "zh": "有节奏地组织的一系列单音，彼此之间如此相关，以构成一个特定的短语或想法"
+            "zh-CN": "有节奏地组织的一系列单音，彼此之间如此相关，以构成一个特定的短语或想法",
+            "zh": "有節奏地組織的一系列單音，彼此之間如此相關，以構成一個特定的短語或想法"
         },
         "meno (It.)": {
             "name": "meno (It.)",
             "definition": "Less",
-            "zh": "较少的"
+            "zh-CN": "较少的",
+            "zh": "較少的"
         },
         "meno mosso (It.)": {
             "name": "meno mosso (It.)",
             "definition": "Less moved (i.e. slower)",
-            "zh": "移动较少（即较慢）"
+            "zh-CN": "移动较少（即较慢）",
+            "zh": "移動較少（即較慢）"
         },
         "mesto (It.)": {
             "name": "mesto (It.)",
             "definition": "Sad",
-            "zh": "伤心"
+            "zh-CN": "伤心",
+            "zh": "傷心"
         },
         "meter": {
             "name": "meter",
             "definition": "the arrangement of rhythms in a repetitive pattern of strong and weak beats",
-            "zh": "以强拍和弱拍的重复模式排列节奏"
+            "zh-CN": "以强拍和弱拍的重复模式排列节奏",
+            "zh": "以強拍和弱拍的重復模式排列節奏"
         },
         "metronome": {
             "name": "metronome",
             "definition": "An instrument to mark time by means of regularly recurring ticks or flashes at adjustable intervals",
-            "zh": "一种通过定期重复的滴答声或以可调间隔闪烁来标记时间的工具"
+            "zh-CN": "一种通过定期重复的滴答声或以可调间隔闪烁来标记时间的工具",
+            "zh": "一種通過定期重復的滴答聲或以可調間隔閃爍來標記時間的工具"
         },
         "mezza voce (It.)": {
             "name": "mezza voce (It.)",
             "definition": "Half voice",
-            "zh": "半声"
+            "zh-CN": "半声",
+            "zh": "半聲"
         },
         "mezzo (It.)": {
             "name": "mezzo (It.)",
             "definition": "Half",
+            "zh-CN": "一半",
             "zh": "一半"
         },
         "mezzo": {
             "name": "mezzo",
             "definition": "the female singing voice between soprano and contralto",
-            "zh": "女高音和女低音之间的女声"
+            "zh-CN": "女高音和女低音之间的女声",
+            "zh": "女高音和女低音之間的女聲"
         },
         "mezzo-soprano": {
             "name": "mezzo-soprano",
             "definition": "A female voice that is lower than a soprano but higher than an alto",
-            "zh": "比女高音低但比中音高的女声"
+            "zh-CN": "比女高音低但比中音高的女声",
+            "zh": "比女高音低但比中音高的女聲"
         },
         "middle C": {
             "name": "middle C",
             "definition": "the note in the middle of the musical range",
-            "zh": "音域中间的音符"
+            "zh-CN": "音域中间的音符",
+            "zh": "音域中間的音符"
         },
         "minim": {
             "name": "minim",
             "definition": "a half note",
-            "zh": "一个半音符"
+            "zh-CN": "一个半音符",
+            "zh": "一個半音符"
         },
         "minor": {
             "name": "minor",
             "definition": "one of the two modes of the tonal system. The minor mode can be identified by the dark, melancholic mood",
-            "zh": "声调系统的两种模式之一。 小调可以通过黑暗、忧郁的情绪来识别"
+            "zh-CN": "声调系统的两种模式之一。 小调可以通过黑暗、忧郁的情绪来识别",
+            "zh": "聲調系統的兩種模式之一。 小調可以通過黑暗、憂郁的情緒來識別"
         },
         "minore (It.)": {
             "name": "minore (It.)",
             "definition": "Minor",
+            "zh-CN": "次要的",
             "zh": "次要的"
         },
         "minuet": {
             "name": "minuet",
             "definition": "(genre) a slow, stately ballroom dance for two in triple time, popular especially in the 18th century",
-            "zh": "（流派）一种缓慢、庄严的两人三拍子交际舞，在 18 世纪尤其流行"
+            "zh-CN": "（流派）一种缓慢、庄严的两人三拍子交际舞，在 18 世纪尤其流行",
+            "zh": "（流派）一種緩慢、莊嚴的兩人三拍子交際舞，在 18 世紀尤其流行"
         },
         "misterioso (It.)": {
             "name": "misterioso (It.)",
             "definition": "Mysterious",
+            "zh-CN": "神秘",
             "zh": "神秘"
         },
         "mixolydian mode": {
             "name": "mixolydian mode",
             "definition": "a seven-note scale with a major third but a dominant seventh",
-            "zh": "带有大三度但占主导地位的七度的七音音阶"
+            "zh-CN": "带有大三度但占主导地位的七度的七音音阶",
+            "zh": "帶有大三度但占主導地位的七度的七音音階"
         },
         "mode": {
             "name": "mode",
             "definition": "any of various fixed orders of the various diatonic notes within an octave",
-            "zh": "八度音阶内各种全音阶音符的各种固定顺序中的任何一种"
+            "zh-CN": "八度音阶内各种全音阶音符的各种固定顺序中的任何一种",
+            "zh": "八度音階內各種全音階音符的各種固定順序中的任何一種"
         },
         "moderato (It.)": {
             "name": "moderato (It.)",
             "definition": "Moderate",
-            "zh": "缓和"
+            "zh-CN": "缓和",
+            "zh": "緩和"
         },
         "modulation": {
             "name": "modulation",
             "definition": "the process of changing from one key to another",
-            "zh": "从一把钥匙更改为另一把钥匙的过程"
+            "zh-CN": "从一把钥匙更改为另一把钥匙的过程",
+            "zh": "從一把鑰匙更改為另一把鑰匙的過程"
         },
         "molto (It.)": {
             "name": "molto (It.)",
             "definition": "Much",
+            "zh-CN": "很多",
             "zh": "很多"
         },
         "mosso (It.)": {
             "name": "mosso (It.)",
             "definition": "Moved, movement",
-            "zh": "感动、运动"
+            "zh-CN": "感动、运动",
+            "zh": "感動、運動"
         },
         "motet": {
             "name": "motet",
             "definition": "A short piece of sacred choral music, typically polyphonic and unaccompanied",
-            "zh": "一小段神圣的合唱音乐，通常是复调且无伴奏的"
+            "zh-CN": "一小段神圣的合唱音乐，通常是复调且无伴奏的",
+            "zh": "一小段神聖的合唱音樂，通常是復調且無伴奏的"
         },
         "motif": {
             "name": "motif",
             "definition": "a short musical idea, melodic, harmonic, rhythmic, or any combination of these three",
-            "zh": "简短的音乐理念，旋律、和声、节奏或这三者的任意组合"
+            "zh-CN": "简短的音乐理念，旋律、和声、节奏或这三者的任意组合",
+            "zh": "簡短的音樂理念，旋律、和聲、節奏或這三者的任意組合"
         },
         "moto (It.)": {
             "name": "moto (It.)",
             "definition": "Motion",
-            "zh": "运动"
+            "zh-CN": "运动",
+            "zh": "運動"
         },
         "movement": {
             "name": "movement",
             "definition": "a separate section of a larger composition",
-            "zh": "较大作品的一个单独部分"
+            "zh-CN": "较大作品的一个单独部分",
+            "zh": "較大作品的一個單獨部分"
         },
         "musette (Fr.)": {
             "name": "musette (Fr.)",
             "definition": "A small bagpipe used in the French court, a pastoral dance",
-            "zh": "法国宫廷使用的小风笛，一种田园舞曲"
+            "zh-CN": "法国宫廷使用的小风笛，一种田园舞曲",
+            "zh": "法國宮廷使用的小風笛，一種田園舞曲"
         },
         "musical": {
             "name": "musical",
             "definition": "(genre) a genre of music that combines songs, spoken dialogue, acting, and dance",
-            "zh": "（流派）结合了歌曲、口语、表演和舞蹈的音乐流派"
+            "zh-CN": "（流派）结合了歌曲、口语、表演和舞蹈的音乐流派",
+            "zh": "（流派）結合了歌曲、口語、表演和舞蹈的音樂流派"
         },
         "musicology": {
             "name": "musicology",
             "definition": "the scholarly study of music",
-            "zh": "音乐的学术研究"
+            "zh-CN": "音乐的学术研究",
+            "zh": "音樂的學術研究"
         }
     },
     "N": {
         "natural": {
             "name": "natural",
             "definition": "a symbol in sheet music that returns a note to its original pitch after it has been augmented or diminished",
-            "zh": "乐谱中的符号，在增强或减弱音符后将其恢复到原始音高"
+            "zh-CN": "乐谱中的符号，在增强或减弱音符后将其恢复到原始音高",
+            "zh": "樂譜中的符號，在增強或減弱音符後將其恢復到原始音高"
         },
         "naturale (It.)": {
             "name": "naturale (It.)",
             "definition": "Natural",
+            "zh-CN": "自然的",
             "zh": "自然的"
         },
         "neoclassical": {
             "name": "neoclassical",
             "definition": "movement in music where the characteristics are crisp and direct",
-            "zh": "音乐中的乐章特点是清脆直接"
+            "zh-CN": "音乐中的乐章特点是清脆直接",
+            "zh": "音樂中的樂章特點是清脆直接"
         },
         "nobilmente (It.)": {
             "name": "nobilmente (It.)",
             "definition": "Nobly",
-            "zh": "高贵"
+            "zh-CN": "高贵",
+            "zh": "高貴"
         },
         "nocturne (Fr.)": {
             "name": "nocturne (Fr.)",
             "definition": "Night piece",
+            "zh-CN": "夜片",
             "zh": "夜片"
         },
         "nocturne": {
             "name": "nocturne",
             "definition": "(genre) a musical composition that is inspired by, or evocative of, the night",
-            "zh": "（流派）受夜晚启发或令人回味的音乐作品"
+            "zh-CN": "（流派）受夜晚启发或令人回味的音乐作品",
+            "zh": "（流派）受夜晚啟發或令人回味的音樂作品"
         },
         "non troppo (It.)": {
             "name": "non troppo (It.)",
             "definition": "Not too much",
+            "zh-CN": "不太多",
             "zh": "不太多"
         },
         "nonet": {
             "name": "nonet",
             "definition": "(genre) a composition for nine voices or instruments",
-            "zh": "（流派）由九个声部或乐器组成的作品"
+            "zh-CN": "（流派）由九个声部或乐器组成的作品",
+            "zh": "（流派）由九個聲部或樂器組成的作品"
         },
         "notation": {
             "name": "notation",
             "definition": "first developed in the 8th century, methods used to write music",
-            "zh": "首次开发于八世纪，用于创作音乐的方法"
+            "zh-CN": "首次开发于八世纪，用于创作音乐的方法",
+            "zh": "首次開發於八世紀，用於創作音樂的方法"
         },
         "notturno (It.)": {
             "name": "notturno (It.)",
             "definition": "Nocturne, night piece",
+            "zh-CN": "夜曲，夜曲",
             "zh": "夜曲，夜曲"
         }
     },
@@ -1728,461 +2067,551 @@
         "obbligato (It.)": {
             "name": "obbligato (It.)",
             "definition": "Obliged (i.e. indispensable)",
-            "zh": "有义务（即不可或缺）"
+            "zh-CN": "有义务（即不可或缺）",
+            "zh": "有義務（即不可或缺）"
         },
         "oboe": {
             "name": "oboe",
             "definition": "a double reed instrument in the woodwind family",
-            "zh": "木管乐器家族中的双簧片乐器"
+            "zh-CN": "木管乐器家族中的双簧片乐器",
+            "zh": "木管樂器家族中的雙簧片樂器"
         },
         "octave": {
             "name": "octave",
             "definition": "the interval between two notes. One of the notes has twice the frequency of the other",
-            "zh": "两个音符之间的间隔。 其中一个音符的频率是另一个音符的两倍"
+            "zh-CN": "两个音符之间的间隔。 其中一个音符的频率是另一个音符的两倍",
+            "zh": "兩個音符之間的間隔。 其中一個音符的頻率是另一個音符的兩倍"
         },
         "opera": {
             "name": "opera",
             "definition": "(genre) a drama set to music, usually sung throughout, originating in 17th century Italy",
-            "zh": "（流派）一种有音乐的戏剧，通常自始至终都在演唱，起源于 17 世纪的意大利"
+            "zh-CN": "（流派）一种有音乐的戏剧，通常自始至终都在演唱，起源于 17 世纪的意大利",
+            "zh": "（流派）一種有音樂的戲劇，通常自始至終都在演唱，起源於 17 世紀的意大利"
         },
         "operetta": {
             "name": "operetta",
             "definition": "(genre) a short light musical drama",
-            "zh": "（类型）轻音乐短剧"
+            "zh-CN": "（类型）轻音乐短剧",
+            "zh": "（類型）輕音樂短劇"
         },
         "opus (Lat.)": {
             "name": "opus (Lat.)",
             "definition": "Work, composition",
+            "zh-CN": "作品、作文",
             "zh": "作品、作文"
         },
         "orchestra": {
             "name": "orchestra",
             "definition": "a large instrumental ensemble that contains sections of string, brass, woodwind, and percussion instruments",
-            "zh": "一个大型乐器合奏团，包含弦乐、铜管乐器、木管乐器和打击乐器的部分"
+            "zh-CN": "一个大型乐器合奏团，包含弦乐、铜管乐器、木管乐器和打击乐器的部分",
+            "zh": "一個大型樂器合奏團，包含弦樂、銅管樂器、木管樂器和打擊樂器的部分"
         },
         "orchestration": {
             "name": "orchestration",
             "definition": "Arrangement for an orchestra",
-            "zh": "管弦乐队的安排"
+            "zh-CN": "管弦乐队的安排",
+            "zh": "管弦樂隊的安排"
         },
         "ornamentation": {
             "name": "ornamentation",
             "definition": "the practice of adding embellishments to a basic melodic line",
-            "zh": "在基本旋律线上添加修饰的做法"
+            "zh-CN": "在基本旋律线上添加修饰的做法",
+            "zh": "在基本旋律線上添加修飾的做法"
         },
         "ossia (It.)": {
             "name": "ossia (It.)",
             "definition": "Or, alternatively",
-            "zh": "或者，另一种选择"
+            "zh-CN": "或者，另一种选择",
+            "zh": "或者，另一種選擇"
         }
     },
     "P": {
         "parlando (It.)": {
             "name": "parlando (It.)",
             "definition": "Speaking",
-            "zh": "请讲"
+            "zh-CN": "请讲",
+            "zh": "請講"
         },
         "partita (It.)": {
             "name": "partita (It.)",
             "definition": "Suite",
+            "zh-CN": "套房",
             "zh": "套房"
         },
         "passacaglia (It.)": {
             "name": "passacaglia (It.)",
             "definition": "Variations over a ground",
-            "zh": "地面上的变化"
+            "zh-CN": "地面上的变化",
+            "zh": "地面上的變化"
         },
         "passaggio (It.)": {
             "name": "passaggio (It.)",
             "definition": "Passage",
+            "zh-CN": "通道",
             "zh": "通道"
         },
         "passionato (It.)": {
             "name": "passionato (It.)",
             "definition": "Passionate",
-            "zh": "热情的"
+            "zh-CN": "热情的",
+            "zh": "熱情的"
         },
         "pastorale (It.)": {
             "name": "pastorale (It.)",
             "definition": "Pastoral, in a simple and tranquil manner",
-            "zh": "田园风光，简单宁静"
+            "zh-CN": "田园风光，简单宁静",
+            "zh": "田園風光，簡單寧靜"
         },
         "pavane (It.)": {
             "name": "pavane (It.)",
             "definition": "A slow processional dance",
-            "zh": "缓慢的游行舞蹈"
+            "zh-CN": "缓慢的游行舞蹈",
+            "zh": "緩慢的遊行舞蹈"
         },
         "pesante (It.)": {
             "name": "pesante (It.)",
             "definition": "Heavy",
+            "zh-CN": "重的",
             "zh": "重的"
         },
         "peu à peu (Fr.)": {
             "name": "peu à peu (Fr.)",
             "definition": "Little by little",
-            "zh": "一点一点地"
+            "zh-CN": "一点一点地",
+            "zh": "一點一點地"
         },
         "pianissimo (pp)": {
             "name": "pianissimo (pp)",
             "definition": "Very soft",
-            "zh": "很软"
+            "zh-CN": "很软",
+            "zh": "很軟"
         },
         "piano (p)": {
             "name": "piano (p)",
             "definition": "Soft",
-            "zh": "柔软的"
+            "zh-CN": "柔软的",
+            "zh": "柔軟的"
         },
         "piano": {
             "name": "piano",
             "definition": "a keyboard instrument that produces sound by striking strings with hammers",
-            "zh": "通过用锤子敲击琴弦来发出声音的键盘乐器"
+            "zh-CN": "通过用锤子敲击琴弦来发出声音的键盘乐器",
+            "zh": "通過用錘子敲擊琴弦來發出聲音的鍵盤樂器"
         },
         "pitch": {
             "name": "pitch",
             "definition": "the perceived frequency of a sound or note",
-            "zh": "声音或音符的感知频率"
+            "zh-CN": "声音或音符的感知频率",
+            "zh": "聲音或音符的感知頻率"
         },
         "pizzicato (It.)": {
             "name": "pizzicato (It.)",
             "definition": "Plucked",
-            "zh": "拨弦"
+            "zh-CN": "拨弦",
+            "zh": "撥弦"
         },
         "pizzicato": {
             "name": "pizzicato",
             "definition": "string performance technique where the string is plucked, not bowed",
-            "zh": "拨弦而不是拉弦的弦乐演奏技巧"
+            "zh-CN": "拨弦而不是拉弦的弦乐演奏技巧",
+            "zh": "撥弦而不是拉弦的弦樂演奏技巧"
         },
         "placido (It.)": {
             "name": "placido (It.)",
             "definition": "Calm",
-            "zh": "冷静的"
+            "zh-CN": "冷静的",
+            "zh": "冷靜的"
         },
         "poco (It.)": {
             "name": "poco (It.)",
             "definition": "Little",
+            "zh-CN": "小的",
             "zh": "小的"
         },
         "poco a poco (It.)": {
             "name": "poco a poco (It.)",
             "definition": "Little by little",
-            "zh": "一点一点地"
+            "zh-CN": "一点一点地",
+            "zh": "一點一點地"
         },
         "polonaise (Fr.)": {
             "name": "polonaise (Fr.)",
             "definition": "Polish",
-            "zh": "抛光"
+            "zh-CN": "抛光",
+            "zh": "拋光"
         },
         "polyphony": {
             "name": "polyphony",
             "definition": "music with two or more independent melodies sounding at the same time",
-            "zh": "同时响起两个或多个独立旋律的音乐"
+            "zh-CN": "同时响起两个或多个独立旋律的音乐",
+            "zh": "同時響起兩個或多個獨立旋律的音樂"
         },
         "polyrhythm": {
             "name": "polyrhythm",
             "definition": "Two or more rhythms being played simultaneously",
-            "zh": "同时演奏两个或多个节奏"
+            "zh-CN": "同时演奏两个或多个节奏",
+            "zh": "同時演奏兩個或多個節奏"
         },
         "pop song": {
             "name": "pop song",
             "definition": "(genre) a song that is written in a popular song format",
-            "zh": "（流派）以流行歌曲格式编写的歌曲"
+            "zh-CN": "（流派）以流行歌曲格式编写的歌曲",
+            "zh": "（流派）以流行歌曲格式編寫的歌曲"
         },
         "portamento (It.)": {
             "name": "portamento (It.)",
             "definition": "Carrying",
-            "zh": "携带"
+            "zh-CN": "携带",
+            "zh": "攜帶"
         },
         "prelude": {
             "name": "prelude",
             "definition": "A short piece of music",
-            "zh": "一段简短的音乐"
+            "zh-CN": "一段简短的音乐",
+            "zh": "一段簡短的音樂"
         },
         "presto (It.)": {
             "name": "presto (It.)",
             "definition": "Fast",
+            "zh-CN": "快速地",
             "zh": "快速地"
         },
         "prima donna (It.)": {
             "name": "prima donna (It.)",
             "definition": "First lady",
+            "zh-CN": "第一夫人",
             "zh": "第一夫人"
         },
         "program music": {
             "name": "program music",
             "definition": "(genre) instrumental music associated with a story or other extramusical idea",
-            "zh": "（流派）与故事或其他音乐外的想法相关的器乐"
+            "zh-CN": "（流派）与故事或其他音乐外的想法相关的器乐",
+            "zh": "（流派）與故事或其他音樂外的想法相關的器樂"
         },
         "puppet opera": {
             "name": "puppet opera",
             "definition": "(genre) a work combining puppetry and singing",
-            "zh": "（体裁）木偶与歌唱相结合的作品"
+            "zh-CN": "（体裁）木偶与歌唱相结合的作品",
+            "zh": "（體裁）木偶與歌唱相結合的作品"
         }
     },
     "Q": {
         "quartet": {
             "name": "quartet",
             "definition": "(genre) a composition for four voices or instruments",
-            "zh": "（流派）四种声音或乐器的作品"
+            "zh-CN": "（流派）四种声音或乐器的作品",
+            "zh": "（流派）四種聲音或樂器的作品"
         },
         "quasi (It.)": {
             "name": "quasi (It.)",
             "definition": "Almost, nearly",
-            "zh": "几乎，几乎"
+            "zh-CN": "几乎，几乎",
+            "zh": "幾乎，幾乎"
         },
         "quintet": {
             "name": "quintet",
             "definition": "(genre) a composition for five voices or instruments",
-            "zh": "（流派）五声部或乐器的作品"
+            "zh-CN": "（流派）五声部或乐器的作品",
+            "zh": "（流派）五聲部或樂器的作品"
         },
         "quodlibet (Lat.)": {
             "name": "quodlibet (Lat.)",
             "definition": "What pleases",
-            "zh": "高兴什么"
+            "zh-CN": "高兴什么",
+            "zh": "高興什麽"
         },
         "quodlibet": {
             "name": "quodlibet",
             "definition": "(genre) a humorous composition consisting of two or more independent and harmonically complementary melodies, usually popular tunes, performed simultaneously",
-            "zh": "（流派）一种幽默的作品，由两个或多个独立且和声互补的旋律组成，通常是流行曲调，同时演奏"
+            "zh-CN": "（流派）一种幽默的作品，由两个或多个独立且和声互补的旋律组成，通常是流行曲调，同时演奏",
+            "zh": "（流派）一種幽默的作品，由兩個或多個獨立且和聲互補的旋律組成，通常是流行曲調，同時演奏"
         }
     },
     "R": {
         "rallentando (rall.)": {
             "name": "rallentando (rall.)",
             "definition": "Gradually slowing down",
-            "zh": "逐渐放慢"
+            "zh-CN": "逐渐放慢",
+            "zh": "逐漸放慢"
         },
         "rapide (Fr.)": {
             "name": "rapide (Fr.)",
             "definition": "Fast",
+            "zh-CN": "快速地",
             "zh": "快速地"
         },
         "rasch (Ger.)": {
             "name": "rasch (Ger.)",
             "definition": "Fast",
+            "zh-CN": "快速地",
             "zh": "快速地"
         },
         "recapitulation": {
             "name": "recapitulation",
             "definition": "A reprise",
+            "zh-CN": "重演",
             "zh": "重演"
         },
         "recitativo (It.)": {
             "name": "recitativo (It.)",
             "definition": "Recitative",
-            "zh": "宣叙调"
+            "zh-CN": "宣叙调",
+            "zh": "宣敘調"
         },
         "rhapsody": {
             "name": "rhapsody",
             "definition": "A free instrumental composition in one extended movement, typically one that is emotional or exuberant in character",
-            "zh": "一个扩展乐章中的自由器乐作品，通常是情感丰富或性格旺盛的乐章"
+            "zh-CN": "一个扩展乐章中的自由器乐作品，通常是情感丰富或性格旺盛的乐章",
+            "zh": "一個擴展樂章中的自由器樂作品，通常是情感豐富或性格旺盛的樂章"
         },
         "ritardando (rit.)": {
             "name": "ritardando (rit.)",
             "definition": "Slowing down gradually",
-            "zh": "逐渐放慢"
+            "zh-CN": "逐渐放慢",
+            "zh": "逐漸放慢"
         },
         "ritenuto (rit.)": {
             "name": "ritenuto (rit.)",
             "definition": "Held back (i.e. suddenly slower)",
-            "zh": "被阻止（即突然变慢）"
+            "zh-CN": "被阻止（即突然变慢）",
+            "zh": "被阻止（即突然變慢）"
         },
         "ritmico (It.)": {
             "name": "ritmico (It.)",
             "definition": "Rhythmical",
-            "zh": "有节奏的"
+            "zh-CN": "有节奏的",
+            "zh": "有節奏的"
         },
         "rondo": {
             "name": "rondo",
             "definition": "A musical form with a recurring leading theme, often found in the final movement of a sonata or concerto",
-            "zh": "一种具有反复出现的主旋律的音乐形式，通常出现在奏鸣曲或协奏曲的最后乐章中"
+            "zh-CN": "一种具有反复出现的主旋律的音乐形式，通常出现在奏鸣曲或协奏曲的最后乐章中",
+            "zh": "一種具有反復出現的主旋律的音樂形式，通常出現在奏鳴曲或協奏曲的最後樂章中"
         },
         "rubato (It.)": {
             "name": "rubato (It.)",
             "definition": "Free adjustment of tempo for expressive purposes",
-            "zh": "自由调整节奏以达到表达目的"
+            "zh-CN": "自由调整节奏以达到表达目的",
+            "zh": "自由調整節奏以達到表達目的"
         }
     },
     "S": {
         "scherzando (It.)": {
             "name": "scherzando (It.)",
             "definition": "Playful",
+            "zh-CN": "俏皮",
             "zh": "俏皮"
         },
         "scherzo (It.)": {
             "name": "scherzo (It.)",
             "definition": "Joke",
+            "zh-CN": "玩笑",
             "zh": "玩笑"
         },
         "secco (It.)": {
             "name": "secco (It.)",
             "definition": "Dry",
-            "zh": "干燥"
+            "zh-CN": "干燥",
+            "zh": "幹燥"
         },
         "segno (It.)": {
             "name": "segno (It.)",
             "definition": "Sign",
-            "zh": "符号"
+            "zh-CN": "符号",
+            "zh": "符號"
         },
         "semplice (It.)": {
             "name": "semplice (It.)",
             "definition": "Simple",
-            "zh": "简单的"
+            "zh-CN": "简单的",
+            "zh": "簡單的"
         },
         "sempre (It.)": {
             "name": "sempre (It.)",
             "definition": "Always",
-            "zh": "总是"
+            "zh-CN": "总是",
+            "zh": "總是"
         },
         "senza (It.)": {
             "name": "senza (It.)",
             "definition": "Without",
-            "zh": "没有"
+            "zh-CN": "没有",
+            "zh": "沒有"
         },
         "serioso (It.)": {
             "name": "serioso (It.)",
             "definition": "Serious",
-            "zh": "严肃的"
+            "zh-CN": "严肃的",
+            "zh": "嚴肅的"
         },
         "sforzando (sfz)": {
             "name": "sforzando (sfz)",
             "definition": "Forced; with emphasis",
-            "zh": "被迫； 强调"
+            "zh-CN": "被迫； 强调",
+            "zh": "被迫； 強調"
         },
         "simile (It.)": {
             "name": "simile (It.)",
             "definition": "Similar",
+            "zh-CN": "相似的",
             "zh": "相似的"
         },
         "sinfonia (It.)": {
             "name": "sinfonia (It.)",
             "definition": "Symphony",
-            "zh": "交响乐"
+            "zh-CN": "交响乐",
+            "zh": "交響樂"
         },
         "solo": {
             "name": "solo",
             "definition": "Alone",
-            "zh": "独自的"
+            "zh-CN": "独自的",
+            "zh": "獨自的"
         },
         "soprano": {
             "name": "soprano",
             "definition": "The highest singing voice",
-            "zh": "最高的歌声"
+            "zh-CN": "最高的歌声",
+            "zh": "最高的歌聲"
         },
         "sostenuto (It.)": {
             "name": "sostenuto (It.)",
             "definition": "Sustained",
-            "zh": "持续"
+            "zh-CN": "持续",
+            "zh": "持續"
         },
         "spiccato (It.)": {
             "name": "spiccato (It.)",
             "definition": "Separated, distinct",
-            "zh": "分开的、不同的"
+            "zh-CN": "分开的、不同的",
+            "zh": "分開的、不同的"
         },
         "staccato (It.)": {
             "name": "staccato (It.)",
             "definition": "Detached, disconnected",
-            "zh": "分离、断绝关系"
+            "zh-CN": "分离、断绝关系",
+            "zh": "分離、斷絕關系"
         },
         "stretto (It.)": {
             "name": "stretto (It.)",
             "definition": "Tightened",
-            "zh": "收紧"
+            "zh-CN": "收紧",
+            "zh": "收緊"
         },
         "stringendo (It.)": {
             "name": "stringendo (It.)",
             "definition": "Tightening",
-            "zh": "收紧"
+            "zh-CN": "收紧",
+            "zh": "收緊"
         },
         "subito (It.)": {
             "name": "subito (It.)",
             "definition": "Suddenly",
+            "zh-CN": "突然",
             "zh": "突然"
         },
         "suite": {
             "name": "suite",
             "definition": "A set of instrumental compositions, originally in dance style, to be played in succession",
-            "zh": "一套原本为舞蹈风格的器乐作品，将连续演奏"
+            "zh-CN": "一套原本为舞蹈风格的器乐作品，将连续演奏",
+            "zh": "一套原本為舞蹈風格的器樂作品，將連續演奏"
         },
         "sul ponticello (It.)": {
             "name": "sul ponticello (It.)",
             "definition": "On the bridge (i.e. playing a stringed instrument near the bridge, producing a heavy, strong tone)",
-            "zh": "在琴桥上（即在琴桥附近演奏弦乐器，产生沉重而有力的音调）"
+            "zh-CN": "在琴桥上（即在琴桥附近演奏弦乐器，产生沉重而有力的音调）",
+            "zh": "在琴橋上（即在琴橋附近演奏弦樂器，產生沈重而有力的音調）"
         },
         "sul tasto (It.)": {
             "name": "sul tasto (It.)",
             "definition": "On the fingerboard (i.e. playing a stringed instrument near the head, producing a softer tone)",
-            "zh": "在指板上（即在靠近头部演奏弦乐器，产生更柔和的音调）"
+            "zh-CN": "在指板上（即在靠近头部演奏弦乐器，产生更柔和的音调）",
+            "zh": "在指板上（即在靠近頭部演奏弦樂器，產生更柔和的音調）"
         },
         "sustain": {
             "name": "sustain",
             "definition": "To hold a note for its full length",
-            "zh": "保留完整长度的笔记"
+            "zh-CN": "保留完整长度的笔记",
+            "zh": "保留完整長度的筆記"
         }
     },
     "T": {
         "tacet (Lat.)": {
             "name": "tacet (Lat.)",
             "definition": "Is silent",
-            "zh": "沉默不语"
+            "zh-CN": "沉默不语",
+            "zh": "沈默不語"
         },
         "tempo (It.)": {
             "name": "tempo (It.)",
             "definition": "Time",
-            "zh": "时间"
+            "zh-CN": "时间",
+            "zh": "時間"
         },
         "tenuto (It.)": {
             "name": "tenuto (It.)",
             "definition": "Held",
+            "zh-CN": "握住",
             "zh": "握住"
         },
         "ternary form": {
             "name": "ternary form",
             "definition": "A three-part form (ABA)",
+            "zh-CN": "三部分形式 (ABA)",
             "zh": "三部分形式 (ABA)"
         },
         "theme": {
             "name": "theme",
             "definition": "A melodic or, sometimes a harmonic idea presented in a musical form",
-            "zh": "以音乐形式呈现的旋律或有时是和声的想法"
+            "zh-CN": "以音乐形式呈现的旋律或有时是和声的想法",
+            "zh": "以音樂形式呈現的旋律或有時是和聲的想法"
         },
         "timbre": {
             "name": "timbre",
             "definition": "The quality of a sound that distinguishes one voice or instrument from another",
-            "zh": "将一种声音或乐器与另一种声音或乐器区分开来的声音质量"
+            "zh-CN": "将一种声音或乐器与另一种声音或乐器区分开来的声音质量",
+            "zh": "將一種聲音或樂器與另一種聲音或樂器區分開來的聲音質量"
         },
         "toccata (It.)": {
             "name": "toccata (It.)",
             "definition": "Touch",
-            "zh": "触碰"
+            "zh-CN": "触碰",
+            "zh": "觸碰"
         },
         "tonic": {
             "name": "tonic",
             "definition": "The first note of a scale",
-            "zh": "音阶的第一个音符"
+            "zh-CN": "音阶的第一个音符",
+            "zh": "音階的第一個音符"
         },
         "tranquillo (It.)": {
             "name": "tranquillo (It.)",
             "definition": "Calm",
-            "zh": "冷静的"
+            "zh-CN": "冷静的",
+            "zh": "冷靜的"
         },
         "trill": {
             "name": "trill",
             "definition": "A rapid alternation between two adjacent notes, usually a semitone or tone apart, which can be identified with the context of the trill",
-            "zh": "两个相邻音符之间的快速交替，通常相隔半音或音调，可以通过颤音的上下文来识别"
+            "zh-CN": "两个相邻音符之间的快速交替，通常相隔半音或音调，可以通过颤音的上下文来识别",
+            "zh": "兩個相鄰音符之間的快速交替，通常相隔半音或音調，可以通過顫音的上下文來識別"
         },
         "trio": {
             "name": "trio",
             "definition": "A composition for three voices or instruments",
-            "zh": "三种声音或乐器的作品"
+            "zh-CN": "三种声音或乐器的作品",
+            "zh": "三種聲音或樂器的作品"
         },
         "triplet": {
             "name": "triplet",
             "definition": "Three notes played in the same amount of time as one or two beats",
-            "zh": "在与一拍或两拍相同的时间内演奏三个音符"
+            "zh-CN": "在与一拍或两拍相同的时间内演奏三个音符",
+            "zh": "在與一拍或兩拍相同的時間內演奏三個音符"
         },
         "tutti (It.)": {
             "name": "tutti (It.)",
             "definition": "All",
+            "zh-CN": "全部",
             "zh": "全部"
         }
     },
@@ -2190,97 +2619,114 @@
         "unison": {
             "name": "unison",
             "definition": "two or more voices or instruments playing the same note simultaneously",
-            "zh": "两个或多个声音或乐器同时演奏同一个音符"
+            "zh-CN": "两个或多个声音或乐器同时演奏同一个音符",
+            "zh": "兩個或多個聲音或樂器同時演奏同一個音符"
         },
         "upbeat": {
             "name": "upbeat",
             "definition": "last beat of a measure, a weak beat, which anticipates the downbeat",
-            "zh": "一个小节的最后一个拍子，一个弱拍，预示着悲观的拍子"
+            "zh-CN": "一个小节的最后一个拍子，一个弱拍，预示着悲观的拍子",
+            "zh": "一個小節的最後一個拍子，一個弱拍，預示著悲觀的拍子"
         },
         "ut (Fr.)": {
             "name": "ut (Fr.)",
             "definition": "The syllable used in solfège to represent the tonic",
-            "zh": "视唱练耳中用来表示主音的音节"
+            "zh-CN": "视唱练耳中用来表示主音的音节",
+            "zh": "視唱練耳中用來表示主音的音節"
         }
     },
     "V": {
         "vamp": {
             "name": "vamp",
             "definition": "to repeat measures of music until a singer or scene is ready",
-            "zh": "重复音乐小节，直到歌手或场景准备好"
+            "zh-CN": "重复音乐小节，直到歌手或场景准备好",
+            "zh": "重復音樂小節，直到歌手或場景準備好"
         },
         "variation": {
             "name": "variation",
             "definition": "(genre) a form in which a theme is presented and then altered in some way—through harmony, melody, texture, dynamics, or some combination of these—in a succession of individual variations",
-            "zh": "（流派）一种形式，其中主题被呈现，然后以某种方式改变——通过和声、旋律、织体、力度或这些的组合——以一系列的个人变奏"
+            "zh-CN": "（流派）一种形式，其中主题被呈现，然后以某种方式改变——通过和声、旋律、织体、力度或这些的组合——以一系列的个人变奏",
+            "zh": "（流派）一種形式，其中主題被呈現，然後以某種方式改變——通過和聲、旋律、織體、力度或這些的組合——以一系列的個人變奏"
         },
         "vibrato": {
             "name": "vibrato",
             "definition": "creating variation pitch in a note by quickly moving the finger back and forth on the string",
-            "zh": "通过在琴弦上快速来回移动手指来创建音符的变化音高"
+            "zh-CN": "通过在琴弦上快速来回移动手指来创建音符的变化音高",
+            "zh": "通過在琴弦上快速來回移動手指來創建音符的變化音高"
         },
         "vivace (It.)": {
             "name": "vivace (It.)",
             "definition": "Lively and fast",
-            "zh": "活泼且快速"
+            "zh-CN": "活泼且快速",
+            "zh": "活潑且快速"
         },
         "vivo (It.)": {
             "name": "vivo (It.)",
             "definition": "Lively",
-            "zh": "活泼"
+            "zh-CN": "活泼",
+            "zh": "活潑"
         },
         "vocal range": {
             "name": "vocal range",
             "definition": "the measure of the breadth of pitches that a human voice can phonate",
-            "zh": "人声可以发声的音高宽度的度量"
+            "zh-CN": "人声可以发声的音高宽度的度量",
+            "zh": "人聲可以發聲的音高寬度的度量"
         },
         "vocalise": {
             "name": "vocalise",
             "definition": "(genre) a vocal melody sung on one vowel as an exercise or as a piece of music, often without words",
-            "zh": "（流派）作为练习或一首音乐以一个元音演唱的声乐旋律，通常没有歌词"
+            "zh-CN": "（流派）作为练习或一首音乐以一个元音演唱的声乐旋律，通常没有歌词",
+            "zh": "（流派）作為練習或一首音樂以一個元音演唱的聲樂旋律，通常沒有歌詞"
         }
     },
     "W": {
         "waltz": {
             "name": "waltz",
             "definition": "(genre) a dance written in triple time, where the accent falls on the first beat of each measure",
-            "zh": "（流派）以三拍子写成的舞蹈，重音落在每个小节的第一拍上"
+            "zh-CN": "（流派）以三拍子写成的舞蹈，重音落在每个小节的第一拍上",
+            "zh": "（流派）以三拍子寫成的舞蹈，重音落在每個小節的第一拍上"
         },
         "whole step": {
             "name": "whole step",
             "definition": "an interval consisting of two half steps",
-            "zh": "由两个半音组成的音程"
+            "zh-CN": "由两个半音组成的音程",
+            "zh": "由兩個半音組成的音程"
         },
         "woodwind": {
             "name": "woodwind",
             "definition": "a family of instruments that were originally made of wood, which produce sound when the player blows air against a sharp edge or through a reed, causing the air within its resonator (usually a column of air) to vibrate",
-            "zh": "最初由木头制成的一系列乐器，当演奏者向锋利的边缘或通过簧片吹气时会产生声音，导致其谐振器内的空气（通常是空气柱）振动"
+            "zh-CN": "最初由木头制成的一系列乐器，当演奏者向锋利的边缘或通过簧片吹气时会产生声音，导致其谐振器内的空气（通常是空气柱）振动",
+            "zh": "最初由木頭製成的一系列樂器，當演奏者向鋒利的邊緣或通過簧片吹氣時會產生聲音，導致其諧振器內的空氣（通常是空氣柱）振動"
         }
     },
     "X": {
         "xenharmonic": {
             "name": "xenharmonic",
             "definition": "pertaining to a musical scale that does not conform to the intervals of any of the standard scales",
-            "zh": "与不符合任何标准音阶音程的音阶有关"
+            "zh-CN": "与不符合任何标准音阶音程的音阶有关",
+            "zh": "與不符合任何標準音階音程的音階有關"
         }
     },
     "Y": {
         "yodeling": {
             "name": "yodeling",
             "definition": "a form of singing that involves repeated and rapid changes of pitch",
-            "zh": "一种涉及重复且快速改变音调的歌唱形式"
+            "zh-CN": "一种涉及重复且快速改变音调的歌唱形式",
+            "zh": "一種涉及重復且快速改變音調的歌唱形式"
         }
     },
     "Z": {
         "zart (Ger.)": {
             "name": "zart (Ger.)",
             "definition": "Tender",
-            "zh": "温柔"
+            "zh-CN": "温柔",
+            "zh": "溫柔"
         },
         "zither": {
             "name": "zither",
             "definition": "a musical instrument consisting of a flat wooden sound box with numerous strings stretched across it, placed horizontally and played with the fingers and a plectrum",
-            "zh": "一种乐器，由一个扁平的木制音箱组成，上面有许多琴弦，水平放置，用手指和拨片演奏"
+            "zh-CN": "一种乐器，由一个扁平的木制音箱组成，上面有许多琴弦，水平放置，用手指和拨片演奏",
+            "zh": "一種樂器，由一個扁平的木製音箱組成，上面有許多琴弦，水平放置，用手指和撥片演奏"
         }
     }
 }
