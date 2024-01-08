@@ -23,7 +23,7 @@ date.innerText = date_obj.getDate() + ' ' + month_words[date_obj.getMonth()] + '
 if (window.location.hostname == 'localhost') {
     var url = 'http://localhost:5000/api/';
 } else {
-    var url = 'https://musicterms.SERVERPLATFORM.com/api/';
+    var url = 'https://musicterms.onrender.com/api/';
 }
 
 var sessionstorage = window.sessionStorage;
