@@ -107,6 +107,15 @@
         document.head.appendChild(meta);
     </script>
     <script>
+        var sessionstorage = window.sessionStorage;
+        // if does not contain 'session_id'
+        if (sessionstorage.getItem('session_id') == null) {
+            // generate a random string
+            var session_id = Math.random().toString(36).substring(2, 15) + Math.random().toString(36).substring(2, 15);
+            // set 'session_id' to the random string
+            sessionstorage.setItem('session_id', session_id);
+        }
+        
         var canPrompt = false;
         window.addEventListener("beforeinstallprompt", function (e) {
             e.preventDefault();

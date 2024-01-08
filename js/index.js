@@ -19,10 +19,27 @@ var date_obj = new Date();
 var month_words = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', "Nov", 'Dec'];
 date.innerText = date_obj.getDate() + ' ' + month_words[date_obj.getMonth()] + ' ' + date_obj.getFullYear();
 
-
-function writeStorage(name, value) {
-    window.localStorage.setItem(name, value);
+// announce to the server of a new visit
+if (window.location.hostname == 'localhost') {
+    var url = 'http://localhost:5000/api/';
+} else {
+    var url = 'https://musicterms.SERVERPLATFORM.com/api/';
 }
+
+var sessionstorage = window.sessionStorage;
+var session_id = sessionstorage.getItem('session_id');
+if (!session_id) {
+    session_id = Math.random().toString(36).substring(2, 15) + Math.random().toString(36).substring(2, 15);
+    sessionstorage.setItem('session_id', session_id);
+}
+
+try {
+    fetch(`${url}visit/?session_id=${session_id}`, {
+        method: 'GET',
+        mode: 'no-cors'
+    });
+} catch { }
+
 
 function readAllStorage() {
     var storage_json = {};
@@ -31,7 +48,7 @@ function readAllStorage() {
         storage_json[key] = window.localStorage.getItem(key);
     }
     return storage_json;
-    
+
 }
 
 var storages = readAllStorage();
