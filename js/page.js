@@ -143,6 +143,7 @@ var toDoForPages = {
         }
         var favorites = JSON.parse(storages.favorites);
         var keys = Object.keys(favorites);
+        console.log(favorites);
         content.innerHTML = '';
         var div = document.createElement('div');
         div.setAttribute('class', 'set');
@@ -151,7 +152,7 @@ var toDoForPages = {
             span.setAttribute('class', 'folder full-width-line');
             if (favorites[keys[i]].treat_as_word) {
                 var j = favorites[keys[i]];
-                span.setAttribute('onclick', `word({"italian": "${j.term}", "translation": "${j.translation}", "definition": "${j[is_definition_or_languge]}"}, "${j.term}")`);
+                span.setAttribute('onclick', `word({"italian": "${j.term}", "translation": "${j.translation}", "${is_definition_or_languge}": "${j.definition}"}, "${j.term}")`);
             } else {
                 var j = favorites[keys[i]];
                 var a = ['Favorites', JSON.stringify({ "name": j.term, "definition": j[is_definition_or_languge] })];

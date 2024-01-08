@@ -21,7 +21,7 @@
     </nav>
     <div class="page" id="page-1">
         <div class="content">
-            <div class="set">
+            <div class="set no-margin">
                 <span class="folder line" id="en" onclick="language(this.id)">
                     <span class="icon file">EN</span>
                     <span>English - US / GB</span>
@@ -38,6 +38,7 @@
                     <icon data-icon="tick" class="icon option hidden"></icon>
                 </span>
             </div>
+            <p class="gray small center margin-auto" id="tipText"></p>
         </div>
     </div>
     <script src="/js/index.js"></script>
@@ -49,8 +50,15 @@
         if (lang == null) {
             lang = 'en';
         }
+        var langOfTipText = {
+            'en': `<span class="nowrap">Switching languages doesn't alter</span> <span class="nowrap">the language used in defining what you favor.</span>`,
+            'zh-CN': `<span class="nowrap">切换语言不会改变</span><span class="nowrap">您收藏的内容的语言。</span>`,
+            'zh': `<span class="nowrap">切換語言不會改變</span><span class="nowrap">您收藏的內容的語言。</span>`
+        }
+        document.getElementById('tipText').innerHTML = document.getElementById('tipText').innerHTML = langOfTipText[lang];
         document.getElementById(lang).getElementsByClassName('option')[0].classList.remove('hidden');
         function language(l) {
+            document.getElementById('tipText').innerHTML = document.getElementById('tipText').innerHTML = langOfTipText[l];
             for (var i = 0; i < document.getElementsByClassName('option').length; i++) {
                 document.getElementsByClassName('option')[i].classList.add('hidden');
             }

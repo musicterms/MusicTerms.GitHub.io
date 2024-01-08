@@ -27,6 +27,7 @@ for (let i = 0; i < favorite_stars.length; i++) {
             var definition = content.getElementsByTagName('p')[0].innerText;
             result = { "term": term, "definition": definition, "treat_as_word": is_word };
         }
+        console.log(result);
         // storages
         var storages = readAllStorage();
         if (storages.favorites == void 0) {

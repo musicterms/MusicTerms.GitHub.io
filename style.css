@@ -469,6 +469,19 @@ span.s {
     color: var(--font-color-gray) !important;
 }
 
+.small {
+    font-size: .8rem;
+    color: var(--font-color-gray);
+}
+
+.no-margin {
+    margin: 0 auto;
+}
+
+.margin-auto {
+    margin: .8rem !important;
+}
+
 .removed {
     display: none;
     opacity: 0;

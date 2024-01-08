@@ -13,6 +13,13 @@ for (var i = 0; i < content.length; i++) {
     content[i].style.marginTop = nav_bar_height + 25 + 'px';
 }
 
+// set #date as format DD MMM YYYY (e.g. 01 Jan 2020)
+var date = document.getElementById('date');
+var date_obj = new Date();
+var month_words = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', "Nov", 'Dec'];
+date.innerText = date_obj.getDate() + ' ' + month_words[date_obj.getMonth()] + ' ' + date_obj.getFullYear();
+
+
 function writeStorage(name, value) {
     window.localStorage.setItem(name, value);
 }

@@ -202,7 +202,8 @@ var languages = {
     "A refresh is required": {
         "zh-CN": "需要刷新应用",
         "zh": "需要刷新應用"
-    }
+    },
+
 }
 
 // get all elements and replace their text to the corresponding language

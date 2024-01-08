@@ -11,3 +11,5 @@ Here is a list of things you have to change:
 - Update all JSON files in `/source` with `/source/lang/translator.html`. For `/source/terms/`, comment the first part spilt by the space and uncomment the second part. If not, reverse it.
 
 - In `/js/page.js`, update line 77 (around), the `if (e == '' || e == '' || ...) loadTerms(json)`. Make a new condition as `e == L`.
+
+- Update `/language.html`
