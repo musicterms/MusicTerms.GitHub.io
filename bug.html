@@ -182,7 +182,8 @@
                 method: "GET",
                 headers: {
                     "Content-Type": "application/json"
-                }
+                },
+                mode: "no-cors"
             }).then(response => {
                 return response.json()
             }).then(data => {
