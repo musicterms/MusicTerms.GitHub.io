@@ -83,7 +83,7 @@
             this.style.height = 0;
             this.style.height = (this.scrollHeight) + "px";
         }
-        
+
         var consistent = "";
         function select(e) {
 
@@ -117,7 +117,7 @@
     <script src="/js/events.js"></script>
     <script src="/js/icon.js"></script>
     <script>
-        document.getElementById("load").addEventListener("click", ()=> {
+        document.getElementById("load").addEventListener("click", () => {
             document.getElementById("load").classList.add("hidden_zone");
             document.querySelector(".verify").classList.remove("hidden_zone");
             document.getElementById("submit").classList.remove("hidden_zone");
@@ -187,13 +187,16 @@
             }).then(response => {
                 return response.json()
             }).then(data => {
-                if (data.result != 'true') {
-                    loadVerify();
-                    document.querySelector("font.center.hidden").classList.remove("hidden");
-                } else {
-                    document.querySelector(".verify").classList.add("hidden");
-                    document.getElementById('page-1').scrollTop = 0;
-                }
+                try {
+                    if (data.result != 'true') {
+                        loadVerify();
+                        document.querySelector("font.center.hidden").classList.remove("hidden");
+                    } else {
+                        document.querySelector(".verify").classList.add("hidden");
+                        document.getElementById('page-1').scrollTop = 0;
+                        location.reload();
+                    }
+                } catch { location.reload(); }
             });
 
         }
