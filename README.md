@@ -27,7 +27,7 @@
 
 * [About the Project](#about-the-project)
 * [Contributing](#contributing)
-* [License](#license)
+* [License and Terms](#license-and-terms)
 * [Authors](#authors)
 * [Sources](#sources)
 
@@ -51,9 +51,11 @@ Contributions are what make the open source community such an amazing place to b
 > - Ensure your content is right.
 > - After verifying, your content will be shown on `Commonly Used > Terms` as public sources.
 
-## License
+## License and Terms
 
 Distributed under the MIT License. See [LICENSE](https://github.com/musicterms/musicterms.github.io?tab=MIT-1-ov-file) for more information.
+
+Before using or distributing this Web App, please make sure you have read the [Privacy Terms](https://alphabrate.github.io/trueview/doc.html?content=https://raw.githubusercontent.com/musicterms/musicterms.github.io/main/terms/privacy.md&title=Privacy%20Terms&author=AlphaBrate&date=Music%20Terms%20Team)  and [Terms of Service](https://alphabrate.github.io/trueview/doc.html?content=https://raw.githubusercontent.com/musicterms/musicterms.github.io/main/terms/conditions.md&title=Terms%20of%20Service&author=AlphaBrate&date=Music%20Terms%20Team) carefully.
 
 ## Authors
 
