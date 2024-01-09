@@ -74,7 +74,7 @@ var toDoForPages = {
             fetch('/' + lists[e].path).then(function (response) {
                 return response.json();
             }).then(function (json) {
-                if (e == 'terms' || e == '术语' || e == '術語') loadTerms(json);
+                if (isTerm(e)) loadTerms(json);
                 else loadLangWords(json);
             });
         } catch { }

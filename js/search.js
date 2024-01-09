@@ -22,7 +22,7 @@ async function search(input) {
 
     let results = [];
     for (let key in data) {
-        if (key == 'terms' || key == '术语') {
+        if (isTerm(key)) {
             for (let category in data[key]) {
                 for (let term in data[key][category]) {
                     if (term.toLowerCase().includes(input)) {

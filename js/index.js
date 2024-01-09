@@ -15,6 +15,10 @@ for (var i = 0; i < content.length; i++) {
 
 try { date.innerText = '9 Jan 2024' } catch { }
 
+function isTerm(k) {
+    return k == 'terms' || k == '术语' || k == '術語';
+}
+
 // announce to the server of a new visit
 var url = 'https://musicterms.onrender.com/api/';
 
