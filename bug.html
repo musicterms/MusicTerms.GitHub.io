@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Terminology | Report a Bug</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.png" type="image/png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+</head>
+
+<body>
+    <nav>
+        <span class="nav-arrow-back" id="nav-back" onclick="history.back()">
+            <icon data-icon="arrow_back_ios"></icon>
+            <font id="nav-back-text"></font>
+        </span>
+        <font id="nav-text">Report a Bug</font>
+    </nav>
+    <div class="page bug" id="page-1">
+        <div class="content">
+            <input type="text" class="normal-text-input" placeholder="* Describe issue briefly.">
+            <textarea class="normal-text-textarea"
+                placeholder="* What actions did you take prior to encountering the issue?"></textarea>
+
+            <div class="set width-450">
+                <div class="folder no-line" onclick="toggle()">
+                    <icon data-icon="expand_all" class="circle"></icon>
+                    <font>* Does this occur consistently?</font>
+                    <icon data-icon="expand" class="icon more larger"></icon>
+                </div>
+                <div class="folder option hidden_zone hidden_selector_a" onclick="select(this)">
+                    <icon data-icon="check" class="circle gray"></icon>
+                    <font>Yes</font>
+                    <icon data-icon="tick" class="icon option hidden"></icon>
+                </div>
+                <div class="folder option hidden_zone hidden_selector_a" onclick="select(this)">
+                    <icon data-icon="cancel" class="circle gray"></icon>
+                    <font>No</font>
+                    <icon data-icon="tick" class="icon option hidden"></icon>
+                </div>
+                <div class="folder option hidden_zone hidden_selector_a" onclick="select(this)">
+                    <icon data-icon="help" class="circle gray"></icon>
+                    <font>Not Sure</font>
+                    <icon data-icon="tick" class="icon option hidden"></icon>
+                </div>
+            </div>
+            <button id="load" class="large-btn">Load Verifier</button>
+            <div class="verify hidden_zone">
+                <img src="" class="verification qes" id="question">
+                <div class="anss">
+                    <img src="" class="verification ans" id="ans">
+                </div>
+                <div class="toolbar">
+                    <button class="btn-verify" onclick="loadVerify()">
+                        <icon data-icon="refresh"></icon>Refresh
+                    </button>
+                    <button class="btn-verify" onclick="next()">
+                        <icon data-icon="next"></icon>Next
+                    </button>
+                </div>
+                <font class="center hidden">Verification failed or some fields are empty.</font>
+                <p class="gray small center" id="tipText">
+                    Please let us to ensure it's you, not a robot. <br>
+                    Take a moment to comparethe image <br>
+                    on your right with the one on your left. <br>
+                    If they related to each other, click "Submit". <br>
+                    Otherwise, click "Next" until you find a pair that resonates.</p>
+            </div>
+            <button class="large-btn hidden_zone" id="submit" onclick="verify()">Submit</button>
+        </div>
+    </div>
+    <script>
+        const tx = document.getElementsByTagName("textarea");
+        for (let i = 0; i < tx.length; i++) {
+            tx[i].setAttribute("style", "height:" + (tx[i].scrollHeight) + "px;overflow-y:hidden;");
+            tx[i].addEventListener("input", OnInput, false);
+        }
+
+        function OnInput() {
+            this.style.height = 0;
+            this.style.height = (this.scrollHeight) + "px";
+        }
+        
+        var consistent = "";
+        function select(e) {
+
+            consistent = e.querySelector("font").innerText;
+
+            var font = e.querySelector("font");
+            var icon = e.querySelector(".circle");
+            var tick = e.querySelector(".icon.option");
+            if (icon.classList.contains("gray")) {
+                icon.classList.remove("gray");
+                tick.classList.remove("hidden");
+                font.classList.add("bold");
+            }
+            else {
+                icon.classList.add("gray");
+                tick.classList.add("hidden");
+                font.classList.remove("bold");
+            }
+            // remove selected from other options
+            var options = document.querySelectorAll(".folder.option");
+            for (let i = 0; i < options.length; i++) {
+                if (options[i] != e) {
+                    options[i].querySelector(".circle").classList.add("gray");
+                    options[i].querySelector(".icon.option").classList.add("hidden");
+                    options[i].querySelector("font").classList.remove("bold");
+                }
+            }
+        }
+    </script>
+    <script src="/js/index.js"></script>
+    <script src="/js/events.js"></script>
+    <script src="/js/icon.js"></script>
+    <script>
+        document.getElementById("load").addEventListener("click", ()=> {
+            document.getElementById("load").classList.add("hidden_zone");
+            document.querySelector(".verify").classList.remove("hidden_zone");
+            document.getElementById("submit").classList.remove("hidden_zone");
+            loadVerify();
+        });
+        function toggle() {
+            const hidden = document.querySelectorAll(".option.hidden_selector_a");
+            document.querySelector('.icon.more.larger').classList.toggle("gray");
+            document.querySelector('.icon.more.larger').classList.toggle("rotate180");
+            for (let i = 0; i < hidden.length; i++) {
+                hidden[i].classList.toggle("hidden_zone");
+            }
+        }
+
+        async function getVerifier() {
+            var link = url + "verify/";
+            var response = await fetch(link, {
+                method: "GET",
+                headers: {
+                    "Content-Type": "application/json"
+                }
+            });
+            var data = await response.json();
+            return data;
+        }
+        var token;
+        var current_id = 0;
+        var ans = [];
+        var loadVerify = async () => {
+            document.getElementById("ans").src = "/img/load.svg";
+            document.getElementById("question").src = "/img/load.svg";
+            ans = [];
+            getVerifier().then(data => {
+                for (var i = 0; i < data.answers.length; i++) {
+                    ans.push('data:image/jpg;base64,' + data.answers[i]);
+                }
+                document.getElementById("ans").src = ans[0];
+                document.getElementById("question").src = 'data:image/jpg;base64,' + data.question;
+                token = data.token;
+            });
+        }
+        next = () => {
+            current_id++;
+            if (current_id > 3) {
+                current_id = 0;
+            }
+            document.getElementById("ans").src = ans[current_id];
+        }
+
+        function verify() {
+            var describe = document.querySelector("input.normal-text-input").value;
+            var action = document.querySelector("textarea.normal-text-textarea").value;
+
+            if (describe == "" || action == "" || consistent == "") {
+                document.querySelector("font.center.hidden").classList.remove("hidden");
+                return;
+            }
+            document.getElementById("ans").src = "/img/load.svg";
+            document.getElementById("question").src = "/img/load.svg";
+            var link = url + "check-verify/?token=" + token + "&answer=" + current_id + "&describe=" + describe + "&action=" + action + "&consistent=" + consistent + "&session_id=" + session_id;
+            fetch(link, {
+                method: "GET",
+                headers: {
+                    "Content-Type": "application/json"
+                }
+            }).then(response => {
+                return response.json()
+            }).then(data => {
+                if (data.result != 'true') {
+                    loadVerify();
+                    document.querySelector("font.center.hidden").classList.remove("hidden");
+                } else {
+                    document.querySelector(".verify").classList.add("hidden");
+                    document.getElementById('page-1').scrollTop = 0;
+                }
+            });
+
+        }
+    </script>
+</body>
+
+</html>

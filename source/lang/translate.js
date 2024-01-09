@@ -203,7 +203,10 @@ var languages = {
         "zh-CN": "需要刷新应用",
         "zh": "需要刷新應用"
     },
-
+    "Report a Bug": {
+        "zh-CN": "报告错误",
+        "zh": "報告錯誤"
+    },
 }
 
 // get all elements and replace their text to the corresponding language
