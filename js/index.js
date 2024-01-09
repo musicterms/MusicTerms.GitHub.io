@@ -17,9 +17,6 @@ try { date.innerText = '9 Jan 2024' } catch { }
 
 // announce to the server of a new visit
 var url = 'https://musicterms.onrender.com/api/';
-if (window.location.hostname == 'localhost') {
-    url = 'http://localhost:5000/api/';
-}
 
 var sessionstorage = window.sessionStorage;
 var session_id = sessionstorage.getItem('session_id');
