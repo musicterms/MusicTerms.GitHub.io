@@ -44,6 +44,8 @@ Contributions are what make the open source community such an amazing place to b
 * Please make sure you check your spelling and grammar.
 * Create individual PR for each suggestion.
 
+> If you want to join a new language, look at [the docs](https://alphabrate.github.io/trueview/doc.html?content=https://raw.githubusercontent.com/musicterms/musicterms.github.io/main/source/lang/join-a-language.md&title=Join%20a%20new%20language.&author=AlphaBrate&date=Music%20Terms%20Team) first. We really appreciate that.
+
 > You are more than welcome to add new words or phrases to our library, which is now lacking of content.
 > - Add to the *JSON files in sources/terms/\*.json*
 > - Ensure your content is right.
