@@ -1,4 +1,4 @@
-#Join a new language (that is not exsiting) in this Web App.
+# Join a new language (that is not exsiting) in this Web App.
 
 Here is a list of things you have to change:
 
