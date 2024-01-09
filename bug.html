@@ -187,16 +187,16 @@
             }).then(response => {
                 return response.json()
             }).then(data => {
-                try {
-                    if (data.result != 'true') {
-                        loadVerify();
-                        document.querySelector("font.center.hidden").classList.remove("hidden");
-                    } else {
-                        document.querySelector(".verify").classList.add("hidden");
-                        document.getElementById('page-1').scrollTop = 0;
-                        location.reload();
-                    }
-                } catch { location.reload(); }
+                if (data.result != 'true') {
+                    loadVerify();
+                    document.querySelector("font.center.hidden").classList.remove("hidden");
+                } else {
+                    document.querySelector(".verify").classList.add("hidden");
+                    document.getElementById('page-1').scrollTop = 0;
+                    location.reload();
+                }
+            }).catch(err => {
+                location.reload();
             });
 
         }
