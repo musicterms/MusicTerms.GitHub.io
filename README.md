@@ -19,7 +19,6 @@
 <p align="center">
   <img src="https://img.shields.io/github/contributors/musicterms/musicterms.github.io?color=dark-green">
   <img src="https://img.shields.io/github/issues/musicterms/musicterms.github.io">
-  <img src="https://img.shields.io/github/license/musicterms/musicterms.github.io">
 </p>
 
 
