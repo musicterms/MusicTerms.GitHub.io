@@ -17,7 +17,7 @@ async function preloadData() {
 
 async function search(input) {
     input = input.toLowerCase();
-    if (storages.data_cache_enable_switch == 'false') data = {};
+    if (storages.data_cache_enable_switch == 'false' || storages.data_cache_enable_switch == void 0) data = {};
     if (Object.keys(data).length === 0) await preloadData();
 
     let results = [];

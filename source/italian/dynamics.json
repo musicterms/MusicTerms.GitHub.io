@@ -97,6 +97,13 @@
         "zh-CN": "大声、热闹。",
         "zh": "大聲、熱鬧。"
     },
+    "Smorzando": {
+        "italian": "Smorzando",
+        "translation": "dying away",
+        "definition": "Dying away.",
+        "zh-CN": "逐渐消失。",
+        "zh": "逐漸消失。"
+    },
     "Tremolo": {
         "italian": "Tremolo",
         "translation": "trembling",

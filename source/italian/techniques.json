@@ -16,14 +16,14 @@
     "Appoggiatura": {
         "italian": "Appoggiatura",
         "translation": "leaning, supporting",
-        "definition": "A type of ornament that creates a \"yearning\" effect",
+        "definition": "A type of ornament that creates a yearning effect",
         "zh-CN": "花音",
         "zh": "花音"
     },
     "Arco": {
         "italian": "Arco",
         "translation": "bow",
-        "definition": "Cancels col legno and pizzicato. (In any string passage, arco is usually expected, as it is the \"default\" approach; it is only ever written at the end of col legno or pizzicato passages.)",
+        "definition": "Cancels col legno and pizzicato. (In any string passage, arco is usually expected, as it is the default approach; it is only ever written at the end of col legno or pizzicato passages.)",
         "zh-CN": "取消col legno（用琴弓敲击琴弦）和pizzicato（拨奏）",
         "zh": "取消col legno（用琴弓敲擊琴弦）和pizzicato（撥奏）"
     },

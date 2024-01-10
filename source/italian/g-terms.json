@@ -2,63 +2,63 @@
     "Molto": {
         "italian": "Molto",
         "translation": "very; much",
-        "definition": "Comes before other terms; e.g. molto allegro (\"very cheerful\")",
+        "definition": "Comes before other terms; e.g. molto allegro (very cheerful)",
         "zh-CN": "出现在其他术语之前； 例如 molto allegro（非常）",
         "zh": "出現在其他術語之前； 例如 molto allegro（非常）"
     },
     "Assai": {
         "italian": "Assai",
         "translation": "very; aplenty",
-        "definition": "Comes after other terms; e.g. allegro assai (\"very cheerful\")",
+        "definition": "Comes after other terms; e.g. allegro assai (very cheerful)",
         "zh-CN": "出现在其他术语之后； 例如 allegro assai（非常）",
         "zh": "出現在其他術語之後； 例如 allegro assai（非常）"
     },
     "Più": {
         "italian": "Più",
         "translation": "more",
-        "definition": "Comes before other terms; e.g. più mosso (\"more moved/agitated\")",
+        "definition": "Comes before other terms; e.g. più mosso (more moved/agitated)",
         "zh-CN": "出现在其他术语之前； 例如 più mosso（更加）",
         "zh": "出現在其他術語之前； 例如 più mosso（更加）"
     },
     "Poco": {
         "italian": "Poco",
         "translation": "little",
-        "definition": "Comes before other terms; e.g. poco diminuendo (\"a little diminishing\")",
+        "definition": "Comes before other terms; e.g. poco diminuendo (a little diminishing)",
         "zh-CN": "出现在其他术语之前； 例如 poco diminuendo（一点）",
         "zh": "出現在其他術語之前； 例如 poco diminuendo（一點）"
     },
     "poco a poco": {
         "italian": "poco a poco",
         "translation": "little by little",
-        "definition": "\"Slowly but steadily.\" Comes before other terms; e.g. poco a poco crescendo (\"increasing little by little\")",
+        "definition": "Slowly but steadily. Comes before other terms; e.g. poco a poco crescendo (increasing little by little)",
         "zh-CN": "“缓慢但稳定。” 出现在其他术语之前； 例如 poco a poco crescendo（一点一点地）",
         "zh": "「緩慢但穩定。」 出現在其他術語之前； 例如 poco a poco crescendo（一點一點地）"
     },
     "ma non tanto": {
         "italian": "ma non tanto",
         "translation": "but not so much",
-        "definition": "Comes after other terms; e.g. adagio ma non tanto (\"not quite at ease\")",
+        "definition": "Comes after other terms; e.g. adagio ma non tanto (not quite at ease)",
         "zh-CN": "出现在其他术语之后； 例如 adagio ma non tanto（不太）",
         "zh": "出現在其他術語之後； 例如 adagio ma non tanto（不太）"
     },
-    "ma non troppo": {
+    "Ma non troppo": {
         "italian": "ma non troppo",
         "translation": "but not too much",
-        "definition": "Comes after other terms; e.g. allegro ma non troppo (\"not too joyful\")",
+        "definition": "Comes after other terms; e.g. allegro ma non troppo (not too joyful)",
         "zh-CN": "出现在其他术语之后； 例如 allegro ma non troppo（不太）",
         "zh": "出現在其他術語之後； 例如 allegro ma non troppo（不太）"
     },
     "Meno": {
         "italian": "Meno",
         "translation": "less",
-        "definition": "Comes before other terms, such as meno mosso (\"less moved/agitated\")",
+        "definition": "Comes before other terms, such as meno mosso (less moved/agitated)",
         "zh-CN": "出现在其他术语之前，例如 meno mosso（较少）",
         "zh": "出現在其他術語之前，例如 meno mosso（較少）"
     },
     "Subito": {
         "italian": "Subito",
         "translation": "suddenly, quickly",
-        "definition": "Comes before or after other terms; e.g. subito fortissimo (\"suddenly very loud\")",
+        "definition": "Comes before or after other terms; e.g. subito fortissimo (suddenly very loud)",
         "zh-CN": "在其他术语之前或之后； 例如 subito fortissimo（突然）",
         "zh": "在其他術語之前或之後； 例如 subito fortissimo（突然）"
     },
@@ -320,6 +320,13 @@
         "definition": "A form of Baroque concerto with no solo parts.",
         "zh-CN": "巴洛克协奏曲的一种形式，没有独奏部分。",
         "zh": "巴洛克協奏曲的一種形式，沒有獨奏部分。"
+    },
+    "Religioso": {
+        "italian": "Religioso",
+        "translation": "religious",
+        "definition": "Religious.",
+        "zh-CN": "宗教的。",
+        "zh": "宗教的。"
     },
     "Serenata": {
         "italian": "Serenata",

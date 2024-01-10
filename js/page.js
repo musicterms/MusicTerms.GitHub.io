@@ -100,7 +100,6 @@ var toDoForPages = {
         document.title = 'Music Terminology | Details';
         document.getElementById('nav-back-text').innerText = e[0];
         var j = JSON.parse(e[1]);
-        console.log(e);
         document.getElementById('term').innerText = j.name;
         document.getElementById('definition-of-term').innerText = j[is_definition_or_languge].replaceAll('&#39;', "'");
         setFavoriteStar(j.name);
@@ -119,13 +118,6 @@ var toDoForPages = {
         document.getElementById('nav-back-text').innerText = 'Folders';
         document.getElementById('nav-back').classList.remove('hidden');
         document.title = 'Music Terminology | Search'
-        var time = Date.now();
-        let results = await search('');
-        time = (Date.now() - time) / 1000;
-        document.getElementById('search_receipt').innerText = `${results.length} results found in ${time}s.`;
-        results.forEach(result => {
-            searchResult(result);
-        });
         try { translate(); } catch { }
     },
     'favorites': function () {
@@ -295,7 +287,6 @@ try {
 
 function details(term, e) {
     var parsed = JSON.parse(e);
-    console.log(parsed[1]);
     if (Object.keys(parsed).includes('italian') || Object.keys(parsed).includes('german')) {
         changePage('word-details', [parsed, term]);
     } else if (Object.keys(parsed[1]).includes('name')) {
@@ -331,4 +322,14 @@ function setFavoriteStar(term) {
 
 if (readAllStorage().favorite_enable_switch == 'true') {
     document.getElementById('fav_fol').classList.remove('hidden_zone');
+}
+
+async function searchAll() {
+    var time = Date.now();
+    let results = await search('');
+    time = (Date.now() - time) / 1000;
+    document.getElementById('search_receipt').innerText = `${results.length} results found in ${time}s.`;
+    results.forEach(result => {
+        searchResult(result);
+    });
 }

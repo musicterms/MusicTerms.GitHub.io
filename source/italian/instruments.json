@@ -2,7 +2,7 @@
     "Campana": {
         "italian": "Campana",
         "translation": "bell",
-        "definition": "A bell used in an orchestra; also campane \"bells\".",
+        "definition": "A bell used in an orchestra; also campane bells.",
         "zh-CN": "管弦乐队中使用的铃。",
         "zh": "管弦樂隊中使用的鈴。"
     },
@@ -22,7 +22,7 @@
     },
     "Orchestra": {
         "italian": "Orchestra",
-        "translation": "orchestra, orig. Greek orkesthai \"dance\"",
+        "translation": "orchestra, orig. Greek orkesthai dance",
         "definition": "An ensemble of instruments.",
         "zh-CN": "乐团：各种乐器的合奏团体。",
         "zh": "樂團：各種樂器的合奏團體。"
@@ -64,7 +64,7 @@
     },
     "Viola": {
         "italian": "Viola",
-        "translation": "viola, orig. Latin vitulari \"be joyful\"",
+        "translation": "viola, orig. Latin vitulari be joyful",
         "definition": "A medium-sized stringed instrument.",
         "zh-CN": "中提琴：一种中型弦乐器。",
         "zh": "中提琴：一種中型弦樂器。"

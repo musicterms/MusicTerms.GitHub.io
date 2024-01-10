@@ -124,7 +124,7 @@
         },
         "a prima vista": {
             "name": "a prima vista",
-            "definition": "lit. \"at first sight\". Sight-reading (i.e. played or sung from written notation but without prior review of the written material; refer to the figure)",
+            "definition": "lit. at first sight. Sight-reading (i.e. played or sung from written notation but without prior review of the written material; refer to the figure)",
             "zh-CN": "点燃。 “第一眼”。 视奏（即根据书面乐谱演奏或演唱，但未事先审阅书面材料；参见附图）",
             "zh": "點燃。 「第一眼」。 視奏（即根據書面樂譜演奏或演唱，但未事先審閱書面材料；參見附圖）"
         },
@@ -172,7 +172,7 @@
         },
         "acciaccatura": {
             "name": "acciaccatura",
-            "definition": "Crushing (i.e. a very fast grace note that is \"crushed\" against the note that follows and takes up no value in the measure)",
+            "definition": "Crushing (i.e. a very fast grace note that is crushed against the note that follows and takes up no value in the measure)",
             "zh-CN": "压碎（即，一个非常快的装饰音符被“压碎”在后面的音符上，并且在小节中不占据任何价值）",
             "zh": "壓碎（即，一個非常快的裝飾音符被「壓碎」在後面的音符上，並且在小節中不占據任何價值）"
         },
@@ -244,7 +244,7 @@
         },
         "al fine": {
             "name": "al fine",
-            "definition": "To the end (i.e. an instruction to repeat the previous section of music, often using a dal segno or da capo, until reaching the final barline or the word \"fine\")",
+            "definition": "To the end (i.e. an instruction to repeat the previous section of music, often using a dal segno or da capo, until reaching the final barline or the word fine)",
             "zh-CN": "到最后（即重复音乐前一部分的指令，通常使用 dal segno 或 da capo，直到到达最后的小节线或单词“fine”）",
             "zh": "到最後（即重復音樂前一部分的指令，通常使用 dal segno 或 da capo，直到到達最後的小節線或單詞「fine」）"
         },
@@ -436,7 +436,7 @@
         },
         "attacca": {
             "name": "attacca",
-            "definition": "Attack or attach; go straight on (i.e. at the end of a movement, a direction to attach the next movement to the previous one, without a gap or pause). Often used as \" attacca subito ,\" meaning a \"sudden\" movement transition (literally, \" attack suddenly \").",
+            "definition": "Attack or attach; go straight on (i.e. at the end of a movement, a direction to attach the next movement to the previous one, without a gap or pause). Often used as  attacca subito , meaning a sudden movement transition (literally,  attack suddenly ).",
             "zh-CN": "攻击或附着； 继续（即在一个动作结束时，将下一个动作附加到前一个动作的方向，没有间隙或停顿）。 通常用作“attacca subito”，意思是“突然”的运动过渡（字面意思是“突然攻击”）。",
             "zh": "攻擊或附著； 繼續（即在一個動作結束時，將下一個動作附加到前一個動作的方向，沒有間隙或停頓）。 通常用作「attacca subito」，意思是「突然」的運動過渡（字面意思是「突然攻擊」）。"
         },
@@ -492,7 +492,7 @@
         },
         "ballabile": {
             "name": "ballabile",
-            "definition": "From the Italian Ballabile meaning \"danceable\". In ballet, the term refers to a dance which is performed by the corps de ballet. The term is rarely used today.",
+            "definition": "From the Italian Ballabile meaning danceable. In ballet, the term refers to a dance which is performed by the corps de ballet. The term is rarely used today.",
             "zh-CN": "源自意大利语 Ballabile，意思是“可跳舞的”。 在芭蕾舞中，该术语指的是由芭蕾舞团表演的舞蹈。 如今这个词已经很少使用了。",
             "zh": "源自意大利語 Ballabile，意思是「可跳舞的」。 在芭蕾舞中，該術語指的是由芭蕾舞團表演的舞蹈。 如今這個詞已經很少使用了。"
         },
@@ -1156,7 +1156,7 @@
         },
         "droit (Fr.)": {
             "name": "droit (Fr.)",
-            "definition": "Right, as in \"main droit\", right hand",
+            "definition": "Right, as in main droit, right hand",
             "zh-CN": "右，如“主要权利”中，右手",
             "zh": "右，如「主要權利」中，右手"
         },
@@ -1340,7 +1340,7 @@
         },
         "fine": {
             "name": "fine",
-            "definition": "End, as in \"al fine\", to the end",
+            "definition": "End, as in al fine, to the end",
             "zh-CN": "结束，如“alfine”，到最后",
             "zh": "結束，如「alfine」，到最後"
         },

@@ -15,7 +15,7 @@
     },
     "Da Capo (al fine)": {
         "italian": "Da Capo (al fine)",
-        "translation": "from the beginning (to the \"fine\")",
+        "translation": "from the beginning (to the Fine)",
         "definition": "Abbreviated as D.C., informs the performer to go back to the beginning (capo) (finishing where the part is marked fine).",
         "zh-CN": "缩写为 D.C.，通知演奏者回到开头（Capo）（直到完成标记为“fine”的部分）。",
         "zh": "縮寫為 D.C.，通知演奏者回到開頭（Capo）（直到完成標記為“fine”的部分）。"
@@ -36,7 +36,7 @@
     },
     "Oppure": {
         "italian": "Oppure",
-        "translation": "from o (\"or\") + pure (\"also\")",
+        "translation": "from o (or) + pure (also)",
         "definition": "Informs the player of alternative ways to play a passage. See Ossia.",
         "zh-CN": "告知玩家演奏乐段的替代方法。 参见Ossia。",
         "zh": "告知玩家演奏樂段的替代方法。 參見Ossia。"
