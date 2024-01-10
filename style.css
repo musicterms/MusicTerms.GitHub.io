@@ -76,6 +76,7 @@
     font-family: "San Francisco";
     font-weight: 400;
     src: url("/fonts/SFPro.ttf");
+    font-display: swap
 }
 
 * {
