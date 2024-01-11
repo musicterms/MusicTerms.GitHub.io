@@ -15,6 +15,42 @@ for (var i = 0; i < content.length; i++) {
 
 try { date.innerText = '11 Jan 2024' } catch { }
 
+var date_online;
+try {
+    var version_file = fetch('https://raw.githubusercontent.com/musicterms/musicterms.github.io/main/VERSION',
+        {
+            method: 'GET',
+            mode: 'cors',
+        });
+    version_file.then(function (response) {
+        response.text().then(function (text) {
+            // Date = 11 Jan 2024
+            date_online = text.split('\n')[0].split(' = ')[1].replace('\r', '');
+            if (date_online == date.innerText){
+                console.warn(`Version ${date.innerText} / ${date_online}.`);
+                sessionstorage.removeItem('tried_update');
+            }
+            else if (sessionstorage.tried_update == 'true') {
+                console.warn(`Version ${date.innerText} / ${date_online} error.`);
+                date.innerText = `${date.innerText} (Not synchronized)`;
+            }
+            else {
+                confirm(`You are not synchronized`, `Sync now?`, function () {
+                    localStorage.removeItem('data');
+                    localStorage.removeItem('version');
+                    sessionstorage.removeItem('tried_update');
+                    location.reload();
+                    sessionstorage.setItem('tried_update', 'true');
+                });
+                date.innerText = `${date.innerText} (Not synchronized)`;
+                try { translate(); } catch { }
+                console.warn(`Version ${date.innerText} / ${date_online} available.`);
+            }
+        });
+    });
+} catch { }
+
+
 function isTerm(k) {
     return k == 'terms' || k == '术语' || k == '術語';
 }

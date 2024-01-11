@@ -211,6 +211,14 @@ var languages = {
         "zh-CN": "报告错误",
         "zh": "報告錯誤"
     },
+    "You are not synchronized": {
+        "zh-CN": "您的数据未被同步",
+        "zh": "您的數據未被同步"
+    },
+    "Sync now?": {
+        "zh-CN": "立即同步？",
+        "zh": "立即同步？"
+    },
 }
 
 // get all elements and replace their text to the corresponding language
