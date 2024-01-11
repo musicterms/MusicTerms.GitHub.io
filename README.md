@@ -52,7 +52,7 @@ Contributions are what make the open source community such an amazing place to b
 
 ## License and Terms
 
-Distributed under the MIT License and the APWED License. See [LICENSE](https://github.com/musicterms/musicterms.github.io?tab=License-1-ov-file) for more information.
+Distributed and developed under the MIT License and the APWED License. See [LICENSE](https://github.com/musicterms/musicterms.github.io?tab=License-1-ov-file) for more information.
 
 Before using or distributing this Web App, please make sure you have read the [Privacy Terms](https://alphabrate.github.io/trueview/doc.html?content=https://raw.githubusercontent.com/musicterms/musicterms.github.io/main/terms/privacy.md&title=Privacy%20Terms) and [Terms of Service](https://alphabrate.github.io/trueview/doc.html?content=https://raw.githubusercontent.com/musicterms/musicterms.github.io/main/terms/conditions.md&title=Terms%20of%20Service) carefully.
 
