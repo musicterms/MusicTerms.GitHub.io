@@ -1,0 +1,170 @@
+{
+    "à": {
+        "word": "à",
+        "translation": "Italian: a",
+        "definition": "to, at, in",
+        "zh-CN": "在，向，往",
+        "zh": "在，向，往"
+    },
+    "animé": {
+        "word": "animé",
+        "translation": "Italian: animato",
+        "definition": "lively, animated",
+        "zh-CN": "活泼的，生动的",
+        "zh": "活潑的，生動的"
+    },
+    "assez": {
+        "word": "assez",
+        "translation": "",
+        "definition": "enough, rather",
+        "zh-CN": "足够，相当",
+        "zh": "足夠，相當"
+    },
+    "avec": {
+        "word": "avec",
+        "translation": "Italian: Con",
+        "definition": "with",
+        "zh-CN": "和",
+        "zh": "和"
+    },
+    "cédez": {
+        "word": "cédez",
+        "translation": "",
+        "definition": "Yield, relax the speed",
+        "zh-CN": "让行，放松速度",
+        "zh": "讓行，放鬆速度"
+    },
+    "douce": {
+        "word": "douce",
+        "translation": "Italian: dolce",
+        "definition": "sweet, soft",
+        "zh-CN": "甜，柔软",
+        "zh": "甜，柔軟"
+    },
+    "en dehors": {
+        "word": "en dehors",
+        "translation": "",
+        "definition": "outside, often this is a direction to make a melody stand out from an accompaniment.",
+        "zh-CN": "外面，通常这是一个方向，使一个旋律从伴奏中脱颖而出。",
+        "zh": "外面，通常這是一個方向，使一個旋律從伴奏中脫穎而出。"
+    },
+    "et": {
+        "word": "et",
+        "translation": "Italian: e",
+        "definition": "and",
+        "zh-CN": "和",
+        "zh": "和"
+    },
+    "légèrement": {
+        "word": "légèrement",
+        "translation": "Italian: leggermente",
+        "definition": "lightly",
+        "zh-CN": "轻轻地",
+        "zh": "輕輕地"
+    },
+    "lent": {
+        "word": "lent",
+        "translation": "Italian: lento",
+        "definition": "slow",
+        "zh-CN": "慢",
+        "zh": "慢"
+    },
+    "mais": {
+        "word": "mais",
+        "translation": "Italian: ma",
+        "definition": "but",
+        "zh-CN": "但是",
+        "zh": "但是"
+    },
+    "moins": {
+        "word": "moins",
+        "translation": "Italian: meno",
+        "definition": "less",
+        "zh-CN": "少",
+        "zh": "少"
+    },
+    "modéré": {
+        "word": "modéré",
+        "translation": "Italian: moderato",
+        "definition": "moderate",
+        "zh-CN": "速度适中",
+        "zh": "速度適中"
+    },
+    "non": {
+        "word": "non",
+        "translation": "",
+        "definition": "not",
+        "zh-CN": "不",
+        "zh": "不"
+    },
+    "peu": {
+        "word": "peu",
+        "translation": "Italian: poco",
+        "definition": "little",
+        "zh-CN": "少",
+        "zh": "少"
+    },
+    "plus":{
+        "word": "plus",
+        "translation": "Italian: più",
+        "definition": "more",
+        "zh-CN": "更多",
+        "zh": "更多"
+    },
+    "presser": {
+        "word": "presser",
+        "translation": "Italian: affretando",
+        "definition": "to hurry",
+        "zh-CN": "赶快",
+        "zh": "趕快"
+    },
+    "ralentir": {
+        "word": "ralentir",
+        "translation": "Italian: ralentando",
+        "definition": "to slow down",
+        "zh-CN": "放慢",
+        "zh": "放慢"
+    },
+    "retenu": {
+        "word": "retenu",
+        "translation": "Italian: ritenuto",
+        "definition": "held back:  an indication to temporarily decrease the tempo or overall expressiveness of a song for dramatic effect",
+        "zh-CN": "保留：暂时降低歌曲的速度或整体表现力以达到戏剧效果的指示",
+        "zh": "保留：暫時降低歌曲的速度或整體表現力以達到戲劇效果的指示"
+    },
+    "sans": {
+        "word": "sans",
+        "translation": "Italian: senza",
+        "definition": "without",
+        "zh-CN": "没有",
+        "zh": "沒有"
+    },
+    "très": {
+        "word": "très",
+        "translation": "Italian: molto / assai",
+        "definition": "very",
+        "zh-CN": "非常",
+        "zh": "非常"
+    },
+    "un": {
+        "word": "un",
+        "translation": "Italian: uno",
+        "definition": "a, an, one",
+        "zh-CN": "一 (One)",
+        "zh": "一 (One)"
+    },
+    "Vif": {
+        "word": "Vif",
+        "translation": "Italian: vivace",
+        "definition": "lively, fast",
+        "zh-CN": "活泼，快速",
+        "zh": "活潑，快速"
+    },
+    "Vite": {
+        "word": "Vite",
+        "translation": "Italian: vivace",
+        "definition": "lively, fast",
+        "zh-CN": "活泼，快速",
+        "zh": "活潑，快速"
+    }
+}

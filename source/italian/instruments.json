@@ -1,97 +1,97 @@
 {
     "Campana": {
-        "italian": "Campana",
+        "word": "Campana",
         "translation": "bell",
         "definition": "A bell used in an orchestra; also campane bells.",
         "zh-CN": "管弦乐队中使用的铃。",
         "zh": "管弦樂隊中使用的鈴。"
     },
     "Cornetto": {
-        "italian": "Cornetto",
+        "word": "Cornetto",
         "translation": "little horn",
         "definition": "An old woodwind instrument.",
         "zh-CN": "木管号：一种古老的木管乐器。",
         "zh": "木管號：一種古老的木管樂器。"
     },
     "Fagotto": {
-        "italian": "Fagotto",
+        "word": "Fagotto",
         "translation": "bundle",
         "definition": "A bassoon, a woodwind instrument played with a double reed.",
         "zh-CN": "巴松管 / 大管，一种用双簧片演奏的木管乐器。",
         "zh": "巴松管 / 大管，一種用雙簧片演奏的木管樂器。"
     },
     "Orchestra": {
-        "italian": "Orchestra",
+        "word": "Orchestra",
         "translation": "orchestra, orig. Greek orkesthai dance",
         "definition": "An ensemble of instruments.",
         "zh-CN": "乐团：各种乐器的合奏团体。",
         "zh": "樂團：各種樂器的合奏團體。"
     },
     "Piano(forte)": {
-        "italian": "Piano(forte)",
+        "word": "Piano(forte)",
         "translation": "soft-loud",
         "definition": "A keyboard instrument.",
         "zh-CN": "钢琴：一种键盘乐器。",
         "zh": "鋼琴：一種鍵盤樂器。"
     },
     "Piccolo": {
-        "italian": "Piccolo",
+        "word": "Piccolo",
         "translation": "little",
         "definition": "A tiny woodwind instrument.",
         "zh-CN": "短笛：一种小型木管乐器。",
         "zh": "短笛：一種小型木管樂器。"
     },
     "Sordun": {
-        "italian": "Sordun",
+        "word": "Sordun",
         "translation": "deaf, dull in sound",
         "definition": "An archaic double-reed wind instrument.",
         "zh-CN": "索爾敦管：一种古老的双簧管乐器。",
         "zh": "索爾敦管：一種古老的雙簧管樂器。"
     },
     "Timpani": {
-        "italian": "Timpani",
+        "word": "Timpani",
         "translation": "drums",
         "definition": "Large drums.",
         "zh-CN": "定音鼓：大型鼓。",
         "zh": "定音鼓：大型鼓。"
     },
     "Tuba": {
-        "italian": "Tuba",
+        "word": "Tuba",
         "translation": "tube",
         "definition": "A large brass instrument.",
         "zh-CN": "大号：大型铜管乐器。",
         "zh": "大號：大型銅管樂器。"
     },
     "Viola": {
-        "italian": "Viola",
+        "word": "Viola",
         "translation": "viola, orig. Latin vitulari be joyful",
         "definition": "A medium-sized stringed instrument.",
         "zh-CN": "中提琴：一种中型弦乐器。",
         "zh": "中提琴：一種中型弦樂器。"
     },
-    "Viola d'amore": {
-        "italian": "Viola d'amore",
+    "Viola d‘amore": {
+        "word": "Viola d‘amore",
         "translation": "love viola",
         "definition": "A tenor viol with no frets.",
         "zh-CN": "柔音中提琴：是一种六至七弦，带有共鸣弦的弓弦乐器，大小接近中提琴，外观像一个缩小了的维奥尔琴。",
         "zh": "柔音中提琴：是一種六至七弦，帶有共鳴弦的弓弦樂器，大小接近中提琴，外觀像一個縮小了的維奧爾琴。"
     },
     "Viola da braccio": {
-        "italian": "Viola da braccio",
+        "word": "Viola da braccio",
         "translation": "arm viola",
         "definition": "A stringed instrument held in the arm, such as a violin or viola.",
         "zh-CN": "握在手臂上的弦乐器，例如小提琴或中提琴。",
         "zh": "握在手臂上的弦樂器，例如小提琴或中提琴。"
     },
     "Viola da gamba": {
-        "italian": "Viola da gamba",
+        "word": "Viola da gamba",
         "translation": "leg viola",
         "definition": "A stringed instrument held between the legs.",
         "zh-CN": "维奥尔琴：夹在两腿之间的弦乐器。",
         "zh": "維奧爾琴：夾在兩腿之間的弦樂器。"
     },
     "Violoncello": {
-        "italian": "Violoncello",
+        "word": "Violoncello",
         "translation": "Original name for a cello",
         "definition": "A large stringed instrument.",
         "zh-CN": "大提琴：大型弦乐器。",

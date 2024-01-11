@@ -13,7 +13,7 @@ for (var i = 0; i < content.length; i++) {
     content[i].style.marginTop = nav_bar_height + 25 + 'px';
 }
 
-try { date.innerText = '9 Jan 2024' } catch { }
+try { date.innerText = '11 Jan 2024' } catch { }
 
 function isTerm(k) {
     return k == 'terms' || k == '术语' || k == '術語';

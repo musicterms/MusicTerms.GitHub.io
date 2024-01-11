@@ -18,6 +18,7 @@ var lists = {
     'tempo': { 'name': 'Tempo', 'path': 'source/italian/tempo.json' },
     'voices': { 'name': 'Voices', 'path': 'source/italian/voices.json' },
     'german': { 'name': 'German', 'path': 'source/german/german.json' },
+    'french': { 'name': 'French', 'path': 'source/french/french.json' },
     // zh-CN
     '术语': { 'name': 'Terms', 'path': 'source/terms/source.json' },
     '评论': { 'name': 'Criticism', 'path': 'source/italian/criticism.json' },
@@ -33,6 +34,7 @@ var lists = {
     '速度': { 'name': 'Tempo', 'path': 'source/italian/tempo.json' },
     '人声': { 'name': 'Voices', 'path': 'source/italian/voices.json' },
     '德语': { 'name': 'German', 'path': 'source/german/german.json' },
+    '法语': { 'name': 'French', 'path': 'source/french/french.json' },
     // zh
     '術語': { 'name': 'Terms', 'path': 'source/terms/source.json' },
     '評論': { 'name': 'Criticism', 'path': 'source/italian/criticism.json' },
@@ -48,6 +50,7 @@ var lists = {
     '速度': { 'name': 'Tempo', 'path': 'source/italian/tempo.json' },
     '人聲': { 'name': 'Voices', 'path': 'source/italian/voices.json' },
     '德文': { 'name': 'German', 'path': 'source/german/german.json' },
+    '法文': { 'name': 'French', 'path': 'source/french/french.json' },
 }
 
 function addHrefHistory(page, e) {
@@ -85,9 +88,7 @@ var toDoForPages = {
         document.getElementById('nav-back-text').innerText = document.getElementById('nav-text').innerText;
         document.getElementById('nav-text').innerText = getTranslateOf('Details');
         document.title = 'Music Terminology | Details';
-        var word;
-        if (e[0].italian != void 0) word = e[0].italian;
-        if (e[0].german != void 0) word = e[0].german;
+        var word = e[0].word;
         document.getElementById('word').innerText = word;
         document.getElementById('translate').innerText = e[0].translation;
         document.getElementById('definition').innerText = e[0][is_definition_or_languge];
@@ -287,7 +288,7 @@ try {
 
 function details(term, e) {
     var parsed = JSON.parse(e);
-    if (Object.keys(parsed).includes('italian') || Object.keys(parsed).includes('german')) {
+    if (Object.keys(parsed).includes('word')) {
         changePage('word-details', [parsed, term]);
     } else if (Object.keys(parsed[1]).includes('name')) {
         changePage('term-details', ['Search', JSON.stringify(parsed[1])]);
@@ -322,6 +323,7 @@ function setFavoriteStar(term) {
 
 if (readAllStorage().favorite_enable_switch == 'true') {
     document.getElementById('fav_fol').classList.remove('hidden_zone');
+    try { translate()} catch { }
 }
 
 async function searchAll() {

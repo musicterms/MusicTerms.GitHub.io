@@ -13,3 +13,17 @@ Here is a list of things you have to change:
 - In `/js/index.js`, update line 19 (around), the `k == '' || k == '' || ...) loadTerms(json)`. Make a new condition as `k == L`.
 
 - Update `/language.html`
+
+# Join a new language (of terms) in this Web App.
+
+Here is a list of things you have to change:
+
+- Create folder `/source/LANGUAGE` and file `LANGUAGE.json` in it.
+
+- Update all language htmls.
+
+- Update `var lists` in page.js
+
+- Update `'word-details': function (e)` `if (e[0].LANGUAGE != void 0)`
+
+- Update `function details(term, e)`'s `if () {changePage('word-details', [parsed, term]);}`

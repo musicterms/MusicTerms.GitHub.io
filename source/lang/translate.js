@@ -107,6 +107,10 @@ var languages = {
         "zh-CN": "德语",
         "zh": "德文"
     },
+    "French": {
+        "zh-CN": "法语",
+        "zh": "法文"
+    },
     "Enable Cache of Icon": {
         "zh-CN": "启用图标缓存",
         "zh": "啟用圖示快取"
