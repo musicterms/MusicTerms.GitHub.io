@@ -1,5 +1,5 @@
 // set theme color as navbar background color
-var nav_bar_color = getComputedStyle(document.documentElement).getPropertyValue('--background-color');
+var nav_bar_color = getComputedStyle(document.documentElement).getPropertyValue('--nav-color');
 var meta = document.createElement('meta');
 meta.setAttribute('name', 'theme-color');
 meta.setAttribute('content', nav_bar_color);
