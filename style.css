@@ -28,6 +28,8 @@
     --shadow-color-light: #00000050;
     --shadow-color-dark: #ffffff50;
     --color-green: #30d158;
+    --nav-color-dark: var(--background-color-dark);
+    --nav-color-light: var(--background-color-protrude-light);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -45,6 +47,7 @@
         --background-accent-color: var(--background-accent-color-dark);
         --background-color-popover-hover: var(--background-color-popover-hover-dark);
         --shadow-color: var(--shadow-color-dark);
+        --nav-color: var(--nav-color-dark);
     }
 }
 
@@ -63,6 +66,7 @@
         --background-accent-color: var(--background-accent-color-light);
         --background-color-popover-hover: var(--background-color-popover-hover-light);
         --shadow-color: var(--shadow-color-light);
+        --nav-color: var(--nav-color-light);
     }
 }
 
@@ -137,7 +141,7 @@ nav {
     width: 100%;
     padding: 1rem 0;
     font-size: 1.2rem;
-    background: linear-gradient(180deg, var(--background-color) 0%, rgba(0, 0, 0, 0) 100%);
+    background: linear-gradient(180deg, var(--nav-color) 0%, rgba(0, 0, 0, 0) 100%);
     z-index: 1;
     display: flex;
     justify-content: center;
