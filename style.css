@@ -1055,5 +1055,6 @@ p.gray.small.center {
     font-size: 1.3rem;
     border-radius: 7px;
     background-color: var(--color-green);
+    color: var(--font-color);
     cursor: pointer;
 }
