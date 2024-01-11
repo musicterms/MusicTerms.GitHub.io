@@ -56,9 +56,9 @@ Distributed under the MIT License and the APWED License. See [LICENSE](https://g
 
 Before using or distributing this Web App, please make sure you have read the [Privacy Terms](https://alphabrate.github.io/trueview/doc.html?content=https://raw.githubusercontent.com/musicterms/musicterms.github.io/main/terms/privacy.md&title=Privacy%20Terms) and [Terms of Service](https://alphabrate.github.io/trueview/doc.html?content=https://raw.githubusercontent.com/musicterms/musicterms.github.io/main/terms/conditions.md&title=Terms%20of%20Service) carefully.
 
-在使用或分发此Web应用程序之前，请确保您已仔细阅读[隐私条款](https://alphabrate.github.io/trueview/doc.html?content=https://raw.githubusercontent.com/musicterms/musicterms.github.io/main/terms/privacy.zh-CN.md&title=Privacy%20Terms&author=AlphaBrate&date=Music%20Terms%20Team)和[服务条款](https://alphabrate.github.io/trueview/doc.html?content=https://raw.githubusercontent.com/musicterms/musicterms.github.io/main/terms/conditions.zh-CN.md&title=Terms%20of%20Service&author=AlphaBrate&date=Music%20Terms%20Team)
+在使用或分发此Web应用程序之前，请确保您已仔细阅读[隐私条款](https://alphabrate.github.io/trueview/doc.html?content=https://raw.githubusercontent.com/musicterms/musicterms.github.io/main/terms/privacy.zh-CN.md&title=Privacy%20Terms)和[服务条款](https://alphabrate.github.io/trueview/doc.html?content=https://raw.githubusercontent.com/musicterms/musicterms.github.io/main/terms/conditions.zh-CN.md&title=Terms%20of%20Service)
 
-在使用或分發此網頁應用程式之前，請確保您已仔細閱讀[隱私權條款](https://alphabrate.github.io/trueview/doc.html?content=https://raw.githubusercontent.com/musicterms/musicterms.github.io/main/terms/privacy.zh.md&title=Privacy%20Terms&author=AlphaBrate&date=Music%20Terms%20Team)和[服務條款](https://alphabrate.github.io/trueview/doc.html?content=https://raw.githubusercontent.com/musicterms/musicterms.github.io/main/terms/conditions.zh.md&title=Terms%20of%20Service&author=AlphaBrate&date=Music%20Terms%20Team)
+在使用或分發此網頁應用程式之前，請確保您已仔細閱讀[隱私權條款](https://alphabrate.github.io/trueview/doc.html?content=https://raw.githubusercontent.com/musicterms/musicterms.github.io/main/terms/privacy.zh.md&title=Privacy%20Term)和[服務條款](https://alphabrate.github.io/trueview/doc.html?content=https://raw.githubusercontent.com/musicterms/musicterms.github.io/main/terms/conditions.zh.md&title=Terms%20of%20Service)
 
 ## Authors
 
