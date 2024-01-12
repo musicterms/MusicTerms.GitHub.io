@@ -151,14 +151,16 @@
 
             if (isIos()) {
                 document.getElementById('homescreen').style.display = 'block';
-                document.getElementsByTagName('svg')[0].style.display = 'none';
+                document.getElementsByTagName('img')[0].style.display = 'none';
+                document.getElementsByTagName('h1')[0].style.display = 'none';
                 document.getElementById('fotIOS').style.display = 'flex';
             } else {
                 document.getElementById('h2').innerHTML = 'Add to Home Screen';
                 document.getElementById('pe1').innerHTML = 'Look for the details button (Usually 3 dots / lines)';
                 document.getElementById('pe2').innerHTML = 'Click on "Add page to Home Screen"';
                 document.getElementById('homescreen').style.display = 'block';
-                document.getElementsByTagName('svg')[0].style.display = 'none';
+                document.getElementsByTagName('img')[0].style.display = 'none';
+                document.getElementsByTagName('h1')[0].style.display = 'none';
             }
             window.history.pushState({}, 'Title', '/');
             document.title = 'Music Terms'
