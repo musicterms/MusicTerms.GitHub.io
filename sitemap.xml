@@ -1,44 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
     <url>
-        <loc>https://musicterms.github.io/en</loc>
+        <loc>http://musicterms.github.io/</loc>
+        <priority>1.00</priority>
     </url>
     <url>
-        <loc>https://musicterms.github.io/en/index.html</loc>
+        <loc>http://musicterms.github.io/en</loc>
+        <priority>0.80</priority>
     </url>
     <url>
-        <loc>https://musicterms.github.io/en/share.html</loc>
+        <loc>http://musicterms.github.io/zh</loc>
+        <priority>0.80</priority>
     </url>
     <url>
-        <loc>https://musicterms.github.io/zh</loc>
+        <loc>http://musicterms.github.io/zh-CN</loc>
+        <priority>0.80</priority>
     </url>
-    <url>
-        <loc>https://musicterms.github.io/zh/index.html</loc>
-    </url>
-    <url>
-        <loc>https://musicterms.github.io/zh/share.html</loc>
-    </url>
-    <url>
-        <loc>https://musicterms.github.io/zh-CN</loc>
-    </url>
-    <url>
-        <loc>https://musicterms.github.io/zh-CN/index.html</loc>
-    </url>
-    <url>
-        <loc>https://musicterms.github.io/zh-CN/share.html</loc>
-    </url>
-    <url>
-        <loc>https://musicterms.github.io/bug.html</loc>
-    </url>
-    <url>
-        <loc>https://musicterms.github.io/index.html</loc>
-    </url>
-    <url>
-        <loc>https://musicterms.github.io/language.html</loc>
-    </url>
-    <url>
-        <loc>https://musicterms.github.io/terms.html</loc>
-    </url>
-</urlset>
-    
+  
+
 </urlset>

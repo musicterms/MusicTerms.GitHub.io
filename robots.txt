@@ -1,5 +1,2 @@
 User-agent: *
-Disallow: /fonts/
-Disallow: /source/
-Disallow: /terms/
 Disallow: /icons/
