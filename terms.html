@@ -57,10 +57,10 @@
             "Intrusction": {
                 "": `<span class="nowrap">By using this Web App,</span> you agree with our <span
                     class="nowrap">Privacy Terms</span> & <span class="nowrap">Terms of Service</span>:`,
-                ".zh": `<span class="nowrap">使用此網頁應用程式即表示您同意我們的</span><span class="nowrap">隱私權條款</span>和<span
-                     class="nowrap">服務條款</span>：`,
-                ".zh-CN": `<span class="nowrap">使用此网页应用程序即表示您同意我们的</span><span class="nowrap">隐私条款</span>和<span
-                    class="nowrap">服务条款</span>：`,
+                ".zh": `使用此網頁應用程式即表示您同意我們的<span class="nowrap">隱私權條款</span>和<span
+                     class="nowrap">服務條款</span>`,
+                ".zh-CN": `使用此网页应用程序即表示您同意我们的<span class="nowrap">隐私条款</span>和<span
+                    class="nowrap">服务条款</span>`,
             },
         }
         agree = l[agree][lang];
@@ -99,7 +99,7 @@
                 localstorage.setItem('agreed', 'true');
                 window.location.href = '/index.html?redirect=no-delay';
             }, 400);
-            
+
         }
 
         one();
