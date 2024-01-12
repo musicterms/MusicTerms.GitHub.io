@@ -115,9 +115,9 @@ var languages = {
         "zh-CN": "启用图标缓存",
         "zh": "啟用圖示快取"
     },
-    "Enable Cache of Data": {
-        "zh-CN": "启用数据缓存",
-        "zh": "啟用資料快取"
+    "Enable Power Search": {
+        "zh-CN": "启用高级搜索",
+        "zh": "啟用高级搜尋"
     },
     "Enable Save of Location": {
         "zh-CN": "启用浏览位置保存",

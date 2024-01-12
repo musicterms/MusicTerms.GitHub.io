@@ -168,6 +168,11 @@
             }
             window.history.pushState({}, 'Title', '/');
             document.title = 'Music Terms'
+        } else if (localstorage.agreed != 'true') {
+            document.getElementsByTagName('svg')[0].style.opacity = '0';
+            setTimeout(function () {
+                document.location.replace('/terms.html');
+            }, 3000)
         } else {
             document.getElementsByTagName('svg')[0].style.opacity = '0';
             setTimeout(function () {

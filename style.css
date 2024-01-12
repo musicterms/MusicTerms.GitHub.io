@@ -22,7 +22,8 @@
     --featured-color-hover-dark: #981717;
     --featured-color-active-light: #986b17;
     --featured-color-active-dark: #e45454;
-    --functional-color: #007AFF;
+    --functional-color-light: #007AFF;
+    --functional-color-dark: #0A84FF;
     --color-grey-light: #808080;
     --color-grey-dark: #616161;
     --shadow-color-light: #00000050;
@@ -48,6 +49,7 @@
         --background-color-popover-hover: var(--background-color-popover-hover-dark);
         --shadow-color: var(--shadow-color-dark);
         --nav-color: var(--nav-color-dark);
+        --functional-color: var(--functional-color-dark);
     }
 }
 
@@ -67,6 +69,7 @@
         --background-color-popover-hover: var(--background-color-popover-hover-light);
         --shadow-color: var(--shadow-color-light);
         --nav-color: var(--nav-color-light);
+        --functional-color: var(--functional-color-light);
     }
 }
 
@@ -491,6 +494,10 @@ span.s {
     margin: .8rem !important;
 }
 
+.margin-4 {
+    margin: 4rem !important;
+}
+
 .removed {
     display: none;
     opacity: 0;
@@ -761,13 +768,31 @@ input::placeholder {
 }
 
 :root {
-    --button-width: 55px;
-    --button-height: 30px;
+    --button-width: 51px;
+    --button-height: 31px;
     --toggle-diameter: 27px;
     --button-toggle-offset: calc((var(--button-height) - var(--toggle-diameter)) / 2);
-    --toggle-shadow-offset: 2px;
+    --toggle-shadow-offset: 0.12rem;
     --toggle-wider: 33.3px;
     --transition-time: 0.3s;
+    --switch-color-gray-light: rgba(120, 120, 128, 0.16);
+    --switch-color-gray-dark: rgba(120, 120, 128, 0.32);
+    --switch-color-green-light: #34C759;
+    --switch-color-green-dark: #30D158;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --switch-color-gray: var(--switch-color-gray-dark);
+        --switch-color-green: var(--switch-color-green-dark);
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --switch-color-gray: var(--switch-color-gray-light);
+        --switch-color-green: var(--switch-color-green-light);
+    }
 }
 
 span.switch {
@@ -775,7 +800,7 @@ span.switch {
     display: inline-block;
     width: var(--button-width);
     height: var(--button-height);
-    background-color: var(--color-grey);
+    background-color: var(--switch-color-gray);
     border-radius: calc(var(--button-height) / 2);
     position: relative;
 }
@@ -791,18 +816,18 @@ span.switch::after {
     position: absolute;
     top: var(--button-toggle-offset);
     transform: translateX(var(--button-toggle-offset));
-    box-shadow: var(--toggle-shadow-offset) 0 calc(var(--toggle-shadow-offset) * 4) rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.06), 0px 3px 8px 0px rgba(0, 0, 0, 0.15), 0px 0px 0px 1px rgba(0, 0, 0, 0.04);
 }
 
 span.switch.checked {
     transition: var(--transition-time);
-    background-color: var(--color-green);
+    background-color: var(--switch-color-green);
 }
 
 span.switch.checked::after {
     transition: var(--transition-time);
     transform: translateX(calc(var(--button-width) - var(--toggle-diameter) - var(--toggle-shadow-offset)));
-    box-shadow: calc(var(--toggle-shadow-offset) * -1) 0 calc(var(--toggle-shadow-offset) * 4) rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.06), 0px 3px 8px 0px rgba(0, 0, 0, 0.15), 0px 0px 0px 1px rgba(0, 0, 0, 0.04);
 }
 
 span.switch:active::after {
@@ -1059,6 +1084,42 @@ p.gray.small.center {
     font-size: 1.3rem;
     border-radius: 7px;
     background-color: var(--color-green);
+    color: var(--background-color);
+    cursor: pointer;
+}
+
+.mid-btn {
+    padding: .5rem 4rem;
+    outline: none;
+    border: 2px solid var(--border-color);
+    font-size: 1.1rem;
+    border-radius: 7px;
+    background-color: var(--background-color-protrude);
     color: var(--font-color);
     cursor: pointer;
+    transition: background-color .2s;
+    margin: 2rem 20% 0rem 20%;
+    width: 60%;
+}
+
+.mid-btn:hover {
+    background-color: var(--background-color-protrude-hover);
+}
+
+a.popover {
+    color: var(--functional-color);
+}
+
+#terms {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 35px;
+    max-width: 1000px;
+    min-width: 300px;
+    user-select: text;
+    width: 80%;
+    -webkit-user-select: text;
+    transition: opacity .3s;
+    opacity: 0;
 }

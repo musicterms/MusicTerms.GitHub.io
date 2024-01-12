@@ -13,7 +13,7 @@ for (var i = 0; i < content.length; i++) {
     content[i].style.marginTop = nav_bar_height + 25 + 'px';
 }
 
-try { date.innerText = '11 Jan 2024' } catch { }
+try { date.innerText = '12 Jan 2024' } catch { }
 
 var date_online;
 try {

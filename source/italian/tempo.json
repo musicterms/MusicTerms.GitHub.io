@@ -215,5 +215,12 @@
         "definition": "Fast and lively tempo (quicker than allegro)",
         "zh-CN": "活泼的",
         "zh": "活潑的"
+    },
+    "Rubato": {
+        "word": "Rubato",
+        "translation": "robbed",
+        "definition": "Free flowing and exempt from steady rhythm",
+        "zh-CN": "伸缩处理：由独奏者或指挥者自行决定的表达和节奏自由度的轻微加快然后减慢。",
+        "zh": "伸縮處理：由獨奏者或指揮者自行決定的表達和節奏自由度的輕微加快然後減慢。"
     }
 }
