@@ -9,18 +9,42 @@
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.png" type="image/png">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <style>
+        html {
+            height: 100%;
+            overflow: auto;
+            overflow-x: hidden;
+        }
+        body {
+            height: 100%;
+        }
+
+        h2#intrusct {
+            margin-top: 10rem !important;
+        }
+
+        #terms {
+            padding: 35px;
+            max-width: 1000px;
+            min-width: 200px;
+            user-select: text;
+            width: 80%;
+            -webkit-user-select: text;
+            transition: opacity .3s;
+            opacity: 0;
+            margin: 0 auto;
+            margin-bottom: 5rem !important;
+        }
+    </style>
 </head>
 
 <body>
     <nav>
         <font id="nav-text">User Argreement</font>
     </nav>
-    <div class="page bug" id="page-1">
-        <div class="content" style="margin-bottom: 10rem;">
-            <h2 class="center margin-4" id="intrusct"></h2>
-            <div id="terms"></div>
-        </div>
+    <h2 class="center margin-4" id="intrusct"></h2>
     </div>
+    <div id="terms"></div>
     <script>
 
     </script>
@@ -55,7 +79,7 @@
                 "": "Go Back."
             },
             "Intrusction": {
-                "": `<span class="nowrap">By using this Web App,</span> you agree with our <span
+                "": `By using this Web App, you agree with our <span
                     class="nowrap">Privacy Terms</span> & <span class="nowrap">Terms of Service</span>:`,
                 ".zh": `使用此網頁應用程式即表示您同意我們的<span class="nowrap">隱私權條款</span>和<span
                      class="nowrap">服務條款</span>`,
@@ -69,13 +93,13 @@
 
         function one() {
             document.getElementById('terms').style.opacity = 0;
-            document.getElementById('page-1').scrollTop = 0;
+            document.body.scrollTop = 0;
             fetch(urlPrivacy)
                 .then(response => response.text())
                 .then(text => {
                     setTimeout(() => {
                         document.getElementById('terms').innerHTML = marked.parse(text);
-                        document.getElementById('terms').innerHTML += `<button class="mid-btn" onclick="two()">${agree}</button>`
+                        document.getElementById('terms').innerHTML += `<button class="mid-btn nowrap" onclick="two()">${agree}</button>`
                         document.getElementById('terms').style.opacity = 1;
                     }, 300)
                 });
@@ -83,12 +107,12 @@
 
         function two() {
             document.getElementById('terms').style.opacity = 0;
-            document.getElementById('page-1').scrollTop = 0;
+            document.body.scrollTop = 0;
             fetch(urlConditions)
                 .then(response => response.text())
                 .then(text => {
-                    document.getElementById('terms').innerHTML = `<button class="mid-btn" onclick="one()">${back}</button>` + marked.parse(text);
-                    document.getElementById('terms').innerHTML += `<button class="mid-btn" onclick="one()">${back}</button><button class="mid-btn" onclick="done()">${agree}</button>`
+                    document.getElementById('terms').innerHTML = `<button class="mid-btn nowrap" onclick="one()">${back}</button>` + marked.parse(text);
+                    document.getElementById('terms').innerHTML += `<button class="mid-btn nowrap" onclick="one()">${back}</button><button class="mid-btn nowrap" onclick="done()">${agree}</button>`
                     document.getElementById('terms').style.opacity = 1;
                 });
         }

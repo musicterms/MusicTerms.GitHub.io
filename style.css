@@ -1109,17 +1109,3 @@ p.gray.small.center {
 a.popover {
     color: var(--functional-color);
 }
-
-#terms {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    padding: 35px;
-    max-width: 1000px;
-    min-width: 300px;
-    user-select: text;
-    width: 80%;
-    -webkit-user-select: text;
-    transition: opacity .3s;
-    opacity: 0;
-}
