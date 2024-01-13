@@ -108,7 +108,9 @@ self.addEventListener('install', function (event) {
                 '/manifest.json',
                 '/language.html',
                 '/terms.html',
-                '/favicon.png'
+                '/favicon.png',
+                '/icons-192.png',
+                '/img/desktop.png',
             ]);
         })
     );

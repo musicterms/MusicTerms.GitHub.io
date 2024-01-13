@@ -1,12 +1,6 @@
 // Register service worker to control making site work offline
 if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('/service-worker.js')
-        .then(function (registration) {
-            console.log(registration);
-        })
-        .catch(function (err) {
-            console.log(err);
-        });
 }
 
 
@@ -41,10 +35,11 @@ try {
             if (date_online == date.innerText) {
                 console.warn(`Version ${date.innerText} / ${date_online}.`);
                 sessionstorage.removeItem('tried_update');
+                date.innerText = `Synced`;
             }
             else if (sessionstorage.tried_update == 'true') {
                 console.warn(`Version ${date.innerText} / ${date_online} error.`);
-                date.innerText = `${date.innerText} (Not synchronized)`;
+                date.innerText = `Sync Failed`;
             }
             else {
                 confirm(`You are not synchronized`, `Sync now?`, function () {
@@ -54,13 +49,23 @@ try {
                     location.reload();
                     sessionstorage.setItem('tried_update', 'true');
                 });
-                date.innerText = `${date.innerText} (Not synchronized)`;
+                date.innerText = `Sync Failed`;
                 try { translate(); } catch { }
                 console.warn(`Version ${date.innerText} / ${date_online} available.`);
             }
         });
     });
 } catch { }
+
+window.addEventListener('online',  updateOnlineStatus);
+window.addEventListener('offline', updateOnlineStatus);
+window.addEventListener('DOMContentLoaded', updateOnlineStatus);
+
+function updateOnlineStatus() {
+    if (!navigator.onLine) {
+        date.innerText = `Offline`;
+    }
+}
 
 
 function isTerm(k) {
