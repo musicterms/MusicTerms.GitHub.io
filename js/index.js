@@ -1,3 +1,15 @@
+// Register service worker to control making site work offline
+if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/service-worker.js')
+        .then(function (registration) {
+            console.log(registration);
+        })
+        .catch(function (err) {
+            console.log(err);
+        });
+}
+
+
 // set theme color as navbar background color
 var nav_bar_color = getComputedStyle(document.documentElement).getPropertyValue('--nav-color');
 var meta = document.createElement('meta');
@@ -13,11 +25,11 @@ for (var i = 0; i < content.length; i++) {
     content[i].style.marginTop = nav_bar_height + 25 + 'px';
 }
 
-try { date.innerText = '12 Jan 2024' } catch { }
+try { date.innerText = '13 Jan 2024' } catch { }
 
 var date_online;
 try {
-    var version_file = fetch('https://raw.githubusercontent.com/musicterms/musicterms.github.io/main/VERSION',
+    var version_file = fetch('https://raw.githubusercontent.com/musicterms/musicterms.github.io/main/VERSION?' + Math.random(),
         {
             method: 'GET',
             mode: 'cors',
@@ -26,7 +38,7 @@ try {
         response.text().then(function (text) {
             // Date = 11 Jan 2024
             date_online = text.split('\n')[0].split(' = ')[1].replace('\r', '');
-            if (date_online == date.innerText){
+            if (date_online == date.innerText) {
                 console.warn(`Version ${date.innerText} / ${date_online}.`);
                 sessionstorage.removeItem('tried_update');
             }

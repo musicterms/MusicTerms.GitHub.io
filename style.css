@@ -185,12 +185,11 @@ nav svg {
     margin: 0 1rem;
     transition: opacity .3s ease-in-out;
     opacity: 1;
+    cursor: pointer;
 }
 
 .nav-arrow-back:active {
-    background-color: var(--background-color-protrude-hover);
-    border-radius: 10px;
-    padding-top: .2rem;
+    scale: .98;
 }
 
 .nav-arrow-back>font {
