@@ -19,7 +19,7 @@ for (var i = 0; i < content.length; i++) {
     content[i].style.marginTop = nav_bar_height + 25 + 'px';
 }
 
-try { date.innerText = '13 Jan 2024' } catch { }
+try { date.innerText = '14 Jan 2024' } catch { }
 
 var date_online;
 try {
@@ -47,6 +47,15 @@ try {
             else if (sessionstorage.tried_update == 'true') {
                 console.warn(`Version ${date.innerText} / ${date_online} error.`);
                 date.innerText = `Sync Failed`;
+                var all = document.getElementsByTagName('*');
+                for (var i = 0; i < all.length; i++) {
+                    var element = all[i];
+                    var element_href = element.getAttribute('href');
+                    if (element_href) element.setAttribute('href', element_href + '?' + Math.random());
+                    var element_src = element.getAttribute('src');
+                    if (element_src) element.setAttribute('src', element_src + '?' + Math.random());
+                }
+                caches.delete('musicterms');
             }
             else {
                 confirm(`You are not synchronized`, `Sync now?`, function () {
