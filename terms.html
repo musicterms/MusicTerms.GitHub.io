@@ -43,6 +43,7 @@
         <font id="nav-text">User Argreement</font>
     </nav>
     <h2 class="center margin-4" id="intrusct"></h2>
+    <button class="mid-btn" id="hos" onclick="location.href = '/?add_to_home_screen'">Or Add to <span class="nowrap">Home Screen</span></button>
     </div>
     <div id="terms"></div>
     <script>
@@ -86,10 +87,16 @@
                 ".zh-CN": `使用此网页应用程序即表示您同意我们的<span class="nowrap">隐私条款</span>和<span
                     class="nowrap">服务条款</span>`,
             },
+            "hos": {
+                "": "Or Add to <span class=\"nowrap\">Home Screen</span>",
+                ".zh": "或添加到<span class=\"nowrap\">主屏幕</span>",
+                ".zh-CN": "或添加到<span class=\"nowrap\">主屏幕</span>",
+            }
         }
         agree = l[agree][lang];
         back = l[back][lang];
         document.getElementById('intrusct').innerHTML = l['Intrusction'][lang];
+        document.getElementById('hos').innerHTML = l['hos'][lang];
 
         function one() {
             document.getElementById('terms').style.opacity = 0;
