@@ -119,6 +119,7 @@ var toDoForPages = {
         document.getElementById('nav-back-text').innerText = 'Folders';
         document.getElementById('nav-back').classList.remove('hidden');
         document.title = 'Music Terminology | Search'
+        addHrefHistory('search', 'true');
         try { translate(); } catch { }
     },
     'favorites': function () {
@@ -145,7 +146,7 @@ var toDoForPages = {
             span.setAttribute('class', 'folder full-width-line');
             if (favorites[keys[i]].treat_as_word) {
                 var j = favorites[keys[i]];
-                span.setAttribute('onclick', `word({"italian": "${j.term}", "translation": "${j.translation}", "${is_definition_or_languge}": "${j.definition}"}, "${j.term}")`);
+                span.setAttribute('onclick', `word({"word": "${j.term}", "translation": "${j.translation}", "${is_definition_or_languge}": "${j.definition}"}, "${j.term}")`);
             } else {
                 var j = favorites[keys[i]];
                 var a = ['Favorites', JSON.stringify({ "name": j.term, "definition": j[is_definition_or_languge] })];
@@ -159,6 +160,7 @@ var toDoForPages = {
         div.lastChild.classList.remove('full-width-line');
         content.appendChild(div);
         icons();
+        addHrefHistory('favorites', 'true');
         try { translate(); } catch { }
     }
 }
@@ -213,6 +215,21 @@ loadTerms = function (json) {
 
 var pageHistory = ['page-1'];
 
+function openPage(page, e) {
+    if (page == currentPage) return;
+    if (document.getElementById(page) == null) return;
+    sessionStorage[`${currentPage}-scroll`] = document.documentElement.scrollTop;
+    var pageElement = document.getElementById(page);
+    var currentPageElement = document.getElementById(currentPage);
+
+    currentPageElement.style.display = 'none';
+    pageElement.style.display = 'block';
+
+    if (toDoForPages[page]) {
+        toDoForPages[page](e);
+    }
+}
+
 function changePage(page, e, back = false) {
     if (page == currentPage) return;
     if (document.getElementById(page) == null) return;
@@ -224,6 +241,9 @@ function changePage(page, e, back = false) {
     pageElement.style.display = 'block';
     currentPageElement.style.left = '0';
     pageElement.style.left = '0';
+    if (toDoForPages[page]) {
+        toDoForPages[page](e);
+    }
     if (back) {
         pageElement.style.zIndex = '1';
         currentPageElement.style.zIndex = '2';
@@ -244,12 +264,9 @@ function changePage(page, e, back = false) {
         pageElement.style.animation = '';
         currentPageElement.style.animation = '';
         document.documentElement.scrollTop = sessionStorage[`${page}-scroll`] || 0;
-    }, 250);
+    }, 300);
     pageHistory.push(page);
     currentPage = page;
-    if (toDoForPages[currentPage]) {
-        toDoForPages[currentPage](e);
-    }
 }
 
 function goBack() {

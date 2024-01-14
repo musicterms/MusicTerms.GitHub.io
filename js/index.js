@@ -30,12 +30,19 @@ try {
         });
     version_file.then(function (response) {
         response.text().then(function (text) {
-            // Date = 11 Jan 2024
             date_online = text.split('\n')[0].split(' = ')[1].replace('\r', '');
             if (date_online == date.innerText) {
                 console.warn(`Version ${date.innerText} / ${date_online}.`);
                 sessionstorage.removeItem('tried_update');
                 date.innerText = `Synced`;
+                var all = document.getElementsByTagName('*');
+                for (var i = 0; i < all.length; i++) {
+                    var element = all[i];
+                    var element_href = element.getAttribute('href');
+                    if (element_href) element.setAttribute('href', element_href + '?' + Math.random());
+                    var element_src = element.getAttribute('src');
+                    if (element_src) element.setAttribute('src', element_src + '?' + Math.random());
+                }
             }
             else if (sessionstorage.tried_update == 'true') {
                 console.warn(`Version ${date.innerText} / ${date_online} error.`);
@@ -57,7 +64,7 @@ try {
     });
 } catch { }
 
-window.addEventListener('online',  updateOnlineStatus);
+window.addEventListener('online', updateOnlineStatus);
 window.addEventListener('offline', updateOnlineStatus);
 window.addEventListener('DOMContentLoaded', updateOnlineStatus);
 
@@ -66,6 +73,15 @@ function updateOnlineStatus() {
         date.innerText = `Offline`;
     }
 }
+
+window.addEventListener('popstate', function (e) {
+    console.log(this.location.href);
+    var search = this.location.href.split('?')[1];
+    if (!search) return;
+    var location_page = search.split('page=')[1].split('&')[0];
+    var location_e = search.split('e=')[1];
+    openPage(location_page, location_e);
+});
 
 
 function isTerm(k) {
