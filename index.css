@@ -375,13 +375,6 @@ picture.hol {
     margin: 0;
 }
 
-.bg>img {
-    height: 100%;
-    width: fit-content;
-    user-select: none;
-    -webkit-user-drag: none;
-}
-
 .highlight {
     color: var(--functional-color);
 }

@@ -56,10 +56,6 @@
         <h1><span class="nowrap">AlphaBrate Music</span> Terminology Library</h1>
         <a href="/app/"><button>Try Now!</button></a>
     </div>
-    <picture class="hol">
-        <source srcset="/img/iPhone_15_pro_max_home_page.webp" type="image/png">
-        <img src="/img/iPhone_15_pro_max_home_page.webp" alt="A screenshot on iPhone 15 Pro Max">
-    </picture>
     <div class="holder200"></div>
     <div class="holder100"></div>
     <h2>Features & Benefits</h2>
@@ -70,11 +66,7 @@
             <div class="function_info center">
                 <h3>Power Search</h3>
                 <p>Even with typos, our advanced algorithm effortlessly finds exactly what you're looking for.</p>
-                <picture class="hol">
-                    <source srcset="/img/power_search_promote.webp" type="image/png">
-                    <img src="/img/power_search_promote.webp"
-                        alt="A screenshot on iPhone 15 Pro Max focusing on Power Search function.">
-                </picture>
+
             </div>
         </div>
         <div class="break-if-mobile"></div>
@@ -88,8 +80,6 @@
             </div>
         </div>
         <div class="bg">
-            <img src="/img/favorites_promote.webp"
-                alt="A screenshot on iPhone 15 Pro Max focusing on 'Favorites' function.">
         </div>
     </div>
     <div class="holder100"></div>
@@ -119,9 +109,6 @@
             <h3>Cross-Platform Availability</h3>
             <p class="bfbg">Whether you’re on your phone, tablet, or computer, you can use Music Terms for<span
                     class="nowrap"> seamless learning on the go.</span></p>
-            <div class="bg">
-                <img src="/img/all_promote.webp" alt="Music Terms on iPhone, iPad and MacBook." class="full">
-            </div>
         </div>
     </div>
     <p>Most important:</p>
@@ -178,6 +165,19 @@
                 element_to_change.style.opacity = 0;
             }
         });
+    </script>
+    <script>
+        var a = document.getElementsByTagName('a');
+
+        for (var i = 0; i < a.length; i++) {
+            a[i].addEventListener('click', function (e) {
+                localStorage.setItem('started_app', true);
+            });
+        }
+
+        if (localStorage.getItem('started_app') == 'true') {
+            location.href = '/app/';
+        }
     </script>
 </body>
 
