@@ -146,7 +146,7 @@ img.logo {
     left: 0;
     height: 100%;
     width: 100%;
-    background-image: url(/img/iPhone_15_pro_max_home_page.png);
+    background-image: url(/img/iPhone_15_pro_max_home_page.webp);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -230,7 +230,7 @@ a>button:hover {
     left: 0;
     height: 100%;
     width: 100vw;
-    background-image: url(/img/power_search_promote.png);
+    background-image: url(/img/power_search_promote.webp);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right;
@@ -293,7 +293,7 @@ a>button:hover {
     margin-top: 15rem;
     height: 100%;
     width: 90vw;
-    background-image: url(/img/favorites_promote.png);
+    background-image: url(/img/favorites_promote.webp);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: left;
@@ -368,7 +368,7 @@ picture.hol {
 .section-5>.bg {
     height: 50vh;
     width: 100%;
-    background-image: url(/img/all_promote.png);
+    background-image: url(/img/all_promote.webp);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
