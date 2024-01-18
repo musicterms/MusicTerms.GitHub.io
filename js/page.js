@@ -221,13 +221,24 @@ function openPage(page, e) {
     sessionStorage[`${currentPage}-scroll`] = document.documentElement.scrollTop;
     var pageElement = document.getElementById(page);
     var currentPageElement = document.getElementById(currentPage);
-
-    currentPageElement.style.display = 'none';
+    currentPageElement.style.position = 'absolute';
+    pageElement.style.position = 'absolute';
     pageElement.style.display = 'block';
-
+    currentPageElement.style.left = '0';
+    pageElement.style.left = '0';
     if (toDoForPages[page]) {
         toDoForPages[page](e);
     }
+    currentPageElement.style.zIndex = '1';
+    pageElement.style.zIndex = '2';
+    currentPageElement.style.display = 'none';
+    currentPageElement.style.position = 'relative';
+    pageElement.style.position = 'relative';
+    pageElement.style.animation = '';
+    currentPageElement.style.animation = '';
+    document.documentElement.scrollTop = sessionStorage[`${page}-scroll`] || 0;
+    pageHistory.push(page);
+    currentPage = page;
 }
 
 function changePage(page, e, back = false) {
@@ -340,7 +351,7 @@ function setFavoriteStar(term) {
 
 if (readAllStorage().favorite_enable_switch == 'true') {
     document.getElementById('fav_fol').classList.remove('hidden_zone');
-    try { translate()} catch { }
+    try { translate() } catch { }
 }
 
 async function searchAll() {

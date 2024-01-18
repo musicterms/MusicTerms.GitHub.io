@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Terms | AlphaBrate</title>
+    <link rel="stylesheet" href="/style.css">
+    <meta name="keywords" content="musical terms, Music Terms, 音乐术语, AlphaBrate, Music Terminology Library, 音乐术语库, 音乐术语词典, 音乐字典, Music Dictionary, Music Words, 音乐词语, 术语, Terms, moderato, andante, allegretto, vivace, molto, adagio, lento, segno, pianissimo, gliss, da capo, cantabile">
+    <meta name="description" content="Explore Music Terms your go-to music terminology library. No ads, just pure knowledge. Dive into the world of music with AlphaBrate.">
+    <meta property="og:title" content="AlphaBrate Music Terminology Library" />
+    <meta property="og:type" content="video.movie" />
+    <meta property="og:url" content="https://musicterms.github.io" />
+    <meta property="og:description"
+        content="Looking for an awesome music terms library app? AlphaBrate Music Terminology Library is the best choice. Hosted on GitHub Pages, we have no operating costs that we won't let ads appear on our websites! Enjoy an elegant and simple surf experience with innovative design now! Available on https://musicterms.github.io/" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="AlphaBrate Music Terminology Library">
+    <meta name="twitter:description"
+        content="Looking for an awesome music terms library app? AlphaBrate Music Terminology Library is the best choice. Hosted on GitHub Pages, we have no operating costs that we won't let ads appear on our websites! Enjoy an elegant and simple surf experience with innovative design now! Available on https://musicterms.github.io/">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="520x520" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <style>
+        #ism {
+            width: 40vw;
+            height: 40vw;
+            max-width: 200px;
+            max-height: 200px;
+            position: absolute;
+            top: 45%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            opacity: 0;
+            animation: in-out 2s ease-in-out;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            text-align: center;
+            margin-top: 1rem;
+            opacity: 0;
+            position: absolute;
+            top: calc( 45% + 200px - 3.5rem);
+            left: 50%;
+            transform: translate(-50%, -50%);
+            animation: in-out 2s ease-in-out;
+
+        }
+
+        @keyframes in-out {
+            0% {
+                opacity: 0;
+            }
+
+            30% {
+                opacity: 1;
+            }
+
+            60% {
+                opacity: 1;
+            }
+
+            100% {
+                opacity: 0;
+            }
+        }
+
+        path {
+            fill: var(--font-color) !important;
+        }
+    </style>
+</head>
+
+<body>
+    <img src="/icon-smooth.png" alt="Smooth Icon of Music Terms" id="ism">
+    <h1 class="nowrap">Music Terms</h1>
+    <div class="page" id="homescreen" style="margin-top: 5rem;display: none;">
+        <div class="content">
+            <h2 class="center" id="h2">Add to Home Screen</h2>
+            <p class="center" id="pe1">Press on the <span style="display: inline;">Share button<img
+                        src="/icons/share_icon_ios.png"
+                        style="max-width: 18px;height: 1em!important;display: inline!important;margin: 0!important;transform: translateY(.1em);padding-left: .4em;"></span>
+            </p>
+            <p class="center" id="pe2">Click on "Add to Home Screen"</p>
+            <p class="center gray">After adding it, refresh the page.</p>
+            <button class="mid-btn" onclick="history.back();history.back();">Back</button>
+        </div>
+
+    </div>
+    <footer
+        style="background: var(--font-color); position: absolute;bottom: 0;width: 100%;top: auto;margin: 0; padding: 0;text-align: center;display: none;justify-content: center;font-size: 2rem;flex-direction: column;"
+        id="fotIOS">
+        <span style="transform: translateY(.2rem);height: 1.6rem;"><img src="/icons/share_icon_ios.png"
+            style="max-height:1.5rem;max-width: 1.5rem;height: 1em!important;margin: 0!important;padding: 0;"></span><span
+            style="transform: translateY(.2rem);">▼</span>
+    </footer>
+    <script src="/js/events.js"></script>
+    <script>
+        var nav_bar_color = getComputedStyle(document.documentElement).getPropertyValue('--background-color');
+        var meta = document.createElement('meta');
+        meta.setAttribute('name', 'theme-color');
+        meta.setAttribute('content', nav_bar_color);
+        document.head.appendChild(meta);
+    </script>
+    <script>
+        var sessionstorage = window.sessionStorage;
+        // if does not contain 'session_id'
+        if (sessionstorage.getItem('session_id') == null) {
+            // generate a random string
+            var session_id = Math.random().toString(36).substring(2, 15) + Math.random().toString(36).substring(2, 15);
+            // set 'session_id' to the random string
+            sessionstorage.setItem('session_id', session_id);
+        }
+
+        var canPrompt = false;
+        window.addEventListener("beforeinstallprompt", function (e) {
+            e.preventDefault();
+            if (canPrompt) {
+                e.prompt();
+            }
+        });
+        var supported_languages = ['en', 'zh-CN', 'zh'];
+        var language = navigator.language || navigator.userLanguage;
+
+        if (supported_languages.indexOf(language) == -1) {
+            language = language.substring(0, 2);
+            if (supported_languages.indexOf(language) == -1) {
+                language = 'en';
+            }
+        }
+        // get localstorage
+        var localstorage = window.localStorage;
+        var localstorage_language = localstorage.getItem('language');
+        if (localstorage_language == null) {
+            localstorage.setItem('language', language);
+        } else {
+            language = localstorage_language;
+        }
+        if (location.search == '?redirect=no-delay') {
+            document.location.replace('/' + language + '/index.html');
+        }
+        if (location.search.includes('add_to_home_screen')) {
+            const isIos = () => {
+                const userAgent = window.navigator.userAgent.toLowerCase();
+                return /iphone|ipad|ipod/.test(userAgent);
+            }
+
+            const isInStandaloneMode = () => ('standalone' in window.navigator) && (window.navigator.standalone);
+
+            canPrompt = true;
+
+            if (isIos()) {
+                document.getElementById('homescreen').style.display = 'block';
+                document.getElementById("ism").style.display = 'none';
+                document.getElementsByTagName('h1')[0].style.display = 'none';
+                document.getElementById('fotIOS').style.display = 'flex';
+            } else {
+                document.getElementById('h2').innerHTML = 'Add to Home Screen';
+                document.getElementById('pe1').innerHTML = 'Look for the details button (Usually 3 dots / lines)';
+                document.getElementById('pe2').innerHTML = 'Click on "Add page to Home Screen"';
+                document.getElementById('homescreen').style.display = 'block';
+                document.getElementById("ism").style.display = 'none';
+                document.getElementsByTagName('h1')[0].style.display = 'none';
+            }
+            window.history.pushState({}, 'Title', '/app/');
+            document.title = 'Music Terms'
+        } else if (localstorage.agreed != 'true') {
+            document.getElementById("ism").style.opacity = '0';
+            setTimeout(function () {
+                document.location.replace('/terms.html');
+            }, 3000)
+        } else {
+            document.getElementById("ism").style.opacity = '0';
+            setTimeout(function () {
+                document.location.replace('/' + language + '/index.html');
+            }, 2000)
+        }
+    </script>
+
+</body>
+
+</html>

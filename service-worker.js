@@ -3,6 +3,8 @@ self.addEventListener('install', function (event) {
         caches.open('musicterms').then(function (cache) {
             return cache.addAll([
                 '/',
+                '/app/',
+                '/app/index.html',
                 '/icon-smooth.png',
                 '/index.html',
                 '/index.html?redirect=no-delay',

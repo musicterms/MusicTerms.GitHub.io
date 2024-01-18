@@ -1,0 +1,403 @@
+:root {
+    --background-color-light: #f2f2f3;
+    --background-color-dark: #000000;
+    --background-color-protrude-light: #ffffff;
+    --background-color-protrude-dark: #1b1b1b;
+    --background-color-protrude-hover-light: #fafafa;
+    --background-color-protrude-hover-dark: #2a2a2a;
+    --background-color-popover-light: rgba(247, 247, 247, 0.80);
+    --background-color-popover-dark: rgba(37, 37, 37, 0.8);
+    --background-color-popover-hover-light: rgba(226, 226, 226, 0.679);
+    --background-color-popover-hover-dark: rgba(55, 55, 55, 0.85);
+    --background-accent-color-light: #1a1a1a30;
+    --background-accent-color-dark: #ffffff30;
+    --font-color-light: #010101;
+    --font-color-dark: #ffffff;
+    --font-color-gray: #868686;
+    --border-color-light: #1616162c;
+    --border-color-dark: #b0b0b02c;
+    --featured-color-light: #981717;
+    --featured-color-dark: #e45454;
+    --featured-color-hover-light: #e45454;
+    --featured-color-hover-dark: #981717;
+    --featured-color-active-light: #986b17;
+    --featured-color-active-dark: #e45454;
+    --functional-color-light: #007AFF;
+    --functional-color-dark: #0A84FF;
+    --color-grey-light: #808080;
+    --color-grey-dark: #616161;
+    --shadow-color-light: #00000050;
+    --shadow-color-dark: #ffffff50;
+    --color-green: #30d158;
+    --nav-color-dark: var(--background-color-dark);
+    --nav-color-light: var(--background-color-protrude-light);
+}
+
+:root {
+    --background-color: var(--background-color-light);
+    --background-color-protrude: var(--background-color-protrude-light);
+    --font-color: var(--font-color-light);
+    --border-color: var(--border-color-light);
+    --featured-color: var(--featured-color-light);
+    --featured-color-hover: var(--featured-color-hover-light);
+    --featured-color-active: var(--featured-color-active-light);
+    --background-color-protrude-hover: var(--background-color-protrude-hover-light);
+    --color-grey: var(--color-grey-light);
+    --background-color-popover: var(--background-color-popover-light);
+    --background-accent-color: var(--background-accent-color-light);
+    --background-color-popover-hover: var(--background-color-popover-hover-light);
+    --shadow-color: var(--shadow-color-light);
+    --nav-color: var(--nav-color-light);
+    --functional-color: var(--functional-color-light);
+}
+
+::selection {
+    background: rgba(167, 167, 255, 0.3);
+}
+
+h1::selection,
+h2::selection,
+h3::selection {
+    background: rgba(36, 255, 131, 0.3);
+}
+
+.highlight::selection {
+    background: rgba(255, 56, 56, 0.3);
+}
+
+.copy::selection {
+    background: rgba(163, 194, 255, 0.3);
+}
+
+@font-face {
+    font-family: 'SF Pro';
+    src: url(/fonts/SFPro.ttf);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+
+h1 {
+    font-size: calc(100vh * 0.05);
+    text-align: center;
+}
+
+h2 {
+    font-size: max(calc(100vh * 0.04), calc(100vw * 0.04));
+    text-align: center;
+}
+
+h3 {
+    font-size: max(calc(100vh * 0.04), calc(100vw * 0.03));
+    text-align: center;
+}
+
+p {
+    font-size: max(calc(100vh * 0.02), calc(100vw * 0.02));
+    text-align: center;
+}
+
+.pad2 {
+    padding: 0 2rem;
+}
+
+.pad8 {
+    padding: 0 4rem;
+}
+
+* {
+    font-family: 'SF Pro', sans-serif;
+    color: var(--font-color);
+    margin: 0;
+    padding: 0;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+img.logo {
+    width: 50%;
+    height: auto;
+    max-width: 15rem;
+    margin-bottom: 2rem;
+}
+
+.section-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+    width: 100%;
+    background-color: transparent;
+}
+
+.section-1>.after {
+    transition: opacity .3s;
+    content: "";
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url(/img/iPhone_15_pro_max_home_page.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: auto calc(1.25 * 2.04 * 150vh);
+    filter: blur(17px) brightness(.99);
+    -webkit-filter: blur(17px) brightness(.99);
+    opacity: 0;
+
+    p {
+        background-color: #fff;
+        padding: 1rem;
+        margin: 1rem;
+        border-radius: 1rem;
+        box-shadow: 0 5px 10px #00000030;
+    }
+}
+
+a>button {
+    background: linear-gradient(90deg, #007AFF 0%, rgba(0, 122, 255, 0.46) 51.5%, rgba(0, 122, 255, 0.00) 51.51%, rgba(0, 122, 255, 0.00) 100%);
+    background-size: 210% 200%;
+    background-position: 100%;
+    border: 3px solid var(--functional-color);
+    outline: none;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    border-radius: 1rem;
+    margin: .5rem;
+    cursor: pointer;
+    transition: background-position .5s, transform .2s, border .7s;
+}
+
+a>button:hover {
+    background-position: 0;
+    transform: scale(.99);
+}
+
+.holder200 {
+    height: 100em;
+}
+
+.holder100 {
+    height: 50em;
+}
+
+.holder50 {
+    height: 25em;
+}
+
+.holder25 {
+    height: 12.5em;
+}
+
+.holder {
+    height: 2.5rem
+}
+
+.btm {
+    margin-bottom: 2rem;
+}
+
+.section-2 {
+    height: 100vh;
+    position: relative;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.section-2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100vw;
+    background-image: url(/img/power_search_promote.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.col.center {
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.break-if-mobile {
+    width: 20rem;
+    height: 100vh;
+    position: relative;
+}
+
+.function_info {
+    display: flex;
+    flex-direction: column;
+    margin-top: max(10rem, 10vw);
+    max-width: 15rem;
+}
+
+.section-3 {
+    height: 100vh;
+    position: absolute;
+    width: 50%;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 2rem;
+}
+
+.no-overflow {
+    overflow: hidden;
+}
+
+.section-3~.bg {
+    position: absolute;
+    left: 0;
+    margin: 0;
+    margin-top: 15rem;
+    height: 100%;
+    width: 90vw;
+    background-image: url(/img/favorites_promote.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-4 {
+    background-image: url(/img/750+.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 2rem;
+}
+
+img {
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+.section-dark {
+    background-color: var(--background-color-dark);
+    color: var(--font-color-dark);
+    width: 100%;
+
+    * {
+        color: var(--font-color-dark);
+    }
+
+    padding: 5rem;
+    padding-bottom: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.w80 {
+    display: block;
+    width: 100%;
+    position: relative;
+    margin-top: 2rem;
+
+    * {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80%;
+        max-width: 50em;
+        user-select: none;
+        -webkit-user-drag: none;
+
+    }
+
+}
+
+picture.hol {
+    position: absolute;
+    opacity: 1;
+
+    * {
+        width: 1%;
+    }
+}
+
+.section-5 {
+    height: 100vh;
+    position: relative;
+}
+
+.section-5>.bg {
+    height: 50vh;
+    width: 100%;
+    background-image: url(/img/all_promote.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+}
+
+.bg>img {
+    height: 100%;
+    width: fit-content;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+.highlight {
+    color: var(--functional-color);
+}
+
+.gray {
+    color: var(--font-color-gray);
+
+    * {
+        color: var(--font-color-gray);
+    }
+}
+
+.copy {
+    font-size: 1rem;
+}
+
+.bfbg {
+    margin-bottom: 2rem;
+}

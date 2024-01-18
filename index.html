@@ -4,180 +4,161 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Music Terms | AlphaBrate</title>
-    <link rel="stylesheet" href="/style.css">
-    <meta name="keywords" content="musical terms, Music Terms, 音乐术语, AlphaBrate, Music Terminology Library, 音乐术语库, 音乐术语词典, 音乐字典, Music Dictionary, Music Words, 音乐词语, 术语, Terms, moderato, andante, allegretto, vivace, molto, adagio, lento, segno, pianissimo, gliss, da capo, cantabile">
-    <meta name="description" content="Explore Music Terms your go-to music terminology library. No ads, just pure knowledge. Dive into the world of music with AlphaBrate.">
+    <title>AlphaBrate Music Terminology Library</title>
+    <link rel="stylesheet" href="index.css">
+    <meta name="description"
+        content="Looking for an awesome music terms library app? AlphaBrate Music Terminology Library is the best choice. Hosted on GitHub Pages, we have no operating costs that we won't let ads appear on our websites! Enjoy an elegant and simple surf experience with innovative design now!">
     <meta property="og:title" content="AlphaBrate Music Terminology Library" />
     <meta property="og:type" content="video.movie" />
     <meta property="og:url" content="https://musicterms.github.io" />
     <meta property="og:description"
-        content="Looking for an awesome music terms library app? AlphaBrate Music Terminology Library is the best choice. Hosted on GitHub Pages, we have no operating costs that we won't let ads appear on our websites! Enjoy an elegant and simple surf experience with innovative design now! Available on https://musicterms.github.io/" />
+        content="Looking for an awesome music terms library app? AlphaBrate Music Terminology Library is the best choice. Hosted on GitHub Pages, we have no operating costs that we won't let ads appear on our websites! Enjoy an elegant and simple surf experience with innovative design now! Available on https://musicterms.github.io" />
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="AlphaBrate Music Terminology Library">
     <meta name="twitter:description"
-        content="Looking for an awesome music terms library app? AlphaBrate Music Terminology Library is the best choice. Hosted on GitHub Pages, we have no operating costs that we won't let ads appear on our websites! Enjoy an elegant and simple surf experience with innovative design now! Available on https://musicterms.github.io/">
-    <link rel="manifest" href="/manifest.json">
+        content="Looking for an awesome music terms library app? AlphaBrate Music Terminology Library is the best choice. Hosted on GitHub Pages, we have no operating costs that we won't let ads appear on our websites! Enjoy an elegant and simple surf experience with innovative design now! Available on https://musicterms.github.io">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" sizes="520x520" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" href="/favicon.png">
-    <style>
-        #ism {
-            width: 40vw;
-            height: 40vw;
-            max-width: 200px;
-            max-height: 200px;
-            position: absolute;
-            top: 45%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            opacity: 0;
-            animation: in-out 2s ease-in-out;
-        }
-
-        h1 {
-            font-size: 2.5rem;
-            text-align: center;
-            margin-top: 1rem;
-            opacity: 0;
-            position: absolute;
-            top: calc( 45% + 200px - 3.5rem);
-            left: 50%;
-            transform: translate(-50%, -50%);
-            animation: in-out 2s ease-in-out;
-
-        }
-
-        @keyframes in-out {
-            0% {
-                opacity: 0;
-            }
-
-            30% {
-                opacity: 1;
-            }
-
-            60% {
-                opacity: 1;
-            }
-
-            100% {
-                opacity: 0;
-            }
-        }
-
-        path {
-            fill: var(--font-color) !important;
-        }
-    </style>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="icon" href="/favicon.png" type="image/png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 </head>
 
 <body>
-    <img src="/icon-smooth.png" alt="Smooth Icon of Music Terms" id="ism">
-    <h1 class="nowrap">Music Terms</h1>
-    <div class="page" id="homescreen" style="margin-top: 5rem;display: none;">
-        <div class="content">
-            <h2 class="center" id="h2">Add to Home Screen</h2>
-            <p class="center" id="pe1">Press on the <span style="display: inline;">Share button<img
-                        src="/icons/share_icon_ios.png"
-                        style="max-width: 18px;height: 1em!important;display: inline!important;margin: 0!important;transform: translateY(.1em);padding-left: .4em;"></span>
+    <div class="section-1">
+        <div class="after">
+            <p class="pad2 btm">AlphaBrate Music Terminology Library, a unique web app that developed by AlphaBrate
+                Team.
             </p>
-            <p class="center" id="pe2">Click on "Add to Home Screen"</p>
-            <p class="center gray">After adding it, refresh the page.</p>
-            <button class="mid-btn" onclick="history.back();history.back();">Back</button>
         </div>
-
+        <img src="/icon-smooth.png" alt="Icon of Music Terms" class="logo">
+        <h1><span class="nowrap">AlphaBrate Music</span> Terminology Library</h1>
+        <a href="/app/"><button>Try Now!</button></a>
     </div>
-    <footer
-        style="background: var(--font-color); position: absolute;bottom: 0;width: 100%;top: auto;margin: 0; padding: 0;text-align: center;display: none;justify-content: center;font-size: 2rem;flex-direction: column;"
-        id="fotIOS">
-        <span style="transform: translateY(.2rem);height: 1.6rem;"><img src="/icons/share_icon_ios.png"
-            style="max-height:1.5rem;max-width: 1.5rem;height: 1em!important;margin: 0!important;padding: 0;"></span><span
-            style="transform: translateY(.2rem);">▼</span>
-    </footer>
-    <script src="/js/events.js"></script>
+    <picture class="hol">
+        <source srcset="/img/iPhone_15_pro_max_home_page.png" type="image/png">
+        <img src="/img/iPhone_15_pro_max_home_page.png" alt="A screenshot on iPhone 15 Pro Max">
+    </picture>
+    <div class="holder200"></div>
+    <div class="holder100"></div>
+    <h2>Features & Benefits</h2>
+    <p class="pad2">Music Terms offers a range of features designed to enhance your music learning experience:</p>
+    <div class="holder25"></div>
+    <div class="flex-row no-overflow">
+        <div class="section-2">
+            <div class="function_info center">
+                <h3>Power Search</h3>
+                <p>Even with typos, our advanced algorithm effortlessly finds exactly what you're looking for.</p>
+                <picture class="hol">
+                    <source srcset="/img/power_search_promote.png" type="image/png">
+                    <img src="/img/power_search_promote.png"
+                        alt="A screenshot on iPhone 15 Pro Max focusing on Power Search function.">
+                </picture>
+            </div>
+        </div>
+        <div class="break-if-mobile"></div>
+    </div>
+    <div class="flex-row no-overflow">
+        <div class="section-3 no-overflow">
+            <div class="break-if-mobile"></div>
+            <div class="function_info center">
+                <h3>Favorites</h3>
+                <p>An efficient way to revisit and learn your favorite terms.</p>
+            </div>
+        </div>
+        <div class="bg">
+            <img src="/img/favorites_promote.png"
+                alt="A screenshot on iPhone 15 Pro Max focusing on 'Favorites' function.">
+        </div>
+    </div>
+    <div class="holder100"></div>
+    <div class="holder25"></div>
+    <div class="flex-row no-overflow">
+        <div class="section-dark no-overflow">
+            <h1>Full Dark Mode</h1>
+            <p class="pad2">Easy on your eyes, making your learning experience even more comfortable. Whether you’re
+                studying late at night or prefer a darker theme, we has got you covered!</p>
+            <picture class="w80">
+                <source srcset="/img/windows_dark.png" type="image/png">
+                <img src="/img/windows_dark.png" alt="A screenshot on a laptop with Dark Mode turned on.">
+            </picture>
+        </div>
+    </div>
+    <div class="holder25"></div>
+    <div class="flex-row no-overflow">
+        <div class="section-4 no-overflow pad2 center col">
+            <h3>Comprehensive Glossary</h3>
+            <p>Not just an app, but a comprehensive music library. With over 750 unique music terms, incredibly useful.
+            </p>
+        </div>
+    </div>
+    <div class="holder25"></div>
+    <div class="flex-row no-overflow">
+        <div class="section-5 no-overflow pad2 center col">
+            <h3>Cross-Platform Availability</h3>
+            <p class="bfbg">Whether you’re on your phone, tablet, or computer, you can use Music Terms for<span
+                    class="nowrap"> seamless learning on the go.</span></p>
+            <div class="bg">
+                <img src="/img/all_promote.png" alt="Music Terms on iPhone, iPad and MacBook." class="full">
+            </div>
+        </div>
+    </div>
+    <p>Most important:</p>
+    <h2 class="highlight">Free & No Ads</h2>
+    <div class="center"><a href="/app/" class="center"><button>Start the Web App</button></a></div>
+    <p class="copy">You're welcomed to <a
+            href="https://medium.com/@retrn/no-ads-free-glossary-of-music-terminology-c2b1741821d8">learn more here.</a>
+    </p>
+    <div class="holder25"></div>
+    <p class="copy">&copy; <a href="https://github.com/alphabrate">AlphaBrate Team</a> 2024, <span class="gray">by <a
+                href="https://github.com/rtzg">ReTrn.</a></span></p>
+    <p class="gray copy">Released under the APWED License.</p>
+    <div class="holder"></div>
     <script>
-        var nav_bar_color = getComputedStyle(document.documentElement).getPropertyValue('--background-color');
-        var meta = document.createElement('meta');
-        meta.setAttribute('name', 'theme-color');
-        meta.setAttribute('content', nav_bar_color);
-        document.head.appendChild(meta);
-    </script>
-    <script>
-        var sessionstorage = window.sessionStorage;
-        // if does not contain 'session_id'
-        if (sessionstorage.getItem('session_id') == null) {
-            // generate a random string
-            var session_id = Math.random().toString(36).substring(2, 15) + Math.random().toString(36).substring(2, 15);
-            // set 'session_id' to the random string
-            sessionstorage.setItem('session_id', session_id);
+        var scrollNow = (xy = 'y') => {
+            return xy == 'x' ? window.scrollX : window.scrollY;
         }
 
-        var canPrompt = false;
-        window.addEventListener("beforeinstallprompt", function (e) {
-            e.preventDefault();
-            if (canPrompt) {
-                e.prompt();
+        var current_blur_id = 0;
+
+        window.addEventListener('scroll', () => {
+            console.log(scrollNow());
+            if (scrollNow('y') > 100 && scrollNow('y') < 1700) {
+                var relative_max = 1600;
+                var relative_min = 100;
+                var relative_scroll = scrollNow('y') - relative_min;
+                var relative_percent = relative_scroll / (relative_max - relative_min);
+                var relative_percent = relative_percent > 1 ? 1 : relative_percent;
+                var relative_percent = relative_percent < 0 ? 0 : relative_percent;
+                var relative_percent = 1 - relative_percent;
+
+                var blur = relative_percent * 17;
+                var op = 1 - relative_percent;
+                var height_of_bg = (relative_percent + .25) * 2.04 * 150;
+                var element_to_change = document.querySelector('.section-1>.after');
+                element_to_change.style.filter = `blur(${blur}px) brightness(.99)`;
+                element_to_change.style.webkitFilter = `blur(${blur}px) brightness(.99)`;
+                element_to_change.style.backgroundSize = `auto ${height_of_bg}vh`;
+                element_to_change.style.opacity = op;
+                document.querySelector('.btm').style.transform = `translateY(${relative_percent * 100}px)`;
+            } else if (scrollNow('y') > 1700 && scrollNow('y') < 2200) {
+                var current_position = scrollNow('y');
+                var element_to_change = document.querySelector('.section-1>.after');
+                element_to_change.style.filter = `blur(0px) brightness(.99)`;
+                element_to_change.style.webkitFilter = `blur(0px) brightness(.99)`;
+                element_to_change.style.backgroundSize = `auto ${.25 * 2.04 * 150}vh`;
+                element_to_change.style.opacity = 1;
+                document.querySelector('.btm').style.transform = `translateY(0px)`;
+            } else if (scrollNow('y') > 2200) {
+                var element_to_change = document.querySelector('.section-1>.after');
+                element_to_change.style.filter = `blur(0px) brightness(.99)`;
+                element_to_change.style.webkitFilter = `blur(0px) brightness(.99)`;
+                element_to_change.style.backgroundSize = `auto ${.25 * 2.04 * 150}vh`;
+                element_to_change.style.opacity = 0;
             }
         });
-        var supported_languages = ['en', 'zh-CN', 'zh'];
-        var language = navigator.language || navigator.userLanguage;
-
-        if (supported_languages.indexOf(language) == -1) {
-            language = language.substring(0, 2);
-            if (supported_languages.indexOf(language) == -1) {
-                language = 'en';
-            }
-        }
-        // get localstorage
-        var localstorage = window.localStorage;
-        var localstorage_language = localstorage.getItem('language');
-        if (localstorage_language == null) {
-            localstorage.setItem('language', language);
-        } else {
-            language = localstorage_language;
-        }
-        if (location.search == '?redirect=no-delay') {
-            document.location.replace('/' + language + '/index.html');
-        }
-        if (location.search.includes('add_to_home_screen')) {
-            const isIos = () => {
-                const userAgent = window.navigator.userAgent.toLowerCase();
-                return /iphone|ipad|ipod/.test(userAgent);
-            }
-
-            const isInStandaloneMode = () => ('standalone' in window.navigator) && (window.navigator.standalone);
-
-            canPrompt = true;
-
-            if (isIos()) {
-                document.getElementById('homescreen').style.display = 'block';
-                document.getElementById("ism").style.display = 'none';
-                document.getElementsByTagName('h1')[0].style.display = 'none';
-                document.getElementById('fotIOS').style.display = 'flex';
-            } else {
-                document.getElementById('h2').innerHTML = 'Add to Home Screen';
-                document.getElementById('pe1').innerHTML = 'Look for the details button (Usually 3 dots / lines)';
-                document.getElementById('pe2').innerHTML = 'Click on "Add page to Home Screen"';
-                document.getElementById('homescreen').style.display = 'block';
-                document.getElementById("ism").style.display = 'none';
-                document.getElementsByTagName('h1')[0].style.display = 'none';
-            }
-            window.history.pushState({}, 'Title', '/');
-            document.title = 'Music Terms'
-        } else if (localstorage.agreed != 'true') {
-            document.getElementById("ism").style.opacity = '0';
-            setTimeout(function () {
-                document.location.replace('/terms.html');
-            }, 3000)
-        } else {
-            document.getElementById("ism").style.opacity = '0';
-            setTimeout(function () {
-                document.location.replace('/' + language + '/index.html');
-            }, 2000)
-        }
     </script>
-
 </body>
 
 </html>

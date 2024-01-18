@@ -19,7 +19,7 @@ for (var i = 0; i < content.length; i++) {
     content[i].style.marginTop = nav_bar_height + 25 + 'px';
 }
 
-try { date.innerText = '14 Jan 2024' } catch { }
+try { date.innerText = '18 Jan 2024' } catch { }
 
 var date_online;
 try {
@@ -84,6 +84,8 @@ function updateOnlineStatus() {
 }
 
 window.addEventListener('popstate', function (e) {
+    e.preventDefault();
+    this.alert('popstate');
     console.log(this.location.href);
     var search = this.location.href.split('?')[1];
     if (!search) return;
