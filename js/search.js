@@ -150,6 +150,7 @@ function searchResult(result) {
     let element = document.createElement('span');
     element.setAttribute('onclick', `details('${term}', '${e}')`);
     element.setAttribute('class', 'folder full-width-line');
+    if (shouldShowTimeNewRoman(term)) element.classList.add('times_new_roman');
     element.innerText = term;
     let icon = document.createElement('icon');
     icon.classList.add('icon');

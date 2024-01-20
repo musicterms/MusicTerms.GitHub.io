@@ -19,6 +19,7 @@ var lists = {
     'voices': { 'name': 'Voices', 'path': 'source/italian/voices.json' },
     'german': { 'name': 'German', 'path': 'source/german/german.json' },
     'french': { 'name': 'French', 'path': 'source/french/french.json' },
+    'symbolsfordynamics': { 'name': 'Symbols', 'path': 'source/terms/symbol.json' },
     // zh-CN
     '术语': { 'name': 'Terms', 'path': 'source/terms/source.json' },
     '评论': { 'name': 'Criticism', 'path': 'source/italian/criticism.json' },
@@ -35,6 +36,7 @@ var lists = {
     '人声': { 'name': 'Voices', 'path': 'source/italian/voices.json' },
     '德语': { 'name': 'German', 'path': 'source/german/german.json' },
     '法语': { 'name': 'French', 'path': 'source/french/french.json' },
+    '力度符号': { 'name': 'Symbols', 'path': 'source/terms/symbol.json' },
     // zh
     '術語': { 'name': 'Terms', 'path': 'source/terms/source.json' },
     '評論': { 'name': 'Criticism', 'path': 'source/italian/criticism.json' },
@@ -51,6 +53,7 @@ var lists = {
     '人聲': { 'name': 'Voices', 'path': 'source/italian/voices.json' },
     '德文': { 'name': 'German', 'path': 'source/german/german.json' },
     '法文': { 'name': 'French', 'path': 'source/french/french.json' },
+    '力度符號': { 'name': 'Symbols', 'path': 'source/terms/symbol.json' },
 }
 
 function addHrefHistory(page, e) {
@@ -78,6 +81,7 @@ var toDoForPages = {
                 return response.json();
             }).then(function (json) {
                 if (isTerm(e)) loadTerms(json);
+                else if (shouldShowTimeNewRoman(e)) loadLangWords(json, true);
                 else loadLangWords(json);
             });
         } catch { }
@@ -90,6 +94,7 @@ var toDoForPages = {
         document.title = 'Music Terminology | Details';
         var word = e[0].word;
         document.getElementById('word').innerText = word;
+        if (shouldShowTimeNewRoman(word)) document.getElementById('word').classList.add('times-new-roman');
         document.getElementById('translate').innerText = e[0].translation;
         document.getElementById('definition').innerText = e[0][is_definition_or_languge];
         setFavoriteStar(word);
@@ -165,13 +170,14 @@ var toDoForPages = {
     }
 }
 
-loadLangWords = function (json) {
+loadLangWords = function (json, times_new_roman = false) {
     document.getElementById('list-of-words-content').innerHTML = '<div id="outer-list" class="set"></div>';
     document.getElementById('outer-list').innerHTML = '';
     for (var i = 0; i < Object.keys(json).length; i++) {
         var element = document.createElement('span');
         element.setAttribute('onclick', `word(${JSON.stringify(json[Object.keys(json)[i]])}, '${Object.keys(json)[i]}')`);
         element.setAttribute('class', 'folder full-width-line');
+        if (times_new_roman) element.classList.add('times-new-roman');
         element.innerText = Object.keys(json)[i];
         var icon = document.createElement('icon');
         icon.classList.add('icon');

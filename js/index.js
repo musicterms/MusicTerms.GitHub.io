@@ -19,7 +19,7 @@ for (var i = 0; i < content.length; i++) {
     content[i].style.marginTop = nav_bar_height + 25 + 'px';
 }
 
-try { date.innerText = '18 Jan 2024' } catch { }
+try { date.innerText = '20 Jan 2024' } catch { }
 
 var date_online;
 try {
@@ -99,6 +99,12 @@ function isTerm(k) {
     return k == 'terms' || k == '术语' || k == '術語';
 }
 
+var symbols = ['ppp', 'pp', 'p', 'mp', 'mf', 'f', 'ff', 'fff', 'sfz', 'sfp', 'sf', 'rfz', 'rf', 'fz', 'fp', 'mfp', 'mfz'];
+
+function shouldShowTimeNewRoman(k) {
+    let isHere = symbols.includes(k);   
+    return k == 'Symbols for Dynamics' || k == 'Symbols' || k == '力度符号' || k == '力度符號' || k == '符号' || k == '符號' || isHere;
+}
 // announce to the server of a new visit
 var url = 'https://musicterms.onrender.com/api/';
 

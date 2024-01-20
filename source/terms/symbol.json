@@ -1,0 +1,114 @@
+{
+    "ppp": {
+        "word": "ppp",
+        "translation": "Italian: pianississimo",
+        "definition": "Very very soft.",
+        "zh-CN": "极弱。",
+        "zh": "极弱。"
+    },
+    "pp": {
+        "word": "pp",
+        "translation": "Italian: pianissimo",
+        "definition": "Very soft.",
+        "zh-CN": "非常弱。",
+        "zh": "非常弱。"
+    },
+    "p": {
+        "word": "p",
+        "translation": "Italian: piano",
+        "definition": "Soft.",
+        "zh-CN": "弱。",
+        "zh": "弱。"
+    },
+    "mp": {
+        "word": "mp",
+        "translation": "Italian: mezzo-piano",
+        "definition": "Moderately soft.",
+        "zh-CN": "偏弱；中弱。",
+        "zh": "偏弱；中弱。"
+    },
+    "mf": {
+        "word": "mf",
+        "translation": "Italian: mezzo-forte",
+        "definition": "Moderately loud.",
+        "zh-CN": "偏强；中强。",
+        "zh": "偏强；中强。"
+    },
+    "f": {
+        "word": "f",
+        "translation": "Italian: forte",
+        "definition": "Loud.",
+        "zh-CN": "强。",
+        "zh": "强。"
+    },
+    "ff": {
+        "word": "ff",
+        "translation": "Italian: fortissimo",
+        "definition": "Very loud.",
+        "zh-CN": "非常强。",
+        "zh": "非常强。"
+    },
+    "fff": {
+        "word": "fff",
+        "translation": "Italian: fortississimo",
+        "definition": "Very very loud.",
+        "zh-CN": "极强。",
+        "zh": "极强。"
+    },
+    "sfz": {
+        "word": "sfz",
+        "translation": "Italian: subito forzando / sforzando",
+        "definition": "Sudden strong accent for a single note or chord.",
+        "zh-CN": "表示对这个音符突别加强。",
+        "zh": "表示對這個音符突別加强。"
+    },
+    "sfp": {
+        "word": "sfp",
+        "translation": "Italian: sforzando piano",
+        "definition": "Sudden strong accent followed immediately by soft playing.",
+        "zh-CN": "突然强后立即弱。",
+        "zh": "突然强后立即弱。"
+    },
+    "sf": {
+        "word": "sf",
+        "translation": "Italian: sforzando",
+        "definition": "Sudden strong accent.",
+        "zh-CN": "突然强。",
+        "zh": "突然强。"
+    },
+    "rfz": {
+        "word": "rfz",
+        "translation": "Italian: rinforzando",
+        "definition": "Sudden strong accent on a single note or chord.",
+        "zh-CN": "表示对这个音符突别加强。",
+        "zh": "表示對這個音符突別加强。"
+    },
+    "rf": {
+        "word": "rf",
+        "translation": "Italian: rinforzando",
+        "definition": "Sudden strong accent.",
+        "zh-CN": "突然强。",
+        "zh": "突然强。"
+    },
+    "fz": {
+        "word": "fz",
+        "translation": "Italian: forzando",
+        "definition": "Sudden strong accent.",
+        "zh-CN": "突然强。",
+        "zh": "突然强。"
+    },
+    "fp": {
+        "word": "fp",
+        "translation": "Italian: fortepiano",
+        "definition": "Loud followed immediately by soft playing.",
+        "zh-CN": "强后立即弱。",
+        "zh": "强后立即弱。"
+    },
+    "mfz": {
+        "word": "mfz",
+        "translation": "Italian: mezzo-forte-piano",
+        "definition": "Moderately loud followed immediately by soft playing.",
+        "zh-CN": "偏强后立即弱。",
+        "zh": "偏强后立即弱。"
+    }
+}

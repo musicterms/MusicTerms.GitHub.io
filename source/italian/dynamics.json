@@ -117,5 +117,19 @@
         "definition": "Dying away.",
         "zh-CN": "逐渐消失。",
         "zh": "逐漸消失。"
+    },
+    "In Rilievo": {
+        "word": "In Rilievo",
+        "translation": "in relief",
+        "definition": "A note played with a strong accent; a particular instrument played louder than others.",
+        "zh-CN": "用强重音演奏一个音符；某一个乐器的音量比其他突出",
+        "zh": "用強重音演奏一個音符；某一個樂器的音量比其他突出"
+    },
+    "Sotto Voce": {
+        "word": "Sotto Voce",
+        "translation": "under the voice",
+        "definition": "In an undertone; in a private manner.",
+        "zh-CN": "低声地；悄悄地。",
+        "zh": "低聲地；悄悄地。"
     }
 }

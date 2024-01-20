@@ -1052,6 +1052,19 @@ span.switch.checked:active::after {
     }
 }
 
+.times-new-roman,
+.times_new_roman {
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.folder.full-width-line.times-new-roman,
+.folder.full-width-line.times_new_roman {
+    font-size: 1.3rem;
+    padding-top: 0;
+}
+
 .toolbar {
     display: flex;
     flex-direction: row;

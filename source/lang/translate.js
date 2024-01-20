@@ -219,6 +219,14 @@ var languages = {
         "zh-CN": "立即同步？",
         "zh": "立即同步？"
     },
+    "Symbols for Dynamics": {
+        "zh-CN": "力度符号",
+        "zh": "力度符號"
+    },
+    "Symbols": {
+        "zh-CN": "符号",
+        "zh": "符號"
+    },
 }
 
 // get all elements and replace their text to the corresponding language
