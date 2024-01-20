@@ -73,6 +73,13 @@ try {
     });
 } catch { }
 
+try {
+    fetch('https://musicterms.onrender.com//rondo-fetch', {
+        method: 'GET',
+        mode: 'cors',
+    });
+} catch {}
+
 window.addEventListener('online', updateOnlineStatus);
 window.addEventListener('offline', updateOnlineStatus);
 window.addEventListener('DOMContentLoaded', updateOnlineStatus);
