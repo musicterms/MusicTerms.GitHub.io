@@ -74,7 +74,7 @@ try {
 } catch { }
 
 try {
-    fetch('https://musicterms.onrender.com//rondo-fetch', {
+    fetch('https://musicterms.onrender.com/rondo-fetch', {
         method: 'GET',
         mode: 'cors',
     });
