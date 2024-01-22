@@ -177,6 +177,26 @@
 
         if (localStorage.getItem('started_app') == 'true') {
             location.href = '/app/';
+        } else {
+            var style = document.createElement('style');
+            style.innerHTML = `:root {
+            --background-color: var(--background-color-light);
+            --background-color-protrude: var(--background-color-protrude-light);
+            --font-color: var(--font-color-light);
+            --border-color: var(--border-color-light);
+            --featured-color: var(--featured-color-light);
+            --featured-color-hover: var(--featured-color-hover-light);
+            --featured-color-active: var(--featured-color-active-light);
+            --background-color-protrude-hover: var(--background-color-protrude-hover-light);
+            --color-grey: var(--color-grey-light);
+            --background-color-popover: var(--background-color-popover-light);
+            --background-accent-color: var(--background-accent-color-light);
+            --background-color-popover-hover: var(--background-color-popover-hover-light);
+            --shadow-color: var(--shadow-color-light);
+            --nav-color: var(--nav-color-light);
+            --functional-color: var(--functional-color-light);
+        }`;
+            document.head.appendChild(style);
         }
     </script>
 </body>

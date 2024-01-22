@@ -3,7 +3,6 @@ if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('/service-worker.js')
 }
 
-
 // set theme color as navbar background color
 var nav_bar_color = getComputedStyle(document.documentElement).getPropertyValue('--nav-color');
 var meta = document.createElement('meta');
@@ -19,7 +18,7 @@ for (var i = 0; i < content.length; i++) {
     content[i].style.marginTop = nav_bar_height + 25 + 'px';
 }
 
-try { date.innerText = '20 Jan 2024' } catch { }
+try { date.innerText = '22 Jan 2024' } catch { }
 
 var date_online;
 try {
@@ -92,13 +91,8 @@ function updateOnlineStatus() {
 
 window.addEventListener('popstate', function (e) {
     e.preventDefault();
-    this.alert('popstate');
-    console.log(this.location.href);
-    var search = this.location.href.split('?')[1];
-    if (!search) return;
-    var location_page = search.split('page=')[1].split('&')[0];
-    var location_e = search.split('e=')[1];
-    openPage(location_page, location_e);
+    // go back
+    goBack();
 });
 
 

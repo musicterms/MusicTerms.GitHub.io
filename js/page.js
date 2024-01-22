@@ -124,7 +124,34 @@ var toDoForPages = {
         document.getElementById('nav-back-text').innerText = 'Folders';
         document.getElementById('nav-back').classList.remove('hidden');
         document.title = 'Music Terminology | Search'
-        addHrefHistory('search', 'true');
+        var e = location.search.split('e=');
+        e = e[e.length - 1] || 'true';
+        if (e != 'true') {
+            document.addEventListener('DOMContentLoaded', async function () {
+                document.getElementById('search-input').value = decodeURIComponent(e);
+                var time = Date.now();
+                let input = decodeURIComponent(e);
+                let results = await search(input);
+                time = (Date.now() - time) / 1000;
+                document.getElementById('search-result-list').innerHTML = '';
+                document.getElementById('search_receipt').innerText = `${results.length} results found in ${time} seconds.`;
+                if (storages.data_cache_enable_switch == 'true') document.getElementById('search_receipt').innerText = `${results.length} results found in ${time} seconds by Power Search.`;
+                results.forEach(result => {
+                    searchResult(result);
+                });
+                // remove the last line
+                document.getElementById('search-result-list').lastChild.classList.remove('full-width-line');
+            });
+        }
+        addHrefHistory('search', e);
+        if (storages.data_cache_enable_switch == 'true') {
+            var label = document.querySelector('label.text');
+            if (label.lastChild.tagName != 'BUTTON') {
+                label.innerHTML += `<button class="fit" onclick="location.href='/app/ocr.html'">
+                    <icon data-icon="lens_blur"></icon>
+                </button>`;
+            }
+        }
         try { translate(); } catch { }
     },
     'favorites': function () {

@@ -419,6 +419,13 @@
         "zh-CN": "为一到两种乐器创作的奏鸣曲。",
         "zh": "為一到兩種樂器創作的奏鳴曲。"
     },
+    "Sonatina": {
+        "word": "Sonatina",
+        "translation": "little sonata",
+        "definition": "A short sonata.",
+        "zh-CN": "一首短奏鸣曲。",
+        "zh": "一首短奏鳴曲。"
+    },
     "Tanto": {
         "word": "tanto",
         "translation": "as / so much",

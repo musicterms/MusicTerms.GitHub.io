@@ -33,22 +33,44 @@
     --nav-color-light: var(--background-color-protrude-light);
 }
 
-:root {
-    --background-color: var(--background-color-light);
-    --background-color-protrude: var(--background-color-protrude-light);
-    --font-color: var(--font-color-light);
-    --border-color: var(--border-color-light);
-    --featured-color: var(--featured-color-light);
-    --featured-color-hover: var(--featured-color-hover-light);
-    --featured-color-active: var(--featured-color-active-light);
-    --background-color-protrude-hover: var(--background-color-protrude-hover-light);
-    --color-grey: var(--color-grey-light);
-    --background-color-popover: var(--background-color-popover-light);
-    --background-accent-color: var(--background-accent-color-light);
-    --background-color-popover-hover: var(--background-color-popover-hover-light);
-    --shadow-color: var(--shadow-color-light);
-    --nav-color: var(--nav-color-light);
-    --functional-color: var(--functional-color-light);
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background-color: var(--background-color-dark);
+        --background-color-protrude: var(--background-color-protrude-dark);
+        --font-color: var(--font-color-dark);
+        --border-color: var(--border-color-dark);
+        --featured-color: var(--featured-color-dark);
+        --featured-color-hover: var(--featured-color-hover-dark);
+        --featured-color-active: var(--featured-color-active-dark);
+        --background-color-protrude-hover: var(--background-color-protrude-hover-dark);
+        --color-grey: var(--color-grey-dark);
+        --background-color-popover: var(--background-color-popover-dark);
+        --background-accent-color: var(--background-accent-color-dark);
+        --background-color-popover-hover: var(--background-color-popover-hover-dark);
+        --shadow-color: var(--shadow-color-dark);
+        --nav-color: var(--nav-color-dark);
+        --functional-color: var(--functional-color-dark);
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --background-color: var(--background-color-light);
+        --background-color-protrude: var(--background-color-protrude-light);
+        --font-color: var(--font-color-light);
+        --border-color: var(--border-color-light);
+        --featured-color: var(--featured-color-light);
+        --featured-color-hover: var(--featured-color-hover-light);
+        --featured-color-active: var(--featured-color-active-light);
+        --background-color-protrude-hover: var(--background-color-protrude-hover-light);
+        --color-grey: var(--color-grey-light);
+        --background-color-popover: var(--background-color-popover-light);
+        --background-accent-color: var(--background-accent-color-light);
+        --background-color-popover-hover: var(--background-color-popover-hover-light);
+        --shadow-color: var(--shadow-color-light);
+        --nav-color: var(--nav-color-light);
+        --functional-color: var(--functional-color-light);
+    }
 }
 
 ::selection {
@@ -78,6 +100,8 @@ body {
     padding: 0;
     margin: 0;
     overflow-x: hidden;
+    background-color: var(--background-color);
+    transition: .3s;
 }
 
 

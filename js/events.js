@@ -11,6 +11,8 @@ for (let i = 0; i < allElements.length; i++) {
     });
 }
 
+localStorage.setItem('started_app', 'true');
+
 var favorite_stars = document.getElementsByClassName('favorite_star');
 for (let i = 0; i < favorite_stars.length; i++) {
     favorite_stars[i].addEventListener('click', function (e) {

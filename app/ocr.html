@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Terminology | Search from Image</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.png" type="image/png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+</head>
+
+<body class="ocr">
+    <nav class="ocr">
+        <span class="nav-arrow-back" id="nav-back" onclick="history.back()">
+            <icon data-icon="arrow_back_ios"></icon>
+            <font id="nav-back-text"></font>
+        </span>
+    </nav>
+    <div id="alert-fullscreen">
+        <div id="alert">
+            <div class="alert-content">
+                <h1 id="alert-title"></h1>
+                <p id="alert-text"></p>
+            </div>
+            <div class="divider-hoz"></div>
+            <div class="actions">
+                <span id="alert-cancel" class="alert-btn">Cancel</span>
+                <div class="divider-ver"></div>
+                <span id="alert-confirm" class="alert-btn">OK</span>
+            </div>
+        </div>
+    </div>
+    <div class="set width-450" id="cameras">
+        <div class="folder no-line" onclick="toggle()" id="cameraas">
+            <icon data-icon="expand_all" class="circle"></icon>
+            <font>Select Camera</font>
+            <icon data-icon="expand" class="icon more larger"></icon>
+        </div>
+    </div>
+    <div class="page cms" id="page-1">
+        <div class="content">
+            <div class="updown">
+                <canvas id="c"></canvas>
+                <div id="ovlouter">
+                    <div id="ovl"></div>
+                </div>
+                <video autoplay="true" id="camera" muted playsinline>
+                </video>
+                <div id="toolbar">
+                    <button class="empty cir" id="search" onclick="getText()">
+                        <icon data-icon="lens_blur"></icon>
+                    </button>
+                    <button class="flip" id="switchFacing" onclick="toggleFacingMode()">
+                        <icon data-icon="flip_camera"></icon>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/js/index.js"></script>
+    <script src="/js/events.js"></script>
+    <script src="/js/icon.js"></script>
+    <script src='https://cdn.jsdelivr.net/npm/tesseract.js@5/dist/tesseract.min.js'></script>
+    <script src="/js/ocr.js"></script>
+    <script src="/source/lang/translate.js"></script>
+</body>
+
+</html>

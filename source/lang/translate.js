@@ -1,6 +1,12 @@
 var language = location.href.split('/')[3];
 
+if (language == 'app') {
+    language = localStorage.language || en;
+}
+
 document.documentElement.lang = language;
+
+
 
 var languages = {
     "AlphaBrate Music Terminology Library": {
@@ -226,6 +232,18 @@ var languages = {
     "Symbols": {
         "zh-CN": "符号",
         "zh": "符號"
+    },
+    "Allow camera access": {
+        "zh-CN": "允许相机访问",
+        "zh": "允許相機訪問"
+    },
+    "Text recognition needs access to your camera to work.": {
+        "zh-CN": "文字识别需要访问您的相机才能工作。",
+        "zh": "文字識別需要訪問您的相機才能工作。"
+    },
+    "Select Camera": {
+        "zh-CN": "选择相机",
+        "zh": "選擇相機"
     },
 }
 
