@@ -18,6 +18,8 @@ for (var i = 0; i < content.length; i++) {
     content[i].style.marginTop = nav_bar_height + 25 + 'px';
 }
 
+var date = document.getElementById('date');
+
 try { date.innerText = '25 Jan 2024' } catch { }
 
 var date_online;
@@ -290,7 +292,6 @@ try {
 
     function consent() {
         window.clarity('consent');
-        window.ga('consent');
         gtag('consent', 'default', {
             'analytics_storage': 'granted'
         });
