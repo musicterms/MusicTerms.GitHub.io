@@ -120,6 +120,7 @@ var toDoForPages = {
         try { translate(); } catch { }
     },
     'search': async function () {
+        if (document.sessionStorage.reload != 'true') location.reload();
         document.getElementById('nav-text').innerText = getTranslateOf('Search');
         document.getElementById('nav-back-text').innerText = 'Folders';
         document.getElementById('nav-back').classList.remove('hidden');
