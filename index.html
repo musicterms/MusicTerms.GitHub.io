@@ -12,7 +12,7 @@
         content="musical terms, music, terms, library, learning, music, music terms, terminolgy library, glossary">
     <meta property="og:title" content="AlphaBrate Music Terminology Library">
     <meta property="og:type" content="website">
-	<meta property="og:site_name" content="Music Terms">
+    <meta property="og:site_name" content="Music Terms">
     <meta property="og:url" content="https://musicterms.github.io">
     <meta property="og:description"
         content="Looking for an awesome music terms library app? AlphaBrate Music Terminology Library is the best choice. Hosted on GitHub Pages, we have no operating costs that we won't let ads appear on our websites! Enjoy an elegant and simple surf experience with innovative design now! Available on https://musicterms.github.io">
@@ -35,7 +35,8 @@
           "description": "A perfect Web App for learning musical terms."
         }
     </script>
-    <!-- Clarity tracking code for https://musicterms.github.io/ --><script>    (function(c,l,a,r,i,t,y){        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i+"?ref=bwt";        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);    })(window, document, "clarity", "script", "krayfeinxp");</script>
+    <!-- Clarity tracking code for https://musicterms.github.io/ -->
+    <script>    (function (c, l, a, r, i, t, y) { c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments) }; t = l.createElement(r); t.async = 1; t.src = "https://www.clarity.ms/tag/" + i + "?ref=bwt"; y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y); })(window, document, "clarity", "script", "krayfeinxp");</script>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-6K7W9LK8WL"></script>
     <script>
@@ -125,6 +126,12 @@
     <p class="gray copy">Released under the APWED License.</p>
     <div class="holder"></div>
     <script>
+        var nav_bar_color = getComputedStyle(document.documentElement).getPropertyValue('--nav-color');
+        var meta = document.createElement('meta');
+        meta.setAttribute('name', 'theme-color');
+        meta.setAttribute('content', nav_bar_color);
+        document.head.appendChild(meta);
+        
         var scrollNow = (xy = 'y') => {
             return xy == 'x' ? window.scrollX : window.scrollY;
         }
