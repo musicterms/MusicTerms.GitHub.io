@@ -14,16 +14,20 @@ The collected information is used to improve our services and provide a better u
 
 ## 3. Information Sharing
 
-We do not share your information with third parties, except as required by law or as necessary to provide our services. This includes service providers who assist us in our operations, such as website hosting, data analysis, and verifier provider. These service providers are contractually obligated to protect your information and use it only for the purposes for which it was disclosed.
+We do not share your information with third parties, except as required by law, User Behavior Analytics (UBA) or as necessary to provide our services. This includes service providers who assist us in our operations, such as website hosting, data analysis, and verifier provider. These service providers are contractually obligated to protect your information and use it only for the purposes for which it was disclosed.
 
 ## 4. Data Security
 
 We implement security measures to protect your information from unauthorized access, alteration, disclosure, or destruction. These measures include data encryption, secure databases, and firewalls. We also conduct regular security audits to ensure the ongoing safety of your information. While we take reasonable precautions to protect your information, no security system is impenetrable. We cannot guarantee the security of your information and are not responsible for unauthorized access to it.
 
-## 5. Changes to This Privacy Policy
+## 5. Use of Cookies
 
-We may update our Privacy Policy from time to time. We will notify you of any large changes by posting the new Privacy Policy on the home page of out Web App. We encourage you to review this Privacy Policy periodically for any changes.
+We use cookies to collect information about your usage of our services. Cookies are small text files that are stored on your device when you visit a website. They are used to remember your preferences and provide a better user experience. You can disable cookies in your browser settings, but doing so may affect the functionality of our services. Cookies are not used to collect personal information about you but used for UBA to improve our services.
 
-## 6. Contact Us
+## 6. Changes to This Privacy Policy
+
+We may update our Privacy Policy from time to time. We will notify you of any large changes by posting the new Privacy Policy on the home page of our Web App. We encourage you to review this Privacy Policy periodically for any changes.
+
+## 7. Contact Us
 
 If you have any questions about this Privacy Policy, please contact us. We are committed to resolving any concerns or complaints you may have about our use of your information.

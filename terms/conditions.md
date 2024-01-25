@@ -1,7 +1,5 @@
 # Terms of Service
 
-> These are the Terms of Service for using the AlphaBrate Music Terminology Library
-
 Please read these Terms of Service ("Terms", "Terms of Service") carefully before using the AlphaBrate Music Terminology Library (the "Service") operated by AlphaBrate ("us", "we", or "our").
 
 ## 1. Acceptance of Terms
@@ -12,7 +10,7 @@ By accessing and using our Service, you agree to be bound by these Terms. If you
 
 ### 2.1 Service Overview
 
-We provide a Music Terminology Library for users to explore and learn. This service is designed to help users understand music terminology in a comprehensive way.
+We provide a Music Terminology Library that covers a wide range of genres. This service is designed to help users understand music terminology in a comprehensive way.
 
 ### 2.2 Service Updates
 
@@ -26,13 +24,13 @@ Users are expected to comply with all applicable laws and regulations. Any illeg
 
 ### 3.2 Responsibility for Activities
 
-Users are responsible for all activities under their usage of our Service. Any misuse of the Service will not be tolerated.
+Users are responsible for all activities under their usage of our Service. Misuse of the Service, such as spamming, hacking, or violating intellectual property rights, will not be tolerated.
 
 ## 4. Intellectual Property
 
 ### 4.1 Ownership
 
-Our website, services, and all related content, including but not limited to software, images, text, graphics, logos, patents, trademarks, service marks, copyrights, photographs, audio, videos, and all intellectual property rights are, unless otherwise specified, our exclusive property or the property of our licensors.
+Our website, services, and all related content, including but not limited to software, images, text, graphics, logos, patents, trademarks, service marks, copyrights, photographs, audio, videos, and all intellectual property rights are, unless otherwise specified, our exclusive property or the property of our licensors. Some content may be sourced from third-party providers, and AlphaBrate is not responsible for the accuracy or legality of such content.
 
 ### 4.2 Restrictions
 
@@ -42,7 +40,7 @@ Users are not allowed to use, copy, modify, or distribute our intellectual prope
 
 ### 5.1 Open Source License (MIT)
 
-Our Service adheres to the MIT Open Source License. This means you are free to use, copy, and modify the software, but the original license and copyright notice must be included. For more details, please refer to the [full text of the MIT License](https://opensource.org/licenses/MIT).
+Our Service adheres to the MIT Open Source License. This means you can use, copy, and modify the software for free, but you must give credit to the original author. For more details, please refer to the [full text of the MIT License](https://opensource.org/licenses/MIT).
 
 ### 5.2 AlphaBrate Pure Web Experience Development License (APWED)
 
@@ -56,11 +54,11 @@ For any queries or further clarification, please feel free to contact us.
 
 ## 6. Disclaimer
 
-Our Service is provided "as is" and "as available" without any express or implied warranties. We do not warrant that the Service will be uninterrupted, secure, or error-free.
+Our Service is provided "as is" and "as available" without any express or implied warranties. We do not warrant that the Service will be uninterrupted, secure, or error-free. AlphaBrate is not liable but will try best on for any damages or losses arising from the use or inability to use the Service.
 
 ## 7. Changes to Terms of Service
 
-We may update our Terms of Service from time to time. We will post the new Terms of Service on this page and encourage you to review this page periodically for any changes.
+We may update our Terms of Service from time to time. The new Terms of Service will take effect immediately upon posting on this page. We encourage you to review this page periodically for any changes.
 
 ## 8. Contact Us
 
