@@ -353,21 +353,7 @@ nav svg {
     fill: rgb(255, 49, 49);
 }
 
-
-@keyframes opacity-fade-in {
-    from {
-        opacity: 0;
-        width: 0%;
-    }
-
-    to {
-        opacity: 1;
-        width: 100%;
-    }
-}
-
 svg {
-    animation: opacity-fade-in .5s ease-in-out;
     transition: .3s;
 }
 
@@ -1181,7 +1167,7 @@ a.popover {
     top: 100dvh;
     transform: translateY(-100%);
     left: 0;
-    padding: 1rem 0;
+    padding: 1.5rem 0;
     width: 100%;
     font-size: 1.2rem;
     z-index: 1;
