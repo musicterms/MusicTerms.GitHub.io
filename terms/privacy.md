@@ -22,7 +22,11 @@ We implement security measures to protect your information from unauthorized acc
 
 ## 5. Use of Cookies
 
-We use cookies to collect information about your usage of our services. Cookies are small text files that are stored on your device when you visit a website. They are used to remember your preferences and provide a better user experience. You can disable cookies in your browser settings, but doing so may affect the functionality of our services. Cookies are not used to collect personal information about you but used for UBA to improve our services.
+We use cookies to collect information about your usage of our services. Cookies are small text files that are stored on your device when you visit a website. They are used to remember your preferences and provide a better user experience. You can disable cookies in your browser settings, but doing so may affect the functionality of our services. Cookies are not used to collect personal information about you but are used for User Behavior Analytics (UBA) to improve our services.
+
+Our website uses Clarity and Google Analytics, both of which set cookies on your browser to obtain user session data. These cookies send non-personally identifiable information, such as session data, to Clarity and Google Analytics. If your browser settings disable cookies, Clarity and Google Analytics will not set cookies.
+
+If you are located in an area that requires user consent before setting cookies or collecting personal information, such as the EU, you can choose whether to accept our cookies. If you choose not to accept cookies, we will not collect the aforementioned UBA information.
 
 ## 6. Changes to This Privacy Policy
 
