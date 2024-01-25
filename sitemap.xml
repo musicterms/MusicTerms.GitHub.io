@@ -9,18 +9,4 @@
         <loc>http://musicterms.github.io/app</loc>
         <priority>1.00</priority>
     </url>
-    <url>
-        <loc>http://musicterms.github.io/en</loc>
-        <priority>0.80</priority>
-    </url>
-    <url>
-        <loc>http://musicterms.github.io/zh</loc>
-        <priority>0.80</priority>
-    </url>
-    <url>
-        <loc>http://musicterms.github.io/zh-CN</loc>
-        <priority>0.80</priority>
-    </url>
-  
-
 </urlset>
