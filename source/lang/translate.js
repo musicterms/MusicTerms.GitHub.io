@@ -245,6 +245,18 @@ var languages = {
         "zh-CN": "选择相机",
         "zh": "選擇相機"
     },
+    "We use cookies to enhance your user experience and perform user behavior analytics. By clicking the agree button below, you consent to our cookie policy.": {
+        "zh-CN": "我们使用 Cookies 来增强您的用户体验和执行用户行为分析。点击下方的同意按钮，即表示您同意我们的 Cookies 政策。",
+        "zh": "我們使用 Cookies 來增強您的使用者體驗和執行使用者行為分析。點擊下方的同意按鈕，即表示您同意我們的 Cookies 政策。"
+    },
+    "Agree": {
+        "zh-CN": "同意",
+        "zh": "同意"
+    },
+    "Decline": {
+        "zh-CN": "拒绝",
+        "zh": "拒絕"
+    },
 }
 
 // get all elements and replace their text to the corresponding language
