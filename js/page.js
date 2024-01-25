@@ -120,8 +120,6 @@ var toDoForPages = {
         try { translate(); } catch { }
     },
     'search': async function () {
-        if (window.sessionStorage.reload != 'true') location.reload();
-        window.sessionStorage.reload = 'true';
         document.getElementById('nav-text').innerText = getTranslateOf('Search');
         document.getElementById('nav-back-text').innerText = 'Folders';
         document.getElementById('nav-back').classList.remove('hidden');
@@ -129,7 +127,7 @@ var toDoForPages = {
         var e = location.search.split('e=');
         e = e[e.length - 1] || 'true';
         if (e != 'true') {
-            document.addEventListener('DOMContentLoaded', async function () {
+            async function a() {
                 document.getElementById('search-input').value = decodeURIComponent(e);
                 var time = Date.now();
                 let input = decodeURIComponent(e);
@@ -143,8 +141,25 @@ var toDoForPages = {
                 });
                 // remove the last line
                 document.getElementById('search-result-list').lastChild.classList.remove('full-width-line');
-            });
+            }
+            a();
         }
+
+        document.getElementById('search-input').addEventListener('input', async function (e) {
+            var time = Date.now();
+            let input = e.target.value;
+            let results = await search(input);
+            time = (Date.now() - time) / 1000;
+            document.getElementById('search-result-list').innerHTML = '';
+            document.getElementById('search_receipt').innerText = `${results.length} results found in ${time} seconds.`;
+            if (storages.data_cache_enable_switch == 'true') document.getElementById('search_receipt').innerText = `${results.length} results found in ${time} seconds by Power Search.`;
+            results.forEach(result => {
+                searchResult(result);
+            });
+            // remove the last line
+            document.getElementById('search-result-list').lastChild.classList.remove('full-width-line');
+        });
+
         addHrefHistory('search', e);
         if (storages.data_cache_enable_switch == 'true') {
             var label = document.querySelector('label.text');
