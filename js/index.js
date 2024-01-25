@@ -18,7 +18,7 @@ for (var i = 0; i < content.length; i++) {
     content[i].style.marginTop = nav_bar_height + 25 + 'px';
 }
 
-try { date.innerText = '22 Jan 2024' } catch { }
+try { date.innerText = '25 Jan 2024' } catch { }
 
 var date_online;
 try {
@@ -77,7 +77,7 @@ try {
         method: 'GET',
         mode: 'no-cors',
     });
-} catch {}
+} catch { }
 
 window.addEventListener('online', updateOnlineStatus);
 window.addEventListener('offline', updateOnlineStatus);
@@ -237,3 +237,62 @@ if (typeof getTranslateOf == 'undefined') {
         return text;
     }
 }
+
+try {
+    // Cookies confirm box
+    // Create a new div element
+    var cookieBanner = document.createElement("div");
+
+    // Set the id of the div so we can style it in CSS
+    cookieBanner.id = "cookieBanner";
+
+    // Set the content of the div
+    cookieBanner.innerHTML = `
+    <p>We use cookies to enhance your user experience and perform user behavior analytics. By clicking the agree button below, you consent to our cookie policy.</p>
+    <span class="nowrap"><button id="acceptCookies">Agree</button><button id="closeAcceptCookies">Decline</button></span>
+`;
+
+    // Append the new div to the end of the body element
+    if (localStorage.getItem('consent') != 'true') document.body.appendChild(cookieBanner);
+    else consent();
+
+    try { translate(); } catch { }
+
+    // Get the agree button
+    var acceptCookiesButton = document.getElementById("acceptCookies");
+
+    // Hide the cookie banner when the user clicks the agree button
+    acceptCookiesButton.onclick = function () {
+        cookieBanner.style.display = "none";
+
+        // Add code here to enable Clarity and Google Analytics
+        localStorage.setItem('consent', 'true');
+        consent();
+    };
+
+    // Get the decline button
+    var declineCookiesButton = document.getElementById("closeAcceptCookies");
+
+    // Hide the cookie banner when the user clicks the decline button
+    declineCookiesButton.onclick = function () {
+        cookieBanner.style.display = "none";
+
+        // Add code here to disable Clarity and Google Analytics
+        localStorage.setItem('consent', 'false');
+        gtag('consent', 'default', {
+            'analytics_storage': 'denied'
+        });
+    };
+
+    gtag('consent', 'default', {
+        'analytics_storage': 'denied'
+    });
+
+    function consent() {
+        window.clarity('consent');
+        window.ga('consent');
+        gtag('consent', 'default', {
+            'analytics_storage': 'granted'
+        });
+    }
+} catch { }
