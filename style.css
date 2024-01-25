@@ -1296,3 +1296,63 @@ button.fit {
         fill: var(--background-color);
     }
 }
+
+#cookieBanner {
+    position: fixed;
+    bottom: 0;
+    width: calc(100% - 80px);
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+    color: #000;
+    padding: 20px;
+    padding-top: 2rem;
+    text-align: center;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0 8px 32px 0 var(--border-color);
+}
+
+#cookieBanner p {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+#acceptCookies, #closeAcceptCookies {
+    padding: 10px 20px;
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+#acceptCookies {
+    background-color: #008cba;
+    color: #fff;
+}
+
+#closeAcceptCookies {
+    background-color: #f44336;
+    color: #fff;
+}
+
+#acceptCookies:hover {
+    background-color: #0079a1;
+}
+
+#closeAcceptCookies:hover {
+    background-color: #da1e28;
+}
