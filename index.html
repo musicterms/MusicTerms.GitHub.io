@@ -63,13 +63,12 @@
     <div class="holder100"></div>
     <h2>Features & Benefits</h2>
     <p class="pad2">Music Terms offers a range of features designed to enhance your music learning experience:</p>
-    <div class="holder25"></div>
+    <div class="holder"></div>
     <div class="flex-row no-overflow">
         <div class="section-2">
             <div class="function_info center">
                 <h3>Power Search</h3>
                 <p>Even with typos, our advanced algorithm effortlessly finds exactly what you're looking for.</p>
-
             </div>
         </div>
         <div class="break-if-mobile"></div>
@@ -86,7 +85,7 @@
         </div>
     </div>
     <div class="holder100"></div>
-    <div class="holder25"></div>
+    <div class="holder"></div>
     <div class="flex-row no-overflow">
         <div class="section-dark no-overflow">
             <h3>Full Dark Mode</h3>
@@ -98,7 +97,7 @@
             </picture>
         </div>
     </div>
-    <div class="holder25"></div>
+    <div class="holder"></div>
     <div class="flex-row no-overflow">
         <div class="section-4 no-overflow pad2 center col">
             <h3>Comprehensive Glossary</h3>
@@ -106,7 +105,7 @@
             </p>
         </div>
     </div>
-    <div class="holder25"></div>
+    <div class="holder"></div>
     <div class="flex-row no-overflow">
         <div class="section-5 no-overflow pad2 center col">
             <h3>Cross-Platform Availability</h3>
@@ -131,7 +130,7 @@
         meta.setAttribute('name', 'theme-color');
         meta.setAttribute('content', nav_bar_color);
         document.head.appendChild(meta);
-        
+
         var scrollNow = (xy = 'y') => {
             return xy == 'x' ? window.scrollX : window.scrollY;
         }
@@ -139,7 +138,6 @@
         var current_blur_id = 0;
 
         window.addEventListener('scroll', () => {
-            console.log(scrollNow());
             if (scrollNow('y') > 100 && scrollNow('y') < 1700) {
                 var relative_max = 1600;
                 var relative_min = 100;
@@ -186,26 +184,6 @@
 
         if (localStorage.getItem('started_app') == 'true') {
             location.href = '/app/';
-        } else {
-            var style = document.createElement('style');
-            style.innerHTML = `:root {
-            --background-color: var(--background-color-light);
-            --background-color-protrude: var(--background-color-protrude-light);
-            --font-color: var(--font-color-light);
-            --border-color: var(--border-color-light);
-            --featured-color: var(--featured-color-light);
-            --featured-color-hover: var(--featured-color-hover-light);
-            --featured-color-active: var(--featured-color-active-light);
-            --background-color-protrude-hover: var(--background-color-protrude-hover-light);
-            --color-grey: var(--color-grey-light);
-            --background-color-popover: var(--background-color-popover-light);
-            --background-accent-color: var(--background-accent-color-light);
-            --background-color-popover-hover: var(--background-color-popover-hover-light);
-            --shadow-color: var(--shadow-color-light);
-            --nav-color: var(--nav-color-light);
-            --functional-color: var(--functional-color-light);
-        }`;
-            document.head.appendChild(style);
         }
     </script>
 </body>
