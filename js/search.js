@@ -126,19 +126,19 @@ async function search(input) {
         }
     }
 
-   // Sort results by alphabetical order
-   exactMatches.sort((a, b) => a.term.localeCompare(b.term));
-   partialMatches.sort((a, b) => a.term.localeCompare(b.term));
-   fuzzyMatches.sort((a, b) => a.term.localeCompare(b.term));
+    // Sort results by alphabetical order
+    exactMatches.sort((a, b) => a.term.localeCompare(b.term));
+    partialMatches.sort((a, b) => a.term.localeCompare(b.term));
+    fuzzyMatches.sort((a, b) => a.term.localeCompare(b.term));
 
-   lastInput = input;
-   lastResults = removeDuplicates(exactMatches.concat(partialMatches, fuzzyMatches), 'term');
+    lastInput = input;
+    lastResults = removeDuplicates(exactMatches.concat(partialMatches, fuzzyMatches), 'term');
 
-   if (storages.data_cache_enable_switch == 'true') {
-       dataCache.set(input, lastResults);
-   }
+    if (storages.data_cache_enable_switch == 'true') {
+        dataCache.set(input, lastResults);
+    }
 
-   return lastResults;
+    return lastResults;
 }
 
 //
@@ -161,22 +161,24 @@ function searchResult(result) {
     icons();
 }
 
-document.getElementById('search-input').addEventListener('input', async function (e) {
-    var time = Date.now();
-    let input = e.target.value;
-    let results = await search(input);
-    time = (Date.now() - time) / 1000;
-    document.getElementById('search-result-list').innerHTML = '';
-    document.getElementById('search_receipt').innerText = `${results.length} results found in ${time} seconds.`;
-    if (storages.data_cache_enable_switch == 'true') document.getElementById('search_receipt').innerText = `${results.length} results found in ${time} seconds by Power Search.`;
-    results.forEach(result => {
-        searchResult(result);
+function addLoadEvent() {
+    document.getElementById('search-input').addEventListener('input', async function (e) {
+        var time = Date.now();
+        let input = e.target.value;
+        let results = await search(input);
+        time = (Date.now() - time) / 1000;
+        document.getElementById('search-result-list').innerHTML = '';
+        document.getElementById('search_receipt').innerText = `${results.length} results found in ${time} seconds.`;
+        if (storages.data_cache_enable_switch == 'true') document.getElementById('search_receipt').innerText = `${results.length} results found in ${time} seconds by Power Search.`;
+        results.forEach(result => {
+            searchResult(result);
+        });
+        // remove the last line
+        document.getElementById('search-result-list').lastChild.classList.remove('full-width-line');
     });
-    // remove the last line
-    document.getElementById('search-result-list').lastChild.classList.remove('full-width-line');
-});
+}
 
-
+window.onload = addLoadEvent;
 
 
 var element_star_icon_full = createElementFromHTML('<icon class="icon file star_switch_icon" data-icon="star_full"></icon>');

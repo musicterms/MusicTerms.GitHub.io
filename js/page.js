@@ -3,58 +3,48 @@ var currentPage = 'page-1';
 var language = location.href.split('/')[3];
 var is_definition_or_languge = language == 'en' ? 'definition' : language || 'definition';
 
-var lists = {
-    'terms': { 'name': 'Terms', 'path': 'source/terms/source.json' },
-    'criticism': { 'name': 'Criticism', 'path': 'source/italian/criticism.json' },
-    'directions': { 'name': 'Directions', 'path': 'source/italian/directions.json' },
-    'dynamics': { 'name': 'Dynamics', 'path': 'source/italian/dynamics.json' },
-    'generalterms/words': { 'name': 'General', 'path': 'source/italian/g-terms.json' },
-    'instruments': { 'name': 'Instruments', 'path': 'source/italian/instruments.json' },
-    'moods/expressions': { 'name': 'Moods', 'path': 'source/italian/moods.json' },
-    'patterns': { 'name': 'Patterns', 'path': 'source/italian/patterns.json' },
-    'roles': { 'name': 'Roles', 'path': 'source/italian/roles.json' },
-    'staging': { 'name': 'Staging', 'path': 'source/italian/staging.json' },
-    'techniques': { 'name': 'Techniques', 'path': 'source/italian/techniques.json' },
-    'tempo': { 'name': 'Tempo', 'path': 'source/italian/tempo.json' },
-    'voices': { 'name': 'Voices', 'path': 'source/italian/voices.json' },
-    'german': { 'name': 'German', 'path': 'source/german/german.json' },
-    'french': { 'name': 'French', 'path': 'source/french/french.json' },
-    'symbolsfordynamics': { 'name': 'Symbols', 'path': 'source/terms/symbol.json' },
-    // zh-CN
-    '术语': { 'name': 'Terms', 'path': 'source/terms/source.json' },
-    '评论': { 'name': 'Criticism', 'path': 'source/italian/criticism.json' },
-    '指示': { 'name': 'Directions', 'path': 'source/italian/directions.json' },
-    '力度': { 'name': 'Dynamics', 'path': 'source/italian/dynamics.json' },
-    '常用术语/词语': { 'name': 'General', 'path': 'source/italian/g-terms.json' },
-    '乐器': { 'name': 'Instruments', 'path': 'source/italian/instruments.json' },
-    '情绪/表情': { 'name': 'Moods', 'path': 'source/italian/moods.json' },
-    '模式/形态': { 'name': 'Patterns', 'path': 'source/italian/patterns.json' },
-    '角色': { 'name': 'Roles', 'path': 'source/italian/roles.json' },
-    '指挥': { 'name': 'Staging', 'path': 'source/italian/staging.json' },
-    '技巧': { 'name': 'Techniques', 'path': 'source/italian/techniques.json' },
-    '速度': { 'name': 'Tempo', 'path': 'source/italian/tempo.json' },
-    '人声': { 'name': 'Voices', 'path': 'source/italian/voices.json' },
-    '德语': { 'name': 'German', 'path': 'source/german/german.json' },
-    '法语': { 'name': 'French', 'path': 'source/french/french.json' },
-    '力度符号': { 'name': 'Symbols', 'path': 'source/terms/symbol.json' },
-    // zh
-    '術語': { 'name': 'Terms', 'path': 'source/terms/source.json' },
-    '評論': { 'name': 'Criticism', 'path': 'source/italian/criticism.json' },
-    '指示': { 'name': 'Directions', 'path': 'source/italian/directions.json' },
-    '力度': { 'name': 'Dynamics', 'path': 'source/italian/dynamics.json' },
-    '常用術語/詞語': { 'name': 'General', 'path': 'source/italian/g-terms.json' },
-    '樂器': { 'name': 'Instruments', 'path': 'source/italian/instruments.json' },
-    '情緒/表情': { 'name': 'Moods', 'path': 'source/italian/moods.json' },
-    '模式/形態': { 'name': 'Patterns', 'path': 'source/italian/patterns.json' },
-    '角色': { 'name': 'Roles', 'path': 'source/italian/roles.json' },
-    '指揮': { 'name': 'Staging', 'path': 'source/italian/staging.json' },
-    '技巧': { 'name': 'Techniques', 'path': 'source/italian/techniques.json' },
-    '速度': { 'name': 'Tempo', 'path': 'source/italian/tempo.json' },
-    '人聲': { 'name': 'Voices', 'path': 'source/italian/voices.json' },
-    '德文': { 'name': 'German', 'path': 'source/german/german.json' },
-    '法文': { 'name': 'French', 'path': 'source/french/french.json' },
-    '力度符號': { 'name': 'Symbols', 'path': 'source/terms/symbol.json' },
+var initTermsList = function () {
+    // Initalization of the list json
+    let p = (p, f) => {
+        return `source/${p}/${f}.json`;
+    }
+    var o = {
+        'terms': { 'name': 'Terms', 'path': p('terms', 'source') },
+        'criticism': { 'name': 'Criticism', 'path': p('italian', 'criticism') },
+        'directions': { 'name': 'Directions', 'path': p('italian', 'directions') },
+        'dynamics': { 'name': 'Dynamics', 'path': p('italian', 'dynamics') },
+        'generalterms/words': { 'name': 'General', 'path': p('italian', 'g-terms') },
+        'instruments': { 'name': 'Instruments', 'path': p('italian', 'instruments') },
+        'moods/expressions': { 'name': 'Moods', 'path': p('italian', 'moods') },
+        'patterns': { 'name': 'Patterns', 'path': p('italian', 'patterns') },
+        'roles': { 'name': 'Roles', 'path': p('italian', 'roles') },
+        'staging': { 'name': 'Staging', 'path': p('italian', 'staging') },
+        'techniques': { 'name': 'Techniques', 'path': p('italian', 'techniques') },
+        'tempo': { 'name': 'Tempo', 'path': p('italian', 'tempo') },
+        'voices': { 'name': 'Voices', 'path': p('italian', 'voices') },
+        'german': { 'name': 'German', 'path': p('german', 'german') },
+        'french': { 'name': 'French', 'path': p('french', 'french') },
+        'symbolsfordynamics': { 'name': 'Symbols', 'path': p('terms', 'symbol') },
+    };
+
+    // Other languages
+    var l = new Map([
+        ['zh-CN', ['术语', '评论', '指示', '力度', '常用术语/词语', '乐器', '情绪/表情', '模式/形态', '角色', '指挥', '技巧', '速度', '人声', '德语', '法语', '力度符号']],
+        ['zh', ['術語', '評論', '指示', '力度', '常用術語/詞語', '樂器', '情緒/表情', '模式/形態', '角色', '指揮', '技巧', '速度', '人聲', '德文', '法文', '力度符號']]
+    ])
+
+    var i = Object.keys(o);
+
+    l.forEach((e) => {
+        for (let j = 0; j < i.length; j++) {
+            o[e[j]] = o[i[j]];
+        }
+    });
+
+    return o;
 }
+
+var lists = initTermsList();
 
 function addHrefHistory(page, e) {
     if (storages.locaion_save_enable_switch == 'false') return;
@@ -95,6 +85,7 @@ var toDoForPages = {
         var word = e[0].word;
         document.getElementById('word').innerText = word;
         if (shouldShowTimeNewRoman(word)) document.getElementById('word').classList.add('times-new-roman');
+        else document.getElementById('word').classList.remove('times-new-roman');
         document.getElementById('translate').innerText = e[0].translation;
         document.getElementById('definition').innerText = e[0][is_definition_or_languge];
         setFavoriteStar(word);
@@ -120,6 +111,7 @@ var toDoForPages = {
         try { translate(); } catch { }
     },
     'search': async function () {
+        try { addLoadEvent(); } catch { }
         document.getElementById('nav-text').innerText = getTranslateOf('Search');
         document.getElementById('nav-back-text').innerText = 'Folders';
         document.getElementById('nav-back').classList.remove('hidden');
@@ -145,20 +137,6 @@ var toDoForPages = {
             a();
         }
 
-        document.getElementById('search-input').addEventListener('input', async function (e) {
-            var time = Date.now();
-            let input = e.target.value;
-            let results = await search(input);
-            time = (Date.now() - time) / 1000;
-            document.getElementById('search-result-list').innerHTML = '';
-            document.getElementById('search_receipt').innerText = `${results.length} results found in ${time} seconds.`;
-            if (storages.data_cache_enable_switch == 'true') document.getElementById('search_receipt').innerText = `${results.length} results found in ${time} seconds by Power Search.`;
-            results.forEach(result => {
-                searchResult(result);
-            });
-            // remove the last line
-            document.getElementById('search-result-list').lastChild.classList.remove('full-width-line');
-        });
 
         addHrefHistory('search', e);
         if (storages.data_cache_enable_switch == 'true') {

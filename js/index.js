@@ -20,7 +20,7 @@ for (var i = 0; i < content.length; i++) {
 
 var date = document.getElementById('date');
 
-try { date.innerText = '25 Jan 2024' } catch { }
+try { date.innerText = '27 Jan 2024' } catch { }
 
 var date_online;
 try {
@@ -33,20 +33,12 @@ try {
         response.text().then(function (text) {
             date_online = text.split('\n')[0].split(' = ')[1].replace('\r', '');
             if (date_online == date.innerText) {
-                console.warn(`Version ${date.innerText} / ${date_online}.`);
+                console.log(`Version ${date.innerText} / ${date_online}.`);
                 sessionstorage.removeItem('tried_update');
                 date.innerText = `Synced`;
-                var all = document.getElementsByTagName('*');
-                for (var i = 0; i < all.length; i++) {
-                    var element = all[i];
-                    var element_href = element.getAttribute('href');
-                    if (element_href) element.setAttribute('href', element_href + '?' + Math.random());
-                    var element_src = element.getAttribute('src');
-                    if (element_src) element.setAttribute('src', element_src + '?' + Math.random());
-                }
             }
             else if (sessionstorage.tried_update == 'true') {
-                console.warn(`Version ${date.innerText} / ${date_online} error.`);
+                console.log(`Version ${date.innerText} / ${date_online} error.`);
                 date.innerText = `Sync Failed`;
                 var all = document.getElementsByTagName('*');
                 for (var i = 0; i < all.length; i++) {
@@ -68,7 +60,7 @@ try {
                 });
                 date.innerText = `Sync Failed`;
                 try { translate(); } catch { }
-                console.warn(`Version ${date.innerText} / ${date_online} available.`);
+                console.log(`Version ${date.innerText} / ${date_online} available.`);
             }
         });
     });
@@ -93,8 +85,6 @@ function updateOnlineStatus() {
 
 window.addEventListener('popstate', function (e) {
     e.preventDefault();
-    // go back
-    goBack();
 });
 
 
@@ -105,6 +95,7 @@ function isTerm(k) {
 var symbols = ['ppp', 'pp', 'p', 'mp', 'mf', 'f', 'ff', 'fff', 'sfz', 'sfp', 'sf', 'rfz', 'rf', 'fz', 'fp', 'mfp', 'mfz'];
 
 function shouldShowTimeNewRoman(k) {
+    console.log(k);
     return k == 'Symbols for Dynamics' || k == 'Symbols' || k == '力度符号' || k == '力度符號' || k == '符号' || k == '符號' || symbols.includes(k) || k == 'symbolsfordynamics';
 }
 // announce to the server of a new visit
