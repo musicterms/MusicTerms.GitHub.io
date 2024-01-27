@@ -137,7 +137,6 @@ var toDoForPages = {
             a();
         }
 
-
         addHrefHistory('search', e);
         if (storages.data_cache_enable_switch == 'true') {
             var label = document.querySelector('label.text');
@@ -383,6 +382,7 @@ if (readAllStorage().favorite_enable_switch == 'true') {
 }
 
 async function searchAll() {
+    try { addLoadEvent(); } catch { }
     var time = Date.now();
     let results = await search('');
     time = (Date.now() - time) / 1000;
