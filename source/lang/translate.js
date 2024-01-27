@@ -194,8 +194,8 @@ var languages = {
         "zh": "資料夾"
     },
     "No Favorite Items.": {
-        "zh-CN": "没有收藏的内容。",
-        "zh": "沒有收藏的內容。"
+        "zh-CN": "没有收藏的内容",
+        "zh": "沒有收藏的內容"
     },
     "Language": {
         "zh-CN": "语言",
