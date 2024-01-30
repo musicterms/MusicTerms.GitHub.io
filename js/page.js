@@ -128,9 +128,7 @@ var toDoForPages = {
                 document.getElementById('search-result-list').innerHTML = '';
                 document.getElementById('search_receipt').innerText = `${results.length} results found in ${time} seconds.`;
                 if (storages.data_cache_enable_switch == 'true') document.getElementById('search_receipt').innerText = `${results.length} results found in ${time} seconds by Power Search.`;
-                results.forEach(result => {
-                    searchResult(result);
-                });
+                processResults(results);
                 // remove the last line
                 document.getElementById('search-result-list').lastChild.classList.remove('full-width-line');
             }

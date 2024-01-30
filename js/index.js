@@ -20,7 +20,7 @@ for (var i = 0; i < content.length; i++) {
 
 var date = document.getElementById('date');
 
-try { date.innerText = '27 Jan 2024' } catch { }
+try { date.innerText = '30 Jan 2024' } catch { }
 
 var date_online;
 try {
@@ -95,7 +95,6 @@ function isTerm(k) {
 var symbols = ['ppp', 'pp', 'p', 'mp', 'mf', 'f', 'ff', 'fff', 'sfz', 'sfp', 'sf', 'rfz', 'rf', 'fz', 'fp', 'mfp', 'mfz'];
 
 function shouldShowTimeNewRoman(k) {
-    console.log(k);
     return k == 'Symbols for Dynamics' || k == 'Symbols' || k == '力度符号' || k == '力度符號' || k == '符号' || k == '符號' || symbols.includes(k) || k == 'symbolsfordynamics';
 }
 // announce to the server of a new visit

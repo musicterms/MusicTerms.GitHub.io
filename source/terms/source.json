@@ -196,9 +196,9 @@
         },
         "ad libitum (ad lib.)": {
             "name": "ad libitum (ad lib.)",
-            "definition": "At liberty (i.e. the speed and manner of execution are left to the performer. It can also mean improvisation .)",
-            "zh-CN": "自由（即表演的速度和方式由表演者决定。它也可以意味着即兴创作。）",
-            "zh": "自由（即表演的速度和方式由表演者決定。它也可以意味著即興創作。）"
+            "definition": "[At choice] At liberty (i.e. the speed and manner of execution are left to the performer. It can also mean improvisation .)",
+            "zh-CN": "【随意处理】自由（即表演的速度和方式由表演者决定。它也可以意味着即兴创作。）",
+            "zh": "【隨意處理】自由（即表演的速度和方式由表演者決定。它也可以意味著即興創作。）"
         },
         "adagietto": {
             "name": "adagietto",
@@ -947,12 +947,6 @@
             "definition": "pleasant-sounding harmony",
             "zh-CN": "听起来和谐",
             "zh": "聽起來和諧"
-        },
-        "contabile": {
-            "name": "contabile",
-            "definition": "Like singing",
-            "zh-CN": "喜欢唱歌",
-            "zh": "喜歡唱歌"
         },
         "contrabassoon": {
             "name": "contrabassoon",
@@ -2152,9 +2146,9 @@
         },
         "passionato (It.)": {
             "name": "passionato (It.)",
-            "definition": "Passionate",
-            "zh-CN": "热情的",
-            "zh": "熱情的"
+            "definition": "Passionate, with passion.",
+            "zh-CN": "热情的，激情的。",
+            "zh": "熱情的，激情的。"
         },
         "pastorale (It.)": {
             "name": "pastorale (It.)",

@@ -3,6 +3,7 @@ var path_list = lists;
 let data = {};
 let dataLoaded = false;
 let dataCache = new Map();
+let MAX_CACHE_SIZE = 100;
 
 async function preloadData() {
     // try get from local storage
@@ -104,7 +105,25 @@ async function search(input) {
                         let processedTerm = term.toLowerCase();
                         if (processedTerm === input) {
                             exactMatches.push({ term: term, e: JSON.stringify([category, data[key][category][term]]) });
-                        } else if (processedTerm.includes(input)) {
+                        }
+                    }
+                }
+            } else {
+                for (let word in data[key]) {
+                    let processedWord = word.toLowerCase();
+                    if (processedWord === input) {
+                        exactMatches.push({ term: word, e: JSON.stringify(data[key][word]) });
+                    }
+                }
+            }
+        }
+
+        for (let key in data) {
+            if (isTerm(key)) {
+                for (let category in data[key]) {
+                    for (let term in data[key][category]) {
+                        let processedTerm = term.toLowerCase();
+                        if (processedTerm.includes(input)) {
                             partialMatches.push({ term: term, e: JSON.stringify([category, data[key][category][term]]) });
                         } else if (levenshteinDistance(processedTerm, input) <= 2) {
                             fuzzyMatches.push({ term: term, e: JSON.stringify([category, data[key][category][term]]) });
@@ -114,9 +133,7 @@ async function search(input) {
             } else {
                 for (let word in data[key]) {
                     let processedWord = word.toLowerCase();
-                    if (processedWord === input) {
-                        exactMatches.push({ term: word, e: JSON.stringify(data[key][word]) });
-                    } else if (processedWord.includes(input)) {
+                    if (processedWord.includes(input)) {
                         partialMatches.push({ term: word, e: JSON.stringify(data[key][word]) });
                     } else if (levenshteinDistance(processedWord, input) <= 2) {
                         fuzzyMatches.push({ term: word, e: JSON.stringify(data[key][word]) });
@@ -135,6 +152,11 @@ async function search(input) {
     lastResults = removeDuplicates(exactMatches.concat(partialMatches, fuzzyMatches), 'term');
 
     if (storages.data_cache_enable_switch == 'true') {
+        if (dataCache.size >= MAX_CACHE_SIZE) {
+            const oldestKey = dataCache.keys().next().value;
+            dataCache.delete(oldestKey);
+        }
+
         dataCache.set(input, lastResults);
     }
 
@@ -161,6 +183,25 @@ function searchResult(result) {
     icons();
 }
 
+function processResults(results) {
+    let i = 0;
+
+    function processBatch() {
+        const start = Date.now();
+
+        while (i < results.length && Date.now() - start < 20) {
+            searchResult(results[i]);
+            i++;
+        }
+
+        if (i < results.length) {
+            requestAnimationFrame(processBatch);
+        }
+    }
+
+    processBatch();
+}
+
 function addLoadEvent() {
     document.getElementById('search-input').addEventListener('input', async function (e) {
         var time = Date.now();
@@ -170,15 +211,31 @@ function addLoadEvent() {
         document.getElementById('search-result-list').innerHTML = '';
         document.getElementById('search_receipt').innerText = `${results.length} results found in ${time} seconds.`;
         if (storages.data_cache_enable_switch == 'true') document.getElementById('search_receipt').innerText = `${results.length} results found in ${time} seconds by Power Search.`;
-        results.forEach(result => {
-            searchResult(result);
-        });
+        processResults(results);
         // remove the last line
         document.getElementById('search-result-list').lastChild.classList.remove('full-width-line');
     });
 }
 
-window.onload = addLoadEvent;
+window.onload = function () {
+    document.getElementById('search-input').addEventListener('input', async function (e) {
+        var time = Date.now();
+        let input = e.target.value;
+
+        if (!dataLoaded || input !== lastInput) {
+            await preloadData();
+        }
+
+        let results = await search(input);
+        time = (Date.now() - time) / 1000;
+        document.getElementById('search-result-list').innerHTML = '';
+        document.getElementById('search_receipt').innerText = `${results.length} results found in ${time} seconds.`;
+        if (storages.data_cache_enable_switch == 'true') document.getElementById('search_receipt').innerText = `${results.length} results found in ${time} seconds by Power Search.`;
+        processResults(results);
+        // remove the last line
+        document.getElementById('search-result-list').lastChild.classList.remove('full-width-line');
+    });
+};
 
 
 var element_star_icon_full = createElementFromHTML('<icon class="icon file star_switch_icon" data-icon="star_full"></icon>');
