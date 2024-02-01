@@ -69,7 +69,7 @@
         "zh-CN": "用布静音鼓声",
         "zh": "用布靜音鼓聲"
     },
-    "Una corda": {
+    "Una corda (U.C.)": {
         "word": "Una corda",
         "translation": "one string, cord",
         "definition": "On a piano, played with the soft pedal depressed",
@@ -83,7 +83,7 @@
         "zh-CN": "在钢琴上，半放开 / 半踩下柔音踏板进行演奏（两条弦）",
         "zh": "在鋼琴上，半放開 / 半踩下柔音踏板進行演奏（兩條弦）"
     },
-    "Tre corde or tutte le corde": {
+    "Tre corde / tutte le corde (T.C.)": {
         "word": "Tre corde or tutte le corde",
         "translation": "three strings or all the strings",
         "definition": "Cancels una corda",

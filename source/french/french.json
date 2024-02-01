@@ -135,16 +135,23 @@
     "retenu": {
         "word": "retenu",
         "translation": "Italian: ritenuto",
-        "definition": "held back:  an indication to temporarily decrease the tempo or overall expressiveness of a song for dramatic effect",
-        "zh-CN": "保留：暂时降低歌曲的速度或整体表现力以达到戏剧效果的指示",
-        "zh": "保留：暫時降低歌曲的速度或整體表現力以達到戲劇效果的指示"
+        "definition": "held Back。",
+        "zh-CN": "突慢",
+        "zh": "突慢"
     },
-    "sans": {
-        "word": "sans",
+    "Sans": {
+        "word": "Sans",
         "translation": "Italian: senza",
         "definition": "without",
         "zh-CN": "没有",
         "zh": "沒有"
+    },
+    "Sans sourdines": {
+        "word": "Sans sourdines",
+        "translation": "",
+        "definition": "without mutes",
+        "zh-CN": "除去弱音器",
+        "zh": "除去弱音器"
     },
     "très": {
         "word": "très",

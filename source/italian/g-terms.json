@@ -314,6 +314,27 @@
         "zh-CN": "简短的连接乐器的乐章。",
         "zh": "簡短的連接樂器的樂章。"
     },
+    "Sul D": {
+        "word": "Sul D",
+        "translation": "on D",
+        "definition": "On the D String.",
+        "zh-CN": "在 D 弦上。",
+        "zh": "在 D 弦上。"
+    },
+    "Troppo": {
+        "word": "Troppo",
+        "translation": "too much",
+        "definition": "Too much.",
+        "zh-CN": "太多。",
+        "zh": "太多。"
+    },
+    "Sul G": {
+        "word": "Sul G",
+        "translation": "on G",
+        "definition": "On the G String.",
+        "zh-CN": "在 G 弦上。",
+        "zh": "在 G 弦上。"
+    },
     "Libretto": {
         "word": "Libretto",
         "translation": "little book",
@@ -418,6 +439,27 @@
         "definition": "A composition for one or two instruments in sonata form.",
         "zh-CN": "为一到两种乐器创作的奏鸣曲。",
         "zh": "為一到兩種樂器創作的奏鳴曲。"
+    },
+    "Mano": {
+        "word": "Mano",
+        "translation": "hand",
+        "definition": "Hand.",
+        "zh-CN": "手。",
+        "zh": "手。"
+    },
+    "Mano destra": {
+        "word": "Mano destra",
+        "translation": "right hand",
+        "definition": "Right hand.",
+        "zh-CN": "右手。",
+        "zh": "右手。"
+    },
+    "Mano sinistra": {
+        "word": "Mano sinistra",
+        "translation": "left hand",
+        "definition": "Left hand.",
+        "zh-CN": "左手。",
+        "zh": "左手。"
     },
     "Come prima": {
         "word": "Come prima",

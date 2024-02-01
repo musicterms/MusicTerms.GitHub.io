@@ -1701,8 +1701,8 @@
         "leggiero": {
             "name": "leggiero",
             "definition": "Light",
-            "zh-CN": "光",
-            "zh": "光"
+            "zh-CN": "轻巧",
+            "zh": "輕巧"
         },
         "libretto": {
             "name": "libretto",
@@ -1862,17 +1862,11 @@
             "zh-CN": "半声",
             "zh": "半聲"
         },
-        "mezzo (It.)": {
-            "name": "mezzo (It.)",
-            "definition": "Half",
-            "zh-CN": "一半",
-            "zh": "一半"
-        },
-        "mezzo": {
-            "name": "mezzo",
-            "definition": "the female singing voice between soprano and contralto",
-            "zh-CN": "女高音和女低音之间的女声",
-            "zh": "女高音和女低音之間的女聲"
+        "Mezzo": {
+            "name": "Mezzo",
+            "definition": "Half (moderately)",
+            "zh-CN": "一半（适中）",
+            "zh": "一半（適中）"
         },
         "mezzo-soprano": {
             "name": "mezzo-soprano",

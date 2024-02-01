@@ -220,8 +220,8 @@
         "word": "Morendo",
         "translation": "dying",
         "definition": "Dying away.",
-        "zh-CN": "消逝。",
-        "zh": "消逝。"
+        "zh-CN": "逐渐消失。",
+        "zh": "逐漸消失。"
     },
     "Pesante": {
         "word": "Pesante",
@@ -229,6 +229,13 @@
         "definition": "Heavy, slowly, weightily.",
         "zh-CN": "沉重、缓慢、沉重。",
         "zh": "沈重、緩慢、沈重。"
+    },
+    "Tristamente": {
+        "word": "Tristamente",
+        "translation": "sadly",
+        "definition": "Sadly.",
+        "zh-CN": "悲伤地。",
+        "zh": "悲傷地。"
     },
     "Risoluto": {
         "word": "Risoluto",
