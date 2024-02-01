@@ -42,10 +42,18 @@ try {
         response.text().then(function (text) {
             date_online = text.split('\n')[0].split(' = ')[1].replace('\r', '');
             try {
+                if (localStorage.version != date_online) {
+                    date.innerText = `Syncing...`;
+                    localStorage.removeItem('data');
+                    localStorage.removeItem('version');
+                    sessionstorage.removeItem('tried_update');
+                    location.reload();
+                }
                 if (date_online == date.innerText) {
                     console.log(`Version ${date.innerText} / ${date_online}.`);
                     sessionstorage.removeItem('tried_update');
                     date.innerText = `Synced`;
+                    localStorage.setItem('version', date_online);
                 }
                 else if (sessionstorage.tried_update == 'true') {
                     console.log(`Version ${date.innerText} / ${date_online} error.`);
