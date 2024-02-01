@@ -47,8 +47,9 @@ var initTermsList = function () {
 var lists = initTermsList();
 
 function addHrefHistory(page, e) {
-    if (storages.locaion_save_enable_switch == 'false') return;
-    window.history.pushState({}, 'Title', '?page=' + page + '&e=' + e);
+    // if (storages.locaion_save_enable_switch == 'false') return;
+    // window.history.pushState({}, 'Title', '?page=' + page + '&e=' + e);
+    return;
 }
 
 var toDoForPages = {
@@ -63,6 +64,7 @@ var toDoForPages = {
     'page-list-of-words': function (e) {
         document.getElementById('nav-back-text').innerText = 'Folders';
         document.getElementById('nav-back').classList.remove('hidden');
+        document.getElementById('list-of-words-content').style.opacity = '0';
         try {
             addHrefHistory('page-list-of-words', e);
             document.getElementById('nav-text').innerText = getTranslateOf(lists[e].name);
@@ -136,7 +138,7 @@ var toDoForPages = {
         }
 
         addHrefHistory('search', e);
-        if (storages.data_cache_enable_switch == 'true') {
+        if (storages.data_experiment_enable_switch == 'true') {
             var label = document.querySelector('label.text');
             if (label.lastChild.tagName != 'BUTTON') {
                 label.innerHTML += `<button class="fit" onclick="location.href='/app/ocr.html'">
@@ -207,6 +209,7 @@ loadLangWords = function (json, times_new_roman = false) {
         icons();
     }
     document.getElementById('outer-list').lastChild.classList.remove('full-width-line');
+    document.getElementById('list-of-words-content').style.opacity = '1';
 }
 
 loadTerms = function (json) {
@@ -234,6 +237,7 @@ loadTerms = function (json) {
         div_set.lastChild.classList.remove('full-width-line');
         content.appendChild(div_set);
         icons();
+        document.getElementById('list-of-words-content').style.opacity = '1';
     }
 
 }
@@ -283,13 +287,20 @@ function changePage(page, e, back = false) {
     if (back) {
         pageElement.style.zIndex = '1';
         currentPageElement.style.zIndex = '2';
-        currentPageElement.style.animation = 'page-leave 0.33s';
-        pageElement.style.animation = 'page-appears 0.33s';
+        currentPageElement.style.animation = 'page-leave 0.32s';
+        pageElement.style.animation = 'page-appears 0.32s';
+        currentPageElement.style.transform = 'translateX(100%)';
+        pageElement.style.opacity = '1';
+        pageElement.style.transform = 'scale(1)';
     } else {
-        currentPageElement.style.animation = 'page-left 0.28s';
-        pageElement.style.animation = 'page-enter 0.33s';
+        currentPageElement.style.animation = 'page-left 0.27s';
+        pageElement.style.animation = 'page-enter 0.32s';
         currentPageElement.style.zIndex = '1';
         pageElement.style.zIndex = '2';
+        currentPageElement.style.transform = 'translateX(-100%)';
+        pageElement.style.opacity = '1';
+        pageElement.style.transform = 'scale(1)';
+
     }
     setTimeout(function () {
         currentPageElement.style.zIndex = '1';

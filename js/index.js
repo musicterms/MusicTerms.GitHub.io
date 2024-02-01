@@ -3,24 +3,33 @@ if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('/service-worker.js')
 }
 
+try {
+    let version = 'Version 1.1.0';
+    document.getElementById('ver').innerHTML = version;
+} catch {}
+
 // set theme color as navbar background color
-var nav_bar_color = getComputedStyle(document.documentElement).getPropertyValue('--nav-color');
-var meta = document.createElement('meta');
-meta.setAttribute('name', 'theme-color');
-meta.setAttribute('content', nav_bar_color);
-document.head.appendChild(meta);
+try {
+    var nav_bar_color = getComputedStyle(document.documentElement).getPropertyValue('--nav-color');
+    var meta = document.createElement('meta');
+    meta.setAttribute('name', 'theme-color');
+    meta.setAttribute('content', nav_bar_color);
+    document.head.appendChild(meta);
+} catch { }
 
 // get the height of the navbar and set it as the margin-top of the contents
-var nav_bar = document.getElementsByTagName('nav')[0];
-var nav_bar_height = nav_bar.offsetHeight;
-var content = document.getElementsByClassName('content');
-for (var i = 0; i < content.length; i++) {
-    content[i].style.marginTop = nav_bar_height + 25 + 'px';
-}
+try {
+    var nav_bar = document.getElementsByTagName('nav')[0];
+    var nav_bar_height = nav_bar.offsetHeight;
+    var content = document.getElementsByClassName('content');
+    for (var i = 0; i < content.length; i++) {
+        content[i].style.marginTop = nav_bar_height + 25 + 'px';
+    }
+} catch { }
 
 var date = document.getElementById('date');
 
-try { date.innerText = '30 Jan 2024' } catch { }
+try { date.innerText = '1 Feb 2024' } catch { }
 
 var date_online;
 try {
@@ -32,36 +41,39 @@ try {
     version_file.then(function (response) {
         response.text().then(function (text) {
             date_online = text.split('\n')[0].split(' = ')[1].replace('\r', '');
-            if (date_online == date.innerText) {
-                console.log(`Version ${date.innerText} / ${date_online}.`);
-                sessionstorage.removeItem('tried_update');
-                date.innerText = `Synced`;
-            }
-            else if (sessionstorage.tried_update == 'true') {
-                console.log(`Version ${date.innerText} / ${date_online} error.`);
-                date.innerText = `Sync Failed`;
-                var all = document.getElementsByTagName('*');
-                for (var i = 0; i < all.length; i++) {
-                    var element = all[i];
-                    var element_href = element.getAttribute('href');
-                    if (element_href) element.setAttribute('href', element_href + '?' + Math.random());
-                    var element_src = element.getAttribute('src');
-                    if (element_src) element.setAttribute('src', element_src + '?' + Math.random());
-                }
-                caches.delete('musicterms');
-            }
-            else {
-                confirm(`You are not synchronized`, `Sync now?`, function () {
-                    localStorage.removeItem('data');
-                    localStorage.removeItem('version');
+            try {
+                if (date_online == date.innerText) {
+                    console.log(`Version ${date.innerText} / ${date_online}.`);
                     sessionstorage.removeItem('tried_update');
-                    location.reload();
-                    sessionstorage.setItem('tried_update', 'true');
-                });
-                date.innerText = `Sync Failed`;
-                try { translate(); } catch { }
-                console.log(`Version ${date.innerText} / ${date_online} available.`);
-            }
+                    date.innerText = `Synced`;
+                }
+                else if (sessionstorage.tried_update == 'true') {
+                    console.log(`Version ${date.innerText} / ${date_online} error.`);
+                    date.innerText = `Sync Failed`;
+                    var all = document.getElementsByTagName('*');
+                    for (var i = 0; i < all.length; i++) {
+                        var element = all[i];
+                        var element_href = element.getAttribute('href');
+                        if (element_href) element.setAttribute('href', element_href + '?' + Math.random());
+                        var element_src = element.getAttribute('src');
+                        if (element_src) element.setAttribute('src', element_src + '?' + Math.random());
+                    }
+                    caches.delete('musicterms');
+                }
+
+                else {
+                    confirm(`You are not synchronized`, `Sync now?`, function () {
+                        localStorage.removeItem('data');
+                        localStorage.removeItem('version');
+                        sessionstorage.removeItem('tried_update');
+                        location.reload();
+                        sessionstorage.setItem('tried_update', 'true');
+                    });
+                    date.innerText = `Sync Failed`;
+                    try { translate(); } catch { }
+                    console.log(`Version ${date.innerText} / ${date_online} available.`);
+                }
+            } catch { }
         });
     });
 } catch { }
@@ -156,22 +168,24 @@ function createElementFromHTML(htmlString) {
 }
 
 function addFavoriteSwitch() {
-    document.getElementById('favorite_enable_switch').addEventListener('click', function (e) {
-        if (readAllStorage().favorite_enable_switch == 'true') {
-            writeStorage('favorite_enable_switch', 'true');
-            document.getElementsByClassName('star_switch_icon')[0].replaceWith(createElementFromHTML('<icon class="icon file star_switch_icon" data-icon="star_full"></icon>'))
-            document.getElementById('favorite_tip').classList.add('hidden_tip_settings');
-            document.getElementById('fav_fol').classList.remove('hidden_zone');
-            e.target.parentElement.classList.remove('line');
-        } else {
-            writeStorage('favorite_enable_switch', 'false');
-            document.getElementsByClassName('star_switch_icon')[0].replaceWith(createElementFromHTML('<icon class="icon file star_switch_icon" data-icon="star_empty"></icon>'))
-            e.target.parentElement.classList.add('line');
-            document.getElementById('favorite_tip').classList.remove('hidden_tip_settings');
-            document.getElementById('fav_fol').classList.add('hidden_zone');
-        }
-        icons();
-    });
+    try {
+        document.getElementById('favorite_enable_switch').addEventListener('click', function (e) {
+            if (readAllStorage().favorite_enable_switch == 'true') {
+                writeStorage('favorite_enable_switch', 'true');
+                document.getElementsByClassName('star_switch_icon')[0].replaceWith(createElementFromHTML('<icon class="icon file star_switch_icon" data-icon="star_full"></icon>'))
+                document.getElementById('favorite_tip').classList.add('hidden_tip_settings');
+                document.getElementById('fav_fol').classList.remove('hidden_zone');
+                e.target.parentElement.classList.remove('line');
+            } else {
+                writeStorage('favorite_enable_switch', 'false');
+                document.getElementsByClassName('star_switch_icon')[0].replaceWith(createElementFromHTML('<icon class="icon file star_switch_icon" data-icon="star_empty"></icon>'))
+                e.target.parentElement.classList.add('line');
+                document.getElementById('favorite_tip').classList.remove('hidden_tip_settings');
+                document.getElementById('fav_fol').classList.add('hidden_zone');
+            }
+            icons();
+        });
+    } catch { }
 }
 
 function tryDelCookies() {

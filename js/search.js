@@ -193,16 +193,13 @@ function processResults(results) {
             searchResult(results[i]);
             i++;
         }
-
-        if (i < results.length) {
-            requestAnimationFrame(processBatch);
-        }
     }
 
     processBatch();
 }
 
 function addLoadEvent() {
+    document.getElementById('search-result-list').innerHTML = '';
     document.getElementById('search-input').addEventListener('input', async function (e) {
         var time = Date.now();
         let input = e.target.value;
@@ -215,6 +212,9 @@ function addLoadEvent() {
         // remove the last line
         document.getElementById('search-result-list').lastChild.classList.remove('full-width-line');
     });
+    if (document.getElementById('search-input').value != '') {
+        document.getElementById('search-input').dispatchEvent(new Event('input'));
+    }
 }
 
 window.onload = function () {

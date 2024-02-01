@@ -1,4 +1,4 @@
-var CACHE_NAME = 'musicterms-v1';
+var CACHE_NAME = 'musicterms';
 var urlsToCache = [
     '/',
     '/app/',
@@ -24,6 +24,7 @@ var urlsToCache = [
     '/icons/docs.svg',
     '/icons/download.svg',
     '/icons/expand.svg',
+    '/icons/experiment.svg',
     '/icons/expand_all.svg',
     '/icons/fingerprint.svg',
     '/icons/folder.svg',
@@ -116,6 +117,7 @@ var urlsToCache = [
     '/favicon.png',
     '/icons-192.png',
     '/img/desktop.png',
+    '/fallback.html',
 ];
 
 self.addEventListener('install', function (event) {

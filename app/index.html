@@ -106,6 +106,10 @@
         document.head.appendChild(meta);
     </script>
     <script>
+        if (window.localStorage.data_cache_enable_switch == void 0) window.localStorage.data_cache_enable_switch = 'true';
+        if (window.localStorage.icon_cache_enable_switch == void 0) window.localStorage.icon_cache_enable_switch = 'true';
+    </script>
+    <script>
         var sessionstorage = window.sessionStorage;
         // if does not contain 'session_id'
         if (sessionstorage.getItem('session_id') == null) {

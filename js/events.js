@@ -46,4 +46,3 @@ for (let i = 0; i < favorite_stars.length; i++) {
         writeStorage('favorites', JSON.stringify(favorites));
     });
 }
-

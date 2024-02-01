@@ -125,9 +125,9 @@ var languages = {
         "zh-CN": "启用高级搜索",
         "zh": "啟用高级搜尋"
     },
-    "Enable Save of Location": {
-        "zh-CN": "启用浏览位置保存",
-        "zh": "啟用瀏覽位置儲存"
+    "Use experimental funcitons": {
+        "zh-CN": "使用实验性功能",
+        "zh": "使用實驗性功能"
     },
     "Enable Favorite": {
         "zh-CN": "启用收藏",
@@ -261,6 +261,8 @@ var languages = {
 
 // get all elements and replace their text to the corresponding language
 function translate() {
+    // if language is en, return the key
+    if (language == 'en') return;
     var allElements = document.getElementsByTagName('*');
     for (let i = 0; i < allElements.length; i++) {
         if (allElements[i].tagName == 'SCRIPT' || allElements[i].tagName == 'STYLE' || allElements[i].tagName == 'NAV') continue;

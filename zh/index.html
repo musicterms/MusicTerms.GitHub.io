@@ -237,10 +237,10 @@
                     <span class="switch settings" id="data_cache_enable_switch"
                         onclick="writeStorage(this.id,!this.classList.contains('checked'))"></span>
                 </span>
-                <span class="folder lane">
-                    <icon data-icon="compass" class="icon file"></icon>
-                    Enable Save of Location
-                    <span class="switch settings" id="locaion_save_enable_switch"
+                <span class="folder lane color-red">
+                    <icon data-icon="experiment" class="icon file"></icon>
+                    Use experimental funcitons
+                    <span class="switch settings" id="data_experiment_enable_switch"
                         onclick="writeStorage(this.id,!this.classList.contains('checked'))"></span>
                 </span>
             </div>
@@ -276,7 +276,7 @@
             <div class="set">
                 <span class="folder lane">
                     <icon data-icon="info" class="icon file"></icon>
-                    <span>Version 1.0.1</span>
+                    <span id="ver">Version 1.0.1</span>
                     <span class="icon file s" id="date"></span>
                 </span>
                 <span class="folder lane">
