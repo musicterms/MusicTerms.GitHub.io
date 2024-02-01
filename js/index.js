@@ -47,7 +47,6 @@ try {
                     localStorage.removeItem('data');
                     localStorage.removeItem('version');
                     sessionstorage.removeItem('tried_update');
-                    location.reload();
                 }
                 if (date_online == date.innerText) {
                     console.log(`Version ${date.innerText} / ${date_online}.`);
