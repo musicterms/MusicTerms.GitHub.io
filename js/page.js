@@ -72,6 +72,7 @@ var toDoForPages = {
             fetch('/' + lists[e].path).then(function (response) {
                 return response.json();
             }).then(function (json) {
+                console.log('a')
                 if (isTerm(e)) loadTerms(json);
                 else if (shouldShowTimeNewRoman(e)) loadLangWords(json, true);
                 else loadLangWords(json);
@@ -311,6 +312,7 @@ function changePage(page, e, back = false) {
         pageElement.style.animation = '';
         currentPageElement.style.animation = '';
         document.documentElement.scrollTop = sessionStorage[`${page}-scroll`] || 0;
+        document.getElementById('list-of-words-content').style.opacity = '1';
     }, 300);
     pageHistory.push(page);
     currentPage = page;
