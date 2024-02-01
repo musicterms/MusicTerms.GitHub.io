@@ -72,7 +72,6 @@ var toDoForPages = {
             fetch('/' + lists[e].path).then(function (response) {
                 return response.json();
             }).then(function (json) {
-                console.log('a')
                 if (isTerm(e)) loadTerms(json);
                 else if (shouldShowTimeNewRoman(e)) loadLangWords(json, true);
                 else loadLangWords(json);
@@ -164,7 +163,6 @@ var toDoForPages = {
         }
         var favorites = JSON.parse(storages.favorites);
         var keys = Object.keys(favorites);
-        console.log(favorites);
         content.innerHTML = '';
         var div = document.createElement('div');
         div.setAttribute('class', 'set');
