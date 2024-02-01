@@ -43,7 +43,6 @@ try {
             date_online = text.split('\n')[0].split(' = ')[1].replace('\r', '');
             try {
                 if (localStorage.version != date_online) {
-                    date.innerText = `Syncing...`;
                     localStorage.removeItem('data');
                     localStorage.removeItem('version');
                     sessionstorage.removeItem('tried_update');
