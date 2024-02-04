@@ -4,7 +4,7 @@ if ('serviceWorker' in navigator) {
 }
 
 try {
-    let version = 'Version 1.1.0';
+    let version = 'Version 1.2.0';
     document.getElementById('ver').innerHTML = version;
 } catch { }
 
@@ -103,6 +103,7 @@ function updateOnlineStatus() {
 
 window.addEventListener('popstate', function (e) {
     e.preventDefault();
+    window.history.forward();
 });
 
 
@@ -214,20 +215,20 @@ function setStyle(e) {
         s.href = '/css/new.css';
         document.head.appendChild(s);
 
-        // remove all meta theme-colors
-        var metas = document.getElementsByTagName('meta');
-        for (var i = 0; i < metas.length; i++) {
-            if (metas[i].getAttribute('name') == 'theme-color') {
-                metas[i].remove();
-            }
-        }
-
         // get all stylesheets
         var links = document.getElementsByTagName('link');
         // del style.css
         for (var i = 0; i < links.length; i++) {
             if (links[i].href.includes('style.css')) {
                 links[i].remove();
+            }
+        }
+
+        // remove all meta theme-colors
+        var metas = document.getElementsByTagName('meta');
+        for (var i = 0; i < metas.length; i++) {
+            if (metas[i].getAttribute('name') == 'theme-color') {
+                metas[i].remove();
             }
         }
 
@@ -263,6 +264,20 @@ function setStyle(e) {
                     links[i].remove();
                 }
             }
+
+            // remove all meta theme-colors
+            var metas = document.getElementsByTagName('meta');
+            for (var i = 0; i < metas.length; i++) {
+                if (metas[i].getAttribute('name') == 'theme-color') {
+                    metas[i].remove();
+                }
+            }
+
+            var nav_bar_color = getComputedStyle(document.documentElement).getPropertyValue('--nav-color');
+            var meta = document.createElement('meta');
+            meta.setAttribute('name', 'theme-color');
+            meta.setAttribute('content', nav_bar_color);
+            document.head.appendChild(meta);
         }
     }
 }
