@@ -199,6 +199,7 @@ img.logo {
     background-size: auto calc(1.25 * 2.04 * 150vh);
     filter: blur(17px) brightness(.99);
     -webkit-filter: blur(17px) brightness(.99);
+    transform: translateZ(0);
     opacity: 0;
 
     p {
@@ -209,6 +210,7 @@ img.logo {
         backdrop-filter: blur(10px);
         -webkit-backdrop-filter: blur(10px);
         box-shadow: 0 2px 10px var(--shadow-color);
+        transform: translateZ(0);
     }
 }
 

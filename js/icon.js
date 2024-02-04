@@ -9,14 +9,16 @@ async function icons() {
     var icon = icon_holders[0].getAttribute('data-icon');
     var icon_element = icon_holders[0];
     var icon_parent = icon_element.parentElement;
+    var svgUrl = `/icons/${icon}.svg`;
     if (loaded_icons[icon] == void 0) {
-        await fetch(`/icons/${icon}.svg`)
+        await fetch(svgUrl)
             .then(response => response.text())
             .then(svg => {
                 var span = document.createElement('span');
                 span.innerHTML = svg;
                 var icon_class = icon_element.getAttribute('class');
                 span.setAttribute('class', icon_class);
+                span.setAttribute('style', '--mask-i: url(' + svgUrl + ')');
                 try { icon_parent.replaceChild(span, icon_element); } catch { }
                 icons();
                 loaded_icons[icon] = svg;
@@ -27,6 +29,7 @@ async function icons() {
         span.innerHTML = loaded_icons[icon];
         var icon_class = icon_element.getAttribute('class');
         span.setAttribute('class', icon_class);
+        span.setAttribute('style', '--mask-i: url(' + svgUrl + ')');
         try { icon_parent.replaceChild(span, icon_element); } catch { }
         icons();
     }

@@ -6,7 +6,7 @@ if ('serviceWorker' in navigator) {
 try {
     let version = 'Version 1.1.0';
     document.getElementById('ver').innerHTML = version;
-} catch {}
+} catch { }
 
 // set theme color as navbar background color
 try {
@@ -29,7 +29,7 @@ try {
 
 var date = document.getElementById('date');
 
-try { date.innerText = '1 Feb 2024' } catch { }
+try { date.innerText = '4 Feb 2024' } catch { }
 
 var date_online;
 try {
@@ -163,6 +163,8 @@ function turnSwitches() {
         });
     }
     addFavoriteSwitch();
+    addNewLookSwitch();
+    setStyle(storages.new_look_enable_switch == 'true');
 }
 
 turnSwitches();
@@ -192,6 +194,77 @@ function addFavoriteSwitch() {
             icons();
         });
     } catch { }
+}
+
+function addNewLookSwitch() {
+    document.getElementById('new_look_enable_switch').addEventListener('click', function (e) {
+        setStyle(e.target.classList.contains('checked'));
+    });
+}
+
+function setStyle(e) {
+    var stylesheet = document.styleSheets[0];
+    if (e) {
+        var rules = stylesheet.cssRules;
+        for (var i = 0; i < rules.length; i++) {
+            stylesheet.deleteRule(i);
+        }
+        var s = document.createElement('link');
+        s.rel = 'stylesheet';
+        s.href = '/css/new.css';
+        document.head.appendChild(s);
+
+        // remove all meta theme-colors
+        var metas = document.getElementsByTagName('meta');
+        for (var i = 0; i < metas.length; i++) {
+            if (metas[i].getAttribute('name') == 'theme-color') {
+                metas[i].remove();
+            }
+        }
+
+        // get all stylesheets
+        var links = document.getElementsByTagName('link');
+        // del style.css
+        for (var i = 0; i < links.length; i++) {
+            if (links[i].href.includes('style.css')) {
+                links[i].remove();
+            }
+        }
+
+        var meta = document.createElement('meta');
+        meta.setAttribute('name', 'theme-color');
+        meta.setAttribute('content', '#568399');
+        document.head.appendChild(meta);
+
+    } else {
+        var links = document.getElementsByTagName('link');
+        var isNewStyle = false;
+        for (var i = 0; i < links.length; i++) {
+            if (links[i].href.includes('new.css')) {
+                isNewStyle = true;
+            }
+        }
+        if (isNewStyle) {
+            console.log(meta);
+            var rules = stylesheet.cssRules;
+            for (var i = 0; i < rules.length; i++) {
+                stylesheet.deleteRule(i);
+            }
+            var s = document.createElement('link');
+            s.rel = 'stylesheet';
+            s.href = '/style.css';
+            document.head.appendChild(s);
+
+            // get all stylesheets
+            var links = document.getElementsByTagName('link');
+            // del style.css
+            for (var i = 0; i < links.length; i++) {
+                if (links[i].href.includes('new.css')) {
+                    links[i].remove();
+                }
+            }
+        }
+    }
 }
 
 function tryDelCookies() {

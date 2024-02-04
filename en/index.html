@@ -18,6 +18,7 @@
         content="Looking for an awesome music terms library app? AlphaBrate Music Terminology Library is the best choice. Hosted on GitHub Pages, we have no operating costs that we won't let ads appear on our websites! Enjoy an elegant and simple surf experience with innovative design now! Available on https://musicterms.github.io">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="mobile-web-app-capable" content="yes">
     <link rel="manifest" href="/manifest.json">
     <link rel="icon" href="/favicon.png" type="image/png">
@@ -237,10 +238,19 @@
                     <span class="switch settings" id="data_cache_enable_switch"
                         onclick="writeStorage(this.id,!this.classList.contains('checked'))"></span>
                 </span>
+            </div>
+            <font class="small-title">Experimental Functions</font>
+            <div class="set">
                 <span class="folder lane color-red">
                     <icon data-icon="experiment" class="icon file"></icon>
                     Experimental funcitons
                     <span class="switch settings" id="data_experiment_enable_switch"
+                        onclick="writeStorage(this.id,!this.classList.contains('checked'))"></span>
+                </span>
+                <span class="folder lane color-red">
+                    <icon data-icon="lens_blur" class="icon file"></icon>
+                    Enable New Look
+                    <span class="switch settings" id="new_look_enable_switch"
                         onclick="writeStorage(this.id,!this.classList.contains('checked'))"></span>
                 </span>
             </div>
@@ -273,6 +283,7 @@
                     <icon data-icon="forward" class="icon more"></icon>
                 </span>
             </div>
+            <font class="small-title">About</font>
             <div class="set">
                 <span class="folder lane">
                     <icon data-icon="info" class="icon file"></icon>

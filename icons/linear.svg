@@ -1,0 +1,9 @@
+<svg viewBox="0 0 110 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="iconUSER" x1="-6.5" y1="-24" x2="96" y2="42" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#D9E73F"/>
+            <stop offset="0.627592" stop-color="#FF0000"/>
+            <stop offset="1" stop-color="#FF007A"/>
+        </linearGradient>
+    </defs>
+</svg>
