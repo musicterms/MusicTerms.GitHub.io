@@ -7,6 +7,7 @@ document.addEventListener('doubleclick', function (e) {
 var allElements = document.getElementsByTagName('*');
 for (let i = 0; i < allElements.length; i++) {
     allElements[i].addEventListener('click', function (e) {
+        if (e.target.tagName == 'INPUT' || e.target.tagName == 'A') return;
         e.preventDefault();
     });
 }

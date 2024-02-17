@@ -29,60 +29,65 @@ try {
 
 var date = document.getElementById('date');
 
-try { date.innerText = '4 Feb 2024' } catch { }
-
-var date_online;
-try {
-    var version_file = fetch('https://raw.githubusercontent.com/musicterms/musicterms.github.io/main/VERSION?' + Math.random(),
-        {
-            method: 'GET',
-            mode: 'cors',
-        });
-    version_file.then(function (response) {
-        response.text().then(function (text) {
-            date_online = text.split('\n')[0].split(' = ')[1].replace('\r', '');
-            try {
-                if (localStorage.version != date_online) {
-                    localStorage.removeItem('data');
-                    localStorage.removeItem('version');
-                    sessionstorage.removeItem('tried_update');
-                }
-                if (date_online == date.innerText) {
-                    console.log(`Version ${date.innerText} / ${date_online}.`);
-                    sessionstorage.removeItem('tried_update');
-                    date.innerText = `Synced`;
-                    localStorage.setItem('version', date_online);
-                }
-                else if (sessionstorage.tried_update == 'true') {
-                    console.log(`Version ${date.innerText} / ${date_online} error.`);
-                    date.innerText = `Sync Failed`;
-                    var all = document.getElementsByTagName('*');
-                    for (var i = 0; i < all.length; i++) {
-                        var element = all[i];
-                        var element_href = element.getAttribute('href');
-                        if (element_href) element.setAttribute('href', element_href + '?' + Math.random());
-                        var element_src = element.getAttribute('src');
-                        if (element_src) element.setAttribute('src', element_src + '?' + Math.random());
-                    }
-                    caches.delete('musicterms');
-                }
-
-                else {
-                    confirm(`You are not synchronized`, `Sync now?`, function () {
+function syncDate() {
+    try { date.innerText = '17 Feb 2024' } catch { }
+    var date_online;
+    try {
+        var version_file = fetch('https://raw.githubusercontent.com/musicterms/musicterms.github.io/main/VERSION?' + Math.random(),
+            {
+                method: 'GET',
+                mode: 'cors',
+            });
+        version_file.then(function (response) {
+            response.text().then(function (text) {
+                try { date_online = text.split('\n')[0].split(' = ')[1].replace('\r', ''); } catch { }
+                try {
+                    if (localStorage.version != date_online) {
                         localStorage.removeItem('data');
                         localStorage.removeItem('version');
                         sessionstorage.removeItem('tried_update');
-                        location.reload();
-                        sessionstorage.setItem('tried_update', 'true');
-                    });
-                    date.innerText = `Sync Failed`;
-                    try { translate(); } catch { }
-                    console.log(`Version ${date.innerText} / ${date_online} available.`);
-                }
-            } catch { }
+                    }
+                    if (date_online == date.innerText) {
+                        console.log(`Version ${date.innerText} / ${date_online}.`);
+                        sessionstorage.removeItem('tried_update');
+                        date.innerText = `Synced`;
+                        localStorage.setItem('version', date_online);
+                    }
+                    else if (sessionstorage.tried_update == 'true') {
+                        console.log(`Version ${date.innerText} / ${date_online} error.`);
+                        date.innerText = `Sync Failed`;
+                        var all = document.getElementsByTagName('*');
+                        for (var i = 0; i < all.length; i++) {
+                            var element = all[i];
+                            var element_href = element.getAttribute('href');
+                            if (element_href) element.setAttribute('href', element_href + '?' + Math.random());
+                            var element_src = element.getAttribute('src');
+                            if (element_src) element.setAttribute('src', element_src + '?' + Math.random());
+                        }
+                        caches.delete('musicterms');
+                    }
+
+                    else {
+                        if (navigator.onLine) {
+                            confirm(`You are not synchronized`, `Sync now?`, function () {
+                                localStorage.removeItem('data');
+                                localStorage.removeItem('version');
+                                sessionstorage.removeItem('tried_update');
+                                location.reload();
+                                sessionstorage.setItem('tried_update', 'true');
+                            });
+                            date.innerText = `Sync Failed`;
+                            try { translate(); } catch { }
+                            console.log(`Version ${date.innerText} / ${date_online} available.`);
+                        }
+                    }
+                } catch { }
+            });
         });
-    });
-} catch { }
+    } catch { }
+}
+
+syncDate();
 
 try {
     fetch('https://musicterms.onrender.com/rondo-fetch', {
@@ -91,7 +96,7 @@ try {
     });
 } catch { }
 
-window.addEventListener('online', updateOnlineStatus);
+window.addEventListener('online', syncDate);
 window.addEventListener('offline', updateOnlineStatus);
 window.addEventListener('DOMContentLoaded', updateOnlineStatus);
 
@@ -164,7 +169,6 @@ function turnSwitches() {
         });
     }
     addFavoriteSwitch();
-    addNewLookSwitch();
     setStyle(storages.new_look_enable_switch == 'true');
 }
 
@@ -195,12 +199,6 @@ function addFavoriteSwitch() {
             icons();
         });
     } catch { }
-}
-
-function addNewLookSwitch() {
-    document.getElementById('new_look_enable_switch').addEventListener('click', function (e) {
-        setStyle(e.target.classList.contains('checked'));
-    });
 }
 
 function setStyle(e) {
@@ -348,33 +346,31 @@ try {
 
     // Set the content of the div
     cookieBanner.innerHTML = `
-    <p>We use cookies to enhance your user experience and perform user behavior analytics. By clicking the agree button below, you consent to our cookie policy.</p>
+    <p><font>We use cookies to enhance your user experience and perform user behavior analytics. By clicking the agree button below, you consent to </font><span class="nowrap">our cookie policy.</span></p>
     <span class="nowrap"><button id="acceptCookies">Agree</button><button id="closeAcceptCookies">Decline</button></span>
 `;
 
     // Append the new div to the end of the body element
-    if (localStorage.getItem('consent') != 'true') document.body.appendChild(cookieBanner);
+    if (localStorage.getItem('consent') != 'true' && noTrack != 'true') document.body.appendChild(cookieBanner);
     else consent();
 
     try { translate(); } catch { }
 
-    // Get the agree button
-    var acceptCookiesButton = document.getElementById("acceptCookies");
 
+} catch { }
+
+try {
     // Hide the cookie banner when the user clicks the agree button
-    acceptCookiesButton.onclick = function () {
+    document.getElementById("acceptCookies").onclick = function () {
         cookieBanner.style.display = "none";
 
         // Add code here to enable Clarity and Google Analytics
         localStorage.setItem('consent', 'true');
         consent();
-    };
-
-    // Get the decline button
-    var declineCookiesButton = document.getElementById("closeAcceptCookies");
+    }
 
     // Hide the cookie banner when the user clicks the decline button
-    declineCookiesButton.onclick = function () {
+    document.getElementById("closeAcceptCookies").onclick = function () {
         cookieBanner.style.display = "none";
 
         // Add code here to disable Clarity and Google Analytics

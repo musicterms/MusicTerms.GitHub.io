@@ -3,6 +3,7 @@ var urlsToCache = [
     '/',
     '/app/',
     '/app/index.html',
+    '/index.css',
     '/icon-smooth.png',
     '/index.html',
     '/index.html?redirect=no-delay',
@@ -49,7 +50,6 @@ var urlsToCache = [
     '/icons/refresh.svg',
     '/icons/search.svg',
     '/icons/settings.svg',
-    '/icons/share_icon_ios.png',
     '/icons/share.svg',
     '/icons/share_icon_ios.png',
     '/icons/sign_lang.svg',
@@ -78,6 +78,7 @@ var urlsToCache = [
     '/zh/index.html',
     '/zh/share.html',
     '/zh-CN',
+    '/zh-CN/',
     '/zh-CN/index.html',
     '/zh-CN/share.html',
     '/source',
@@ -121,6 +122,13 @@ var urlsToCache = [
 ];
 
 self.addEventListener('install', function (event) {
+    for (var i = 0; i < urlsToCache.length; i++) {
+        for (var j = 0; j < urlsToCache.length; j++) {
+            if (urlsToCache[i] == urlsToCache[j] && i != j) {
+                urlsToCache.splice(j, 1);
+            }
+        }
+    }
     event.waitUntil(
         caches.open(CACHE_NAME)
             .then(function (cache) {

@@ -48,7 +48,7 @@ var lists = initTermsList();
 
 function addHrefHistory(page, e) {
     if (storages.locaion_save_enable_switch == 'false') return;
-    window.history.pushState({}, 'Title', '?page=' + page + '&e=' + e);
+    // window.history.pushState({}, 'Title', '?page=' + page + '&e=' + e);
 }
 
 var toDoForPages = {

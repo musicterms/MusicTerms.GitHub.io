@@ -10,7 +10,8 @@
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.png" type="image/png">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-    <!-- Clarity tracking code for https://musicterms.github.io/ --><script>    (function(c,l,a,r,i,t,y){        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i+"?ref=bwt";        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);    })(window, document, "clarity", "script", "krayfeinxp");</script>
+    <!-- Clarity tracking code for https://musicterms.github.io/ -->
+    <script>    (function (c, l, a, r, i, t, y) { c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments) }; t = l.createElement(r); t.async = 1; t.src = "https://www.clarity.ms/tag/" + i + "?ref=bwt"; y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y); })(window, document, "clarity", "script", "krayfeinxp");</script>
 </head>
 
 <body class="ocr">
@@ -34,30 +35,22 @@
             </div>
         </div>
     </div>
-    <div class="set width-450" id="cameras">
-        <div class="folder no-line" onclick="toggle()" id="cameraas">
-            <icon data-icon="expand_all" class="circle"></icon>
-            <font>Select Camera</font>
-            <icon data-icon="expand" class="icon more larger"></icon>
-        </div>
-    </div>
     <div class="page cms" id="page-1">
         <div class="content">
-            <div class="updown">
-                <canvas id="c"></canvas>
-                <div id="ovlouter">
-                    <div id="ovl"></div>
-                </div>
-                <video autoplay="true" id="camera" muted playsinline>
-                </video>
-                <div id="toolbar">
-                    <button class="empty cir" id="search" onclick="getText()">
-                        <icon data-icon="lens_blur"></icon>
-                    </button>
-                    <button class="flip" id="switchFacing" onclick="toggleFacingMode()">
-                        <icon data-icon="flip_camera"></icon>
-                    </button>
-                </div>
+            <font class="small-title">Experimental Functions</font>
+            <font class="small-title">Last updated on 4 Feb</font>
+            <font class="small-title">THIS IS AN EXPERIMENTAL FEATURE.<br> MAY NOT BE STABLE FOR USING.</font>
+            <div class="divider-hoz"></div>
+            <font class="small-title">Testing logs should be displayed here:</font>
+            <font class="small-title" id="image-selection-rec"></font>
+            <div class="divider-hoz"></div>
+            <button class="mid-btn">
+                <input type="file" name="file" id="file" accept="image/*">
+                <label for="file">Select Image</label>
+            </button>
+            <canvas id="canvas"></canvas>
+            <div id="toolbar">
+                <input type="range" name="whiteBalance" id="whiteBalance">
             </div>
         </div>
     </div>

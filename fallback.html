@@ -74,7 +74,7 @@
 
 <body>
     <div class="f404">
-        <h1>You need to be online to <span class="nowrap">this page.</span></h1>
+        <h1><font>You need to be online to</font> <span class="nowrap">this page.</span></h1>
     </div>
     <div class="btns">
         <a href="/app/index.html">
@@ -90,6 +90,10 @@
     <script>
         function donotstartapp() {
             localStorage.setItem('started_app', 'false');
+        }
+        var thisHTMLOnUrl = window.location.href;
+        if (thisHTMLOnUrl.includes('fallback')) {
+            location.href = '/index.html';
         }
     </script>
     <script src="/js/index.js"></script>

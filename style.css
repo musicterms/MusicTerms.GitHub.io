@@ -31,6 +31,7 @@
     --color-green: #30d158;
     --nav-color-dark: var(--background-color-dark);
     --nav-color-light: var(--background-color-protrude-light);
+    --href-color: rgba(0, 162, 255, 0.5);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -324,9 +325,8 @@ nav svg {
     width: 100vw;
     height: 100vh;
     transform: translateZ(0);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    background: linear-gradient(180deg, var(--background-color) 0%, var(--background-color) 3.67%, var(--background-accent-color) 29.33%);
+    backdrop-filter: blur(15px) brightness(.8);
+    -webkit-backdrop-filter: blur(15px) brightness(.8);
     z-index: 10;
     opacity: 1;
     display: flex;
@@ -533,6 +533,15 @@ span.icon.file svg path {
     margin: 0 auto;
     padding: .2rem;
     padding-left: 2.1em;
+}
+
+.small-title.center {
+    text-align: center;
+    padding: 0;
+}
+
+.break10vh {
+    height: 10vh;
 }
 
 .hidden {
@@ -1033,6 +1042,10 @@ span.switch.checked:active::after {
     transition: opacity .3s;
 }
 
+a {
+    color: var(--href-color);
+}
+
 .normal-text-textarea {
     border-radius: 7px;
     border: 1px solid var(--border-color) !important;
@@ -1187,6 +1200,7 @@ p.gray.small.center {
 }
 
 .mid-btn {
+    position: relative;
     padding: .5rem 4rem;
     outline: none;
     border: 2px solid var(--border-color);
@@ -1228,11 +1242,33 @@ a.popover {
 #c,
 #ovlouter {
     position: absolute;
-    top: 0;
+    top: 50%;
     left: 50%;
-    transform: translateX(-50%);
-    height: 100%;
+    transform: translate(-50%, -50%);
+    width: 100%;
     transition: .5s;
+}
+
+.cms input[type=file]::file-selector-button {
+    display: none;
+}
+
+.mid-btn>input[type=file] {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: transparent;
+    opacity: 0;
+}
+
+#canvas {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
 }
 
 #ovl {
@@ -1382,12 +1418,14 @@ button.fit {
 
 #cookieBanner {
     position: fixed;
+    max-width: 800px;
+    left: 50%;
+    transform: translateX(-50%) translateZ(0);
     bottom: 0;
     width: calc(100% - 80px);
     background: rgba(255, 255, 255, 0.8);
     backdrop-filter: blur(7px);
     -webkit-backdrop-filter: blur(7px);
-    transform: translateZ(0);
     color: #000;
     padding: 20px;
     padding-top: 2rem;
@@ -1399,7 +1437,7 @@ button.fit {
     flex-wrap: wrap;
     gap: 5px;
     border-radius: 10px;
-    margin: 20px;
+    margin-bottom: 20px;
     box-shadow: 0 8px 32px 0 var(--border-color);
 }
 

@@ -1,7 +1,7 @@
 var language = location.href.split('/')[3];
 
 if (language == 'app') {
-    language = localStorage.language || en;
+    language = localStorage.language || 'en';
 }
 
 document.documentElement.lang = language;
@@ -125,13 +125,17 @@ var languages = {
         "zh-CN": "启用高级搜索",
         "zh": "啟用高级搜尋"
     },
-    "Use experimental funcitons": {
-        "zh-CN": "使用实验性功能",
-        "zh": "使用實驗性功能"
+    "Experimental funcitons": {
+        "zh-CN": "实验性功能",
+        "zh": "實驗性功能"
     },
     "Enable Favorite": {
         "zh-CN": "启用收藏",
         "zh": "啟用收藏"
+    },
+    "Enable New Look": {
+        "zh-CN": "启用新外观",
+        "zh": "啟用新外觀"
     },
     "Your favorites remain": {
         "zh-CN": "您的收藏夾将保持",
@@ -256,6 +260,62 @@ var languages = {
     "Decline": {
         "zh-CN": "拒绝",
         "zh": "拒絕"
+    },
+    "Meaning of _?": {
+        "zh-CN": "_? 定义及解释",
+        "zh": "_? 定義及解釋"
+    },
+    "_? - Meaning of _?": {
+        "zh-CN": "_? - _? 定义及解释",
+        "zh": "_? - _? 定義及解釋"
+    },
+    "We use cookies to enhance your user experience and perform user behavior analytics. By clicking the agree button below, you consent to ": {
+        "zh-CN": "我们使用 Cookies 来增强您的用户体验和执行用户行为分析。点击下方的同意按钮，即表示您同意",
+        "zh": "我們使用 Cookies 來增強您的使用者體驗和執行使用者行為分析。點擊下方的同意按鈕，即表示您同意"
+    },
+    "our cookie policy.": {
+        "zh-CN": "我们的 Cookies 政策。",
+        "zh": "我們的 Cookies 政策。"
+    },
+    "Word not found": {
+        "zh-CN": "翻遍了，<span class='nowrap'>还是没找到...</span>",
+        "zh": "全部找過了，<span class='nowrap'>都沒有...</span>"
+    },
+    "It seems the word you’re looking for isn’t in our database.": {
+        "zh-CN": "看来您要找的词不在我们的数据库中。",
+        "zh": "看來您要找的詞不在我們的資料庫中。"
+    },
+    "Make sure you are from valid ways and you have spelled the word correctly.": {
+        "zh-CN": "请确保您从正确的方式进入，且您拼写的词是正确的。",
+        "zh": "請確保您从正确的方式进入，且您拼寫的詞是正確的。"
+    },
+    "Our": {
+        "zh-CN": "我们的",
+        "zh": "我們的"
+    },
+    "feature can still help you find what you need, even with typos.": {
+        "zh-CN": "功能仍然可以帮助您找到您所需要的，即使有拼写错误。",
+        "zh": "功能仍然可以幫助您找到您所需要的，即使有拼寫錯誤。"
+    },
+    "No ads, totally free. No downloads required.": {
+        "zh-CN": "无广告，完全免费。无需下载。",
+        "zh": "無廣告，完全免費。無需下載。"
+    },
+    "Try our": {
+        "zh-CN": "立即使用",
+        "zh": "立即使用"
+    },
+    "Web App": {
+        "zh-CN": "Music Terms",
+        "zh": "Music Terms"
+    },
+    "now." :{
+        "zh-CN": "",
+        "zh": ""
+    },
+    " 定義及解釋": {
+        "zh-CN": "",
+        "zh": ""
     },
 }
 

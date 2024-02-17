@@ -38,17 +38,16 @@
           "description": "A perfect Web App for learning musical terms."
         }
     </script>
-    <!-- Clarity tracking code for https://musicterms.github.io/ -->
-    <script>    (function (c, l, a, r, i, t, y) { c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments) }; t = l.createElement(r); t.async = 1; t.src = "https://www.clarity.ms/tag/" + i + "?ref=bwt"; y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y); })(window, document, "clarity", "script", "krayfeinxp");</script>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6K7W9LK8WL"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'G-6K7W9LK8WL');
-    </script>
+    <style id="hid">
+        body {
+            height: 0;
+            max-height: 0;
+        }
+        body * {
+            opacity: 0;
+            display: none;
+        }
+    </style>
 </head>
 
 <body>
@@ -187,6 +186,8 @@
 
         if (localStorage.getItem('started_app') == 'true') {
             location.href = '/app/';
+        } else {
+            document.getElementById('hid').remove();
         }
     </script>
 </body>
