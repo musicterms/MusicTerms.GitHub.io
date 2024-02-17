@@ -140,9 +140,8 @@ try {
 try { translate() } catch { }
 
 var modDate = new Date(document.lastModified)
-var modDate = modDate.getFullYear() + '-' + (modDate.getMonth() + 1) + '-' + modDate.getDate()
-
-var pubDate = '2024-01-01'
+modDate = modDate.toISOString()
+var pubDate = '2024-01-01T08:00:00+08:00'
 
 var allElements = document.querySelectorAll('*')
 for (var i = 0; i < allElements.length; i++) {
