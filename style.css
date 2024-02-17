@@ -1479,3 +1479,13 @@ button.fit {
 #closeAcceptCookies:hover {
     background-color: #da1e28;
 }
+
+.sameash3.detail {
+    font-size: 1.2rem;
+    padding-left: 2rem;
+    margin-bottom: .5rem;
+    color: var(--font-color-gray);
+    display: flex;
+    width: 80%;
+    margin: auto auto;
+}
