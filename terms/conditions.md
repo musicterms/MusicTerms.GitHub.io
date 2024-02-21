@@ -1,6 +1,6 @@
 # Terms of Service
 
-Please read these Terms of Service ("Terms", "Terms of Service") carefully before using the AlphaBrate Music Terminology Library (the "Service") operated by AlphaBrate ("us", "we", or "our").
+Please read these Terms of Service ("Terms", "Terms of Service") carefully before using any AlphaBrate Apps (the "Service") operated by AlphaBrate ("us", "we", or "our").
 
 ## 1. Acceptance of Terms
 
@@ -8,58 +8,76 @@ By accessing and using our Service, you agree to be bound by these Terms. If you
 
 ## 2. Description of Service
 
-### 2.1 Service Overview
+### i. Service Overview
 
-We provide a Music Terminology Library that covers a wide range of genres. This service is designed to help users understand music terminology in a comprehensive way.
+Our service includes:
 
-### 2.2 Service Updates
+- Music Terminology Library (Web App)
+- Power Search
+- True View Api
 
-We may update the content of the Service periodically. We reserve the right to modify or discontinue the Service at any time.
+### ii. Service Updates
+
+We may update the content of the Service periodically. We reserve the right to modify or discontinue the Service at any time. We may not notify you of any changes to the Service. You understand that you are solely responsible for regularly reviewing these Terms of Service to stay informed of any updates.
 
 ## 3. User Conduct
 
-### 3.1 Compliance with Laws
+### i. Compliance with Laws
 
-Users are expected to comply with all applicable laws and regulations. Any illegal activities are strictly prohibited.
+Users are expected to comply with all applicable laws and regulations. Any illegal activities are strictly prohibited. We reserve the right to terminate your usage of the Service if we find that you have violated any of these terms. For serious violations, we reserve the right to take necessary actions.
 
-### 3.2 Responsibility for Activities
+### ii. Responsibility for Activities
 
-Users are responsible for all activities under their usage of our Service. Misuse of the Service, such as spamming, hacking, or violating intellectual property rights, will not be tolerated.
+Users are responsible for all activities under their usage of our Service. Misuse of the Service, such as spamming, hacking, or violating intellectual property rights, will not be tolerated. We reserve the right to terminate your usage of the Service if we find that you have violated any of these terms.
 
 ## 4. Intellectual Property
 
-### 4.1 Ownership
+### i. Ownership
 
-Our website, services, and all related content, including but not limited to software, images, text, graphics, logos, patents, trademarks, service marks, copyrights, photographs, audio, videos, and all intellectual property rights are, unless otherwise specified, our exclusive property or the property of our licensors. Some content may be sourced from third-party providers, and AlphaBrate is not responsible for the accuracy or legality of such content.
+Our website, services, and all related content, including but not limited to software, images, text, graphics, logos, patents, trademarks, service marks, copyrights, photographs, audio, videos, and all intellectual property rights are, unless otherwise specified, our exclusive property or the property of our licensors. Some content may be sourced from third-party providers, and AlphaBrate is not responsible for the accuracy or legality of such content. All third-party providers are listed in the "Credits" section of the application. 
 
-### 4.2 Restrictions
+### ii. Restrictions
 
-Users are not allowed to use, copy, modify, or distribute our intellectual property without our express permission.
+Users are not allowed to use any data mining, robots, or similar data gathering and extraction tools on our Service. Users are not allowed to remove any copyright, trademark, or other proprietary notices from our Service without our express permission neither. For any uses not covered by these Terms, you must seek our express.
+
+### iii. Execution Methods
+
+Users are not allowed to do any mentioned activities in the "Restrictions" section. For any violation of these terms, we reserve the right to terminate your usage of the Service. For serious violations, we reserve the right to take legal action.
 
 ## 5. Licenses
 
-### 5.1 Open Source License (MIT)
+The AlphaBrate Pure Experience Development License (APED)
 
-Our Service adheres to the MIT Open Source License. This means you can use, copy, and modify the software for free, but you must give credit to the original author. For more details, please refer to the [full text of the MIT License](https://opensource.org/licenses/MIT).
+AlphaBrate is committed to delivering a clear web experience, free from advertisements and distractions. All teams and projects under AlphaBrate are mandated to adhere to the APED License, which ensures that our applications remain no advertisements and distracting elements.
 
-### 5.2 AlphaBrate Pure Web Experience Development License (APWED)
+The usage of our applications is entirely free of charge. The development process is collaborative, involving thorough discussions and mutual agreements. Permissions are granted to anyone who finish reading the APED License as a sign of agreement to your rights and responsibilities:
 
-AlphaBrate is committed to delivering a clear web experience, free from advertisements, distractions, and tracking. All teams and projects under AlphaBrate are mandated to adhere to the APWED License, which ensures that our applications remain no advertisements, tracking, and distracting elements.
+- You have the right to use the application for any purpose, including commercial purposes.
 
-The usage of our applications is entirely free of charge. The development process is collaborative, involving thorough discussions and mutual agreements. APWED License should be always with the MIT License our applications are open-source. This means they can be used, copied, and modified by anyone.
+- You have the right to study how the application works and modify it.
 
-However, it’s important to note that anyone who copies, modifies, or distributes the application must comply with the APWED License. This ensures that the distributed versions of the application also remain free from advertisements, tracking, and distracting elements.
+- You have the right to distribute copies of the application.
 
-For any queries or further clarification, please feel free to contact us.
+- You have the right to improve the application and release your improvements to the public.
+
+- You have to accept the APED License and its terms and conditions.
+
+- You have to include, display, and adopt the APED License in your application, which means:
+
+    1. If you distribute the application, you must include the APED License in the distribution.
+
+    2. Distributions of the application must remain free of advertisements and distracting elements.
 
 ## 6. Disclaimer
 
-Our Service is provided "as is" and "as available" without any express or implied warranties. We do not warrant that the Service will be uninterrupted, secure, or error-free. AlphaBrate is not liable but will try best on for any damages or losses arising from the use or inability to use the Service.
+Our Service is provided "as is" and "as available" without any express or implied warranties. We do not warrant that the Service will be uninterrupted, secure, or error-free. AlphaBrate is not liable but will try best on for any damages or losses arising from the use or inability to use the Service. We are not responsible for any third-party content that you access through the Service. We are not responsible for the conduct of any user of the Service.
 
 ## 7. Changes to Terms of Service
 
-We may update our Terms of Service from time to time. The new Terms of Service will take effect immediately upon posting on this page. We encourage you to review this page periodically for any changes.
+We may update our Terms of Service from time to time. The new Terms of Service will take effect immediately upon posting on this page. We encourage you to review this page periodically for any changes. Your continued use of the Service after the new Terms of Service are posted will constitute your agreement to the new Terms of Service. If you do not agree to the new Terms of Service, please stop using the Service.
 
 ## 8. Contact Us
 
-If you have any questions about these Terms of Service, please contact us.
+If you have any questions about these Terms of Service, please contact us. We are committed to resolving any concerns or complaints you may have about our use of your information.
+
+This document was updated on 21 Feb 2024.

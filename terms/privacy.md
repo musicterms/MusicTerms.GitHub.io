@@ -1,12 +1,30 @@
 # Privacy Terms
 
-> This is the Privacy Terms of Using AlphaBrate Music Terminology Library (as Web App)
+Please read these Privacy Terms ("Terms") carefully before using any AlphaBrate Apps (the "Service") operated by AlphaBrate ("us", "we", or "our").
 
-We, at AlphaBrate, respect your privacy and are committed to protecting your personal information. Here are our detailed privacy terms:
+We respect your privacy and are committed to protecting your personal information. Here are our detailed privacy terms:
 
 ## 1. Information Collection
 
-While our website does not require user login, we collect and store user behavior data during usage. This includes, but is not limited to, pages visited, time spent on each page, links clicked, and search queries. We use cookies and similar technologies to collect this information.
+### i. Personal Information
+
+We collect personal information that you provide to us when you use our services. This includes, but is not limited to, your name, email address, and other contact information. We may also collect information about your usage of our services, such as your browsing history, search queries, and interactions with our website. All data collected is used for User Behavior Analytics (UBA) to improve our services or are necessary for the operation of our services. We do not collect any sensitive personal information, such as your social security number, financial information, or medical history.
+
+### ii. Non-Personal Information
+
+We also collect non-personal information, such as your IP address, browser type, and device information. This information is used to improve our services and provide a better user experience. We may also collect information about your usage of our services, such as your browsing history, search queries, and interactions with our website. All data collected is used for User Behavior Analytics (UBA) to improve our services or are necessary for the operation of our services.
+
+### iii. Your Consent
+
+For personal information, we will ask for your consent before collecting it. For non-personal information, we will collect it automatically when you use our services. You can choose not to provide personal information, which does not affect the functionality of our services.
+
+### iv. Data Protection
+
+All data collected are on third-party servers, and we do not have direct access to the source data. We use third-party services to collect and store data, and we are not responsible for the security of these services. For more information on how your data is protected, please refer to the privacy policies of the third-party services we use: 
+
+- Clarity: [Clarity Privacy Policy](https://clarity.microsoft.com/privacy)
+- Google Analytics: [Google Privacy Policy](https://policies.google.com/privacy)
+- Google Firebase: [Firebase Privacy Policy](https://firebase.google.com/support/privacy)
 
 ## 2. Use of Information
 
@@ -35,3 +53,5 @@ We may update our Privacy Policy from time to time. We will notify you of any la
 ## 7. Contact Us
 
 If you have any questions about this Privacy Policy, please contact us. We are committed to resolving any concerns or complaints you may have about our use of your information.
+
+This document was updated on 21 Feb 2024.
