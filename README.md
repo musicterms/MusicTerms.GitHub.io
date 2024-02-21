@@ -74,3 +74,8 @@ Before using or distributing this Web App, please make sure you have read the [P
 > - [Yale.edu](https://web.library.yale.edu/cataloging/music/Common-terms-used-in-German-music-publications-and-thematic-indices)
 > - [Clements](https://www.clementstheory.com/reference/musical-terms/)
 > - And also from ALL those contributors. Please join us by reading the [Contributing](#contributing) We sincerely appreciate it.
+
+## Credits
+
+- Microsoft Clarity
+- Google Analytics
