@@ -66,7 +66,7 @@ Before using or distributing this Web App, please make sure you have read the [P
 
 ## Sources
 
-* Currently, all the contents in `Commonly Used > Terms` are not verified by HUMAN but auto scripts. Some of them are gathered by `New Bing` from documents on the public-available websites or docs that the trustworthiness CANNOT be tested. While, other sources are verifeid by human or widely.
+* Currently, all the contents in `Commonly Used > Terms` are not verified by HUMAN but auto scripts. Some of them are gathered by AI from documents on the public-available websites or docs that the trustworthiness CANNOT be tested. While, other sources are verifeid by human or widely.
 
 > Known Sources are as follow:
 > - [Wikipedia](https://en.wikipedia.org/wiki/Glossary_of_music_terminology)
