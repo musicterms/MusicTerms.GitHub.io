@@ -75,15 +75,22 @@ function removeDuplicates(array, key) {
     return result;
 }
 
+function normalize(text) {
+    return text.toLowerCase().replace(/[^a-z0-9\s]/g, '').trim();
+}
+
 async function search(input) {
-    input = input.toLowerCase();
+    let normalizedInput = normalize(input);
+    if (normalizedInput === lastInput) {
+        return lastResults;
+    }
     let exactMatches = [];
     let partialMatches = [];
     let fuzzyMatches = [];
 
     if (!dataLoaded) await preloadData();
 
-    if (input.trim() === '') {
+    if (normalizedInput.trim() === '') {
         for (let key in data) {
             if (isTerm(key)) {
                 for (let category in data[key]) {
@@ -102,16 +109,16 @@ async function search(input) {
             if (isTerm(key)) {
                 for (let category in data[key]) {
                     for (let term in data[key][category]) {
-                        let processedTerm = term.toLowerCase();
-                        if (processedTerm === input) {
+                        let processedTerm = normalize(term);
+                        if (processedTerm === normalizedInput) {
                             exactMatches.push({ term: term, e: JSON.stringify([category, data[key][category][term]]) });
                         }
                     }
                 }
             } else {
                 for (let word in data[key]) {
-                    let processedWord = word.toLowerCase();
-                    if (processedWord === input) {
+                    let processedWord = normalize(word);
+                    if (processedWord === normalizedInput) {
                         exactMatches.push({ term: word, e: JSON.stringify(data[key][word]) });
                     }
                 }
@@ -122,20 +129,20 @@ async function search(input) {
             if (isTerm(key)) {
                 for (let category in data[key]) {
                     for (let term in data[key][category]) {
-                        let processedTerm = term.toLowerCase();
-                        if (processedTerm.includes(input)) {
+                        let processedTerm = normalize(term);
+                        if (processedTerm.includes(normalizedInput)) {
                             partialMatches.push({ term: term, e: JSON.stringify([category, data[key][category][term]]) });
-                        } else if (levenshteinDistance(processedTerm, input) <= 2) {
+                        } else if (levenshteinDistance(processedTerm, normalizedInput) <= 2) {
                             fuzzyMatches.push({ term: term, e: JSON.stringify([category, data[key][category][term]]) });
                         }
                     }
                 }
             } else {
                 for (let word in data[key]) {
-                    let processedWord = word.toLowerCase();
-                    if (processedWord.includes(input)) {
+                    let processedWord = normalize(word);
+                    if (processedWord.includes(normalizedInput)) {
                         partialMatches.push({ term: word, e: JSON.stringify(data[key][word]) });
-                    } else if (levenshteinDistance(processedWord, input) <= 2) {
+                    } else if (levenshteinDistance(processedWord, normalizedInput) <= 2) {
                         fuzzyMatches.push({ term: word, e: JSON.stringify(data[key][word]) });
                     }
                 }
@@ -148,7 +155,7 @@ async function search(input) {
     partialMatches.sort((a, b) => a.term.localeCompare(b.term));
     fuzzyMatches.sort((a, b) => a.term.localeCompare(b.term));
 
-    lastInput = input;
+    lastInput = normalizedInput;
     lastResults = removeDuplicates(exactMatches.concat(partialMatches, fuzzyMatches), 'term');
 
     if (storages.data_cache_enable_switch == 'true') {
@@ -157,15 +164,17 @@ async function search(input) {
             dataCache.delete(oldestKey);
         }
 
-        dataCache.set(input, lastResults);
+        dataCache.set(normalizedInput, lastResults);
     }
 
     return lastResults;
 }
 
+
 //
 
 function searchResult(result) {
+    if (result == void 0) return;
     let term = result.term;
     let e = result.e;
     if (term == void 0 || e == void 0) return;
@@ -183,19 +192,23 @@ function searchResult(result) {
     icons();
 }
 
-function processResults(results) {
-    let i = 0;
+var lastSearchTo = 0;
 
-    function processBatch() {
-        const start = Date.now();
+function processResults(results, i = 0) {
+    try { document.getElementById('search-result-list').lastChild.classList.add('full-width-line'); } catch { }
+    var MAX_LOADED_ONCE = 20;
+    var oi = i;
 
-        while (i < results.length && Date.now() - start < 20) {
-            searchResult(results[i]);
-            i++;
-        }
+    const start = Date.now();
+
+    while (i < MAX_LOADED_ONCE + oi && Date.now() - start < 20) {
+        searchResult(results[i]);
+        i++;
     }
 
-    processBatch();
+    lastSearchTo = i;
+    if (document.getElementById('search-result-list').lastChild != null)
+        document.getElementById('search-result-list').lastChild.classList.remove('full-width-line');
 }
 
 function addLoadEvent() {
@@ -209,33 +222,49 @@ function addLoadEvent() {
         document.getElementById('search_receipt').innerText = `${results.length} results found in ${time} seconds.`;
         if (storages.data_cache_enable_switch == 'true') document.getElementById('search_receipt').innerText = `${results.length} results found in ${time} seconds by Power Search.`;
         processResults(results);
-        // remove the last line
-        document.getElementById('search-result-list').lastChild.classList.remove('full-width-line');
     });
-    if (document.getElementById('search-input').value != '') {
-        document.getElementById('search-input').dispatchEvent(new Event('input'));
+    document.getElementById('search-input').value = 'Search here :)';
+    document.getElementById('search-input').dispatchEvent(new Event('input'));
+    document.getElementById('search-input').value = '';
+    async function a() {
+        var e = location.search.split('e=');
+        e = e[e.length - 1] || 'true';
+        if (e != 'true') {
+            document.getElementById('search-input').value = decodeURIComponent(e);
+            console.log(e);
+            var time = Date.now();
+            let input = decodeURIComponent(e);
+            let results = await search(input);
+            time = (Date.now() - time) / 1000;
+            document.getElementById('search-result-list').innerHTML = '';
+            document.getElementById('search_receipt').innerText = `${results.length} results found in ${time} seconds.`;
+            if (storages.data_cache_enable_switch == 'true') document.getElementById('search_receipt').innerText = `${results.length} results found in ${time} seconds by Power Search.`;
+            processResults(results);
+            // remove the last line
+            document.getElementById('search-result-list').lastChild.classList.remove('full-width-line');
+        }
     }
+    a();
 }
 
-window.onload = function () {
-    document.getElementById('search-input').addEventListener('input', async function (e) {
-        var time = Date.now();
-        let input = e.target.value;
-
-        if (!dataLoaded || input !== lastInput) {
-            await preloadData();
+window.addEventListener('scroll', function () {
+    if (currentPage == 'search') {
+        // Getting the scroll in the relation between a .folder and scroll
+        var scroll = window.scrollY;
+        var folder = document.getElementsByClassName('folder');
+        var folder_height = 0;
+        if (folder.length > 0) {
+            folder_height = folder[0].offsetHeight;
         }
+        var folder_count = folder.length;
+        var folder_scroll = Math.floor(scroll / folder_height);
+        if (folder_scroll + 20 > folder_count) {
+            processResults(lastResults, lastSearchTo);
+        }
+    }
+});
 
-        let results = await search(input);
-        time = (Date.now() - time) / 1000;
-        document.getElementById('search-result-list').innerHTML = '';
-        document.getElementById('search_receipt').innerText = `${results.length} results found in ${time} seconds.`;
-        if (storages.data_cache_enable_switch == 'true') document.getElementById('search_receipt').innerText = `${results.length} results found in ${time} seconds by Power Search.`;
-        processResults(results);
-        // remove the last line
-        document.getElementById('search-result-list').lastChild.classList.remove('full-width-line');
-    });
-};
+window.onload = addLoadEvent;
 
 
 var element_star_icon_full = createElementFromHTML('<icon class="icon file star_switch_icon" data-icon="star_full"></icon>');

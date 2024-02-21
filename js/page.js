@@ -120,8 +120,9 @@ var toDoForPages = {
         var e = location.search.split('e=');
         e = e[e.length - 1] || 'true';
         if (e != 'true') {
-            async function a() {
+            window.addEventListener('load', async function () {
                 document.getElementById('search-input').value = decodeURIComponent(e);
+                console.log(e);
                 var time = Date.now();
                 let input = decodeURIComponent(e);
                 let results = await search(input);
@@ -132,8 +133,8 @@ var toDoForPages = {
                 processResults(results);
                 // remove the last line
                 document.getElementById('search-result-list').lastChild.classList.remove('full-width-line');
-            }
-            a();
+            });
+
         }
 
         addHrefHistory('search', e);

@@ -30,7 +30,7 @@ try {
 var date = document.getElementById('date');
 
 function syncDate() {
-    try { date.innerText = '17 Feb 2024' } catch { }
+    try { date.innerText = '21 Feb 2024' } catch { }
     var date_online;
     try {
         var version_file = fetch('https://raw.githubusercontent.com/musicterms/musicterms.github.io/main/VERSION?' + Math.random(),
@@ -40,6 +40,7 @@ function syncDate() {
             });
         version_file.then(function (response) {
             response.text().then(function (text) {
+                var date_today_YYYYMMDD = new Date().toISOString().slice(0, 10).replace(/-/g, '');
                 try { date_online = text.split('\n')[0].split(' = ')[1].replace('\r', ''); } catch { }
                 try {
                     if (localStorage.version != date_online) {
@@ -53,7 +54,7 @@ function syncDate() {
                         date.innerText = `Synced`;
                         localStorage.setItem('version', date_online);
                     }
-                    else if (sessionstorage.tried_update == 'true') {
+                    else if (localStorage['UPD' + date_today_YYYYMMDD] == 'true') {
                         console.log(`Version ${date.innerText} / ${date_online} error.`);
                         date.innerText = `Sync Failed`;
                         var all = document.getElementsByTagName('*');
@@ -72,9 +73,8 @@ function syncDate() {
                             confirm(`You are not synchronized`, `Sync now?`, function () {
                                 localStorage.removeItem('data');
                                 localStorage.removeItem('version');
-                                sessionstorage.removeItem('tried_update');
+                                localStorage.setItem('UPD' + date_today_YYYYMMDD, 'true');
                                 location.reload();
-                                sessionstorage.setItem('tried_update', 'true');
                             });
                             date.innerText = `Sync Failed`;
                             try { translate(); } catch { }

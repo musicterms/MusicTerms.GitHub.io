@@ -1,6 +1,8 @@
 :root {
     --background-color-light: #f2f2f3;
+    --background-color-light-rgb: rgb(242, 242, 243);
     --background-color-dark: #000000;
+    --background-color-dark-rgb: rgb(0, 0, 0);
     --background-color-protrude-light: #ffffff;
     --background-color-protrude-dark: #1b1b1b;
     --background-color-protrude-hover-light: #fafafa;
@@ -12,7 +14,9 @@
     --background-accent-color-light: #1a1a1a30;
     --background-accent-color-dark: #ffffff30;
     --font-color-light: #010101;
+    --font-color-light-rgb: rgb(1, 1, 1);
     --font-color-dark: #ffffff;
+    --font-color-dark-rgb: rgb(255, 255, 255);
     --font-color-gray: #868686;
     --border-color-light: #1616162c;
     --border-color-dark: #b0b0b02c;
@@ -37,8 +41,10 @@
 @media (prefers-color-scheme: dark) {
     :root {
         --background-color: var(--background-color-dark);
+        --background-color-rgb: var(--background-color-dark-rgb);
         --background-color-protrude: var(--background-color-protrude-dark);
         --font-color: var(--font-color-dark);
+        --font-color-rgb: var(--font-color-dark-rgb);
         --border-color: var(--border-color-dark);
         --featured-color: var(--featured-color-dark);
         --featured-color-hover: var(--featured-color-hover-dark);
@@ -57,8 +63,10 @@
 @media (prefers-color-scheme: light) {
     :root {
         --background-color: var(--background-color-light);
+        --background-color-rgb: var(--background-color-light-rgb);
         --background-color-protrude: var(--background-color-protrude-light);
         --font-color: var(--font-color-light);
+        --font-color-rgb: var(--font-color-light-rgb);
         --border-color: var(--border-color-light);
         --featured-color: var(--featured-color-light);
         --featured-color-hover: var(--featured-color-hover-light);

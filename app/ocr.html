@@ -10,6 +10,68 @@
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.png" type="image/png">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="stylesheet" href="./pintura.css" />
+
+    <style>
+        .my-editor {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: none;
+        }
+
+        .result {
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            backdrop-filter: blur(7px);
+            --webkit-backdrop-filter: blur(7px);
+            transform: translateZ(0);
+            display: none;
+        }
+
+        .result img {
+            max-width: 90%;
+            max-height: 80%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -webkit-user-drag: none;
+        }
+
+        .result .text-result {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+            font {
+                padding: 2px;
+                border-radius: 7px;
+                backdrop-filter: blur(7px) brightness(.8);
+                --webkit-backdrop-filter: blur(7px) brightness(.8);
+                transform: translateZ(0);
+                cursor: pointer;
+            }
+        }
+
+        .innerResult {
+            height: 100%;
+            width: 100%;
+            position: relative;
+        }
+
+        label[for="search-input"] {
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
     <!-- Clarity tracking code for https://musicterms.github.io/ -->
     <script>    (function (c, l, a, r, i, t, y) { c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments) }; t = l.createElement(r); t.async = 1; t.src = "https://www.clarity.ms/tag/" + i + "?ref=bwt"; y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y); })(window, document, "clarity", "script", "krayfeinxp");</script>
 </head>
@@ -38,19 +100,26 @@
     <div class="page cms" id="page-1">
         <div class="content">
             <font class="small-title">Experimental Functions</font>
-            <font class="small-title">Last updated on 4 Feb</font>
+            <font class="small-title">Last updated on 20 Feb</font>
             <font class="small-title">THIS IS AN EXPERIMENTAL FEATURE.<br> MAY NOT BE STABLE FOR USING.</font>
-            <div class="divider-hoz"></div>
-            <font class="small-title">Testing logs should be displayed here:</font>
-            <font class="small-title" id="image-selection-rec"></font>
+            <font class="small-title">Pintura & Tesseract.js <br> No License From Pintura</font>
             <div class="divider-hoz"></div>
             <button class="mid-btn">
                 <input type="file" name="file" id="file" accept="image/*">
                 <label for="file">Select Image</label>
             </button>
-            <canvas id="canvas"></canvas>
-            <div id="toolbar">
-                <input type="range" name="whiteBalance" id="whiteBalance">
+            <div class="my-editor"></div>
+            <div class="result">
+                <img src="/img/4.png" alt="" class="image-result">
+                <div class="text-result">
+                    <div class="innerResult"></div>
+                </div><label for="search-input" class="text" id="searchinp">
+                    <icon class="search-input-svg" data-icon="search"></icon>
+                    <input type="text" id="search-input" placeholder="Press the floating items.">
+                    <button class="fit" id="searchInput">
+                        <icon data-icon="search"></icon>
+                    </button>
+                </label>
             </div>
         </div>
     </div>
@@ -59,7 +128,7 @@
     <script src="/js/events.js"></script>
     <script src="/js/icon.js"></script>
     <script src='https://cdn.jsdelivr.net/npm/tesseract.js@5/dist/tesseract.min.js'></script>
-    <script src="/js/ocr.js"></script>
+    <script type="module" src="/js/ocr.js"></script>
     <script src="/source/lang/translate.js"></script>
 </body>
 
