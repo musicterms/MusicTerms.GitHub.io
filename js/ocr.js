@@ -1,4 +1,4 @@
-// confirm("Experimental Function", "This feature may not work properly.")
+confirm("Test function with unlicensed Service: Pintura.", "This is not a part of <span class='nowrap'>AlphaBrate Products and Services.</span><br>This is a test function with unlicensed Service: Pintura. By entering it, <span class='nowrap'>you are no longer</span> under the protection of Alphabrate's <span class='nowrap'>Terms of Service</span> and <span class='nowrap'>Privacy Policy.</span> Do you want to continue?");
 
 var lang = "en"
 

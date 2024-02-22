@@ -10,11 +10,13 @@ try {
 
 // set theme color as navbar background color
 try {
-    var nav_bar_color = getComputedStyle(document.documentElement).getPropertyValue('--nav-color');
-    var meta = document.createElement('meta');
-    meta.setAttribute('name', 'theme-color');
-    meta.setAttribute('content', nav_bar_color);
-    document.head.appendChild(meta);
+    document.addEventListener('DOMContentLoaded', function () {
+        var nav_bar_color = getComputedStyle(document.documentElement).getPropertyValue('--nav-color');
+        var meta = document.createElement('meta');
+        meta.setAttribute('name', 'theme-color');
+        meta.setAttribute('content', nav_bar_color);
+        document.head.appendChild(meta);
+    });
 } catch { }
 
 // get the height of the navbar and set it as the margin-top of the contents
@@ -222,19 +224,6 @@ function setStyle(e) {
             }
         }
 
-        // remove all meta theme-colors
-        var metas = document.getElementsByTagName('meta');
-        for (var i = 0; i < metas.length; i++) {
-            if (metas[i].getAttribute('name') == 'theme-color') {
-                metas[i].remove();
-            }
-        }
-
-        var meta = document.createElement('meta');
-        meta.setAttribute('name', 'theme-color');
-        meta.setAttribute('content', '#568399');
-        document.head.appendChild(meta);
-
     } else {
         var links = document.getElementsByTagName('link');
         var isNewStyle = false;
@@ -262,20 +251,6 @@ function setStyle(e) {
                     links[i].remove();
                 }
             }
-
-            // remove all meta theme-colors
-            var metas = document.getElementsByTagName('meta');
-            for (var i = 0; i < metas.length; i++) {
-                if (metas[i].getAttribute('name') == 'theme-color') {
-                    metas[i].remove();
-                }
-            }
-
-            var nav_bar_color = getComputedStyle(document.documentElement).getPropertyValue('--nav-color');
-            var meta = document.createElement('meta');
-            meta.setAttribute('name', 'theme-color');
-            meta.setAttribute('content', nav_bar_color);
-            document.head.appendChild(meta);
         }
     }
 }

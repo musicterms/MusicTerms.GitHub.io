@@ -46,11 +46,11 @@ Users are not allowed to do any mentioned activities in the "Restrictions" secti
 
 ## 5. Licenses
 
-The AlphaBrate Pure Experience Development License (APED)
+The AlphaBrate Pure Experience License (APEL)
 
-AlphaBrate is committed to delivering a clear web experience, free from advertisements and distractions. All teams and projects under AlphaBrate are mandated to adhere to the APED License, which ensures that our applications remain no advertisements and distracting elements.
+AlphaBrate is committed to delivering a clear web experience, free from advertisements and distractions. All teams and projects under AlphaBrate are mandated to adhere to the APEL License, which ensures that our applications remain no advertisements and distracting elements.
 
-The usage of our applications is entirely free of charge. The development process is collaborative, involving thorough discussions and mutual agreements. Permissions are granted to anyone who finish reading the APED License as a sign of agreement to your rights and responsibilities:
+The usage of our applications is entirely free of charge. The development process is collaborative, involving thorough discussions and mutual agreements. Permissions are granted to anyone who finish reading the APEL License as a sign of agreement to your rights and responsibilities:
 
 - You have the right to use the application for any purpose, including commercial purposes.
 
@@ -60,11 +60,11 @@ The usage of our applications is entirely free of charge. The development proces
 
 - You have the right to improve the application and release your improvements to the public.
 
-- You have to accept the APED License and its terms and conditions.
+- You have to accept the APEL License and its terms and conditions.
 
-- You have to include, display, and adopt the APED License in your application, which means:
+- You have to include, display, and adopt the APEL License in your application, which means:
 
-    1. If you distribute the application, you must include the APED License in the distribution.
+    1. If you distribute the application, you must include the APEL License in the distribution.
 
     2. Distributions of the application must remain free of advertisements and distracting elements.
 
