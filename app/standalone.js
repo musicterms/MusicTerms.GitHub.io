@@ -2,6 +2,15 @@
 // This is a stand-alone JavaScript file than other Web App included scripts. It give online user the access of the terms.
 // Better for SEO to accept this. Faster loading for fewer data.
 
+// Get ?w= from URL
+var urlQuery = window.location.search
+var urlParams = new URLSearchParams(urlQuery)
+
+var wanted = urlParams.get('w') || ''
+wanted = wanted.charAt(0).toUpperCase() + wanted.slice(1) // First letter to uppercase
+
+var urlLang = urlParams.get('l') || ''
+
 var language = navigator.language || navigator.userLanguage
 language = language.split('-')[0]
 
@@ -14,6 +23,10 @@ if (l != null) {
 // If the user's language is not in the list, set it to English
 if (language != 'en' && language != 'zh' && language != 'zh-CN') {
     language = 'en'
+}
+
+if (urlLang != '') {
+    language = urlLang
 }
 
 // Set language to local storage
@@ -41,12 +54,6 @@ for (var i = 0; i < jsonLD.length; i++) {
 
 // Set lang tag
 document.getElementsByTagName('html')[0].setAttribute('lang', language)
-
-// Get ?w= from URL
-var urlQuery = window.location.search
-var urlParams = new URLSearchParams(urlQuery)
-var wanted = urlParams.get('w') || ''
-wanted = wanted.charAt(0).toUpperCase() + wanted.slice(1) // First letter to uppercase
 
 var localStorageFetched = localStorage.getItem(wanted)
 var localStorageFetchedAll = localStorage.getItem('saved')
