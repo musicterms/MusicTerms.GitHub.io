@@ -2,9 +2,12 @@
     "Ben": {
         "word": "Ben",
         "translation": "Well",
-        "definition": "Well.",
-        "zh-CN": "好。",
-        "zh": "好。"
+        "definition": "Well, very.",
+        "zh-CN": "充分地，非常。",
+        "zh": "充分地，非常。",
+        "exams": {
+            "abrsm": 3
+        }
     },
     "Prima": {
         "word": "prima",
@@ -74,7 +77,10 @@
         "translation": "very; aplenty",
         "definition": "Comes after other terms; e.g. allegro assai (very cheerful)",
         "zh-CN": "出现在其他术语之后； 例如 allegro assai（非常）",
-        "zh": "出現在其他術語之後； 例如 allegro assai（非常）"
+        "zh": "出現在其他術語之後； 例如 allegro assai（非常）",
+        "exams": {
+            "abrsm": 4
+        }
     },
     "Più": {
         "word": "Più",
@@ -159,6 +165,16 @@
         "definition": "A type of solo opera or operetta.",
         "zh-CN": "独奏歌剧或轻歌剧的一种。",
         "zh": "獨奏歌劇或輕歌劇的一種。"
+    },
+    "Alla": {
+        "word": "Alla",
+        "translation": "in the manner of",
+        "definition": "In the manner of.",
+        "zh-CN": "以…的方式。",
+        "zh": "以…的方式。",
+        "exams": {
+            "abrsm": 2
+        }
     },
     "Ballabile": {
         "word": "Ballabile",
@@ -466,7 +482,10 @@
         "translation": "as before",
         "definition": "As before.",
         "zh-CN": "【如前】像以前一样。",
-        "zh": "【如前】像以前一樣。"
+        "zh": "【如前】像以前一樣。",
+        "exams": {
+            "abrsm": 4
+        }
     },
     "Sonatina": {
         "word": "Sonatina",

@@ -18,21 +18,31 @@
         "translation": "with feeling",
         "definition": "Tenderly.",
         "zh-CN": "温柔地。",
-        "zh": "溫柔地。"
-    },
-    "Affetuoso": {
-        "word": "affetuoso",
-        "translation": "with feeling",
-        "definition": "Tenderly.",
-        "zh-CN": "温柔地。",
-        "zh": "溫柔地。"
+        "zh": "溫柔地。",
+        "exams": {
+            "abrsm": 4,
+            "trinity": -1
+        }
     },
     "Affrettando": {
         "word": "affrettando",
         "translation": "hurrying",
         "definition": "Hurrying, pressing on faster.",
         "zh-CN": "匆忙、加快速度。",
-        "zh": "匆忙、加快速度。"
+        "zh": "匆忙、加快速度。",
+        "exams": {
+            "abrsm": 3
+        }
+    },
+    "Amabile": {
+        "word": "Amabile",
+        "translation": "lovely",
+        "definition": "Pleasant, amiable.",
+        "zh-CN": "愉快、亲切。",
+        "zh": "愉快、親切。",
+        "exams": {
+            "abrsm": 4
+        }
     },
     "Agitato": {
         "word": "Agitato",
@@ -44,9 +54,32 @@
     "Animato": {
         "word": "Animato",
         "translation": "animated",
-        "definition": "Animated, fast.",
-        "zh-CN": "快速地。",
-        "zh": "快速地。"
+        "definition": "Animated, lively.",
+        "zh-CN": "生气勃勃的，活泼地。",
+        "zh": "生氣勃勃的，活潑地。",
+        "exams": {
+            "abrsm": 3
+        }
+    },
+    "Appassionate": {
+        "word": "Appassionate",
+        "translation": "passionate",
+        "definition": "Passionately, with passion.",
+        "zh-CN": "热情地、充满激情。",
+        "zh": "熱情地、充滿激情。",
+        "exams": {
+            "abrsm": 4
+        }
+    },
+    "Brio": {
+        "word": "Brio",
+        "translation": "vivacity",
+        "definition": "Vigour, vivacity.",
+        "zh-CN": "活力、活力十足。",
+        "zh": "活力、活力十足。",
+        "exams": {
+            "abrsm": 4
+        }
     },
     "Brillante": {
         "word": "Brillante",
@@ -67,7 +100,20 @@
         "translation": "singable",
         "definition": "In a singing style.",
         "zh-CN": "以歌唱风格。",
-        "zh": "以歌唱風格。"
+        "zh": "以歌唱風格。",
+        "exams": {
+            "abrsm": 5
+        }
+    },
+    "Cantando": {
+        "word": "Cantando",
+        "translation": "singing",
+        "definition": "Singing.",
+        "zh-CN": "歌唱。",
+        "zh": "歌唱。",
+        "exams": {
+            "abrsm": 5
+        }
     },
     "Colossale": {
         "word": "Colossale",
@@ -81,7 +127,20 @@
         "translation": "convenient",
         "definition": "Comfortably, moderately.",
         "zh-CN": "舒适、适度。",
-        "zh": "舒適、適度。"
+        "zh": "舒適、適度。",
+        "exams": {
+            "abrsm": 4
+        }
+    },
+    "Affetto": {
+        "word": "Affetto",
+        "translation": "With affection",
+        "definition": "With affection.",
+        "zh-CN": "富有感情。",
+        "zh": "富有感情。",
+        "exams": {
+            "trinity": -1
+        }
     },
     "Con amore": {
         "word": "Con amore",

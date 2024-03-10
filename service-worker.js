@@ -151,7 +151,7 @@ self.addEventListener('fetch', function (event) {
                                     .then(function (cache) {
                                         cache.put(event.request, response.clone());
                                     });
-                            })
+                            }).catch(function () { return; })
                     );
                     return response;
                 }

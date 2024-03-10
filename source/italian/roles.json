@@ -27,6 +27,16 @@
         "zh-CN": "与19世纪意大利歌剧中歌剧演员的排名（primo、secondo、comprimario）有关的规则。",
         "zh": "與19世紀意大利歌劇中歌劇演員的排名（primo、secondo、comprimario）有關的規則。"
     },
+    "Alla Capella": {
+        "word": "Alla Capella",
+        "translation": "in the chapel style",
+        "definition": " In the style of unaccompanied church music.",
+        "zh-CN": "无伴奏的教堂音乐风格。",
+        "zh": "無伴奏的教堂音樂風格。",
+        "exams": {
+            "trinity": -1
+        }
+    },
     "Coro": {
         "word": "Coro",
         "translation": "choir",

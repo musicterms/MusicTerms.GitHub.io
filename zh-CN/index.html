@@ -173,7 +173,7 @@
                 </span>
                 <span class="folder" onclick="openFolder(this)">
                     <icon data-icon="folder" class="icon file"></icon>
-                    Symbols for Dynamics
+                    Short Forms
                     <icon data-icon="forward" class="icon more"></icon>
                 </span>
             </div>
@@ -191,11 +191,13 @@
                 <div class="favorite_star">
                 </div>
                 <icon data-icon="spellcheck" class="detail"></icon>
+                <icon data-icon="share" class="share-word"></icon>
             </div>
             <h3 id="translate" class="detail">
             </h3>
             <p id="definition" class="detail"></p>
-            <footer>
+            <div id="word-assets"></div>
+            <footer id="word-footer">
                 <div>
                     <icon data-icon="spellcheck" class="authorize"></icon>: From authoritative databases
                 </div>
@@ -349,7 +351,7 @@
         </div>
     </div>
     <!-- To use <icon>, add data-icon and it will be replaced by <svg> -->
-        <script src="/source/lang/translate.js"></script>
+    <script src="/source/lang/translate.js"></script>
     <script src="/js/index.js"></script>
     <script src="/js/icon.js"></script>
     <script src="/js/events.js"></script>

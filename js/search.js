@@ -211,6 +211,8 @@ function processResults(results, i = 0) {
         document.getElementById('search-result-list').lastChild.classList.remove('full-width-line');
 }
 
+var lastOpened = void 0;
+
 function addLoadEvent() {
     document.getElementById('search-result-list').innerHTML = '';
     document.getElementById('search-input').addEventListener('input', async function (e) {
@@ -225,13 +227,13 @@ function addLoadEvent() {
     });
     document.getElementById('search-input').value = 'Search here :)';
     document.getElementById('search-input').dispatchEvent(new Event('input'));
-    document.getElementById('search-input').value = '';
+    document.getElementById('search-input').value = lastOpened || '';
+    document.getElementById('search-input').dispatchEvent(new Event('input'));
     async function a() {
         var e = location.search.split('e=');
         e = e[e.length - 1] || 'true';
         if (e != 'true') {
             document.getElementById('search-input').value = decodeURIComponent(e);
-            console.log(e);
             var time = Date.now();
             let input = decodeURIComponent(e);
             let results = await search(input);

@@ -24,13 +24,13 @@ var initTermsList = function () {
         'voices': { 'name': 'Voices', 'path': p('italian', 'voices') },
         'german': { 'name': 'German', 'path': p('german', 'german') },
         'french': { 'name': 'French', 'path': p('french', 'french') },
-        'symbolsfordynamics': { 'name': 'Symbols', 'path': p('terms', 'symbol') },
+        'shortforms': { 'name': 'Symbols', 'path': p('terms', 'symbol') },
     };
 
     // Other languages
     var l = new Map([
-        ['zh-CN', ['术语', '评论', '指示', '力度', '常用术语/词语', '乐器', '情绪/表情', '模式/形态', '角色', '指挥', '技巧', '速度', '人声', '德语', '法语', '力度符号']],
-        ['zh', ['術語', '評論', '指示', '力度', '常用術語/詞語', '樂器', '情緒/表情', '模式/形態', '角色', '指揮', '技巧', '速度', '人聲', '德文', '法文', '力度符號']]
+        ['zh-CN', ['术语', '评论', '指示', '力度', '常用术语/词语', '乐器', '情绪/表情', '模式/形态', '角色', '指挥', '技巧', '速度', '人声', '德语', '法语', '缩写']],
+        ['zh', ['術語', '評論', '指示', '力度', '常用術語/詞語', '樂器', '情緒/表情', '模式/形態', '角色', '指揮', '技巧', '速度', '人聲', '德文', '法文', '縮寫']]
     ])
 
     var i = Object.keys(o);
@@ -79,6 +79,11 @@ var toDoForPages = {
         try { translate(); } catch { }
     },
     'word-details': function (e) {
+        try {
+            document.getElementById('exams').remove();
+            document.getElementsByClassName('exam_host')[0].remove();
+        } catch { }
+        document.getElementById('word-assets').innerHTML = '';
         document.getElementById('nav-back').classList.remove('hidden');
         document.getElementById('nav-back-text').innerText = document.getElementById('nav-text').innerText;
         document.getElementById('nav-text').innerText = getTranslateOf('Details');
@@ -90,6 +95,44 @@ var toDoForPages = {
         document.getElementById('translate').innerText = e[0].translation;
         document.getElementById('definition').innerText = e[0][is_definition_or_languge];
         setFavoriteStar(word);
+
+        lastOpened = word;
+
+        document.getElementsByClassName('share-word')[0].onclick = function (e) {
+            var text = document.getElementById('word').innerText;
+            navigator.share({
+                title: `${text} | Music Terms`,
+                text: `${document.getElementById('definition').innerText}`,
+                url: `https://musicterms.github.io/app/word.html?w=${encodeURIComponent(text)}`
+            });
+        }
+
+        if (e[0].assets != void 0) {
+            let assets = e[0].assets;
+            if (assets.image != void 0) {
+                let img = document.createElement('img');
+                img.src = assets.image;
+                img.classList.add('assets-image');
+                img.onload = function () {
+                    document.getElementById('word-assets').appendChild(img);
+                }
+            }
+        }
+        if (e[0].exams != void 0) {
+            let exams = e[0].exams;
+            if (exams.abrsm != void 0) {
+                document.getElementById('word-footer').innerHTML += `<div id="exams">Included in ABRSM Grade ${exams.abrsm} Music Theory.</div>`;
+                document.querySelector('#word-details-content>.flex').innerHTML += `<img src="/assets/images/abrsm.svg" class="exam_host" alt="Included in ABRSM Graded Music Theory.">`;
+            }
+            if (exams.trinity != void 0) {
+                if (exams.trinity < 0) {
+                    document.getElementById('word-footer').innerHTML += `<div id="exams">Included in Trinity College London Music Theory.</div>`;
+                } else {
+                    document.getElementById('word-footer').innerHTML += `<div id="exams">Included in Trinity College London Grade ${exams.trinity} Music Theory.</div>`;
+                }
+                document.querySelector('#word-details-content>.flex').innerHTML += `<img src="/assets/images/trinity.svg" class="exam_host" alt="Included in Trinity College London Music Theory.">`;
+            }
+        }
         try { translate(); } catch { }
     },
     'term-details': function (e) {
@@ -101,6 +144,7 @@ var toDoForPages = {
         document.getElementById('term').innerText = j.name;
         document.getElementById('definition-of-term').innerText = j[is_definition_or_languge].replaceAll('&#39;', "'");
         setFavoriteStar(j.name);
+        lastOpened = j.name;
         try { translate(); } catch { }
     },
     'settings': function () {
@@ -122,7 +166,6 @@ var toDoForPages = {
         if (e != 'true') {
             window.addEventListener('load', async function () {
                 document.getElementById('search-input').value = decodeURIComponent(e);
-                console.log(e);
                 var time = Date.now();
                 let input = decodeURIComponent(e);
                 let results = await search(input);
@@ -322,6 +365,9 @@ function goBack() {
     }
     pageHistory.pop();
     var page = pageHistory.pop();
+    if (currentPage == 'search') {
+        lastOpened = void 0;
+    }
     changePage(page, true, true);
 }
 

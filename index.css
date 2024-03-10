@@ -437,3 +437,15 @@ picture.hol {
 .bfbg {
     margin-bottom: 2rem;
 }
+
+.two-wrap-flex-col {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+
+    .flex-row {
+        max-width: 450px;
+    }
+}

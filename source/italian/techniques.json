@@ -25,7 +25,10 @@
         "translation": "bow",
         "definition": "Cancels col legno and pizzicato. (In any string passage, arco is usually expected, as it is the default approach; it is only ever written at the end of col legno or pizzicato passages.)",
         "zh-CN": "取消col legno（用琴弓敲击琴弦）和pizzicato（拨奏）",
-        "zh": "取消col legno（用琴弓敲擊琴弦）和pizzicato（撥奏）"
+        "zh": "取消col legno（用琴弓敲擊琴弦）和pizzicato（撥奏）",
+        "exams": {
+            "abrsm": 4
+        }
     },
     "Arpeggio": {
         "word": "Arpeggio",
@@ -83,12 +86,43 @@
         "zh-CN": "在钢琴上，半放开 / 半踩下柔音踏板进行演奏（两条弦）",
         "zh": "在鋼琴上，半放開 / 半踩下柔音踏板進行演奏（兩條弦）"
     },
+    "Trill": {
+        "word": "Trill",
+        "translation": "shake",
+        "definition": "A rapid alternation between the specified note and the next higher note (according to key signature) within its duration, usually a step or a minor third apart.",
+        "zh-CN": "颤音：在音符的持续时间内快速交替演奏指定音符和比它高的下一个音符（根据调号）",
+        "zh": "顫音：在音符的持續時間內快速交替演奏指定音符和比它高的下一個音符（根據調號）",
+        "assets": {
+            "image": "/assets/images/trill.svg",
+            "video": "/assets/videos/trill.mp4"
+        }
+    },
     "Tre corde / tutte le corde (T.C.)": {
         "word": "Tre corde or tutte le corde",
         "translation": "three strings or all the strings",
         "definition": "Cancels una corda",
         "zh-CN": "取消使用一条弦：在钢琴上完全放开柔音踏板进行演奏（三条弦）",
         "zh": "取消使用一條弦：在鋼琴上完全放開柔音踏板進行演奏（三條弦）"
+    },
+    "Ad libitum": {
+        "word": "Ad libitum",
+        "translation": "at liberty",
+        "definition": "At the performer‘s discretion",
+        "zh-CN": "由演奏者自行决定",
+        "zh": "由演奏者自行決定",
+        "exams": {
+            "abrsm": 5
+        }
+    },
+    "Ad lib.": {
+        "word": "ad. lib.",
+        "translation": "at liberty",
+        "definition": "At the performer‘s discretion",
+        "zh-CN": "由演奏者自行决定",
+        "zh": "由演奏者自行決定",
+        "exams": {
+            "abrsm": 5
+        }
     },
     "Glissando": {
         "word": "Glissando",

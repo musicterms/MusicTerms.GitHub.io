@@ -1,10 +1,12 @@
+let ENABLE_SERVICE_WORKER = true;
+
 // Register service worker to control making site work offline
-if ('serviceWorker' in navigator) {
+if ('serviceWorker' in navigator && ENABLE_SERVICE_WORKER) {
     navigator.serviceWorker.register('/service-worker.js')
 }
 
 try {
-    let version = 'Version 1.2.0';
+    let version = 'Version 1.2.2';
     document.getElementById('ver').innerHTML = version;
 } catch { }
 
@@ -32,7 +34,7 @@ try {
 var date = document.getElementById('date');
 
 function syncDate() {
-    try { date.innerText = '21 Feb 2024' } catch { }
+    try { date.innerText = '10 Mar 2024' } catch { }
     var date_online;
     try {
         var version_file = fetch('https://raw.githubusercontent.com/musicterms/musicterms.github.io/main/VERSION?' + Math.random(),
@@ -118,10 +120,10 @@ function isTerm(k) {
     return k == 'terms' || k == '术语' || k == '術語';
 }
 
-var symbols = ['ppp', 'pp', 'p', 'mp', 'mf', 'f', 'ff', 'fff', 'sfz', 'sfp', 'sf', 'rfz', 'rf', 'fz', 'fp', 'mfp', 'mfz'];
+var symbols = ['ppp', 'pp', 'p', 'mp', 'mf', 'f', 'ff', 'fff', 'sfz', 'sfp', 'sf', 'rfz', 'rf', 'fz', 'fp', 'mfp', 'mfz', 'rit.', 'riten.'];
 
 function shouldShowTimeNewRoman(k) {
-    return k == 'Symbols for Dynamics' || k == 'Symbols' || k == '力度符号' || k == '力度符號' || k == '符号' || k == '符號' || symbols.includes(k) || k == 'symbolsfordynamics';
+    return k == 'Short Forms' || k == 'Symbols' || k == '縮寫' || k == '缩写' || k == '符号' || k == '符號' || symbols.includes(k) || k == 'shortforms';
 }
 // announce to the server of a new visit
 var url = 'https://musicterms.onrender.com/api/';
@@ -233,7 +235,6 @@ function setStyle(e) {
             }
         }
         if (isNewStyle) {
-            console.log(meta);
             var rules = stylesheet.cssRules;
             for (var i = 0; i < rules.length; i++) {
                 stylesheet.deleteRule(i);

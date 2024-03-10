@@ -110,5 +110,19 @@
         "definition": "Moderately loud followed immediately by soft playing.",
         "zh-CN": "偏强后立即弱。",
         "zh": "偏强后立即弱。"
-    }
+    },
+    "rit.": {
+        "word": "rit.",
+        "translation": "Italian: ritardando",
+        "definition": "Gradually slower.",
+        "zh-CN": "渐慢。",
+        "zh": "漸慢。"
+    },
+    "riten.": {
+        "word": "riten.",
+        "translation": "Italian: ritenuto",
+        "definition": "Immediately slower.",
+        "zh-CN": "立即慢。",
+        "zh": "立即慢。"
+    }    
 }

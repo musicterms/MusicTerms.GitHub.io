@@ -11,14 +11,20 @@
         "translation": "",
         "definition": "with mutes",
         "zh-CN": "加上弱音器",
-        "zh": "加上弱音器"
+        "zh": "加上弱音器",
+        "exams": {
+            "abrsm": 4
+        }
     },
     "animé": {
         "word": "animé",
         "translation": "Italian: animato",
         "definition": "lively, animated",
         "zh-CN": "活泼的，生动的",
-        "zh": "活潑的，生動的"
+        "zh": "活潑的，生動的",
+        "exams": {
+            "abrsm": 4
+        }
     },
     "assez": {
         "word": "assez",

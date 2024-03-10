@@ -4,7 +4,10 @@
         "translation": "accelerating",
         "definition": "Gradually getting quicker.",
         "zh-CN": "逐渐加快；渐快。",
-        "zh": "逐漸加快；漸快。"
+        "zh": "逐漸加快；漸快。",
+        "exams": {
+            "abrsm": 1
+        }
     },
     "Accompagnato": {
         "word": "Accompagnato",
@@ -18,7 +21,10 @@
         "translation": "ad agio, at ease",
         "definition": "Slow and easy (but not as slow as largo)",
         "zh-CN": "慢板：缓慢而简单（但不像largo那么慢）",
-        "zh": "慢板：緩慢而簡單（但不像largo那麽慢）"
+        "zh": "慢板：緩慢而簡單（但不像largo那麽慢）",
+        "exams": {
+            "abrsm": 1
+        }
     },
     "Adagietto": {
         "word": "Adagietto",
@@ -37,51 +43,72 @@
     "Alla marcia": {
         "word": "Alla marcia",
         "translation": "as a march",
-        "definition": "In strict tempo at a marching pace (e.g. 120 BPM)",
-        "zh-CN": "进行曲风格：以庄严的速度进行（例如 120 BPM）",
-        "zh": "進行曲風格：以莊嚴的速度進行（例如 120 BPM）"
+        "definition": "In the style of march: Strict tempo at a marching pace.",
+        "zh-CN": "进行曲风格：以庄严的速度进行。",
+        "zh": "進行曲風格：以莊嚴的速度進行。",
+        "exams": {
+            "abrsm": 2
+        }
     },
     "Allargando": {
         "word": "Allargando",
         "translation": "broadening",
         "definition": "Slowing down and broadening; becoming more stately and majestic, possibly louder",
         "zh-CN": "逐渐减慢并转强的",
-        "zh": "逐漸減慢並轉強的"
+        "zh": "逐漸減慢並轉強的",
+        "exams": {
+            "abrsm": 2
+        }
     },
     "Allegro": {
         "word": "Allegro",
         "translation": "joyful; lively and fast",
         "definition": "Joyful; moderately fast tempo",
         "zh-CN": "快板; 中等快的速度",
-        "zh": "快板; 中等快的速度"
+        "zh": "快板; 中等快的速度",
+        "exams": {
+            "abrsm": 1
+        }
     },
     "Allegretto": {
         "word": "Allegretto",
         "translation": "a little bit joyful",
         "definition": "Slightly less joyful than allegro (so slightly slower tempo)",
         "zh-CN": "小快板：比快板稍微不那么快乐（所以节奏稍慢）",
-        "zh": "小快板：比快板稍微不那麽快樂（所以節奏稍慢）"
+        "zh": "小快板：比快板稍微不那麽快樂（所以節奏稍慢）",
+        "exams": {
+            "abrsm": 1
+        }
     },
     "Andante": {
         "word": "Andante",
         "translation": "walking",
         "definition": "At a walking pace; flowing; moderately slow tempo",
         "zh-CN": "行板：以步行的速度；节奏适度缓慢",
-        "zh": "行板：以步行的速度；節奏適度緩慢"
+        "zh": "行板：以步行的速度；節奏適度緩慢",
+        "exams": {
+            "abrsm": 1
+        }
     },
     "Andantino": {
         "word": "Andantino",
         "translation": "a little bit walking",
         "definition": "Less of a walking pace than andante (so slightly quicker)",
         "zh-CN": "小行板：步行速度比行板慢（所以稍微快一些）",
-        "zh": "小行板：步行速度比行板慢（所以稍微快一些）"
+        "zh": "小行板：步行速度比行板慢（所以稍微快一些）",
+        "exams": {
+            "abrsm": 3
+        }
     },
     "A tempo": {
         "word": "A tempo",
         "translation": "to time",
         "definition": "Return to previous tempo",
         "zh-CN": "返回之前的速度（初始速度）",
-        "zh": "返回之前的速度（初始速度）"
+        "zh": "返回之前的速度（初始速度）",
+        "exams": {
+            "abrsm": 1
+        }
     },
     "Fermata": {
         "word": "Fermata",

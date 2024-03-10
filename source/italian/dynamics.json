@@ -118,6 +118,16 @@
         "zh-CN": "逐渐消失。",
         "zh": "逐漸消失。"
     },
+    "A niente": {
+        "word": "A niente",
+        "translation": "to nothing",
+        "definition": "Fading to nothing.",
+        "zh-CN": "逐渐消失。",
+        "zh": "逐漸消失。",
+        "exams": {
+            "abrsm": 5
+        }
+    },
     "In Rilievo": {
         "word": "In Rilievo",
         "translation": "in relief",

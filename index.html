@@ -25,7 +25,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="format-detection" content="telephone=no">
     <meta name="mobile-web-app-capable" content="yes">
-    <meta name="apple-touch-fullscreen" content="yes" /> 
+    <meta name="apple-touch-fullscreen" content="yes" />
     <link rel="manifest" href="/manifest.json">
     <link rel="icon" href="/favicon.png" type="image/png">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
@@ -43,6 +43,7 @@
             height: 0;
             max-height: 0;
         }
+
         body * {
             opacity: 0;
             display: none;
@@ -100,19 +101,21 @@
         </div>
     </div>
     <div class="holder"></div>
-    <div class="flex-row no-overflow">
-        <div class="section-4 no-overflow pad2 center col">
-            <h3>Comprehensive Glossary</h3>
-            <p>Not just an app, but a comprehensive music library. With over 750 unique music terms, incredibly useful.
-            </p>
+    <div class="two-wrap-flex-col">
+        <div class="flex-row no-overflow">
+            <div class="section-4 no-overflow pad2 center col">
+                <h3>Comprehensive Glossary</h3>
+                <p>Not just an app, but a comprehensive music library. With over 750 unique music terms, incredibly
+                    useful.
+                </p>
+            </div>
         </div>
-    </div>
-    <div class="holder"></div>
-    <div class="flex-row no-overflow">
-        <div class="section-5 no-overflow pad2 center col">
-            <h3>Cross-Platform Availability</h3>
-            <p class="bfbg">Whether you’re on your phone, tablet, or computer, you can use Music Terms for<span
-                    class="nowrap"> seamless learning on the go.</span></p>
+        <div class="flex-row no-overflow">
+            <div class="section-5 no-overflow pad2 center col">
+                <h3>Cross-Platform Availability</h3>
+                <p class="bfbg">Whether you’re on your phone, tablet, or computer, you can use Music Terms for<span
+                        class="nowrap"> seamless learning on the go.</span></p>
+            </div>
         </div>
     </div>
     <p>Most important:</p>
@@ -184,7 +187,9 @@
             });
         }
 
-        if (localStorage.getItem('started_app') == 'true') {
+        var search_redirect = new URLSearchParams(location.search).get('redirect');
+
+        if (localStorage.getItem('started_app') == 'true' && search_redirect != 'no-redirect') {
             location.href = '/app/';
         } else {
             document.getElementById('hid').remove();
