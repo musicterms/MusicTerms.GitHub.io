@@ -20,18 +20,28 @@
         "word": "Adagio",
         "translation": "ad agio, at ease",
         "definition": "Slow and easy (but not as slow as largo)",
-        "zh-CN": "慢板：缓慢而简单（但不像largo那么慢）",
-        "zh": "慢板：緩慢而簡單（但不像largo那麽慢）",
+        "zh-CN": "柔板：缓慢而简单（但不像largo那么慢）",
+        "zh": "柔板：緩慢而簡單（但不像largo那麽慢）",
         "exams": {
             "abrsm": 1
-        }
+        },
+        "tempo": [46, 63, 80]
+    },
+    "Adagissimo": {
+        "word": "Adagissimo",
+        "translation": "very slow",
+        "definition": "Very slow, very slow and solemn",
+        "zh-CN": "最慢板：极慢，极慢而庄严",
+        "zh": "最慢板：極慢，極慢而莊嚴",
+        "tempo": [24, 32, 40]
     },
     "Adagietto": {
         "word": "Adagietto",
         "translation": "a bit at ease",
-        "definition": "1. Slightly less easy than adagio (so slightly faster); 2. a short adagio composition",
-        "zh-CN": "稍慢板：比慢板稍微简单一点（所以稍微快一些）",
-        "zh": "稍慢板：比慢板稍微簡單一點（所以稍微快一些）"
+        "definition": "Rather slow, slightly faster than adagio",
+        "zh-CN": "小柔板：相当缓慢，比慢板稍微快一些",
+        "zh": "小柔板：相當緩慢，比慢板稍微快一些",
+        "tempo": [72, 74,76]
     },
     "Affrettando": {
         "word": "Affrettando",
@@ -68,17 +78,34 @@
         "zh": "快板; 中等快的速度",
         "exams": {
             "abrsm": 1
-        }
+        },
+        "tempo": [120, 132, 156]
+    },
+    "Allegro moderato": {
+        "word": "Allegro moderato",
+        "translation": "moderately joyful",
+        "definition": "Close to, but not quite allegro",
+        "zh-CN": "中快板：接近快板但不完全是快板",
+        "zh": "中快板：接近快板但不完全是快板",
+        "tempo": [116, 118, 120]
     },
     "Allegretto": {
         "word": "Allegretto",
         "translation": "a little bit joyful",
         "definition": "Slightly less joyful than allegro (so slightly slower tempo)",
-        "zh-CN": "小快板：比快板稍微不那么快乐（所以节奏稍慢）",
+        "zh-CN": "稍快板：比快板稍微不那么快乐（所以节奏稍慢）",
         "zh": "小快板：比快板稍微不那麽快樂（所以節奏稍慢）",
         "exams": {
             "abrsm": 1
         }
+    },
+    "Allegrissimo": {
+        "word": "Allegrissimo",
+        "translation": "very joyful",
+        "definition": "Very fast, faster than allegro",
+        "zh-CN": "极快的快板：非常快，比快板还快",
+        "zh": "極快板：非常快，比快板還快",
+        "tempo": [172, 174, 176]
     },
     "Andante": {
         "word": "Andante",
@@ -88,7 +115,8 @@
         "zh": "行板：以步行的速度；節奏適度緩慢",
         "exams": {
             "abrsm": 1
-        }
+        },
+        "tempo": [56, 80, 108]
     },
     "Andantino": {
         "word": "Andantino",
@@ -98,7 +126,8 @@
         "zh": "小行板：步行速度比行板慢（所以稍微快一些）",
         "exams": {
             "abrsm": 3
-        }
+        },
+        "tempo": [80, 88, 108]
     },
     "A tempo": {
         "word": "A tempo",
@@ -122,14 +151,16 @@
         "translation": "grave, solemn",
         "definition": "Slow and solemn tempo (slower than largo)",
         "zh-CN": "庄板：缓慢而庄严的速度（比慢板慢）",
-        "zh": "莊板：緩慢而莊嚴的速度（比慢板慢）"
+        "zh": "緩板：緩慢而莊嚴的速度（比慢板慢）",
+        "tempo": [24, 32, 40]
     },
     "Largo": {
         "word": "Largo",
         "translation": "broad",
         "definition": "Slow and dignified tempo",
         "zh-CN": "广板：速度缓慢而凝重",
-        "zh": "廣板：速度緩慢而凝重"
+        "zh": "慢板：速度緩慢而凝重",
+        "tempo": [40, 53, 66]
     },
     "Largamente": {
         "word": "Largamente",
@@ -138,19 +169,29 @@
         "zh-CN": "寬廣的：速度缓慢而凝重",
         "zh": "寬廣的：速度緩慢而凝重"
     },
+    "Larghissimo": {
+        "word": "Larghissimo",
+        "translation": "very broad",
+        "definition": "Extremely slow, slowest type of tempo, slower than largo.",
+        "zh-CN": "最广板：极慢，最慢的速度，比慢板还慢",
+        "zh": "極慢板：極慢，最慢的速度，比慢板還慢",
+        "tempo": [1, 12, 24]
+    },
     "Larghetto": {
         "word": "Larghetto",
         "translation": "broad-ish",
-        "definition": "Slightly less dignified than largo (so slightly faster tempo)",
-        "zh-CN": "小广板：比 largo 稍微不那么端庄（所以节奏稍快一些）",
-        "zh": "小廣板：比 largo 稍微不那麽端莊（所以節奏稍快一些）"
+        "definition": "Rather slow and broad, but not as slow as largo.",
+        "zh-CN": "稍广板：相当缓慢而宽广，但不像慢板那么慢。",
+        "zh": "稍緩板：相當緩慢而寬廣，但不像慢板那麽慢。",
+        "tempo": [44, 55, 66]
     },
     "Lento": {
         "word": "Lento",
         "translation": "slow",
         "definition": "Slow tempo",
         "zh-CN": "缓板：速度慢",
-        "zh": "緩板：速度慢"
+        "zh": "速度慢",
+        "tempo": [52, 60, 108]
     },
     "Lentando": {
         "word": "Lentando",
@@ -171,7 +212,16 @@
         "translation": "moderate",
         "definition": "Moderate tempo",
         "zh-CN": "中板：速度适中",
-        "zh": "中板：速度適中"
+        "zh": "中板：速度適中",
+        "tempo": [108, 116, 120]
+    },
+    "Andante moderato": {
+        "word": "Andante moderato",
+        "translation": "moderately walking",
+        "definition": "Close to, but not quite andante",
+        "zh-CN": "中行板：接近行板但不完全是行板",
+        "zh": "中行板：接近行板但不完全是行板",
+        "tempo": [92, 96, 100]
     },
     "Mosso": {
         "word": "Mosso",
@@ -185,14 +235,16 @@
         "translation": "prompt, quick; ready for action",
         "definition": "Very fast",
         "zh-CN": "急板：非常快",
-        "zh": "急板：非常快"
+        "zh": "急板：非常快",
+        "tempo": [168, 180, 200]
     },
     "Prestissimo": {
         "word": "Prestissimo",
         "translation": "very prompt, very quick",
         "definition": "Very very fast (above 200 BPM)",
         "zh-CN": "最急板：非常非常快（超过 200 BPM）",
-        "zh": "最急板：非常非常快（超過 200 BPM）"
+        "zh": "最急板：非常非常快（超過 200 BPM）",
+        "tempo ": [200, 208, 216]
     },
     "Rallentando": {
         "word": "Rallentando",
@@ -240,8 +292,17 @@
         "word": "Vivace",
         "translation": "vivacious",
         "definition": "Fast and lively tempo (quicker than allegro)",
-        "zh-CN": "活泼的",
-        "zh": "活潑的"
+        "zh-CN": "快，且活泼的",
+        "zh": "快，且活潑的",
+        "tempo": [140, 160, 176]
+    },
+    "Vivacissimo": {
+        "word": "Vivacissimo",
+        "translation": "very vivacious",
+        "definition": "Very fast and lively, faster than vivace",
+        "zh-CN": "最快，且活泼的，比vivace更快",
+        "zh": "最快，且活潑的，比vivace更快",
+        "tempo": [172, 174, 176]
     },
     "Rubato": {
         "word": "Rubato",

@@ -1434,7 +1434,7 @@ button.fit {
     align-items: center;
     gap: 1rem;
     margin: 1rem auto;
-    width: 80%;
+    width: 100%;
     max-width: 400px;
     flex-wrap: wrap;
 

@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEMPO PREVIEWER ALPHABRATE+0 & NO INDEXING</title>
+    <meta name="robots" content="noindex">
+    <link rel="stylesheet" href="/style.css">
+    <style>
+        body {
+            overflow: hidden;
+        }
+
+        .main-body {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100vh;
+        }
+
+        .up-and-down {
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100%;
+        }
+
+        .fixed {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            padding: 2rem;
+            margin: 0rem;
+
+            button {
+                position: fixed;
+                z-index: 10;
+                height: 3.5rem;
+                bottom: 20%;
+                width: 3.5rem;
+                border-radius: 50%;
+                background-color: var(--background-color-protrude);
+                outline: none;
+                border: none;
+                box-shadow: 0 0 15px 5px var(--shadow-color);
+                cursor: pointer;
+                transition: 0.2s;
+
+                &:hover {
+                    background-color: var(--background-color-protrude-hover);
+                    transform: translateY(-0.1rem);
+                }
+
+                * {
+                    fill: var(--font-color);
+                }
+            }
+        }
+
+        .drum-in-center {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 80vh;
+            height: 80vh;
+            border-radius: 50%;
+            background: var(--background-color-protrude);
+            box-shadow: 0 0 50px 5px var(--shadow-color), inset 0 0 50px 10px var(--shadow-color-fewer);
+            transition: 0.2s;
+            cursor: pointer;
+        }
+
+        .tempo-on-drum {
+            position: absolute;
+            top: 49.5%;
+            left: 50%;
+            transform: translate(calc(-50% - .8rem), -50%);
+            font-size: 11vh;
+            font-weight: bold;
+            color: var(--font-color);
+
+            span * {
+                fill: var(--font-color);
+                height: 11vh;
+                width: 11vh;
+                transform: translate(.6%, .4%);
+            }
+        }
+
+        img.i {
+            height: 2rem;
+            padding: .4rem;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.92);
+        }
+
+        .line,
+        .line .e {
+            z-index: 15;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+
+            font {
+                font-size: 1.1rem;
+                margin: 0 1rem;
+            }
+        }
+
+        .expand-from-left {
+            background: #ffffff27;
+            backdrop-filter: blur(7px) brightness(.5);
+            -webkit-backdrop-filter: blur(7px) brightness(.5);
+            padding: 1rem 0rem;
+            border-radius: 17px;
+            transform: translateY(.4rem);
+            overflow: hidden;
+            transition: .5s;
+            max-width: 0px;
+
+            &.expanded {
+                max-width: 150px;
+                padding: 1rem 2rem;
+            }
+        }
+
+        .white-circle {
+            position: absolute;
+            top: 0;
+            transform: translateY(-90%);
+            left: -30vh;
+            width: 80vh;
+            height: 80vh;
+            border-radius: 50%;
+            background: radial-gradient(50% 50% at 50% 50%, rgba(190, 190, 190, 0.345) 0%, rgba(184, 184, 184, 0.29) 40%, rgba(195, 195, 195, 0) 100%);
+            z-index: 4;
+            transition: 1s;
+            opacity: 0;
+            pointer-events: none;
+        }
+
+        .fullscreen {
+            transition: 1s;
+            opacity: 0;
+            pointer-events: none;
+            position: fixed;
+            height: 100vh;
+            width: 100vw;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            backdrop-filter: blur(7px) brightness(.5);
+            -webkit-backdrop-filter: blur(7px) brightness(.5);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-body">
+        <div class="up">
+            <div class="flex up-and-down center">
+                <span id="T_range" class="gray"></span>
+                <span id="T_tempo"></span>
+            </div>
+        </div>
+        <div class="metronome">
+            <div class="drum-in-center">
+                <div class="tempo-on-drum nowrap">
+                    <font class="tempo">
+                        <icon data-icon="crotchet"></icon> =
+                    </font>
+                    <font class="tempo" id="tempo"></font>
+                </div>
+            </div>
+        </div>
+        <div class="fixed button">
+            <div class="white-circle"></div>
+            <div class="fullscreen"></div>
+            <button id="options">
+                <icon data-icon="metronome"></icon>
+            </button>
+            <div class="tools">
+                <div class="line">
+                    <span class="e">
+                        <img class="i" src="/icons/metronome.svg">
+                        <font>Tempo</font>
+                    </span>
+                    <div class="expand-from-left">
+                        <input type="range" name="range" id="tempo-range">
+                    </div>
+                </div>
+                <div class="line" id="oin">
+                    <span class="opin e">
+                        <img class="i" src="/icons/scale.svg">
+                        <font>Open in New</font>
+                    </span>
+                </div>
+                <div class="line">
+                    <span class="opin e">
+                        <img class="i" src="/icons/refresh.svg">
+                        <font>Reload</font>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/js/icon.js"></script>
+    <script>
+
+        function pageInIframe() {
+            return (window.location !== window.parent.location);
+        }
+
+        if (!pageInIframe()) {
+            document.getElementById('oin').remove();
+        }
+
+        const given_params = new URLSearchParams(window.location.search);
+        var min = given_params.get('min');
+        var max = given_params.get('max');
+        var def = given_params.get('def');
+
+        document.getElementById('T_range').innerText = `${min} - ${max} BPM`;
+        document.getElementById('tempo').innerText = def;
+
+        icons();
+
+        // Metronome
+        // JS generated audio
+        let isPlaying = false;
+        let nextNoteTime = 0; // when the next note is due
+        let noteLength = 0.05; // length of "beep" in seconds
+        let tempo = def;
+        let lookahead = 25.0; // How frequently to call scheduling function (in milliseconds)
+        let scheduleAheadTime = 0.1; // How far ahead to schedule audio (sec)
+
+        // Create an AudioContext instance
+        let audioContext = new (window.AudioContext || window.webkitAudioContext)();
+
+        const drum = document.querySelector('.drum-in-center');
+        drum.addEventListener('click', function () {
+            if (isPlaying) {
+                // If the metronome is playing, stop it
+                isPlaying = false;
+            } else {
+                // If the metronome is not playing, start it
+                isPlaying = true;
+                nextNoteTime = audioContext.currentTime;
+                scheduler(); // start the scheduling
+            }
+        });
+
+        function nextNote() {
+            // Advance current note and time by a quarter note (crotchet)
+            let secondsPerBeat = 60.0 / tempo; // Notice this picks up the CURRENT tempo value to calculate beat length.
+            nextNoteTime += secondsPerBeat; // Add beat length to last beat time
+        }
+
+        function scheduleNote() {
+            let osc = audioContext.createOscillator();
+            osc.connect(audioContext.destination);
+            osc.start(nextNoteTime);
+
+            // Addional Visuals
+            setTimeout(() => {
+                drum.style.backgroundColor = 'var(--background-color-protrude-hover)';
+            }, (noteLength * 1000) - 5);
+
+            osc.stop(nextNoteTime + noteLength); // Nessasary
+
+            // Addional Visuals
+            setTimeout(() => {
+                drum.style.backgroundColor = 'var(--background-color-protrude)';
+            }, (noteLength * 1000 * 2) - 5);
+        }
+
+        function scheduler() {
+            // while there are notes that will need to play before the next interval, schedule them and advance the pointer.
+            while (nextNoteTime < audioContext.currentTime + scheduleAheadTime) {
+                scheduleNote();
+                nextNote();
+            }
+            if (isPlaying) { // if the metronome is not playing, don't call setTimeout
+                setTimeout(scheduler, lookahead);
+            }
+        }
+    </script>
+    <script src="/js/index.js"></script>
+    <script>
+        document.querySelectorAll('.e').forEach(e => {
+            e.addEventListener('click', function () {
+                try {
+                    e.parentElement.querySelector('.expand-from-left').classList.toggle('expanded');
+                } catch (e) {
+                    this.parentNode.querySelector('.expand-from-left').classList.toggle('expanded');
+                }
+            });
+        });
+
+        document.getElementsByClassName('opin')[0].addEventListener('click', function () {
+            window.open(location.href, '_blank');
+        });
+
+        let tempo_range = document.getElementById('tempo-range');
+        tempo_range.min = min;
+        tempo_range.max = max;
+        tempo_range.value = def;
+        tempo_range.addEventListener('input', function () {
+            document.getElementById('tempo').innerText = tempo_range.value;
+            tempo = tempo_range.value;
+        });
+
+        var all_lines = document.querySelectorAll('.line');
+        var locations = [];
+        all_lines.forEach((line, i) => {
+            locations.push([line.getBoundingClientRect().x, line.getBoundingClientRect().y]);
+            line.style.position = 'fixed';
+            line.style.opacity = 0;
+        });
+
+        all_lines.forEach((line, i) => {
+            var location_of_options = document.querySelector('.fixed').getBoundingClientRect();
+            line.style.left = locations[i][0] + 'px';
+            line.style.bottom = window.innerHeight - location_of_options.y + 'px';
+            line.style.transition = '1s';
+            line.style.pointerEvents = 'none';
+        });
+
+        [document.getElementById('options'), document.querySelector('.white-circle'), document.querySelector('.fullscreen')]
+            .forEach(e => {
+                e.addEventListener('click', function () {
+                    if (!this.classList.contains('expanded')) {
+                        var location_of_options = document.querySelector('.fixed').getBoundingClientRect();
+                        let done_box = [];
+                        all_lines.forEach((line, i) => {
+                            line.style.left = locations[i][0] + 'px';
+                            line.style.bottom = ((window.innerHeight - location_of_options.y) * -i) + location_of_options.y / 2 + 'px';
+                            line.style.opacity = 1;
+                            line.style.pointerEvents = 'all';
+                            done_box.push(line.getBoundingClientRect());
+                        });
+                        this.classList.add('expanded');
+                        document.querySelector('.white-circle').style.opacity = 1;
+                        document.querySelector('.white-circle').style.pointerEvents = 'all';
+                        document.querySelector('.fullscreen').style.opacity = 1;
+                        document.querySelector('.fullscreen').style.pointerEvents = 'all';
+
+                        document.getElementById('options').style.opacity = 0;
+                    }
+                    else {
+                        all_lines.forEach((line, i) => {
+                            var location_of_options = document.querySelector('.fixed').getBoundingClientRect();
+                            line.style.left = locations[i][0] + 'px';
+                            line.style.bottom = window.innerHeight - location_of_options.y + 'px';
+                            line.style.opacity = 0;
+                            line.style.pointerEvents = 'none';
+                        });
+                        this.classList.remove('expanded');
+                        document.querySelector('.white-circle').style.opacity = 0;
+                        document.querySelector('.white-circle').style.pointerEvents = 'none';
+                        document.querySelector('.fullscreen').style.opacity = 0;
+                        document.querySelector('.fullscreen').style.pointerEvents = 'none';
+                        document.getElementById('options').style.opacity = 1;
+                    }
+                });
+            })
+
+
+    </script>
+</body>
+
+</html>

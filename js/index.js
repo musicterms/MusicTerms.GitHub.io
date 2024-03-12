@@ -1,4 +1,4 @@
-let ENABLE_SERVICE_WORKER = true;
+let ENABLE_SERVICE_WORKER = false;
 
 // Register service worker to control making site work offline
 if ('serviceWorker' in navigator && ENABLE_SERVICE_WORKER) {
@@ -6,7 +6,7 @@ if ('serviceWorker' in navigator && ENABLE_SERVICE_WORKER) {
 }
 
 try {
-    let version = 'Version 1.2.2';
+    let version = 'Version 1.2.3';
     document.getElementById('ver').innerHTML = version;
 } catch { }
 
@@ -34,7 +34,7 @@ try {
 var date = document.getElementById('date');
 
 function syncDate() {
-    try { date.innerText = '10 Mar 2024' } catch { }
+    try { date.innerText = '12 Mar 2024' } catch { }
     var date_online;
     try {
         var version_file = fetch('https://raw.githubusercontent.com/musicterms/musicterms.github.io/main/VERSION?' + Math.random(),

@@ -1,4 +1,5 @@
 var currentPage = 'page-1';
+var fromPage = 'page-1';
 
 var language = location.href.split('/')[3];
 var is_definition_or_languge = language == 'en' ? 'definition' : language || 'definition';
@@ -107,7 +108,7 @@ var toDoForPages = {
             });
         }
 
-        if (e[0].assets != void 0) {
+        if (e[0].assets) {
             let assets = e[0].assets;
             if (assets.image != void 0) {
                 let img = document.createElement('img');
@@ -118,21 +119,46 @@ var toDoForPages = {
                 }
             }
         }
-        if (e[0].exams != void 0) {
+        if (e[0].exams) {
             let exams = e[0].exams;
             if (exams.abrsm != void 0) {
                 document.getElementById('word-footer').innerHTML += `<div id="exams">Included in ABRSM Grade ${exams.abrsm} Music Theory.</div>`;
-                document.querySelector('#word-details-content>.flex').innerHTML += `<img src="/assets/images/abrsm.svg" class="exam_host" alt="Included in ABRSM Graded Music Theory.">`;
+                document.querySelector('#word-assets').innerHTML += `<img src="/assets/images/abrsm.svg" class="exam_host" alt="Included in ABRSM Graded Music Theory.">`;
             }
-            if (exams.trinity != void 0) {
+            if (exams.trinity) {
                 if (exams.trinity < 0) {
                     document.getElementById('word-footer').innerHTML += `<div id="exams">Included in Trinity College London Music Theory.</div>`;
                 } else {
                     document.getElementById('word-footer').innerHTML += `<div id="exams">Included in Trinity College London Grade ${exams.trinity} Music Theory.</div>`;
                 }
-                document.querySelector('#word-details-content>.flex').innerHTML += `<img src="/assets/images/trinity.svg" class="exam_host" alt="Included in Trinity College London Music Theory.">`;
+                document.querySelector('#word-assets').innerHTML += `<img src="/assets/images/trinity.svg" class="exam_host" alt="Included in Trinity College London Music Theory.">`;
             }
         }
+
+        if (e[0].tempo) {
+            let tempo = e[0].tempo;
+            let T_Minimum = tempo[0];
+            let T_Default = tempo[1];
+            let T_Maximum = tempo[2];
+
+            var iFrame_link = `/app/tempo.html?min=${T_Minimum}&max=${T_Maximum}&def=${T_Default}`;
+            var iFrame = document.createElement('iframe');
+            iFrame.src = iFrame_link;
+            iFrame.style.width = '100%';
+            iFrame.style.maxHeight = '400px';
+            iFrame.style.border = 'none';
+            iFrame.style.margin = '0';
+            iFrame.style.marginTop = '2rem';
+            iFrame.style.padding = '0';
+            iFrame.style.display = 'block';
+            iFrame.style.opacity = '0';
+            iFrame.onload = function () {
+                iFrame.style.opacity = '1';
+            }
+            document.getElementById('word-assets').appendChild(iFrame);
+            iFrame.style.height = iFrame.offsetWidth + 'px';
+        }
+
         try { translate(); } catch { }
     },
     'term-details': function (e) {
@@ -356,6 +382,7 @@ function changePage(page, e, back = false) {
         document.getElementById('list-of-words-content').style.opacity = '1';
     }, 300);
     pageHistory.push(page);
+    fromPage = currentPage;
     currentPage = page;
 }
 
@@ -365,7 +392,7 @@ function goBack() {
     }
     pageHistory.pop();
     var page = pageHistory.pop();
-    if (currentPage == 'search') {
+    if (currentPage == 'search' || fromPage == 'word-details' || fromPage == 'term-details') {
         lastOpened = void 0;
     }
     changePage(page, true, true);
