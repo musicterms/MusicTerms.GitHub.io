@@ -35,7 +35,33 @@
     --highlight-color-dark: #ffffffed;
 }
 
-@media (prefers-color-scheme: dark) {
+:root {
+    --gradient: radial-gradient(36.39% 70.91% at 55.9% 52.42%, rgba(0, 255, 87, 0.22) 1.95%, rgba(0, 255, 87, 0) 100%), radial-gradient(97.36% 111.9% at 50% 8.59%, #F6F6F6 0%, #F1F1F1 30.85%, #BEDEE0 41.97%, #9DD4F2 56.3%, #FAFAFA 79.85%, #FAFAFA 100%);
+    --background-color: var(--background-color-light);
+    --background-color-rgb: var(--background-color-light-rgb);
+    --background-color-protrude: var(--background-color-protrude-light);
+    --font-color: var(--font-color-light);
+    --font-color-rgb: var(--font-color-light-rgb);
+    --border-color: var(--border-color-light);
+    --featured-color: var(--featured-color-light);
+    --featured-color-hover: var(--featured-color-hover-light);
+    --featured-color-active: var(--featured-color-active-light);
+    --background-color-protrude-hover: var(--background-color-protrude-hover-light);
+    --color-grey: var(--color-grey-light);
+    --background-color-popover: var(--background-color-popover-light);
+    --background-accent-color: var(--background-accent-color-light);
+    --background-color-popover-hover: var(--background-color-popover-hover-light);
+    --shadow-color: var(--shadow-color-light);
+    --nav-color: var(--background-color);
+    /* --functional-color: var(--functional-color-light); */
+    --blur-light: rgba(0, 0, 0, .03);
+    --gray-rgb: rgba(70, 70, 70, 0.5);
+    --linear-icon: radial-gradient(51% 51% at 31.5% 61%, rgba(255, 137, 166, 0.8) 0%, rgba(255, 126, 157, 0) 100%), radial-gradient(105.5% 105.5% at -5.5% 56.5%, rgba(119, 160, 160, 0.57) 0%, rgba(123, 83, 142, 0.59) 100%);
+    --highlight-color: var(--highlight-color-light);
+    --cool: rgb(255, 166, 0);
+}
+
+/* @media (prefers-color-scheme: dark) {
     :root {
         --gradient: radial-gradient(90.24% 90.24% at 48.38% 18.13%, #000000 0%, #020202 25.35%, #061857 45.35%, #000D3D 70.35%, #000000 100%);
         --background-color: var(--background-color-dark);
@@ -61,7 +87,7 @@
         --highlight-color: var(--highlight-color-dark);
         --cool: rgb(245, 222, 179);
     }
-}
+} */
 
 @media (prefers-color-scheme: light) {
     :root {
@@ -747,6 +773,7 @@ span.share-word {
     height: 1.5rem;
     width: 1.5rem;
     border-radius: 50%;
+
     * {
         height: 1.3rem;
         width: 1.3rem;
