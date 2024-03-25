@@ -162,7 +162,7 @@ button {
     cursor: pointer;
 }
 
-nav {
+nav.black {
     position: fixed;
     top: 0;
     left: 0;
@@ -178,6 +178,28 @@ nav {
     -webkit-user-select: none;
     backdrop-filter: blur(17px) brightness(1.8);
     -webkit-backdrop-filter: blur(17px) brightness(1.8);
+    transform: translateZ(0);
+    z-index: 5;
+}
+
+nav {
+    position: fixed;
+    top: -50px;
+    left: 0;
+    width: 100%;
+    padding: 1rem 0;
+    padding-top: 60px;
+    padding-bottom: 1em;
+    font-size: 1.2rem;
+    background: transparent;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    -webkit-user-select: none;
+    backdrop-filter: blur(17px) brightness(1.4);
+    -webkit-backdrop-filter: blur(17px) brightness(1.4);
     transform: translateZ(0);
     z-index: 5;
 }
@@ -770,6 +792,7 @@ span.share-word {
     height: 1.5rem;
     width: 1.5rem;
     border-radius: 50%;
+
     * {
         height: 1.3rem;
         width: 1.3rem;
@@ -1028,9 +1051,7 @@ span.switch.checked:active::after {
     text-align: center;
 }
 
-@keyframes being-stared {
-
-}
+@keyframes being-stared {}
 
 .normal-text-input {
     border-radius: 7px;
@@ -1227,6 +1248,24 @@ p.gray.small.center {
 }
 
 .mid-btn:hover {
+    background-color: var(--background-color-protrude-hover);
+}
+
+.small-btn {
+    position: relative;
+    padding: .5rem 1rem;
+    outline: none;
+    border: 1px solid var(--border-color);
+    font-size: 1rem;
+    border-radius: 7px;
+    background-color: var(--background-color);
+    color: var(--font-color);
+    cursor: pointer;
+    transition: background-color .2s;
+    margin: 2rem auto;
+}
+
+.small-btn:hover {
     background-color: var(--background-color-protrude-hover);
 }
 
