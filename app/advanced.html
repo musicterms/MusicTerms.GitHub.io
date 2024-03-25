@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="robots" content="noindex">
+    <meta charset="UTF-8">
+    <title>Music Terminology | Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="description"
+        content="Discover musical terms with AlphaBrate. No ads or fees! Enjoy our simple, elegant design. Ideal for music lovers.">
+    <meta property="og:title" content="AlphaBrate Music Terminology Library" />
+    <meta property="og:type" content="video.movie" />
+    <meta property="og:url" content="https://musicterms.github.io" />
+    <meta property="og:description"
+        content="Looking for an awesome music terms library app? AlphaBrate Music Terminology Library is the best choice. Hosted on GitHub Pages, we have no operating costs that we won't let ads appear on our websites! Enjoy an elegant and simple surf experience with innovative design now! Available on https://musicterms.github.io" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="AlphaBrate Music Terminology Library">
+    <meta name="twitter:description"
+        content="Looking for an awesome music terms library app? AlphaBrate Music Terminology Library is the best choice. Hosted on GitHub Pages, we have no operating costs that we won't let ads appear on our websites! Enjoy an elegant and simple surf experience with innovative design now! Available on https://musicterms.github.io">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="icon" href="/favicon.png" type="image/png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <nav>
+        <span class="nav-arrow-back" id="nav-back" onclick="location.href='/app/?redirect=no-delay'">
+            <icon data-icon="arrow_back_ios"></icon>
+            <font id="nav-back-text">Settings</font>
+        </span>
+        <font id="nav-text">Advanced</font>
+    </nav>
+    <div id="alert-fullscreen">
+        <div id="alert">
+            <div class="alert-content">
+                <h1 id="alert-title"></h1>
+                <p id="alert-text"></p>
+            </div>
+            <div class="divider-hoz"></div>
+            <div class="actions">
+                <span id="alert-cancel" class="alert-btn">Cancel</span>
+                <div class="divider-ver"></div>
+                <span id="alert-confirm" class="alert-btn">OK</span>
+            </div>
+        </div>
+    </div>
+    <noscript>
+        <p>
+            <span class="sentence">We're sorry, but our website <span class="nowrap">requires JavaScript.</span></span>
+            <span class="sentence">Please enable it <span class="nowrap">in order to experience</span> the <span
+                    class="nowrap">elegance
+                    and simplicity.</span></span>
+        </p>
+        <style>
+            html {
+                overflow: hidden !important;
+            }
+        </style>
+    </noscript>
+    <div class="page" id="page-1">
+        <div class="content center">
+            <p class="gray small center margin-auto">Please ONLY enter command from <a href="https://alphabrate.github.io/articles/user-manuals/music-terms/?article=solutions">AlphaBrate Websites</a>.</p>
+            <label for="cmd" class="text">
+                <input type="text" id="cmd" placeholder="Command">
+            </label>
+            <button class="small-btn" id="exe">Execute</button>
+            <font class="small-title center" id="res"></font>
+        </div>
+    </div>
+    <!-- To use <icon>, add data-icon and it will be replaced by <svg> -->
+    <script src="/js/index.js"></script>
+    <script src="/js/icon.js"></script>
+    <script src="/js/commands.js"></script>
+</body>
+
+</html>

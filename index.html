@@ -189,7 +189,9 @@
 
         var search_redirect = new URLSearchParams(location.search).get('redirect');
 
-        if (localStorage.getItem('started_app') == 'true' && search_redirect != 'no-redirect') {
+        let is_in_PWA = window.matchMedia('(display-mode: standalone)').matches;
+
+        if (search_redirect != 'no-redirect' && is_in_PWA) {
             location.href = '/app/';
         } else {
             document.getElementById('hid').remove();

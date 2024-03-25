@@ -18,22 +18,12 @@
         content="Looking for an awesome music terms library app? AlphaBrate Music Terminology Library is the best choice. Hosted on GitHub Pages, we have no operating costs that we won't let ads appear on our websites! Enjoy an elegant and simple surf experience with innovative design now! Available on https://musicterms.github.io">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="mobile-web-app-capable" content="yes">
     <link rel="manifest" href="/manifest.json">
     <link rel="icon" href="/favicon.png" type="image/png">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <link rel="stylesheet" href="/style.css">
-    <!-- Clarity tracking code for https://musicterms.github.io/ --><script>    (function(c,l,a,r,i,t,y){        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i+"?ref=bwt";        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);    })(window, document, "clarity", "script", "krayfeinxp");</script>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6K7W9LK8WL"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-6K7W9LK8WL');
-    </script>
 </head>
 
 <body>
@@ -255,6 +245,12 @@
                     <span class="switch settings" id="new_look_enable_switch"
                         onclick="writeStorage(this.id,!this.classList.contains('checked'));location.reload();"></span>
                 </span>
+                <span class="folder color-red" onclick="location.href='/app/advanced.html'">
+                    <icon data-icon="timeline" class="icon file"></icon>
+                    <span>Advanced</span>
+                    <icon data-icon="open_in_new" class="icon file open_in_new"></icon>
+                    <icon data-icon="forward" class="icon more"></icon>
+                </span>
             </div>
             <div class="set">
                 <span class="folder lane no-line">
@@ -295,11 +291,6 @@
                 <span class="folder lane" onclick="location.href='https://alphabrate.github.io'">
                     <icon data-icon="placeholder" class="icon file"></icon>
                     <span>By the AlphaBrate Team</span>
-                    <icon data-icon="open_in_new" class="icon file open_in_new"></icon>
-                </span>
-                <span class="folder lane" onclick="location.href='/bug.html'">
-                    <icon data-icon="bug" class="icon file"></icon>
-                    <span>Report a Bug</span>
                     <icon data-icon="open_in_new" class="icon file open_in_new"></icon>
                 </span>
                 <span class="folder lane" onclick="location.href='https://github.com/musicterms/musicterms.github.io'">

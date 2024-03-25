@@ -125,6 +125,17 @@ try {
                                 try { translate() } catch { }
                             }
                         })
+                        try {
+                            if (document.getElementById('word').innerText == '') {
+                                document.getElementById('word').innerHTML = 'Word not found'
+                                document.getElementById('translate').innerHTML = '（；´д｀）ゞ'
+                                document.getElementById('definition').innerHTML = `<font>It seems the word you’re looking for isn’t in our database.</font><br><font>Make sure you are from valid ways and you have spelled the word correctly.</font><br><font class='gray'><font>Our</font> <b>Power Search</b> <font>feature can still help you find what you need, even with typos.</font></font>`
+
+                                var icon = document.querySelectorAll('span.detail')[0]
+                                icon.innerHTML = '🔍'
+                                try { translate() } catch { }
+                            }
+                        } catch { }
                     })
             }
         }
@@ -132,17 +143,6 @@ try {
 } catch (e) {
     console.error(e)
 }
-try {
-    if (document.getElementById('word').innerText == '') {
-        document.getElementById('word').innerHTML = 'Word not found'
-        document.getElementById('translate').innerHTML = '（；´д｀）ゞ'
-        document.getElementById('definition').innerHTML = `<font>It seems the word you’re looking for isn’t in our database.</font><br><font>Make sure you are from valid ways and you have spelled the word correctly.</font><br><font class='gray'><font>Our</font> <b>Power Search</b> <font>feature can still help you find what you need, even with typos.</font></font>`
-
-        var icon = document.querySelectorAll('span.detail')[0]
-        icon.innerHTML = '🔍'
-        try { translate() } catch { }
-    }
-} catch { }
 
 try { translate() } catch { }
 

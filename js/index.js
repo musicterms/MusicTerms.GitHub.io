@@ -1,4 +1,15 @@
-let ENABLE_SERVICE_WORKER = false;
+let ENABLE_SERVICE_WORKER = true;
+
+try {
+    if (localStorage.getItem('service_worker') == 'false') {
+        ENABLE_SERVICE_WORKER = false;
+        navigator.serviceWorker.getRegistrations().then(registrations => {
+            for (const registration of registrations) {
+                registration.unregister();
+            }
+        });
+    }
+} catch { }
 
 // Register service worker to control making site work offline
 if ('serviceWorker' in navigator && ENABLE_SERVICE_WORKER) {
@@ -6,7 +17,7 @@ if ('serviceWorker' in navigator && ENABLE_SERVICE_WORKER) {
 }
 
 try {
-    let version = 'Version 1.2.3';
+    let version = 'Version 1.2.4';
     document.getElementById('ver').innerHTML = version;
 } catch { }
 
@@ -27,14 +38,26 @@ try {
     var nav_bar_height = nav_bar.offsetHeight;
     var content = document.getElementsByClassName('content');
     for (var i = 0; i < content.length; i++) {
-        content[i].style.marginTop = nav_bar_height + 25 + 'px';
+        content[i].style.marginTop = nav_bar_height + 25 + nav_bar.offsetTop + 'px';
     }
 } catch { }
+
+function st_bar() {
+    let local_status_bar = localStorage.getItem('status_bar') || 'black-translucent';
+    document.querySelector('meta[name="theme-color"]').setAttribute('content', local_status_bar);
+    if (local_status_bar === 'black') {
+        document.querySelector('nav').classList.add('black');
+    } else {
+        document.querySelector('nav').classList.remove('black');
+    }
+}
+try { st_bar(); } catch { }
+
 
 var date = document.getElementById('date');
 
 function syncDate() {
-    try { date.innerText = '12 Mar 2024' } catch { }
+    try { date.innerText = '25 Mar 2024' } catch { }
     var date_online;
     try {
         var version_file = fetch('https://raw.githubusercontent.com/musicterms/musicterms.github.io/main/VERSION?' + Math.random(),
@@ -74,7 +97,7 @@ function syncDate() {
 
                     else {
                         if (navigator.onLine) {
-                            confirm(`You are not synchronized`, `Sync now?`, function () {
+                            Confirm(`You are not synchronized`, `Sync now?`, function () {
                                 localStorage.removeItem('data');
                                 localStorage.removeItem('version');
                                 localStorage.setItem('UPD' + date_today_YYYYMMDD, 'true');
@@ -92,13 +115,6 @@ function syncDate() {
 }
 
 syncDate();
-
-try {
-    fetch('https://musicterms.onrender.com/rondo-fetch', {
-        method: 'GET',
-        mode: 'no-cors',
-    });
-} catch { }
 
 window.addEventListener('online', syncDate);
 window.addEventListener('offline', updateOnlineStatus);
@@ -125,21 +141,6 @@ var symbols = ['ppp', 'pp', 'p', 'mp', 'mf', 'f', 'ff', 'fff', 'sfz', 'sfp', 'sf
 function shouldShowTimeNewRoman(k) {
     return k == 'Short Forms' || k == 'Symbols' || k == '縮寫' || k == '缩写' || k == '符号' || k == '符號' || symbols.includes(k) || k == 'shortforms';
 }
-// announce to the server of a new visit
-var url = 'https://musicterms.onrender.com/api/';
-
-var sessionstorage = window.sessionStorage;
-var session_id = sessionstorage.getItem('session_id');
-if (!session_id) {
-    session_id = Math.random().toString(36).substring(2, 15) + Math.random().toString(36).substring(2, 15);
-    sessionstorage.setItem('session_id', session_id);
-}
-
-try {
-    fetch(`${url}visit/?session_id=${session_id}`, {
-        method: 'GET'
-    });
-} catch { }
 
 function writeStorage(key, value) {
     localStorage.setItem(key, value);
@@ -257,7 +258,7 @@ function setStyle(e) {
 }
 
 function tryDelCookies() {
-    confirm(`Reset All`, `All your data will be deleted.`,
+    Confirm(`Reset All`, `All your data will be deleted.`,
         function () {
             window.localStorage.clear();
             var settings = document.getElementById('settings');
@@ -270,13 +271,16 @@ function tryDelCookies() {
                 folders[i].classList.add('removed');
             }
             folders[0].classList.remove('line');
+            document.querySelectorAll('.small-title').forEach(function (e) {
+                e.classList.add('hidden');
+            });
             document.getElementById('nav-back').remove();
             document.getElementById('nav-text').innerText = 'A refresh is required';
             try { translate(); } catch { }
         });
 }
 
-function confirm(title, message, callback) {
+function Confirm(title, message, callback) {
     var alert_fullscreen = document.getElementById('alert-fullscreen');
     var alert_title = document.getElementById('alert-title');
     var alert_text = document.getElementById('alert-text');
@@ -311,59 +315,3 @@ if (typeof getTranslateOf == 'undefined') {
         return text;
     }
 }
-
-try {
-    // Cookies confirm box
-    // Create a new div element
-    var cookieBanner = document.createElement("div");
-
-    // Set the id of the div so we can style it in CSS
-    cookieBanner.id = "cookieBanner";
-
-    // Set the content of the div
-    cookieBanner.innerHTML = `
-    <p><font>We use cookies to enhance your user experience and perform user behavior analytics. By clicking the agree button below, you consent to </font><span class="nowrap">our cookie policy.</span></p>
-    <span class="nowrap"><button id="acceptCookies">Agree</button><button id="closeAcceptCookies">Decline</button></span>
-`;
-
-    // Append the new div to the end of the body element
-    if (localStorage.getItem('consent') != 'true' && noTrack != 'true') document.body.appendChild(cookieBanner);
-    else consent();
-
-    try { translate(); } catch { }
-
-
-} catch { }
-
-try {
-    // Hide the cookie banner when the user clicks the agree button
-    document.getElementById("acceptCookies").onclick = function () {
-        cookieBanner.style.display = "none";
-
-        // Add code here to enable Clarity and Google Analytics
-        localStorage.setItem('consent', 'true');
-        consent();
-    }
-
-    // Hide the cookie banner when the user clicks the decline button
-    document.getElementById("closeAcceptCookies").onclick = function () {
-        cookieBanner.style.display = "none";
-
-        // Add code here to disable Clarity and Google Analytics
-        localStorage.setItem('consent', 'false');
-        gtag('consent', 'default', {
-            'analytics_storage': 'denied'
-        });
-    };
-
-    gtag('consent', 'default', {
-        'analytics_storage': 'denied'
-    });
-
-    function consent() {
-        window.clarity('consent');
-        gtag('consent', 'default', {
-            'analytics_storage': 'granted'
-        });
-    }
-} catch { }

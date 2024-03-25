@@ -80,7 +80,7 @@
         --background-color-popover-hover: var(--background-color-popover-hover-dark);
         --shadow-color: var(--shadow-color-dark);
         --nav-color: var(--nav-color-dark);
-        /* --functional-color: var(--functional-color-dark); */
+        --functional-color: var(--functional-color-dark);
         --blur-light: rgba(255, 255, 255, .02);
         --gray-rgb: rgb(245, 245, 245, .5);
         --linear-icon: radial-gradient(51% 51% at 31.5% 61%, rgba(0, 224, 255, 0.8) 0%, rgba(255, 255, 255, 0) 100%), radial-gradient(105.5% 105.5% at -5.5% 56.5%, rgba(173, 251, 251, 0.57) 0%, rgba(63, 181, 231, 0.59) 100%);
@@ -207,7 +207,7 @@ button {
     margin: 0 5rem 0 5rem;
 }
 
-nav {
+nav.black {
     position: fixed;
     top: 0;
     left: 0;
@@ -215,6 +215,28 @@ nav {
     padding: 1rem 0;
     font-size: 1.2rem;
     background: linear-gradient(180deg, var(--background-color) 0%, rgba(0, 0, 0, 0) 100%);
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    -webkit-user-select: none;
+    backdrop-filter: blur(17px);
+    -webkit-backdrop-filter: blur(17px);
+    transform: translateZ(0);
+    z-index: 5;
+}
+
+nav {
+    position: fixed;
+    top: -50px;
+    left: 0;
+    width: 100%;
+    padding: 1rem 0;
+    padding-top: 60px;
+    padding-bottom: 1em;
+    font-size: 1.2rem;
+    background: transparent;
     z-index: 1;
     display: flex;
     justify-content: center;
@@ -1211,6 +1233,25 @@ p.gray.small.center {
 .mid-btn:hover {
     background-color: var(--background-color-protrude-hover);
 }
+
+.small-btn {
+    position: relative;
+    padding: .5rem 1rem;
+    outline: none;
+    border: 1px solid var(--border-color);
+    font-size: 1rem;
+    border-radius: 7px;
+    background-color: var(--background-color);
+    color: var(--font-color);
+    cursor: pointer;
+    transition: background-color .2s;
+    margin: 2rem auto;
+}
+
+.small-btn:hover {
+    background-color: var(--background-color-protrude-hover);
+}
+
 
 a.popover {
     color: var(--functional-color);
