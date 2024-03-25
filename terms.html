@@ -1,22 +1,40 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta name="robots" content="noindex">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Music Terminology</title>
-    <link rel="stylesheet" href="/style.css">
+    <title>Music Terminology | Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="description"
+        content="Discover musical terms with AlphaBrate. No ads or fees! Enjoy our simple, elegant design. Ideal for music lovers.">
+    <meta property="og:title" content="AlphaBrate Music Terminology Library" />
+    <meta property="og:type" content="video.movie" />
+    <meta property="og:url" content="https://musicterms.github.io" />
+    <meta property="og:description"
+        content="Looking for an awesome music terms library app? AlphaBrate Music Terminology Library is the best choice. Hosted on GitHub Pages, we have no operating costs that we won't let ads appear on our websites! Enjoy an elegant and simple surf experience with innovative design now! Available on https://musicterms.github.io" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="AlphaBrate Music Terminology Library">
+    <meta name="twitter:description"
+        content="Looking for an awesome music terms library app? AlphaBrate Music Terminology Library is the best choice. Hosted on GitHub Pages, we have no operating costs that we won't let ads appear on our websites! Enjoy an elegant and simple surf experience with innovative design now! Available on https://musicterms.github.io">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="manifest" href="/manifest.json">
     <link rel="icon" href="/favicon.png" type="image/png">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-    <!-- Clarity tracking code for https://musicterms.github.io/ --><script>    (function(c,l,a,r,i,t,y){        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i+"?ref=bwt";        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);    })(window, document, "clarity", "script", "krayfeinxp");</script>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
     <style>
         html {
             height: 100%;
             overflow: auto;
             overflow-x: hidden;
         }
+
         body {
             height: 100%;
         }
@@ -38,16 +56,19 @@
             margin-bottom: 5rem !important;
         }
     </style>
-</head>
-
-<body>
-    <nav>
+    <nav class="black">
         <font id="nav-text">User Argreement</font>
     </nav>
-    <h2 class="center margin-4" id="intrusct"></h2>
-    <button class="mid-btn" id="hos" onclick="location.href = '/app/?add_to_home_screen'">Or Add to <span class="nowrap">Home Screen</span></button>
+    <div class="page" id="page-1">
+        <div class="content">
+            <h2 class="center margin-4" id="intrusct"></h2>
+            <button class="mid-btn" id="hos" onclick="location.href = '/app/?add_to_home_screen'">Or Add to <span
+                    class="nowrap">Home Screen</span></button>
+
+            <div id="terms"></div>
+        </div>
     </div>
-    <div id="terms"></div>
+    </div>
     <script>
 
     </script>
@@ -137,6 +158,15 @@
 
         one();
     </script>
+    <script>
+        if (is_in_PWA) {
+            document.getElementById('hos').style.display = 'none';
+        }
+    </script>
+    <!-- To use <icon>, add data-icon and it will be replaced by <svg> -->
+    <script src="/js/index.js"></script>
+    <script src="/js/icon.js"></script>
+    <script src="/js/commands.js"></script>
 </body>
 
 </html>

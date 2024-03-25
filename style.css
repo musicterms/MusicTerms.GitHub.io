@@ -184,11 +184,11 @@ nav.black {
 
 nav {
     position: fixed;
-    top: -50px;
+    top: -100px;
     left: 0;
     width: 100%;
     padding: 1rem 0;
-    padding-top: 60px;
+    padding-top: 110px;
     padding-bottom: 1em;
     font-size: 1.2rem;
     background: transparent;

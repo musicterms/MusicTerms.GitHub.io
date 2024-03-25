@@ -38,7 +38,7 @@ try {
     var nav_bar_height = nav_bar.offsetHeight;
     var content = document.getElementsByClassName('content');
     for (var i = 0; i < content.length; i++) {
-        content[i].style.marginTop = nav_bar_height + 25 + nav_bar.offsetTop + 'px';
+        content[i].style.marginTop = nav_bar_height + nav_bar.offsetTop + 'px';
     }
 } catch { }
 
