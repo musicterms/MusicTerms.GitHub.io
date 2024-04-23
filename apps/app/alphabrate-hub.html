@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"">
+    <meta name=" description" content="AlphaBrate, an innovative web development team.">
+    <title>App Gallery | The AlphaBrate Team</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/apps/app.css">
+    <meta name="theme-color" content="#FFF">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <script>
+        console.log("[Server] Waiting for the server to be prepared...")
+    </script>
+    <script src="https://alphabrate-server.onrender.com/wait.js" defer></script>
+    <script name="schema:software-application" type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "WebApplication",
+            "name": "_NAME_",
+            "description": "_DESC_",
+            "screenshot": _SCREENSHOTS_,
+            "image": "_ICON_",
+            "applicationCategory": "_APP_CAT_",
+            "datePublished": "_DATEPUBLISHED_",
+            "operatingSystem": "_OPERATING_SYSTEM_",
+            "browserRequirements": "Requires JavaScript and a modern web browser",
+            "installable": "True",
+            "author": {
+                "@type": "Organization",
+                "name": "AlphaBrate",
+                "url": "https://alphabrate.github.io"
+            },
+            "aggregateRating":
+            {
+                "@type": "AggregateRating",
+                "ratingValue": _RATING_, "reviewCount": _RAT_COUNT_
+            },
+            "offers": {
+                "@type": "Offer",
+                "price": 0,
+                "priceCurrency": "USD",
+                "category": "free"
+            }
+        }
+    </script>
+    <script>
+        var app_info = {
+            "name": "AlphaBrate Hub",
+            "desc": "Experience the convenience of AlphaBrate, your one-stop solution for all our services.",
+            "screenshots": '["https://alphabrate.github.io/apps/images/alphabrate-hub/ALH-0.webp","https://alphabrate.github.io/apps/images/alphabrate-hub/ALH-1.webp","https://alphabrate.github.io/apps/images/alphabrate-hub/ALH-2.webp","https://alphabrate.github.io/apps/images/alphabrate-hub/ALH-3.webp"]',
+            "icon": "https://raw.githubusercontent.com/alphabrate/alphabrate.github.io/4afb81bcd12bb998cfd9ca1992c4e89f6611535d/icons/alphabrate.svg",
+            "category": "Utilities",
+            "app_cat": "UtilitiesApplication",
+            "datePublished": "2024-05-01",
+            "operating_system": "Operates on all devices, supported by all morden browsers. Some devices, such as older models, may not support all features.",
+            "rating": 4.8,
+            "rat_count": 15, // Rating Information Counted on 07 Apr 2024
+            "app_id": "alb-hub",
+            "app_url": "https://alphabrate.github.io/pwa",
+            "artwork": ""
+        }
+        const app = "alb-hub"
+    </script>
+    <script src="/apps/functions.js"></script>
+</head>
+
+<body>
+    <div class="app">
+        <div class="app-up">
+            <div class="app-left">
+                <img src="" alt="_NAME_" id="icon_main">
+            </div>
+            <div class="app-right">
+                <h1>_NAME_</h1>
+                <p>_DESC_</p>
+                <span class="tag">FREE</span>
+                <span class="tag">No Ads</span>
+                <span class="tag nowrap">Works on this device</span>
+            </div>
+            <div class="rate card flex col pad hid_rating">
+                <h2 id="rating_intro">Rate this app</h2>
+                <div class="rating-zone">
+                    <input type="range" name="range" id="stars" min="1" max="5" value="0" oninput="active(this.value)">
+                    <div class="stars">
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                    </div>
+                </div>
+                <button class="more btn" onclick="sendResult()" id="submit_rating">Submit</button>
+            </div>
+        </div>
+        <div class="space-break hid_rating" data-height="4"></div>
+        <div class="space-break dots hid_rating" data-height="2"></div>
+        <div class="image-loop">
+        </div>
+        <div class="space-break" data-height="4"></div>
+        <div class="space-break dots" data-height="2"></div>
+        <div class="app-down">
+            <h2>Details</h2>
+            <p><b>Category:</b> _CATEGORY_</p>
+            <p><b>Published:</b> _DATEPUBLISHED_</p>
+            <p><b>Operating System:</b> _OPERATING_SYSTEM_</p>
+            <p><b>Rating:</b> _RATING_ (_RAT_COUNT_) <span class="stars">★</span></p>
+            <p><b>Price:</b> US$0</p>
+            <a href="" id="start_redirect">
+                <button>Start App</button>
+            </a>
+        </div>
+        <p class="smaller color-lighter-gray">
+            The user ratings for this app are directly sourced from its users and
+            securely stored on AlphaBrate's server. AlphaBrate adheres to a stringent policy of authenticity, ensuring
+            no creation of false data or alteration of user ratings. However, it's crucial to understand that these
+            ratings are not independently verified. Any user who has begun using the app can contribute their rating on
+            this page.
+
+            You can view the <a id="raw_rating" target="_blank">raw rating data here</a>, with the assurance that
+            all
+            users' private information is safeguarded
+            and concealed. Rating information is randomly rearranged to further protect user privacy. We employ
+            structured data to enable search engines to display rating information during your search, in accordance
+            with <a href="https://developers.google.com/search/docs/appearance/structured-data/software-app">documents
+                provided by Google</a>.
+
+            This page is hosted on GitHub Pages, and the HTML file is static, not dynamically generated. Consequently,
+            some search engines may not display the most current information. Users can view the latest information
+            directly on this page after the loading process completes. Please note that the actual user experience may
+            vary, and we encourage users to try the app for themselves.
+        </p>
+    </div>
+    <script>
+        document.getElementById('icon_main').src = app_info.icon
+    </script>
+    <div class="space-break hr" data-height="4"></div>
+    <div class="center single" id="footer-links">
+        <!-- Links Added by JS -->
+    </div>
+
+    <div class="center single">
+        <div class="footer" id="copyright">
+        </div>
+    </div>
+
+    <div id="load">
+        <div class="animated-loader"></div>
+        <p>Getting app details<br>from server...</p>
+    </div>
+
+    <noscript>
+        <p>
+            <span class="sentence">We're sorry, but our website <span class="nowrap">requires JavaScript.</span></span>
+            <br>
+            <span class="sentence">Please enable it <span class="nowrap">in order to experience</span> the <span
+                    class="nowrap">elegance
+                    and simplicity.</span></span>
+        </p>
+        <style>
+            html {
+                overflow: hidden !important;
+            }
+        </style>
+    </noscript>
+    <script src="/js/index.js"></script>
+    <script src="/apps/app.js"></script>
+</body>
+
+</html>

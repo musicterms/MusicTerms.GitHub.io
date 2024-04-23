@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirect | The AlphaBrate Team</title>
+    <!-- DO NOT INDEX THIS PAGE -->
+    <meta name="robots" content="noindex">
+</head>
+<body>
+    <script>
+        const urlQuery = window.location.search;
+        const urlParams = new URLSearchParams(urlQuery);
+        
+        const url = urlParams.get('url');
+        const app = urlParams.get('app');
+
+        localStorage.setItem(app, "true");
+        window.location.href = url;
+    </script>
+</body>
+</html>
