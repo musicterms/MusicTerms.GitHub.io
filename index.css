@@ -183,7 +183,7 @@ img.logo {
     transition: opacity .3s;
     content: "";
     position: fixed;
-    bottom: 0;
+    top: 0;
     left: 0;
     height: 100%;
     width: 100%;
@@ -215,17 +215,15 @@ img.logo {
 }
 
 a>button {
-    background: linear-gradient(90deg, #007AFF 0%, rgba(0, 122, 255, 0.46) 51.5%, rgba(0, 122, 255, 0.00) 51.51%, rgba(0, 122, 255, 0.00) 100%);
-    background-size: 210% 200%;
-    background-position: 100%;
-    border: 3px solid var(--functional-color);
-    outline: none;
-    padding: 1rem 2rem;
-    font-size: 1rem;
-    border-radius: 1rem;
-    margin: .5rem;
+    background: var(--font-color);
+    color: var(--background-color);
+    border: none;
+    padding: .9rem 1.5rem;
+    margin: 2rem;
+    border-radius: 7px;
+    font-size: 1.2rem;
     cursor: pointer;
-    transition: background-position .5s, transform .2s, border .7s;
+    font-weight: bold;
 }
 
 a>button:hover {

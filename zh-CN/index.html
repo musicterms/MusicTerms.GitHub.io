@@ -5,7 +5,7 @@
     <meta name="robots" content="noindex">
     <meta charset="UTF-8">
     <title>Music Terminology | Home</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
     <meta name="description" content="Discover musical terms with AlphaBrate. No ads or fees! Enjoy our simple, elegant design. Ideal for music lovers.">
     <meta property="og:title" content="AlphaBrate Music Terminology Library" />
     <meta property="og:type" content="video.movie" />
@@ -32,7 +32,7 @@
             <icon data-icon="arrow_back_ios"></icon>
             <font id="nav-back-text"></font>
         </span>
-        <font id="nav-text">Music Terminology</font>
+        <font id="nav-text">Musical Terms</font>
     </nav>
     <div id="alert-fullscreen">
         <div id="alert">
@@ -218,6 +218,12 @@
     <div class="page" id="settings">
         <div class="content">
             <div class="set">
+                <span class="folder lane">
+                    <icon data-icon="public" class="icon file"></icon>
+                    Enable Fast Loading
+                    <span class="switch settings" id="fast_load_enable_switch"
+                        onclick="writeStorage(this.id,!this.classList.contains('checked'))"></span>
+                </span>
                 <span class="folder lane">
                     <icon data-icon="reaction" class="icon file"></icon>
                     Enable Cache of Icon
