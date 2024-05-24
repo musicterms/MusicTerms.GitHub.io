@@ -207,33 +207,13 @@ button {
     margin: 0 5rem 0 5rem;
 }
 
-nav.black {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 1rem 0;
-    font-size: 1.2rem;
-    background: linear-gradient(180deg, var(--background-color) 0%, rgba(0, 0, 0, 0) 100%);
-    z-index: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    user-select: none;
-    -webkit-user-select: none;
-    backdrop-filter: blur(17px);
-    -webkit-backdrop-filter: blur(17px);
-    transform: translateZ(0);
-    z-index: 5;
-}
-
 nav {
     position: fixed;
-    top: -50px;
     left: 0;
+    top: 0;
     width: 100%;
     padding: 1rem 0;
-    padding-top: 60px;
+    padding-top: max(env(safe-area-inset-top), 1em);
     padding-bottom: 1em;
     font-size: 1.2rem;
     background: transparent;
@@ -536,9 +516,6 @@ svg path {
     margin-bottom: 1.5rem;
     overflow: hidden;
     transform: translateZ(0);
-    backdrop-filter: saturate(1.3) blur(17px);
-    -webkit-backdrop-filter: saturate(1.3) blur(17px);
-    background: var(--blur-light);
     transition: .2s;
 }
 

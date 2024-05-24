@@ -7,8 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Music Terms | AlphaBrate</title>
     <link rel="stylesheet" href="/style.css">
-    <meta name="keywords" content="musical terms, Music Terms, 音乐术语, AlphaBrate, Music Terminology Library, 音乐术语库, 音乐术语词典, 音乐字典, Music Dictionary, Music Words, 音乐词语, 术语, Terms, moderato, andante, allegretto, vivace, molto, adagio, lento, segno, pianissimo, gliss, da capo, cantabile">
-    <meta name="description" content="Explore Music Terms your go-to music terminology library. No ads, just pure knowledge. Dive into the world of music with AlphaBrate.">
+    <meta name="keywords"
+        content="musical terms, Music Terms, 音乐术语, AlphaBrate, Music Terminology Library, 音乐术语库, 音乐术语词典, 音乐字典, Music Dictionary, Music Words, 音乐词语, 术语, Terms, moderato, andante, allegretto, vivace, molto, adagio, lento, segno, pianissimo, gliss, da capo, cantabile">
+    <meta name="description"
+        content="Explore Music Terms your go-to music terminology library. No ads, just pure knowledge. Dive into the world of music with AlphaBrate.">
     <meta property="og:title" content="AlphaBrate Music Terminology Library" />
     <meta property="og:type" content="video.movie" />
     <meta property="og:url" content="https://musicterms.github.io" />
@@ -22,12 +24,18 @@
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="apple-touch-icon" sizes="520x520" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" href="/favicon.png">
+    <script>
+        if (localStorage.fast_load_enable_switch == 'true') {
+            document.location.replace('/' + language + '/index.html');
+        }
+    </script>
     <style>
         body {
             height: 100vh;
             max-height: 100vh;
             overflow: hidden;
         }
+
         #ism {
             width: 40vw;
             height: 40vw;
@@ -47,7 +55,7 @@
             margin-top: 1rem;
             opacity: 0;
             position: absolute;
-            top: calc( 45% + 200px - 3.5rem);
+            top: calc(45% + 200px - 3.5rem);
             left: 50%;
             transform: translate(-50%, -50%);
             animation: in-out 1s ease-in-out;
@@ -98,7 +106,7 @@
         style="background: var(--font-color); position: absolute;bottom: 0;width: 100%;top: auto;margin: 0; padding: 0;text-align: center;display: none;justify-content: center;font-size: 2rem;flex-direction: column;"
         id="fotIOS">
         <span style="transform: translateY(.2rem);height: 1.6rem;"><img src="/icons/share_icon_ios.png"
-            style="max-height:1.5rem;max-width: 1.5rem;height: 1em!important;margin: 0!important;padding: 0;"></span><span
+                style="max-height:1.5rem;max-width: 1.5rem;height: 1em!important;margin: 0!important;padding: 0;"></span><span
             style="transform: translateY(.2rem);">▼</span>
     </footer>
     <script src="/js/events.js"></script>
@@ -147,7 +155,9 @@
         } else {
             language = localstorage_language;
         }
-        if (location.search == '?redirect=no-delay') {
+        if (location.search == '?redirect=no-delay'
+            || localstorage.fast_load_enable_switch == 'True'
+        ) {
             document.location.replace('/' + language + '/index.html');
         }
         if (location.search.includes('add_to_home_screen')) {
