@@ -317,6 +317,30 @@ var languages = {
         "zh-CN": "",
         "zh": ""
     },
+    "Musical Terms": {
+        "zh-CN": "音乐术语",
+        "zh": "音樂術語"
+    },
+    "Download Shortcut?": {
+        "zh-CN": "请下载到 “捷径”",
+        "zh": "請下載到 “捷徑”"
+    },
+    "To use Music Terms with Siri or other apps, you need to download a shortcut to your Shortcuts app.": {
+        "zh-CN": "要使用 Siri 启动本程序或让其他应用程序与 Music Terms 一起使用，您需要将捷径下载到您的 iPhone 上的 “捷径”。",
+        "zh": "要使用 Siri 啟動本程序或讓其他應用程式與 Music Terms 一起使用，您需要將捷徑下載到您的 iPhone 上的 “捷徑”。"
+    },
+    "Enable Fast Loading": {
+        "zh-CN": "启用快速加载",
+        "zh": "啟用快速加載"
+    },
+    "New Look": {
+        "zh-CN": "实验性外观",
+        "zh": "實驗性外觀"
+    },
+    "Advanced": {
+        "zh-CN": "高级",
+        "zh": "高級"
+    },
 }
 
 // get all elements and replace their text to the corresponding language

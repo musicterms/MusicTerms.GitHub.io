@@ -38,7 +38,7 @@ try {
     var nav_bar_height = nav_bar.offsetHeight;
     var content = document.getElementsByClassName('content');
     for (var i = 0; i < content.length; i++) {
-        content[i].style.marginTop = nav_bar_height + nav_bar.offsetTop + 'px';
+        content[i].style.marginTop = `calc(${nav_bar_height}px + calc(var(--inset-top)))`;
     }
 } catch { }
 
@@ -57,7 +57,7 @@ try { st_bar(); } catch { }
 var date = document.getElementById('date');
 
 function syncDate() {
-    try { date.innerText = '25 Mar 2024' } catch { }
+    try { date.innerText = '24 May 2024' } catch { }
     var date_online;
     try {
         var version_file = fetch('https://raw.githubusercontent.com/musicterms/musicterms.github.io/main/VERSION?' + Math.random(),
@@ -313,5 +313,25 @@ function Confirm(title, message, callback) {
 if (typeof getTranslateOf == 'undefined') {
     function getTranslateOf(text, l = language) {
         return text;
+    }
+}
+
+const isIosPwa = window.matchMedia('(display-mode: standalone)').matches && ([
+    'iPad Simulator',
+    'iPhone Simulator',
+    'iPod Simulator',
+    'iPad',
+    'iPhone',
+    'iPod'
+].includes(navigator.platform)
+    // iPad on iOS 13 detection
+    || (navigator.userAgent.includes("Mac") && "ontouchend" in document))
+
+if (isIosPwa) {
+    if (!localStorage.downloadedShortcut) {
+        Confirm('Download Shortcut?', 'To use Music Terms with Siri or other apps, you need to download a shortcut to your Shortcuts app.', () => {
+            window.open('https://www.icloud.com/shortcuts/4e063dffb6984dcc962b70516115ca0d');
+            localStorage.setItem('downloadedShortcut', 'true');
+        });
     }
 }

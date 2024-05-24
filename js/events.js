@@ -53,8 +53,11 @@ let is_in_PWA = window.matchMedia('(display-mode: standalone)').matches;
 
 let is_on_mobile_browser = is_on_mobile && !is_in_PWA;
 
-if (is_on_mobile_browser && !location.search.includes('add_to_home_screen')) {
+if (is_on_mobile_browser && !location.search.includes('add_to_home_screen') && localStorage.selectedHS != 'True') {
     if (window.confirm('It is recommended to use the app after adding it to the home screen for a better experience. It is not compolsory, you can still use the app in the browser with some features missing.')) {
         location.href = '/app/?add_to_home_screen'
+        localStorage.selectedHS = 'True';
+    } else {
+        localStorage.selectedHS = 'True';
     }
 }
