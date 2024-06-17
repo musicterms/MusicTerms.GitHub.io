@@ -339,6 +339,11 @@ function openPage(page, e) {
 }
 
 function changePage(page, e, back = false) {
+    try {
+        document.querySelectorAll('iframe').forEach(w => {
+            w.remove();
+        });
+    } catch { }
     if (page == currentPage) return;
     if (document.getElementById(page) == null) return;
     sessionStorage[`${currentPage}-scroll`] = document.documentElement.scrollTop;

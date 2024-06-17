@@ -30,7 +30,7 @@
     --shadow-color-dark: #ffffff50;
     --color-green: #30d158;
     --nav-color-dark: var(--background-color-dark);
-    --nav-color-light: var(--background-color-protrude-light);
+    --nav-color-light: var(--background-color-light);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -51,7 +51,7 @@
         --nav-color: var(--nav-color-dark);
         --functional-color: var(--functional-color-dark);
     }
-    
+
     .section-4 {
         background-image: url(/img/750+_dark.svg);
     }
@@ -207,28 +207,82 @@ img.logo {
         padding: 1rem;
         margin: 1rem;
         border-radius: 1rem;
-        backdrop-filter: blur(10px);
-        -webkit-backdrop-filter: blur(10px);
-        box-shadow: 0 2px 10px var(--shadow-color);
+        backdrop-filter: blur(77px);
+        -webkit-backdrop-filter: blur(2px) saturate(180%);
+        box-shadow: 0 0 10px var(--shadow-color);
         transform: translateZ(0);
     }
 }
 
+p.description {
+    margin-top: .5rem;
+    font-size: 16px;
+    color: var(--font-color-gray);
+}
+
 a>button {
+    user-select: none;
     background: var(--font-color);
     color: var(--background-color);
     border: none;
-    padding: .9rem 1.5rem;
+    padding: .8rem 2.2rem;
     margin: 2rem;
     border-radius: 7px;
     font-size: 1.2rem;
     cursor: pointer;
     font-weight: bold;
+    transition: .3s;
+    display: flex;
+    --icon-size: 1.3rem;
+    position: relative;
 }
 
-a>button:hover {
-    background-position: 0;
-    transform: scale(.99);
+a>button::before {
+    content: "";
+    position: absolute;
+    right: 1.7rem;
+    display: block;
+    top: 50%;
+    transform: translateY(-50%);
+    height: var(--icon-size);
+    width: var(--icon-size);
+    background: url(https://alphabrate.github.io/icons/arrow_right.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: .2s;
+    
+    filter: invert(1);
+}
+
+
+@media (prefers-color-scheme: dark) {
+    a>button::before {
+        filter: invert(0);
+    }
+}
+
+
+.function_info * {
+    position: relative;
+    z-index: 1;
+    user-select: text;
+}
+
+a>button::after {
+    content: "";
+    position: relative;
+    height: var(--icon-size);
+    width: calc(var(--icon-size) * 1.1);
+    transition: .2s;
+}
+
+a>button:hover::before {
+    transform: translateY(-50%) translateX(2.5%);
+}
+
+a>button:hover::after {
+    width: calc(var(--icon-size) + (var(--icon-size) * .25));
 }
 
 .holder200 {
@@ -445,5 +499,29 @@ picture.hol {
 
     .flex-row {
         max-width: 450px;
+    }
+}
+
+/* If Mobile */
+
+@media (max-width: 500px) {
+    .mobile-margin {
+        position: relative;
+        margin-top: 250px;
+        z-index: 3;
+    }
+
+    .H100IFMOBILE {
+        height: 50rem;
+    }
+
+    nav.fade {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 25%;
+        background: linear-gradient(var(--background-color), transparent);
+        z-index: 2;
     }
 }
