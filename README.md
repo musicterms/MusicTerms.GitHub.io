@@ -13,12 +13,15 @@
     <a href="https://musicterms.github.io"><strong>Try out the Web App 🔗</strong></a>
     <br/>
     <br/>
+  <u>
+    <a href="https://alphabrate.github.io/articles/user-manuals/music-terms/">
+      Official User Manuals
+    <br/>
+    <br/>
+    </a>
+  </u>
   </p>
 </p>
-
-<a href="https://alphabrate.github.io/articles/user-manuals/music-terms/">
-  Official User Manuals
-</a>
 
 <p align="center">
   <img src="https://img.shields.io/github/contributors/musicterms/musicterms.github.io?color=dark-green">
