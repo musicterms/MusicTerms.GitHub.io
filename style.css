@@ -38,7 +38,7 @@
     --shadow-color-dark-fewer: #ffffff15;
     --color-green: #30d158;
     --nav-color-dark: var(--background-color-dark);
-    --nav-color-light: var(--background-color-protrude-light);
+    --nav-color-light: var(--background-color-light);
     --href-color: rgba(0, 162, 255, 0.5);
     --highlight-color-light: #ffffff86;
     --highlight-color-dark: #ffffffed;
