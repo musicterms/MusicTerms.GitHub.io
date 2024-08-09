@@ -13,13 +13,6 @@
     <a href="https://musicterms.github.io"><strong>Try out the Web App 🔗</strong></a>
     <br/>
     <br/>
-  <u>
-    <a href="https://alphabrate.github.io/articles/user-manuals/music-terms/">
-      Official User Manuals
-    <br/>
-    <br/>
-    </a>
-  </u>
   </p>
 </p>
 
@@ -31,11 +24,12 @@
 
 ## Table Of Contents
 
-* [About the Project](#about-the-project)
-* [Contributing](#contributing)
-* [License and Terms](#license-and-terms)
-* [Authors](#authors)
-* [Sources](#sources)
+- [Table Of Contents](#table-of-contents)
+- [About The Project](#about-the-project)
+- [Contributing](#contributing)
+- [License and Terms](#license-and-terms)
+- [Authors](#authors)
+- [Sources](#sources)
 
 ## About The Project
 
@@ -50,7 +44,7 @@ Contributions are what make the open source community such an amazing place to b
 * Please make sure you check your spelling and grammar.
 * Create individual PR for each suggestion.
 
-> If you want to join a new language, look at [the docs](https://alphabrate.github.io/trueview/doc.html?content=https://raw.githubusercontent.com/musicterms/musicterms.github.io/main/source/lang/join-a-language.md&title=Join%20a%20new%20language.) first. We really appreciate that.
+> If you want to join a new language, look at [the docs](https://alphabrate.github.io/trueview/doc.html?content=https://raw.githubusercontent.com/musicterms/musicterms.github.io/main/source/lang/join-a-language.md&title=Join%20a%20new%20language.&author=AlphaBrate&date=Music%20Terms%20Team) first. We really appreciate that.
 
 > You are more than welcome to add new words or phrases to our library, which is now lacking of content.
 > - Add to the *JSON files in sources/terms/\*.json*
@@ -59,13 +53,13 @@ Contributions are what make the open source community such an amazing place to b
 
 ## License and Terms
 
-Distributed and developed under the MIT License and the APWED License. See [LICENSE](https://github.com/musicterms/musicterms.github.io?tab=License-1-ov-file) for more information.
+Distributed under the MIT License and the APWED License. See [LICENSE](https://github.com/musicterms/musicterms.github.io?tab=License-1-ov-file) for more information.
 
-Before using or distributing this Web App, please make sure you have read the [Privacy Terms](https://alphabrate.github.io/trueview/doc.html?content=https://raw.githubusercontent.com/musicterms/musicterms.github.io/main/terms/privacy.md&title=Privacy%20Terms) and [Terms of Service](https://alphabrate.github.io/trueview/doc.html?content=https://raw.githubusercontent.com/musicterms/musicterms.github.io/main/terms/conditions.md&title=Terms%20of%20Service) carefully.
+Before using or distributing this Web App, please make sure you have read the [Privacy Terms](https://alphabrate.github.io/trueview/doc.html?content=https://raw.githubusercontent.com/musicterms/musicterms.github.io/main/terms/privacy.md&title=Privacy%20Terms&author=AlphaBrate&date=Music%20Terms%20Team) and [Terms of Service](https://alphabrate.github.io/trueview/doc.html?content=https://raw.githubusercontent.com/musicterms/musicterms.github.io/main/terms/conditions.md&title=Terms%20of%20Service&author=AlphaBrate&date=Music%20Terms%20Team) carefully.
 
-在使用或分发此Web应用程序之前，请确保您已仔细阅读[隐私条款](https://alphabrate.github.io/trueview/doc.html?content=https://raw.githubusercontent.com/musicterms/musicterms.github.io/main/terms/privacy.zh-CN.md&title=Privacy%20Terms)和[服务条款](https://alphabrate.github.io/trueview/doc.html?content=https://raw.githubusercontent.com/musicterms/musicterms.github.io/main/terms/conditions.zh-CN.md&title=Terms%20of%20Service)
+在使用或分发此Web应用程序之前，请确保您已仔细阅读[隐私条款](https://alphabrate.github.io/trueview/doc.html?content=https://raw.githubusercontent.com/musicterms/musicterms.github.io/main/terms/privacy.zh-CN.md&title=Privacy%20Terms&author=AlphaBrate&date=Music%20Terms%20Team)和[服务条款](https://alphabrate.github.io/trueview/doc.html?content=https://raw.githubusercontent.com/musicterms/musicterms.github.io/main/terms/conditions.zh-CN.md&title=Terms%20of%20Service&author=AlphaBrate&date=Music%20Terms%20Team)
 
-在使用或分發此網頁應用程式之前，請確保您已仔細閱讀[隱私權條款](https://alphabrate.github.io/trueview/doc.html?content=https://raw.githubusercontent.com/musicterms/musicterms.github.io/main/terms/privacy.zh.md&title=Privacy%20Term)和[服務條款](https://alphabrate.github.io/trueview/doc.html?content=https://raw.githubusercontent.com/musicterms/musicterms.github.io/main/terms/conditions.zh.md&title=Terms%20of%20Service)
+在使用或分發此網頁應用程式之前，請確保您已仔細閱讀[隱私權條款](https://alphabrate.github.io/trueview/doc.html?content=https://raw.githubusercontent.com/musicterms/musicterms.github.io/main/terms/privacy.zh.md&title=Privacy%20Terms&author=AlphaBrate&date=Music%20Terms%20Team)和[服務條款](https://alphabrate.github.io/trueview/doc.html?content=https://raw.githubusercontent.com/musicterms/musicterms.github.io/main/terms/conditions.zh.md&title=Terms%20of%20Service&author=AlphaBrate&date=Music%20Terms%20Team)
 
 ## Authors
 
@@ -73,16 +67,10 @@ Before using or distributing this Web App, please make sure you have read the [P
 
 ## Sources
 
-* Currently, all the contents in `Commonly Used > Terms` are not verified by HUMAN but auto scripts. Some of them are gathered by AI from documents on the public-available websites or docs that the trustworthiness CANNOT be tested. While, other sources are verifeid by human or widely.
+* Currently, most of the contents in `Commonly Used > Terms` are not verified by HUMAN but auto scripts. Some of them are gathered by `New Bing` from documents on the public-available websites or docs that the trustworthiness CANNOT be tested. While, other sources are verifeid by human or widely.
 
 > Known Sources are as follow:
 > - [Wikipedia](https://en.wikipedia.org/wiki/Glossary_of_music_terminology)
 > - [WMich.edu](https://wmich.edu/mus-gened/mus150/Glossary.pdf)
 > - [Yale.edu](https://web.library.yale.edu/cataloging/music/Common-terms-used-in-German-music-publications-and-thematic-indices)
-> - [Clements](https://www.clementstheory.com/reference/musical-terms/)
 > - And also from ALL those contributors. Please join us by reading the [Contributing](#contributing) We sincerely appreciate it.
-
-## Credits
-
-- Microsoft Clarity
-- Google Analytics
