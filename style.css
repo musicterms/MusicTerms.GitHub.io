@@ -111,10 +111,6 @@
     font-display: swap
 }
 
-* {
-    scroll-behavior: smooth;
-}
-
 body {
     font-family: "San Francisco", -apple-system, BlinkMacSystemFont, sans-serif;
     user-select: none;

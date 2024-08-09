@@ -1,9 +1,20 @@
-var loaded_icons = {};
+let loaded_icons = {};
+
+function iconCache() {
+    let flag = localStorage.getItem('icon_cache_enable_switch');
+    if (flag == 'true') return true;
+    else return false;
+}
+
+if (iconCache()) {
+    loaded_icons = JSON.parse(localStorage.getItem('loadedIconsJSONText')) || {};
+}
 
 // Replace all <icon> to <svg>
-var icon_holders = document.getElementsByTagName('icon');
+let icon_holders = document.getElementsByTagName('icon');
 async function icons() {
     if (icon_holders.length == 0) {
+        localStorage.setItem('loadedIconsJSONText', JSON.stringify(loaded_icons));
         return;
     }
     var icon = icon_holders[0].getAttribute('data-icon');
@@ -22,7 +33,6 @@ async function icons() {
                 try { icon_parent.replaceChild(span, icon_element); } catch { }
                 icons();
                 loaded_icons[icon] = svg;
-                if (storages.icon_cache_enable_switch == 'false') loaded_icons = {};
             });
     } else {
         var span = document.createElement('span');

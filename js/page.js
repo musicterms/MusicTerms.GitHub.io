@@ -171,6 +171,7 @@ var toDoForPages = {
         document.getElementById('definition-of-term').innerText = j[is_definition_or_languge].replaceAll('&#39;', "'");
         setFavoriteStar(j.name);
         lastOpened = j.name;
+
         try { translate(); } catch { }
     },
     'settings': function () {
@@ -322,6 +323,7 @@ function openPage(page, e) {
     pageElement.style.position = 'absolute';
     pageElement.style.display = 'block';
     currentPageElement.style.left = '0';
+    pageElement.style.top = `${sessionStorage[`${currentPage}-scroll`]}px`;
     pageElement.style.left = '0';
     if (toDoForPages[page]) {
         toDoForPages[page](e);
@@ -365,6 +367,8 @@ function changePage(page, e, back = false) {
         currentPageElement.style.transform = 'translateX(100%)';
         pageElement.style.opacity = '1';
         pageElement.style.transform = 'scale(1)';
+        pageElement.style.top = `-${sessionStorage[`${page}-scroll`]}px`;
+        sessionStorage.setItem(`${currentPage}-scroll`, 0);
     } else {
         currentPageElement.style.animation = 'page-left 0.27s';
         pageElement.style.animation = 'page-enter 0.32s';
@@ -374,7 +378,11 @@ function changePage(page, e, back = false) {
         pageElement.style.opacity = '1';
         pageElement.style.transform = 'scale(1)';
 
+        // set currentpage top -scroll
+        currentPageElement.style.top = `-${sessionStorage[`${currentPage}-scroll`]}px` || 0;
     }
+    document.documentElement.scrollTop = 0;
+
     setTimeout(function () {
         currentPageElement.style.zIndex = '1';
         pageElement.style.zIndex = '2';
@@ -385,6 +393,9 @@ function changePage(page, e, back = false) {
         currentPageElement.style.animation = '';
         document.documentElement.scrollTop = sessionStorage[`${page}-scroll`] || 0;
         document.getElementById('list-of-words-content').style.opacity = '1';
+
+        // set top back to 0
+        pageElement.style.top = '0';
     }, 300);
     pageHistory.push(page);
     fromPage = currentPage;

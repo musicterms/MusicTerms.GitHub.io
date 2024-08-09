@@ -140,11 +140,12 @@
             "zh-CN": "消声、阻尼（即在鼓上，用布消音）",
             "zh": "消聲、阻尼（即在鼓上，用布消音）"
         },
-        "absolute music": {
-            "name": "absolute music",
-            "definition": "instrumental music with no intended story (non-programmatic music)",
-            "zh-CN": "没有预期故事的器乐（非程序性音乐）",
-            "zh": "沒有預期故事的器樂（非程序性音樂）"
+        "Absolute Music": {
+            "name": "Absolute Music",
+            "definition": "Instrumental music with no intended story (non-programmatic music). Not imitating sounds.",
+            "zh-CN": "没有预期故事的器乐（非程序性音乐）。重点在于音乐本身而不是模仿声音。",
+            "zh": "沒有預期故事的器樂（非程序性音樂）。重點在於音樂本省而不是模仿聲音。",
+            "editor": "edited"
         },
         "accelerando (accel.)": {
             "name": "accelerando (accel.)",

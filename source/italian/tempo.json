@@ -97,7 +97,8 @@
         "zh": "小快板：比快板稍微不那麽快樂（所以節奏稍慢）",
         "exams": {
             "abrsm": 1
-        }
+        },
+        "tempo": [108, 112, 120]
     },
     "Allegrissimo": {
         "word": "Allegrissimo",
@@ -167,7 +168,8 @@
         "translation": "broadly",
         "definition": "Slow and dignified tempo",
         "zh-CN": "寬廣的：速度缓慢而凝重",
-        "zh": "寬廣的：速度緩慢而凝重"
+        "zh": "寬廣的：速度緩慢而凝重",
+        "tempo": [40, 53, 66]
     },
     "Larghissimo": {
         "word": "Larghissimo",
