@@ -78,7 +78,7 @@ if (isIosPwa) {
 var date = document.getElementById('date');
 
 function syncDate() {
-    try { date.innerText = '17 Jun 2024' } catch { }
+    try { date.innerText = '9 Aug 2024' } catch { }
     var date_online;
     try {
         var version_file = fetch('https://raw.githubusercontent.com/musicterms/musicterms.github.io/main/VERSION?' + Math.random(),
