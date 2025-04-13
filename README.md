@@ -4,7 +4,7 @@
     <img src="https://github.com/musicterms/musicterms.github.io/blob/main/icon-smooth.png?raw=true" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">AlphaBrate Music Terminology Library</h3>
+  <h3 align="center">AlphaBrate Music Terms</h3>
 
   <p align="center">
     Innovative and minimalist design.
@@ -35,7 +35,7 @@
 
 ![Screen Shot](https://github.com/musicterms/musicterms.github.io/blob/main/img/desktop.png?raw=true)
 
-Designed with innovation and elegance, the AlphaBrate Music Terminology Library is a simple and convenient way to look up musical terms. It’s ad-free and completely free to use, with no hidden fees or subscriptions. Just pure music term lookup at your fingertips.
+Designed with innovation and elegance, the AlphaBrate Music Terms is a simple and convenient way to look up musical terms. It’s ad-free and completely free to use, with no hidden fees or subscriptions. Just pure music term lookup at your fingertips.
 
 ## Contributing
 
